@@ -418,6 +418,186 @@ var filmes = [
     "descricao": "",
     "imdb": "tt20757954",
     "imagem": "https://image.tmdb.org/t/p/w300//gr2GNLdTT4iKKWke2lQUwGgiUrr.jpg"
+},
+{
+    "titulo": "Sem Ar",
+    "descricao": "Duas irmãs vão mergulhar em um local lindo e remoto.  Uma das irmãs é atingida por uma pedra, deixando-a presa 28 metros abaixo.  Com níveis perigosamente baixos de oxigênio e baixas temperaturas, cabe à irmã lutar por sua vida.",
+    "imdb": "tt13566172",
+    "imagem": "https://image.tmdb.org/t/p/w300//An8KmLCOypg4PqpLa8P8f6uNiMT.jpg"
+},
+{
+    "titulo": "Slotherhouse",
+    "descricao": "Emily Young, uma veterana, quer ser eleita presidente de sua república. Ela adota um lindo bicho-preguiça, achando que ele pode se tornar o novo mascote e ajudá-la a vencer, até que uma série de fatalidades acontece.",
+    "imdb": "tt15422224",
+    "imagem": "https://image.tmdb.org/t/p/w300//pLSoVBuBa3aqFBgBY2puu3BN8of.jpg"
+},
+{
+    "titulo": "Amor Rio Acima",
+    "descricao": "",
+    "imdb": "tt13887620",
+    "imagem": "https://image.tmdb.org/t/p/w300//103AKv07WsDIyIFvzx2THVswMVt.jpg"
+},
+{
+    "titulo": "Darkland: O Retorno",
+    "descricao": "Há sete anos, Zaid entrou em guerra contra o submundo de Copenhague para vingar a morte de seu irmão. Sua identidade como um respeitado médico de cardiologia e a vida como um homem de família é apenas um sonho que se desvanece, e na prisão Zaid sofre a perda de seu filho Noah, que ele mal conhece. Quando um agente policial aborda Zaid e lhe oferece um acordo para ser libertado em troca de se infiltrar no submundo de Copenhague, ele vê sua chance de recuperar os restos da vida familiar que deixou para trás. Mas tudo tem um preço e Zaid percebe que colocou seriamente em perigo a vida do filho. Afinal, uma vez que você se torna parte do submundo, existe alguma saída?",
+    "imdb": "tt20204996",
+    "imagem": "https://image.tmdb.org/t/p/w300//A8EPXv3SV9qiNCIttIM4ezJRmhW.jpg"
+},
+{
+    "titulo": "Alice: Uma Acompanhante Parisiense",
+    "descricao": "Alice levava um casamento feliz ao lado de sua família, até o dia em que o seu marido resolve abandoná-la sem dinheiro algum. Com medo de perder a casa em que mora com seu filho, ela decide procurar trabalho na agência de acompanhantes de luxo que o seu marido frequentava e entrar para o mundo da prostituição.",
+    "imdb": "tt9120416",
+    "imagem": "https://image.tmdb.org/t/p/w300//4vRRkOOMwiykXXXqFY3WlevcmOv.jpg"
+},
+{
+    "titulo": "Final Feliz",
+    "descricao": "Helle não aguenta mais esperar pela aposentadoria de seu marido, mas ele decide investir todas as economias do casal em uma nova carreira. O casamento entra em crise, mas Helle fará de tudo para reestabelecer a conexão e o amor entre eles.",
+    "imdb": "tt7413472",
+    "imagem": "https://image.tmdb.org/t/p/w300//z8UoFcduV263EwXDaMMbOclVW8R.jpg"
+},
+{
+    "titulo": "C\u00e9u e Inferno",
+    "descricao": "Um executivo de uma empresa de calçados torna-se vítima de extorsão quando o filho de seu motorista é sequestrado e pedem O executivo Gondo (Toshirô Mifune) hipoteca tudo o que tem na tentativa de assumir a Companhia Nacional de Sapatos, para manter a empresa fora das mãos dos outros executivos incompetentes e gananciosos. Contudo, o mesmo dinheiro que ele arrecada pode pagar o resgate que possivelmente irá salvara vida de uma criança, levando o executivo a tomar decisões extremas e elaborar procedimentos policiais. A resolução desse dilema - a perda certa da empresa vs a perda provável da criança - cria um drama distinto, e um elaborado procedimento de polícia cria um segundo. (e 12 - Estimado 12 Anos)",
+    "imdb": "tt0057565",
+    "imagem": "https://image.tmdb.org/t/p/w300//olEPDwHAJwsN9MXHBArlPnchvJg.jpg"
+},
+{
+    "titulo": "Rashomon",
+    "descricao": "No Japão do século XI, um lenhador, um sacerdote e um camponês procuram refúgio de uma tempestade nas ruínas de pedra do Portão de Rashomon. O sacerdote conta detalhes de um julgamento que testemunhou, envolvendo o estupro de Masako e o assassinato do marido dela, Takehiro, um samurai. Em flashback é mostrado o julgamento do bandido Tajomaru, onde acontecem quatro testemunhos, inclusive de Takehiro através de um médium. Cada um é uma verdade, que entra em conflito com as outras.",
+    "imdb": "tt0042876",
+    "imagem": "https://image.tmdb.org/t/p/w300//cpO1iPdMFCuJvKjRx3cIONkMRTw.jpg"
+},
+{
+    "titulo": "Os Sete Samurais",
+    "descricao": "No século XVI, durante a era Sengoku, quando os poderosos samurais de outrora estavam com os dias contados, pois eram agora desprezados pelos seus aristocráticos senhores. Kambei (Takashi Shimura), um guerreiro veterano sem dinheiro, chega em uma aldeia indefesa que foi saqueada repetidamente por ladrões assassinos. Os moradores do vilarejo pedem sua ajuda, fazendo com que Kambei recrute seis outros ronins (samurais sem mestre), que concordam em ensinar os habitantes como devem se defender em troca de comida. Os aldeões dão boas-vindas aos guerreiros e algumas relações começam. Katsushiro (Ko Kimura) se apaixona por uma das mulheres locais, embora os outros ronins mantenham distância dos camponeses. O último dos guerreiros que chega é Kikuchio (Toshiro Mifune), que finge estar qualificado mas na realidade é o filho de um camponês que almeja aceitação.",
+    "imdb": "tt0047478",
+    "imagem": "https://image.tmdb.org/t/p/w300//telXEMxGtJvffm5JDsx1rQzwWlf.jpg"
+},
+{
+    "titulo": "C\u00e3o Danado",
+    "descricao": "Murukami, um jovem investigador de homicídios, é roubado em um ônibus e perde sua pistola. Ele começa uma busca insana atrás de sua preciosa arma, sem sucesso, até receber a ajuda de um sábio e mais experiente detetive chamado Sato. Clássico noir do mestre Akira Kurosawa, que redefiniu o padrão de filmes policiais japoneses. (e 12 - Estimado 12 Anos)",
+    "imdb": "tt0041699",
+    "imagem": "https://image.tmdb.org/t/p/w300//tr4zUsfuGMkylUJ5h4jCDT1dhBC.jpg"
+},
+{
+    "titulo": "Trono Manchado de Sangue",
+    "descricao": "Japão, século XVI. As guerras civis sacodem o país. Dois valentes samurais, os generais Washizu Taketori (Toshirō Mifune) e Miki (Minoru Chiaki), regressam aos seus domínios depois de uma batalha vitoriosa. No caminho, uma misteriosa senhora profetizao futuro de Washizu: o guerreiro se converterá no Senhor do Castelo do Norte. A partir deste fato Washizu, auxil Trono Manchado de Sangue (蜘蛛巣城, Kumonosu-jō?, literalmente Castelo Teia de Aranha) é um filme japonês de 1957 dirigido por Akira Kurosawa, que transpôs a obra Macbeth de William Shakespeare para o Período Sengoku japonês (séc. XV - XVI).",
+    "imdb": "tt0050613",
+    "imagem": "https://image.tmdb.org/t/p/w300//lguC4BHBthaiON4I5Cin7kVtb9c.jpg"
+},
+{
+    "titulo": "Yojimbo, o Guarda-Costas",
+    "descricao": "A história ocorre em 1860 e baseia-se na chegada de um ronin a uma cidade que sofre com a guerra entre duas gangues. Kuwabatake Sanjuro, que significa Amoreira de 30 Anos (Toshirō Mifune), aproveitando a sua perspicácia tenta ganhar dinheiro e, ao mesmo tempo, livrar a cidade das gangues rivais, ora associando-se a um grupo, ora associando-se a outro, tirando proveito da situação e manipulando-os, devido ao despreparo estratégico dos dois grupos, que é demonstrado através de diversas cenas satíricas durante o filme.",
+    "imdb": "tt0055630",
+    "imagem": "https://image.tmdb.org/t/p/w300//A9XnNGooDNtvx2mzZ8R7pt6UuUP.jpg"
+},
+{
+    "titulo": "Sanjuro",
+    "descricao": "No Japão por volta do século XVIII, nove jovens decidem apresentar uma acusação de corrupção em seu clã ao superintendente local. No entanto, o grupo é traído, mas o ronin Sanjûrô Tsubaki (Toshirô Mifune), um samurai desalinhado e cínico, os salva dos homens do superintendente. Então o tio do líder dos clãs rebeldes, o Chamberlain Mutsuta (Yûnosuke Itô), é seqüestrado e sua esposa e filha são detidas e feitas prisioneiras do superintendente que tenta forçar Mutsuta a escrever uma falsa carta de confissão declarando ser corrupto. Sanjûrô ajuda o grupo a resgatar o Chamberlain e sua família.",
+    "imdb": "tt0056443",
+    "imagem": "https://image.tmdb.org/t/p/w300//yPlQoM1lJ5embixFgWYwHf2gSWG.jpg"
+},
+{
+    "titulo": "Viver",
+    "descricao": "Burocrata de longa data, que não liga para nada que não o interessa, descobre que está com câncer. Decide, então, construir um playground em seu bairro, tentando descobrir um sentido para sua vida",
+    "imdb": "tt0044741",
+    "imagem": "https://image.tmdb.org/t/p/w300//uMaLKmpxepW4Uq8lcCpels656u0.jpg"
+},
+{
+    "titulo": "Kagemusha, a Sombra do Samurai",
+    "descricao": "Shingen, um poderoso Senhor da Guerra, seriamente ferido, ordena ao clã que use algum sósia para o substituir caso faleça - para manter a sua morte em segredo, evitando assim o ataque dos seus inimigos. Mas este é um vulgar criminoso que tem de aprender a transformar-se num grande líder e comandar um exército de 25.000 leais guerreiros Samurai…",
+    "imdb": "tt0080979",
+    "imagem": "https://image.tmdb.org/t/p/w300//e4v3mNc9SvSnESPN9z1zvivkEs0.jpg"
+},
+{
+    "titulo": "Ran",
+    "descricao": "No Japão medieval, um velho senhor da guerra se aposenta, entregando seu império a seus três filhos. No entanto, ele subestima amplamente como o novo poder irá corrompê-los.  O senhor de guerra japonês Hidetori Ichimonji decide que chegou o momento de se aposentar e dividir seu feudo entre seus três filhos. Seus filhos mai velho e do meio, Taro e Jiro, concordam com sua decisão e prometem apoiá-lo nos dias restantes de aposentadoria. O filho mais novo, Saburo, discorda de todos eles argumentando que há pouca probabilidade dos três irmãos permanecerem unidos. Insultado pela impaciência de seu filho caçula, o senhor da guerra o expulsa. Quando o senhor da guerra começa sua aposentadoria, ele rapidamente percebe que seus dois filhos mais velhos são egoístas e não têm intenção de cumprir suas promessas. Isso leva à guerra e só o banido Saburo pode salvá-lo.",
+    "imdb": "tt0089881",
+    "imagem": "https://image.tmdb.org/t/p/w300//qM5lALu0lzbD9WWmUTArHCRbyJv.jpg"
+},
+{
+    "titulo": "Bi roya",
+    "descricao": "Roya estava se preparando para emigrar do Irã, quando conheceu uma jovem que parecia ter perdido a memória. Roya lhe deu um lar e a apresentou à família e aos amigos, sem saber que essa mulher veio para substituí-la.",
+    "imdb": "tt17520962",
+    "imagem": "https://image.tmdb.org/t/p/w300//5eeDYAMOQZNxNu59raWrzrgMAdT.jpg"
+},
+{
+    "titulo": "\u5618\u516b\u767e \u306a\u306b\u308f\u5922\u306e\u9663",
+    "descricao": "",
+    "imdb": "tt23220464",
+    "imagem": "https://image.tmdb.org/t/p/w300//hX4gnhnszSqrTXVi0p4BQBSLqV7.jpg"
+},
+{
+    "titulo": "VII XII",
+    "descricao": "",
+    "imdb": "tt27197550",
+    "imagem": "https://image.tmdb.org/t/p/w300//778XTUhXfnLVIls0eipItkOrlws.jpg"
+},
+{
+    "titulo": "A Garota do Moletom Amarelo",
+    "descricao": "À medida que se espalha a notícia de que há um serial killer à solta que continua a cometer assassinatos, um policial fora de serviço deve levar de volta à cidade uma testemunha idosa que mora em uma parte remota de Uganda. Ao longo do caminho, o policial dá carona a um homem ferido. No trajeto para a cidade, o carona conta ao policial os acontecimentos que o levaram a acabar ferido no meio da estrada. Mas enquanto viajamos com esses personagens misteriosos no carro, o diretor Loukman Ali nos mostra que as histórias que eles contam são apenas versões fragmentadas e parciais dos eventos que aconteceram e que talvez haja verdades enterradas sob cada uma de suas palavras.",
+    "imdb": "tt10954526",
+    "imagem": "https://image.tmdb.org/t/p/w300//dYFUPov4zuoB5F1Am9Ni8E5kCwd.jpg"
+},
+{
+    "titulo": "\uc0b4\uc218",
+    "descricao": "Acompanha o maior assassino de Joseon durante sua jornada em sua última e mortal missão.",
+    "imdb": "tt21109580",
+    "imagem": "https://image.tmdb.org/t/p/w300//B1WdiNIa8qQNrZZ7pUXltZoFpr.jpg"
+},
+{
+    "titulo": "Tell Me a Creepy Story",
+    "descricao": "",
+    "imdb": "tt26470099",
+    "imagem": "https://image.tmdb.org/t/p/w300//zuw3blK5tIRpv4lLnApeMLMn4bz.jpg"
+},
+{
+    "titulo": "Reminiscing Shadows",
+    "descricao": "Quando os Estados Unidos estão nas garras de um misterioso grupo mascarado por trás de uma série de assassinatos em massa, dois detetives de homicídios são designados para o caso",
+    "imdb": "tt28620678",
+    "imagem": "https://image.tmdb.org/t/p/w300//pouAD8x2dmc1gfDn77l8UGlpMJ4.jpg"
+},
+{
+    "titulo": "Mommy's Stolen Memories",
+    "descricao": "",
+    "imdb": "tt27548991",
+    "imagem": "https://image.tmdb.org/t/p/w300//ngI1FWBcwdhlO1MKxfKeejduNR7.jpg"
+},
+{
+    "titulo": "Megalodon: The Frenzy",
+    "descricao": "Quando cinco Megalodontes atormentam o oceano aberto, os riscos nunca foram tão altos.",
+    "imdb": "tt27572862",
+    "imagem": "https://image.tmdb.org/t/p/w300//1o0jJYxgF7IJKdYNlDWgxomt2ft.jpg"
+},
+{
+    "titulo": "\u30ed\u30b9\u30c8\u30b1\u30a2",
+    "descricao": "Uma comunidade fica chocada quando os corpos de um homem idoso e do gerente de um centro de enfermagem com visitas domiciliares são encontrados. O falecimento de 42 pacientes idosos está ligado a Shiba, um cuidador.",
+    "imdb": "tt27120897",
+    "imagem": "https://image.tmdb.org/t/p/w300//daFxby0siBpSfqA7i5pVewPcziw.jpg"
+},
+{
+    "titulo": "Het Geheugenspel",
+    "descricao": "O corpo de Nathalie, que desapareceu há 25 anos, é encontrado na propriedade da família Deridder. O evento revela um crime há muito escondido e, quando segredos são revelados, o presente é ofuscado pelo passado.",
+    "imdb": "tt27056116",
+    "imagem": "https://image.tmdb.org/t/p/w300//ia1wv114JC6zusCNnEqYNVIClyt.jpg"
+},
+{
+    "titulo": "Assombra\u00e7\u00e3o da Rainha Mary",
+    "descricao": "Explora os incidentes misteriosos e violentos que ocorreram durante o cruzeiro de uma família na noite de Halloween em 1938, e como esses eventos se conectam ao destino de outra família no mesmo navio até os dias atuais.",
+    "imdb": "tt3463938",
+    "imagem": "https://image.tmdb.org/t/p/w300//52Sd1DLBn2zlPsUB9mnvtKHgh8O.jpg"
+},
+{
+    "titulo": "Her Deadly Night in Paris",
+    "descricao": "",
+    "imdb": "tt28621075",
+    "imagem": "https://image.tmdb.org/t/p/w300//6ylQqHe3NXg9dWrNtUUWTtPeZuL.jpg"
+},
+{
+    "titulo": "Deinfluencer",
+    "descricao": "Uma jovem e influente líder de torcida é feita de refém por um psicopata mascarado. Para salvar a sua vida e a de outras jovens, ela é obrigada a participar de uma série de desafios em suas redes sociais.",
+    "imdb": "tt15790974",
+    "imagem": "https://image.tmdb.org/t/p/w300//tLA4839HtC5GelEsUTFFtAL2ar5.jpg"
 }
 ];
 
