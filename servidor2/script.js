@@ -89,6 +89,36 @@ var filmes = [
         imdb: 'tt5165620',
         imagem: 'https://image.tmdb.org/t/p/w300//hFV6FXi8oDOfbXuBKODafOev06K.jpg'
 },
+{
+        "titulo": "Sequestro Noturno",
+        "descricao": "",
+        "imdb": "tt12998268",
+        "imagem": "https://image.tmdb.org/t/p/w300//cQtu28vwaWvxcYvnR1E2g7xB9dw.jpg"
+    },
+    {
+        "titulo": "Uma Aula de Harmonia",
+        "descricao": "",
+        "imdb": "tt29025883",
+        "imagem": "https://image.tmdb.org/t/p/w300//ioyG44XHBqXpGvbEKkj8ai6vrFZ.jpg"
+    },
+    {
+        "titulo": "Uradi",
+        "descricao": "",
+        "imdb": "tt13874618",
+        "imagem": "https://image.tmdb.org/t/p/w300//3kPLsJM9X07UpHbOPKwALrkeEm.jpg"
+    },
+    {
+        "titulo": "Trafficking",
+        "descricao": "",
+        "imdb": "tt9470210",
+        "imagem": "https://image.tmdb.org/t/p/w300//wQrfnO1r5t3Md5rBerh9ump9A6J.jpg"
+    },
+    {
+        "titulo": "The Threat Next Door",
+        "descricao": "",
+        "imdb": "tt20757954",
+        "imagem": "https://image.tmdb.org/t/p/w300//gr2GNLdTT4iKKWke2lQUwGgiUrr.jpg"
+    }
 ];
 
 // Função para adicionar filmes à página

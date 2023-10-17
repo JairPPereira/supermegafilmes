@@ -1,5 +1,65 @@
 var filmes = [
     {
+        titulo: 'Não Abra!',
+        descricao: 'Sam (Megan Suri), uma adolescente que lida com os conflitos entre sua origem indiana e a vida nos EUA, acidentalmente liberta uma antiga entidade demoníaca de um jarro que jamais deveria ter sido aberto. À medida que o mal se alimenta dos seus piores medos, Sam precisará desvendar segredos ancestrais para tentar salvar sua vida e a de todos ao seu redor.',
+        imdb: 'tt15683734',
+        imagem: 'https://image.tmdb.org/t/p/w300//8CZWjmF154BOrzgsvtdwgzlqyKh.jpg'
+    },
+    {
+        titulo: 'Beaten to Death',
+        descricao: 'Após uma escolha desesperada levar um homem chamado Jack por um caminho que o deixa espancado e machucado enquanto ele luta contra o homem, a natureza e sua própria insanidade.',
+        imdb: 'tt13852690',
+        imagem: 'https://image.tmdb.org/t/p/w300//1IByydtR2GOvf6esVdrgp13Yve9.jpg'
+    },
+    {
+        titulo: 'Colheita Sombria',
+        descricao: 'Em uma cidadezinha rural, um ritual mortal acontece todos os anos quando um pesadelo chamado Jack Dentes de Serra se ergue do milharal e desafia os jovens locais a luta sangrenta por sobrevivência.',
+        imdb: 'tt9204328',
+        imagem: 'https://image.tmdb.org/t/p/w300//eeePA5kvAt5swaBAi3YLJjLDHHz.jpg'
+    },
+    {
+        titulo: 'O Próprio Enterro',
+        descricao: 'Inspirado em eventos reais, quando um acordo dá errado, o dono da funerária Jeremiah O Keefe (vencedor do Oscar® Tommy Lee Jones) contrata o advogado Willie E. Gary (vencedor do Oscar® Jamie Foxx) para salvar o negócio de sua família. Os ânimos explodem e o riso surge quando o vínculo dos dois expõe a corrupção corporativa e a injustiça racial nessa história inspiradora e triunfante.',
+        imdb: 'tt5648882',
+        imagem: 'https://image.tmdb.org/t/p/w300//4Fxb4goCtkHluDwymYvHW1xoC6P.jpg'
+    },
+    {
+        titulo: 'Tudo Por um Ex-Namorado',
+        descricao: 'Frida é uma terapeuta que utiliza recursos artísticos para tratar seus pacientes e, justo quando o seu namorado resolve voltar com a ex, ela descobre estar grávida. Sem conseguir aceitar o fim do relacionamento, Frida decide utilizar métodos alternativos para reconquistá-lo.',
+        imdb: 'tt15819902',
+        imagem: 'https://image.tmdb.org/t/p/w300//wd7Y9KCVDUzEIj1j1o3EZSxaKcU.jpg'
+    },
+    {
+        titulo: 'Você Não Está Sozinha',
+        descricao: 'Após a morte prematura de seu ex-marido, Emma recupera a custódia de sua filha Isla, e espera reconstruir o relacionamento depois de muitos anos separadas.',
+        imdb: 'tt6332158',
+        imagem: 'https://image.tmdb.org/t/p/w300//m2IJvRrBm3oxdL0vCvSZsgkWEHC.jpg'
+    },
+    {
+        titulo: 'Scarygirl',
+        descricao: 'Quando seu mundo é envolvido pela escuridão, a pequena Arkie precisa superar seus medos e viajar para uma misteriosa cidade de luz para salvar seu pai de um perigoso cientista e impedir a destruição de seu planeta.',
+        imdb: 'tt4556264',
+        imagem: 'https://image.tmdb.org/t/p/w300//1tcLXVaXFG9OObnCN3a5KrymrQG.jpg'
+    },
+    {
+        titulo: 'O Porteiro',
+        descricao: 'Confusão é o que não falta no prédio onde Waldisney trabalha como porteiro. Todo dia é um bafafá entre os vizinhos, mas ao lado da zeladora Rosivalda, ele é craque em manter essa bagunça organizada. Tudo isso muda quando o prédio é assaltado e Waldisney agora precisa provar para o delegado que ele pode até ser meio atrapalhado, mas ladrão ele não é, não! ',
+        imdb: 'tt28603694',
+        imagem: 'https://image.tmdb.org/t/p/w300//8UIXPu4LRu6Zho8ruWhIjpeY439.jpg'
+    },
+    {
+        titulo: 'Conferência Mortal',
+        descricao: 'Durante um evento que aparentava ser inofensivo, um grupo inusitado de funcionários precisa enfrentar não apenas suas diferenças como também um misterioso assassino.',
+        imdb: 'tt26547864',
+        imagem: 'https://image.tmdb.org/t/p/w300//nGaXnZmSpEKlg16e6PNxWga3UJL.jpg'
+    },
+    {
+        titulo: 'AK-47: A Arma Que Mudou o Mundo',
+        descricao: 'O comandante de tanque Kalashnikov está gravemente ferido em batalha em 1941. O acidente o deixa incapacitado e incapaz de retornar à frente. Enquanto se recupera no hospital, ele começa a criar os esboços iniciais do que se tornará uma das armas mais lendárias do mundo. Um inventor autodidata, Mikhail Kalashnikov, tem apenas 29 anos quando desenvolve o agora icônico rifle de assalto – o AK-47.',
+        imdb: 'tt11547520',
+        imagem: 'https://image.tmdb.org/t/p/w300//4djODIhP8TZtjkG6w2xZjOuLk6.jpg'
+    },    
+    {
         "titulo": "Ewoks: A Batalha de Endor",
         "descricao": "Em A Batalha de Endor, um exército de Marauders, liderados pelo Rei Terak e a bruxa Charal, ataca a vida dos Ewoks. Cindel e Wicket, escapam floresta a dentro e lá encontram Teek e Noa. Eles precisam ficar amigos de Noa, para aliarem-se na tentativa de derrotar os Marauders.",
         "imdb": "tt0089110",
@@ -13,7 +73,7 @@ var filmes = [
     },
     {
         "titulo": "Don't Look Away",
-        "descricao": "",
+        "descricao": "Ele não se move, não pensa, apenas mata. Para uma jovem, um encontro casual com essa entidade sobrenatural se mostra devastador. Frankie aprende que, uma vez que você vê o manequim, pode não haver fim à vista, exceto o seu próprio.",
         "imdb": "tt26453759",
         "imagem": "https://image.tmdb.org/t/p/w300//iiYx85daT0DzoU4XQGgaynvDtn8.jpg"
     },
@@ -37,7 +97,7 @@ var filmes = [
     },
     {
         "titulo": "Night of the Caregiver",
-        "descricao": "",
+        "descricao": "Uma cuidadora e a doce mulher idosa de quem ela cuida se encontram em grave perigo quando descobrem uma presença demoníaca habitando a sua casa.",
         "imdb": "tt15520136",
         "imagem": "https://image.tmdb.org/t/p/w300//8LGkdJpHWvUh3iAngLIVQF3pNhk.jpg"
     },
@@ -235,7 +295,7 @@ var filmes = [
 },
 {
     "titulo": "Blind Waters",
-    "descricao": "",
+    "descricao": "Um tubarão implacável transforma as férias dos sonhos de um casal em um pesadelo quando eles ficam presos no mar e são forçados a lutar por suas vidas.",
     "imdb": "tt28138183",
     "imagem": "https://image.tmdb.org/t/p/w300//asG1vxzBWed6vOwrHq1USW7HETT.jpg"
 },
@@ -329,6 +389,36 @@ var filmes = [
     "imdb": "tt28492037",
     "imagem": "https://image.tmdb.org/t/p/w300//1xIvYJ6HcmD5lcXlaOhChPxLLcY.jpg"
 },
+{
+    "titulo": "Sequestro Noturno",
+    "descricao": "Executiva workaholic, Young-woo costuma trabalhar até tarde da noite. Quando é sequestrada no estacionamento pelo segurança do prédio em que trabalha, ela precisa lutar para salvar a própria vida.",
+    "imdb": "tt12998268",
+    "imagem": "https://image.tmdb.org/t/p/w300//cQtu28vwaWvxcYvnR1E2g7xB9dw.jpg"
+},
+{
+    "titulo": "Uma Aula de Harmonia",
+    "descricao": "Um boxeador problemático vai morar com a mãe e o irmão autista, mas precisa se encaixar em uma família com a qual não convive há anos.",
+    "imdb": "tt29025883",
+    "imagem": "https://image.tmdb.org/t/p/w300//ioyG44XHBqXpGvbEKkj8ai6vrFZ.jpg"
+},
+{
+    "titulo": "Uradi",
+    "descricao": "",
+    "imdb": "tt13874618",
+    "imagem": "https://image.tmdb.org/t/p/w300//3kPLsJM9X07UpHbOPKwALrkeEm.jpg"
+},
+{
+    "titulo": "Trafficking",
+    "descricao": "",
+    "imdb": "tt9470210",
+    "imagem": "https://image.tmdb.org/t/p/w300//wQrfnO1r5t3Md5rBerh9ump9A6J.jpg"
+},
+{
+    "titulo": "The Threat Next Door",
+    "descricao": "",
+    "imdb": "tt20757954",
+    "imagem": "https://image.tmdb.org/t/p/w300//gr2GNLdTT4iKKWke2lQUwGgiUrr.jpg"
+}
 ];
 
 // Função para adicionar filmes à página
