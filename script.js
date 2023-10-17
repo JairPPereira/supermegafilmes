@@ -1,5 +1,95 @@
 var filmes = [
     {
+        "titulo": "2 Coelhos",
+        "descricao": "Após se envolver em um grave acidente automobilístico, no qual uma mulher e seu filho são mortos, Edgar (Fernando Alves Pinto) é indiciado, mas consegue escapar da prisão graças à influência de um deputado estadual. Logo em seguida ele parte para uma temporada em Miami, onde retorna com um elaborado plano em que pretende atingir tanto o deputado que o ajudou, símbolo da corrupção política, quanto Maicon (Marat Descartes), um criminoso que consegue escapar da justiça graças ao suborno de políticos influentes.",
+        "imdb": "tt1753722",
+        "imagem": "https://image.tmdb.org/t/p/w300//iVX3VNB4Zi0kS1Zw24BKQhiuBtl.jpg"
+    },
+    {
+        "titulo": "N\u00f3s Somos os Campe\u00f5es 3",
+        "descricao": "Os jogadores do Ducks, um time de hoquéi, cuja fama e sucesso só cresce, tem que entrar em uma nova escola preparatória, a Eden Hall Academy. Mas eles não serão bem recebidos pelos esnobes veteranos do colégio. Além disso, o técnico Gordon Bombay (Emilio Estevez) tem uma revelação bombástica a fazer, algo que pode acabar com o grupo de vez.",
+        "imdb": "tt0116000",
+        "imagem": "https://image.tmdb.org/t/p/w300//7o4BTRgXWRL56QtnqAlBj6uwsXs.jpg"
+    },
+    {
+        "titulo": "N\u00f3s Somos os Campe\u00f5es 2",
+        "descricao": "O jogador Gordon Bombay (Emilio Estevez) lesiona o joelho e é obrigado a sair da liga de hóquei. Ele assume a função de treinador durante um campeonato na Califórnia. Ele se estabelece e tudo parece ir bem. Mas Bombay acaba se distraindo quando a esquipe favorita ao título entra em cena.",
+        "imdb": "tt0109520",
+        "imagem": "https://image.tmdb.org/t/p/w300//1mxurJNKvQujUVm1yKkYCZ28fmo.jpg"
+    },
+    {
+        "titulo": "N\u00f3s Somos os Campe\u00f5es",
+        "descricao": "Depois de ser preso por dirigir alcoolizado, o advogado Gordon Bombay é condenado a 500 horas de serviço comunitário e tem que treinar uma equipe de hóquei infantil. Primeiramente, o coração de Gordon não está em seu trabalho, mas logo ele descobre que está recuperando seu espírito competitivo e empurrando os Ducks para se tornar uma equipe a ser reconhecida.",
+        "imdb": "tt0104868",
+        "imagem": "https://image.tmdb.org/t/p/w300//qnDtm74JkcAlqzPaTfO0ChwRNZJ.jpg"
+    },
+    {
+        "titulo": "2 Campe\u00f5es de Shaolin",
+        "descricao": "Durante o esplendor da desonrada dinastia Ming, dois jovens guerreiros que pertencem ao clã de rebeldes do Templo de Shaolin estão numa missão secreta mortal, que poderá causar a derrubada do império. Os temidos guerreiros Wutang, que estão do lado do governo, procuram impedi-los a todo custo. Assim, explode uma violenta rivalidade ente os dois clãs, que marcará com sangue a fantástica batalha pela liberdade polí­tica e social, onde os guerreiros de Wutang lutam contra os guerreiros do Templo de Shaolin. O confronto entre vários estilos das artes marciais é o ponto alto dessa história de vingança e traição.",
+        "imdb": "tt0078428",
+        "imagem": "https://image.tmdb.org/t/p/w300//mneHVPY5va2aTRTXCzxOZpk4uoy.jpg"
+    },
+    {
+        "titulo": "1984",
+        "descricao": "Um homem perde sua identidade vivendo sob um regime repressivo. Nesta história baseada no clássico de George Orwell, Winston Smith (John Hurt) é um funcionário público cuja função é reescrever a história de forma a colocar os líderes de um país fictício sob uma luz positiva. As escapadelas românticas com Julia (Suzanna Hamilton) proporcionam sua única fonte de distração, mas os políticos desaprovam o relacionamento. Em uma sociedade monitorada de perto, não há como escapar do Grande Irmão.",
+        "imdb": "tt0087803",
+        "imagem": "https://image.tmdb.org/t/p/w300//hrdQlicxuyTg3zyVqq78EsA4Z6J.jpg"
+    },
+    {
+        "titulo": "1911: A Revolu\u00e7\u00e3o",
+        "descricao": "Um drama histórico baseado na fundação da República da China, quando forças nacionalistas liderados por Sun Yat-sen derrubou a dinastia Qing.",
+        "imdb": "tt1772230",
+        "imagem": "https://image.tmdb.org/t/p/w300//rqppYmxtnQfs8yFKjtpWXjbWLzT.jpg"
+    },
+    {
+        "titulo": "16 Quadras",
+        "descricao": "Tudo que o policial Jack Mosley deseja é ir para casa e tomar um drinque, mas antes ele precisa escoltar Eddie Bunker por 16 quadras até chegar ao tribunal. Eddie é um presidiário que deseja apenas depor no tribunal, ganhar sua liberdade e abrir uma padaria. Só que ele irá depor contra policiais corruptos que querem matá-lo. Correndo contra o tempo, Jack e Eddie precisam evitar a ameaça dos policiais corruptos e chegar a salvo no tribunal.",
+        "imdb": "tt0450232",
+        "imagem": "https://image.tmdb.org/t/p/w300//tbWd6N4ORhDJxlMVO4vxRNEZtib.jpg"
+    },
+    {
+        "titulo": "16 Extremos",
+        "descricao": "Quando investigava um difícil caso de homicídio com múltiplos suspeitos, o policial Deepak perde sua perna direita em um acidente e é obrigado a se aposentar. Agora, cinco anos mais tarde, um colega pede a ele que conte ao seu filho as experiências que teve, na tentativa de dissuadi-lo da ideia de também ser policial. Atendendo ao pedido, Deepak passa então a relembrar todos os eventos que culminaram naquela chuvosa e fatídica noite.",
+        "imdb": "tt6380520",
+        "imagem": "https://image.tmdb.org/t/p/w300//q4gVTJwYQUg7pBhExDY2IUVTo84.jpg"
+    },
+    {
+        "titulo": "15 Minutos",
+        "descricao": "Emil e Oleg são dois estrangeiros vindos da Europa Oriental que chegam aos Estados Unidos para pegar um dinheiro que tinham deixado com um amigo. Quando descobrem que ele gastou tudo, Emil o mata e Oleg filma tudo. Então, eles têm uma ideia: fazer de Emil o astro de um filme dirigido por Oleg no qual terá de assassinar uma importante pessoa da cidade. E o alvo é justamente Eddie Fleming, o policial mais famoso da cidade.",
+        "imdb": "tt0179626",
+        "imagem": "https://image.tmdb.org/t/p/w300//7NpTxlHcMz5dV9LEBrCcDTegruq.jpg"
+    },
+    {
+        "titulo": "1408",
+        "descricao": "Um promissor romancista, Mike Enslin (John Cusack), resolveu enveredar por outro caminho e escrever livros que investiguem fenômenos paranormais. Enslin nunca presenciou realmente algum destes fatos, então fica difícil obter credibilidade. Além do mais Mike é totalmente cético, pois até hoje não encontrou evidências de que exista vida após a morte. No entanto decide ir até Nova York e se hospedar no Dolphin Hotel, mais exatamente no quarto 1408, que tem fama de ser habitado por espíritos malignos. O gerente do hotel, Gerald Olin (Samuel L. Jackson), o avisa que 56 mortes já ocorreram neste quarto, mas Mike está decidido a conferir se sua fama está condizente com a verdade.",
+        "imdb": "tt0450385",
+        "imagem": "https://image.tmdb.org/t/p/w300//nBwGQFymu3EhnBnhNSN1GX7zsZL.jpg"
+    },
+    {
+        "titulo": "14 Montanhas, 8 Mil Metros e 7 Meses",
+        "descricao": "Nimsdai Purja, um destemido montanhista nepalês, embarca numa jornada aparentemente impossível: conquistar, em sete meses, todos os 14 picos de 8.000 metros do mundo.",
+        "imdb": "tt14079374",
+        "imagem": "https://image.tmdb.org/t/p/w300//saGMNCD6ayFqmOb9mX2MkkMmW7w.jpg"
+    },
+    {
+        "titulo": "Boo! O Halloween de Madea",
+        "descricao": "Madea acaba no meio do caos, quando ela passa o Dia das Bruxas num assombrado poltergeists paranormal com fantasmas, vampiros e zumbis, mantendo um olhar atento sobre um grupo de adolescentes mal-comportados.",
+        "imdb": "tt5325452",
+        "imagem": "https://image.tmdb.org/t/p/w300//nBb5aBBSJzQJjIlRgBA7oLyclxg.jpg"
+    },
+    {
+        "titulo": "Halloween: A Lenda de Jack",
+        "descricao": "A pacífica cidade de Dunwich está prestes a entender o verdadeiro significado de vingança. Enquanto os residentes se preparam para as comemorações anuais do Halloween, mal eles sabem que quatro pessoas escondem um segredo sombrio. Há um ano, quatro homens fizeram justiça com as próprias mãos quando o famoso criminoso Jack Cain escapou da condenação. Depois de torturarem e matarem Jack, eles enterraram seu corpo em um milharal e prometeram nunca mais falarem sobre o assunto.",
+        "imdb": "tt7601296",
+        "imagem": "https://image.tmdb.org/t/p/w300//1PHkDuVYkuuOdcNDRJT3g7LfNXi.jpg"
+    },
+    {
+        "titulo": "Boo 2! O Halloween de Madea",
+        "descricao": "Madea, (Tyler Perry), Tia Bam (Cassi Davis) e Hattie (Patrice Lovely) se aventuraram em um acampamento assombrado. Lá o grupo deve correr por suas vidas quando monstros, goblins e o bicho-papão estão soltos.",
+        "imdb": "tt6217804",
+        "imagem": "https://image.tmdb.org/t/p/w300//18JeOCuDpVbocIbioIrGrO2A5aq.jpg"
+    },
+    {
         titulo: 'Não Abra!',
         descricao: 'Sam (Megan Suri), uma adolescente que lida com os conflitos entre sua origem indiana e a vida nos EUA, acidentalmente liberta uma antiga entidade demoníaca de um jarro que jamais deveria ter sido aberto. À medida que o mal se alimenta dos seus piores medos, Sam precisará desvendar segredos ancestrais para tentar salvar sua vida e a de todos ao seu redor.',
         imdb: 'tt15683734',

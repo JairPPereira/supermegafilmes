@@ -7,6 +7,96 @@ function searchMovies(event) {
 // Seu array de filmes
 var filmes = [
     {
+        "titulo": "2 Coelhos",
+        "descricao": "Após se envolver em um grave acidente automobilístico, no qual uma mulher e seu filho são mortos, Edgar (Fernando Alves Pinto) é indiciado, mas consegue escapar da prisão graças à influência de um deputado estadual. Logo em seguida ele parte para uma temporada em Miami, onde retorna com um elaborado plano em que pretende atingir tanto o deputado que o ajudou, símbolo da corrupção política, quanto Maicon (Marat Descartes), um criminoso que consegue escapar da justiça graças ao suborno de políticos influentes.",
+        "imdb": "tt1753722",
+        "imagem": "https://image.tmdb.org/t/p/w300//iVX3VNB4Zi0kS1Zw24BKQhiuBtl.jpg"
+    },
+    {
+        "titulo": "N\u00f3s Somos os Campe\u00f5es 3",
+        "descricao": "Os jogadores do Ducks, um time de hoquéi, cuja fama e sucesso só cresce, tem que entrar em uma nova escola preparatória, a Eden Hall Academy. Mas eles não serão bem recebidos pelos esnobes veteranos do colégio. Além disso, o técnico Gordon Bombay (Emilio Estevez) tem uma revelação bombástica a fazer, algo que pode acabar com o grupo de vez.",
+        "imdb": "tt0116000",
+        "imagem": "https://image.tmdb.org/t/p/w300//7o4BTRgXWRL56QtnqAlBj6uwsXs.jpg"
+    },
+    {
+        "titulo": "N\u00f3s Somos os Campe\u00f5es 2",
+        "descricao": "O jogador Gordon Bombay (Emilio Estevez) lesiona o joelho e é obrigado a sair da liga de hóquei. Ele assume a função de treinador durante um campeonato na Califórnia. Ele se estabelece e tudo parece ir bem. Mas Bombay acaba se distraindo quando a esquipe favorita ao título entra em cena.",
+        "imdb": "tt0109520",
+        "imagem": "https://image.tmdb.org/t/p/w300//1mxurJNKvQujUVm1yKkYCZ28fmo.jpg"
+    },
+    {
+        "titulo": "N\u00f3s Somos os Campe\u00f5es",
+        "descricao": "Depois de ser preso por dirigir alcoolizado, o advogado Gordon Bombay é condenado a 500 horas de serviço comunitário e tem que treinar uma equipe de hóquei infantil. Primeiramente, o coração de Gordon não está em seu trabalho, mas logo ele descobre que está recuperando seu espírito competitivo e empurrando os Ducks para se tornar uma equipe a ser reconhecida.",
+        "imdb": "tt0104868",
+        "imagem": "https://image.tmdb.org/t/p/w300//qnDtm74JkcAlqzPaTfO0ChwRNZJ.jpg"
+    },
+    {
+        "titulo": "2 Campe\u00f5es de Shaolin",
+        "descricao": "",
+        "imdb": "tt0078428",
+        "imagem": "https://image.tmdb.org/t/p/w300//mneHVPY5va2aTRTXCzxOZpk4uoy.jpg"
+    },
+    {
+        "titulo": "1984",
+        "descricao": "",
+        "imdb": "tt0087803",
+        "imagem": "https://image.tmdb.org/t/p/w300//hrdQlicxuyTg3zyVqq78EsA4Z6J.jpg"
+    },
+    {
+        "titulo": "1911: A Revolu\u00e7\u00e3o",
+        "descricao": "",
+        "imdb": "tt1772230",
+        "imagem": "https://image.tmdb.org/t/p/w300//rqppYmxtnQfs8yFKjtpWXjbWLzT.jpg"
+    },
+    {
+        "titulo": "16 Quadras",
+        "descricao": "",
+        "imdb": "tt0450232",
+        "imagem": "https://image.tmdb.org/t/p/w300//tbWd6N4ORhDJxlMVO4vxRNEZtib.jpg"
+    },
+    {
+        "titulo": "16 Extremos",
+        "descricao": "",
+        "imdb": "tt6380520",
+        "imagem": "https://image.tmdb.org/t/p/w300//q4gVTJwYQUg7pBhExDY2IUVTo84.jpg"
+    },
+    {
+        "titulo": "15 Minutos",
+        "descricao": "",
+        "imdb": "tt0179626",
+        "imagem": "https://image.tmdb.org/t/p/w300//7NpTxlHcMz5dV9LEBrCcDTegruq.jpg"
+    },
+    {
+        "titulo": "1408",
+        "descricao": "",
+        "imdb": "tt0450385",
+        "imagem": "https://image.tmdb.org/t/p/w300//nBwGQFymu3EhnBnhNSN1GX7zsZL.jpg"
+    },
+    {
+        "titulo": "14 Montanhas, 8 Mil Metros e 7 Meses",
+        "descricao": "",
+        "imdb": "tt14079374",
+        "imagem": "https://image.tmdb.org/t/p/w300//saGMNCD6ayFqmOb9mX2MkkMmW7w.jpg"
+    },
+    {
+        "titulo": "Boo! O Halloween de Madea",
+        "descricao": "",
+        "imdb": "tt5325452",
+        "imagem": "https://image.tmdb.org/t/p/w300//nBb5aBBSJzQJjIlRgBA7oLyclxg.jpg"
+    },
+    {
+        "titulo": "Halloween: A Lenda de Jack",
+        "descricao": "",
+        "imdb": "tt7601296",
+        "imagem": "https://image.tmdb.org/t/p/w300//1PHkDuVYkuuOdcNDRJT3g7LfNXi.jpg"
+    },
+    {
+        "titulo": "Titulo Boo 2! O Halloween de Madea",
+        "descricao": "",
+        "imdb": "tt6217804",
+        "imagem": "https://image.tmdb.org/t/p/w300//18JeOCuDpVbocIbioIrGrO2A5aq.jpg"
+    },
+    {
         titulo: 'Não Abra!',
         descricao: 'Sam (Megan Suri), uma adolescente que lida com os conflitos entre sua origem indiana e a vida nos EUA, acidentalmente liberta uma antiga entidade demoníaca de um jarro que jamais deveria ter sido aberto. À medida que o mal se alimenta dos seus piores medos, Sam precisará desvendar segredos ancestrais para tentar salvar sua vida e a de todos ao seu redor.',
         imdb: 'tt15683734',

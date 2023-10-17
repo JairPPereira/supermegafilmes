@@ -6,7 +6,7 @@ def get_imdb_id(link):
     return link.split('/')[-1]
 
 # url da página com os filmes
-url = 'https://superflixapi.net/filmes/?paged=7'
+url = 'https://superflixapi.net/filmes/?paged=2'
 response = requests.get(url)
 
 soup = BeautifulSoup(response.content, 'html.parser')
