@@ -864,6 +864,96 @@ var filmes = [
     "imdb": "tt16427938",
     "imagem": "https://image.tmdb.org/t/p/w300//ocKoEvCPX809gWsyEXRP2zTViY5.jpg"
 },
+{
+    "titulo": "Amor Esquecido",
+    "descricao": "",
+    "imdb": "tt26596953",
+    "imagem": "https://image.tmdb.org/t/p/w300//jTv09AE0h6YL0Jav6N04knTqQN2.jpg"
+},
+{
+    "titulo": "Street Flow 2",
+    "descricao": "",
+    "imdb": "tt27045321",
+    "imagem": "https://image.tmdb.org/t/p/w300//ei6d2JFKaS0vJHReUP8hEfNBjPa.jpg"
+},
+{
+    "titulo": "Mona Lisa e a Lua de Sangue",
+    "descricao": "",
+    "imdb": "tt8760670",
+    "imagem": "https://image.tmdb.org/t/p/w300//jnszI3HhHQEs5VOprDaQU0j670J.jpg"
+},
+{
+    "titulo": "O Atirador: Resposta Global e Equipe T\u00e1tica",
+    "descricao": "",
+    "imdb": "tt28487871",
+    "imagem": "https://image.tmdb.org/t/p/w300//v7mXgXpNZYYPVBo6sqdxjIhQIsb.jpg"
+},
+{
+    "titulo": "Scooby-Doo e Krypto - O Superc\u00e3o",
+    "descricao": "",
+    "imdb": "tt28508231",
+    "imagem": "https://image.tmdb.org/t/p/w300//wuNYbguYnsqemxuzse3Gu4WtJyR.jpg"
+},
+{
+    "titulo": "Wonderwell",
+    "descricao": "",
+    "imdb": "tt6195756",
+    "imagem": "https://image.tmdb.org/t/p/w300//deoxTZeVAULpVvbbxrNxAcyHAkk.jpg"
+},
+{
+    "titulo": "Em Busca da Irm\u00e3 Desaparecida",
+    "descricao": "",
+    "imdb": "tt15726370",
+    "imagem": "https://image.tmdb.org/t/p/w300//hZTZBpQYovGed14BV69Sv3iSRyb.jpg"
+},
+{
+    "titulo": "See You On Venus",
+    "descricao": "",
+    "imdb": "tt14960612",
+    "imagem": "https://image.tmdb.org/t/p/w300//r94waWYiNhXoAuCEWBCf2XEEegx.jpg"
+},
+{
+    "titulo": "Sanctified",
+    "descricao": "",
+    "imdb": "tt11613450",
+    "imagem": "https://image.tmdb.org/t/p/w300//gAkbyeCnrraLx6viWMuz1oZsdCM.jpg"
+},
+{
+    "titulo": "Love & Where to Find It",
+    "descricao": "",
+    "imdb": "tt14684154",
+    "imagem": "https://image.tmdb.org/t/p/w300//kSQe31MfazaGWMPh4EpdLCAnOH7.jpg"
+},
+{
+    "titulo": "Kill Shot",
+    "descricao": "",
+    "imdb": "tt13039008",
+    "imagem": "https://image.tmdb.org/t/p/w300//8tmVuix29w6RH2T09D0crzXMQj1.jpg"
+},
+{
+    "titulo": "Jookin",
+    "descricao": "",
+    "imdb": "tt15052764",
+    "imagem": "https://image.tmdb.org/t/p/w300//pfYFfIUEOpWSCzU8cEWf5SMV5uC.jpg"
+},
+{
+    "titulo": "Harmony in Paradise",
+    "descricao": "",
+    "imdb": "tt19868710",
+    "imagem": "https://image.tmdb.org/t/p/w300//8NwiVviRJxx6bg3090QLFOVhKlr.jpg"
+},
+{
+    "titulo": "Floodlights",
+    "descricao": "",
+    "imdb": "tt19222062",
+    "imagem": "https://image.tmdb.org/t/p/w300//vVdtphTJ0Ok3wCIUWbPmbXhKBhL.jpg"
+},
+{
+    "titulo": "Dok",
+    "descricao": "",
+    "imdb": "tt22469318",
+    "imagem": "https://image.tmdb.org/t/p/w300//gHB2M3WYn27BeXxJyLHTLxu7dmJ.jpg"
+},
 ];
 
 // Função para buscar filmes
