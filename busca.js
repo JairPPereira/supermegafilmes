@@ -91,7 +91,7 @@ var filmes = [
         "imagem": "https://image.tmdb.org/t/p/w300//1PHkDuVYkuuOdcNDRJT3g7LfNXi.jpg"
     },
     {
-        "titulo": "Titulo Boo 2! O Halloween de Madea",
+        "titulo": "Boo 2! O Halloween de Madea",
         "descricao": "",
         "imdb": "tt6217804",
         "imagem": "https://image.tmdb.org/t/p/w300//18JeOCuDpVbocIbioIrGrO2A5aq.jpg"
@@ -517,184 +517,352 @@ var filmes = [
     "imagem": "https://image.tmdb.org/t/p/w300//gr2GNLdTT4iKKWke2lQUwGgiUrr.jpg"
 },
 {
-    "titulo": "Titulo Sem Ar",
+    "titulo": "Sem Ar",
     "descricao": "",
     "imdb": "tt13566172",
     "imagem": "https://image.tmdb.org/t/p/w300//An8KmLCOypg4PqpLa8P8f6uNiMT.jpg"
 },
 {
-    "titulo": "Titulo Slotherhouse",
+    "titulo": "Slotherhouse",
     "descricao": "",
     "imdb": "tt15422224",
     "imagem": "https://image.tmdb.org/t/p/w300//pLSoVBuBa3aqFBgBY2puu3BN8of.jpg"
 },
 {
-    "titulo": "Titulo Amor Rio Acima",
+    "titulo": "Amor Rio Acima",
     "descricao": "",
     "imdb": "tt13887620",
     "imagem": "https://image.tmdb.org/t/p/w300//103AKv07WsDIyIFvzx2THVswMVt.jpg"
 },
 {
-    "titulo": "Titulo Darkland: O Retorno",
+    "titulo": "Darkland: O Retorno",
     "descricao": "",
     "imdb": "tt20204996",
     "imagem": "https://image.tmdb.org/t/p/w300//A8EPXv3SV9qiNCIttIM4ezJRmhW.jpg"
 },
 {
-    "titulo": "Titulo Alice: Uma Acompanhante Parisiense",
+    "titulo": "Alice: Uma Acompanhante Parisiense",
     "descricao": "",
     "imdb": "tt9120416",
     "imagem": "https://image.tmdb.org/t/p/w300//4vRRkOOMwiykXXXqFY3WlevcmOv.jpg"
 },
 {
-    "titulo": "Titulo Final Feliz",
+    "titulo": "Final Feliz",
     "descricao": "",
     "imdb": "tt7413472",
     "imagem": "https://image.tmdb.org/t/p/w300//z8UoFcduV263EwXDaMMbOclVW8R.jpg"
 },
 {
-    "titulo": "Titulo C\u00e9u e Inferno",
+    "titulo": "C\u00e9u e Inferno",
     "descricao": "",
     "imdb": "tt0057565",
     "imagem": "https://image.tmdb.org/t/p/w300//olEPDwHAJwsN9MXHBArlPnchvJg.jpg"
 },
 {
-    "titulo": "Titulo Rashomon",
+    "titulo": "Rashomon",
     "descricao": "",
     "imdb": "tt0042876",
     "imagem": "https://image.tmdb.org/t/p/w300//cpO1iPdMFCuJvKjRx3cIONkMRTw.jpg"
 },
 {
-    "titulo": "Titulo Os Sete Samurais",
+    "titulo": "Os Sete Samurais",
     "descricao": "",
     "imdb": "tt0047478",
     "imagem": "https://image.tmdb.org/t/p/w300//telXEMxGtJvffm5JDsx1rQzwWlf.jpg"
 },
 {
-    "titulo": "Titulo C\u00e3o Danado",
+    "titulo": "C\u00e3o Danado",
     "descricao": "",
     "imdb": "tt0041699",
     "imagem": "https://image.tmdb.org/t/p/w300//tr4zUsfuGMkylUJ5h4jCDT1dhBC.jpg"
 },
 {
-    "titulo": "Titulo Trono Manchado de Sangue",
+    "titulo": "Trono Manchado de Sangue",
     "descricao": "",
     "imdb": "tt0050613",
     "imagem": "https://image.tmdb.org/t/p/w300//lguC4BHBthaiON4I5Cin7kVtb9c.jpg"
 },
 {
-    "titulo": "Titulo Yojimbo, o Guarda-Costas",
+    "titulo": "Yojimbo, o Guarda-Costas",
     "descricao": "",
     "imdb": "tt0055630",
     "imagem": "https://image.tmdb.org/t/p/w300//A9XnNGooDNtvx2mzZ8R7pt6UuUP.jpg"
 },
 {
-    "titulo": "Titulo Sanjuro",
+    "titulo": "Sanjuro",
     "descricao": "",
     "imdb": "tt0056443",
     "imagem": "https://image.tmdb.org/t/p/w300//yPlQoM1lJ5embixFgWYwHf2gSWG.jpg"
 },
 {
-    "titulo": "Titulo Viver",
+    "titulo": "Viver",
     "descricao": "",
     "imdb": "tt0044741",
     "imagem": "https://image.tmdb.org/t/p/w300//uMaLKmpxepW4Uq8lcCpels656u0.jpg"
 },
 {
-    "titulo": "Titulo Kagemusha, a Sombra do Samurai",
+    "titulo": "Kagemusha, a Sombra do Samurai",
     "descricao": "",
     "imdb": "tt0080979",
     "imagem": "https://image.tmdb.org/t/p/w300//e4v3mNc9SvSnESPN9z1zvivkEs0.jpg"
 },
 {
-    "titulo": "Titulo Ran",
+    "titulo": "Ran",
     "descricao": "",
     "imdb": "tt0089881",
     "imagem": "https://image.tmdb.org/t/p/w300//qM5lALu0lzbD9WWmUTArHCRbyJv.jpg"
 },
 {
-    "titulo": "Titulo \u0628\u06cc\u200c \u0631\u0648\u06cc\u0627",
+    "titulo": "\u0628\u06cc\u200c \u0631\u0648\u06cc\u0627",
     "descricao": "",
     "imdb": "tt17520962",
     "imagem": "https://image.tmdb.org/t/p/w300//5eeDYAMOQZNxNu59raWrzrgMAdT.jpg"
 },
 {
-    "titulo": "Titulo \u5618\u516b\u767e \u306a\u306b\u308f\u5922\u306e\u9663",
+    "titulo": "\u5618\u516b\u767e \u306a\u306b\u308f\u5922\u306e\u9663",
     "descricao": "",
     "imdb": "tt23220464",
     "imagem": "https://image.tmdb.org/t/p/w300//hX4gnhnszSqrTXVi0p4BQBSLqV7.jpg"
 },
 {
-    "titulo": "Titulo VII XII",
+    "titulo": "VII XII",
     "descricao": "",
     "imdb": "tt27197550",
     "imagem": "https://image.tmdb.org/t/p/w300//778XTUhXfnLVIls0eipItkOrlws.jpg"
 },
 {
-    "titulo": "Titulo A Garota do Moletom Amarelo",
+    "titulo": "A Garota do Moletom Amarelo",
     "descricao": "",
     "imdb": "tt10954526",
     "imagem": "https://image.tmdb.org/t/p/w300//dYFUPov4zuoB5F1Am9Ni8E5kCwd.jpg"
 },
 {
-    "titulo": "Titulo \uc0b4\uc218",
+    "titulo": "\uc0b4\uc218",
     "descricao": "",
     "imdb": "tt21109580",
     "imagem": "https://image.tmdb.org/t/p/w300//B1WdiNIa8qQNrZZ7pUXltZoFpr.jpg"
 },
 {
-    "titulo": "Titulo Tell Me a Creepy Story",
+    "titulo": "Tell Me a Creepy Story",
     "descricao": "",
     "imdb": "tt26470099",
     "imagem": "https://image.tmdb.org/t/p/w300//zuw3blK5tIRpv4lLnApeMLMn4bz.jpg"
 },
 {
-    "titulo": "Titulo Reminiscing Shadows",
+    "titulo": "Reminiscing Shadows",
     "descricao": "",
     "imdb": "tt28620678",
     "imagem": "https://image.tmdb.org/t/p/w300//pouAD8x2dmc1gfDn77l8UGlpMJ4.jpg"
 },
 {
-    "titulo": "Titulo Mommy's Stolen Memories",
+    "titulo": "Mommy's Stolen Memories",
     "descricao": "",
     "imdb": "tt27548991",
     "imagem": "https://image.tmdb.org/t/p/w300//ngI1FWBcwdhlO1MKxfKeejduNR7.jpg"
 },
 {
-    "titulo": "Titulo Megalodon: The Frenzy",
+    "titulo": "Megalodon: The Frenzy",
     "descricao": "",
     "imdb": "tt27572862",
     "imagem": "https://image.tmdb.org/t/p/w300//1o0jJYxgF7IJKdYNlDWgxomt2ft.jpg"
 },
 {
-    "titulo": "Titulo \u30ed\u30b9\u30c8\u30b1\u30a2",
+    "titulo": "\u30ed\u30b9\u30c8\u30b1\u30a2",
     "descricao": "",
     "imdb": "tt27120897",
     "imagem": "https://image.tmdb.org/t/p/w300//daFxby0siBpSfqA7i5pVewPcziw.jpg"
 },
 {
-    "titulo": "Titulo Het Geheugenspel",
+    "titulo": "Het Geheugenspel",
     "descricao": "",
     "imdb": "tt27056116",
     "imagem": "https://image.tmdb.org/t/p/w300//ia1wv114JC6zusCNnEqYNVIClyt.jpg"
 },
 {
-    "titulo": "Titulo Assombra\u00e7\u00e3o da Rainha Mary",
+    "titulo": "Assombra\u00e7\u00e3o da Rainha Mary",
     "descricao": "",
     "imdb": "tt3463938",
     "imagem": "https://image.tmdb.org/t/p/w300//52Sd1DLBn2zlPsUB9mnvtKHgh8O.jpg"
 },
 {
-    "titulo": "Titulo Her Deadly Night in Paris",
+    "titulo": "Her Deadly Night in Paris",
     "descricao": "",
     "imdb": "tt28621075",
     "imagem": "https://image.tmdb.org/t/p/w300//6ylQqHe3NXg9dWrNtUUWTtPeZuL.jpg"
 },
 {
-    "titulo": "Titulo Deinfluencer",
+    "titulo": "Deinfluencer",
     "descricao": "",
     "imdb": "tt15790974",
     "imagem": "https://image.tmdb.org/t/p/w300//tLA4839HtC5GelEsUTFFtAL2ar5.jpg"
+},
+{
+    "titulo": "\u041c\u0440\u0430\u043a",
+    "descricao": "",
+    "imdb": "tt10047904",
+    "imagem": "https://image.tmdb.org/t/p/w300//jtS5MISTuNOSJhtetrPK2E9O7DJ.jpg"
+},
+{
+    "titulo": "Dark Windows",
+    "descricao": "",
+    "imdb": "tt13318942",
+    "imagem": "https://image.tmdb.org/t/p/w300//hANd38mgGlOzA3lt12vfXMZbj90.jpg"
+},
+{
+    "titulo": "Catfish Murder",
+    "descricao": "",
+    "imdb": "tt27621162",
+    "imagem": "https://image.tmdb.org/t/p/w300//13IufL2pVTZezNjFZ3GqMjwEKH6.jpg"
+},
+{
+    "titulo": "Back on the Strip",
+    "descricao": "",
+    "imdb": "tt6048442",
+    "imagem": "https://image.tmdb.org/t/p/w300//wHKF1Oab69rdJBYfhz5yiC7ndAI.jpg"
+},
+{
+    "titulo": "Alarmed",
+    "descricao": "",
+    "imdb": "tt26612568",
+    "imagem": "https://image.tmdb.org/t/p/w300//nBKuJJAiOKNCNv0KaRgfJI9AOfD.jpg"
+},
+{
+    "titulo": "\u8d85\u80fd\u4e00\u5bb6\u4eba",
+    "descricao": "",
+    "imdb": "tt12787014",
+    "imagem": "https://image.tmdb.org/t/p/w300//iRvzM5rsJUP2Sye87bU3TH1jcKn.jpg"
+},
+{
+    "titulo": "Abducted by My Teacher: The Elizabeth Thomas Story",
+    "descricao": "",
+    "imdb": "tt28226615",
+    "imagem": "https://image.tmdb.org/t/p/w300//C5Ce9f5mls4GxfqvPMeLxu5N9l.jpg"
+},
+{
+    "titulo": "One Day as a Lion",
+    "descricao": "",
+    "imdb": "tt15783426",
+    "imagem": "https://image.tmdb.org/t/p/w300//cxSKca4dNlk7O7PMiEYT203vlIw.jpg"
+},
+{
+    "titulo": "Outback",
+    "descricao": "",
+    "imdb": "tt7336182",
+    "imagem": "https://image.tmdb.org/t/p/w300//1eEaliCKndXuINMjcb2ATXUMYIa.jpg"
+},
+{
+    "titulo": "Rock N' Roll: Vivendo no Limite",
+    "descricao": "",
+    "imdb": "tt3406172",
+    "imagem": "https://image.tmdb.org/t/p/w300//yCcjsaluNc1p55q5xphKpJ3jvH2.jpg"
+},
+{
+    "titulo": "Street Flow",
+    "descricao": "",
+    "imdb": "tt10958282",
+    "imagem": "https://image.tmdb.org/t/p/w300//3UfJKzDFBHjsr3oNHBu2E3b3le6.jpg"
+},
+{
+    "titulo": "Barbie: Skipper e a Grande Aventura de Bab\u00e1s",
+    "descricao": "",
+    "imdb": "tt26931203",
+    "imagem": "https://image.tmdb.org/t/p/w300//nQbNLUUchtSm0FSXeCBcIaPKg3G.jpg"
+},
+{
+    "titulo": "Camale\u00f5es",
+    "descricao": "",
+    "imdb": "tt13274016",
+    "imagem": "https://image.tmdb.org/t/p/w300//2FKm87VF8VKkIFJtRoPsWiux4sr.jpg"
+},
+{
+    "titulo": "Destinos \u00e0 Deriva",
+    "descricao": "",
+    "imdb": "tt15789472",
+    "imagem": "https://image.tmdb.org/t/p/w300//lJonRBSvmX3TEGhxSHooGmJa4GG.jpg"
+},
+{
+    "titulo": "Discurso Oculto",
+    "descricao": "",
+    "imdb": "tt28455910",
+    "imagem": "https://image.tmdb.org/t/p/w300//a3mMwp42qXaA4DLNcXvNO0u01Pi.jpg"
+},
+{
+    "titulo": "Do Outro Lado da Fronteira",
+    "descricao": "",
+    "imdb": "tt4072296",
+    "imagem": "https://image.tmdb.org/t/p/w300//1z8PDr9hiM4LHmOSU26fibuSer5.jpg"
+},
+{
+    "titulo": "Do Not Disturb",
+    "descricao": "",
+    "imdb": "tt23049270",
+    "imagem": "https://image.tmdb.org/t/p/w300//gyuMSazHAcTSZRhe17NFMXPXOgi.jpg"
+},
+{
+    "titulo": "Flora e Filho: M\u00fasica em Fam\u00edlia",
+    "descricao": "",
+    "imdb": "tt25471950",
+    "imagem": "https://image.tmdb.org/t/p/w300//i1Xv3pmIwEXmrbnMOwl6BExjV9a.jpg"
+},
+{
+    "titulo": "Luta por Vingan\u00e7a",
+    "descricao": "",
+    "imdb": "tt11609692",
+    "imagem": "https://image.tmdb.org/t/p/w300//geG6hgy6WaGt5kTshuPeCF4bHIW.jpg"
+},
+{
+    "titulo": "O Ca\u00e7ador de Ratos",
+    "descricao": "",
+    "imdb": "tt28912858",
+    "imagem": "https://image.tmdb.org/t/p/w300//5fHwVtgJLeOiaKENJ2s8BPY6Rvv.jpg"
+},
+{
+    "titulo": "O Engenheiro",
+    "descricao": "",
+    "imdb": "tt26450742",
+    "imagem": "https://image.tmdb.org/t/p/w300//daEvqdnGCrbk5yMkYkxoDpNuCkP.jpg"
+},
+{
+    "titulo": "Obrigada Por Tudo",
+    "descricao": "",
+    "imdb": "tt11349958",
+    "imagem": "https://image.tmdb.org/t/p/w300//kb6b8x44yqHIglI2aMLk15RBy65.jpg"
+},
+{
+    "titulo": "O Efeito Mandela",
+    "descricao": "",
+    "imdb": "tt6544220",
+    "imagem": "https://image.tmdb.org/t/p/w300//lfNHN7octVCixn38Vu2iQ0klQCg.jpg"
+},
+{
+    "titulo": "Aldeia Maldita",
+    "descricao": "",
+    "imdb": "tt12700358",
+    "imagem": "https://image.tmdb.org/t/p/w300//nf4w2flxKHpzX7C2OCTiqzUl9xn.jpg"
+},
+{
+    "titulo": "Jogos Mortais X",
+    "descricao": "",
+    "imdb": "tt21807222",
+    "imagem": "https://image.tmdb.org/t/p/w300//ch1BGjadaiPU59zYbb6zPUTZtyO.jpg"
+},
+{
+    "titulo": "O Amor Est\u00e1 no Ar",
+    "descricao": "",
+    "imdb": "tt28073548",
+    "imagem": "https://image.tmdb.org/t/p/w300//wFZ0gxa9fxaA7gk6v5nH1hyYfDi.jpg"
+},
+{
+    "titulo": "A Incr\u00edvel Hist\u00f3ria de Henry Sugar",
+    "descricao": "",
+    "imdb": "tt16968450",
+    "imagem": "https://image.tmdb.org/t/p/w300//azRL9bmByicPRzP0ljDNzFCwyUX.jpg"
+},
+{
+    "titulo": "Carga M\u00e1xima",
+    "descricao": "",
+    "imdb": "tt16427938",
+    "imagem": "https://image.tmdb.org/t/p/w300//ocKoEvCPX809gWsyEXRP2zTViY5.jpg"
 },
 ];
 

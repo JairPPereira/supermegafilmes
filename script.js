@@ -688,7 +688,175 @@ var filmes = [
     "descricao": "Uma jovem e influente líder de torcida é feita de refém por um psicopata mascarado. Para salvar a sua vida e a de outras jovens, ela é obrigada a participar de uma série de desafios em suas redes sociais.",
     "imdb": "tt15790974",
     "imagem": "https://image.tmdb.org/t/p/w300//tLA4839HtC5GelEsUTFFtAL2ar5.jpg"
-}
+},
+{
+    "titulo": "\u041c\u0440\u0430\u043a",
+    "descricao": "",
+    "imdb": "tt10047904",
+    "imagem": "https://image.tmdb.org/t/p/w300//jtS5MISTuNOSJhtetrPK2E9O7DJ.jpg"
+},
+{
+    "titulo": "Dark Windows",
+    "descricao": "",
+    "imdb": "tt13318942",
+    "imagem": "https://image.tmdb.org/t/p/w300//hANd38mgGlOzA3lt12vfXMZbj90.jpg"
+},
+{
+    "titulo": "Catfish Murder",
+    "descricao": "",
+    "imdb": "tt27621162",
+    "imagem": "https://image.tmdb.org/t/p/w300//13IufL2pVTZezNjFZ3GqMjwEKH6.jpg"
+},
+{
+    "titulo": "Back on the Strip",
+    "descricao": "",
+    "imdb": "tt6048442",
+    "imagem": "https://image.tmdb.org/t/p/w300//wHKF1Oab69rdJBYfhz5yiC7ndAI.jpg"
+},
+{
+    "titulo": "Alarmed",
+    "descricao": "",
+    "imdb": "tt26612568",
+    "imagem": "https://image.tmdb.org/t/p/w300//nBKuJJAiOKNCNv0KaRgfJI9AOfD.jpg"
+},
+{
+    "titulo": "\u8d85\u80fd\u4e00\u5bb6\u4eba",
+    "descricao": "",
+    "imdb": "tt12787014",
+    "imagem": "https://image.tmdb.org/t/p/w300//iRvzM5rsJUP2Sye87bU3TH1jcKn.jpg"
+},
+{
+    "titulo": "Abducted by My Teacher: The Elizabeth Thomas Story",
+    "descricao": "",
+    "imdb": "tt28226615",
+    "imagem": "https://image.tmdb.org/t/p/w300//C5Ce9f5mls4GxfqvPMeLxu5N9l.jpg"
+},
+{
+    "titulo": "One Day as a Lion",
+    "descricao": "Este thriller cheio de ação segue os esforços incansáveis que um homem está disposto a fazer para salvar as pessoas que ama. Sem sorte, Jackie Powers não vai parar até impedir seu filho de seguir seus passos no mundo do crime. Com o chefe criminoso na sua cola, um encontro ao acaso numa lanchonete de beira de estrada traça um novo caminho.",
+    "imdb": "tt15783426",
+    "imagem": "https://image.tmdb.org/t/p/w300//cxSKca4dNlk7O7PMiEYT203vlIw.jpg"
+},
+{
+    "titulo": "Outback",
+    "descricao": "Wade e Lisa são um casal que decidem fazer uma viagem romântica na Austrália. Após um problema no GPS, eles resolvem abandonar o carro e seguir viagem a pé, mas acabam se perdendo no meio do deserto australiano.",
+    "imdb": "tt7336182",
+    "imagem": "https://image.tmdb.org/t/p/w300//1eEaliCKndXuINMjcb2ATXUMYIa.jpg"
+},
+{
+    "titulo": "Rock N' Roll: Vivendo no Limite",
+    "descricao": "Aaron é vocalista de uma banda de rock e tem tudo que sempre quis: sucesso, amigos e mulheres.",
+    "imdb": "tt3406172",
+    "imagem": "https://image.tmdb.org/t/p/w300//yCcjsaluNc1p55q5xphKpJ3jvH2.jpg"
+},
+{
+    "titulo": "Street Flow",
+    "descricao": "Um gângster, um acadêmico e um adolescente influenciável. Três irmãos aprendem duras lições no dia a dia dos subúrbios enquanto tentam ganhar a vida.",
+    "imdb": "tt10958282",
+    "imagem": "https://image.tmdb.org/t/p/w300//3UfJKzDFBHjsr3oNHBu2E3b3le6.jpg"
+},
+{
+    "titulo": "Barbie: Skipper e a Grande Aventura de Bab\u00e1s",
+    "descricao": "As coisas não estão indo muito bem nos negócios, então Skipper decide usar sua experiência como babá para arrasar em seu novo emprego no parque aquático.",
+    "imdb": "tt26931203",
+    "imagem": "https://image.tmdb.org/t/p/w300//nQbNLUUchtSm0FSXeCBcIaPKg3G.jpg"
+},
+{
+    "titulo": "Camale\u00f5es",
+    "descricao": "Um detetive da Nova Inglaterra trabalha para solucionar o assassinato de um corretor de imóveis e, como resultado do caso, passa por uma reflexão sobre si mesmo.",
+    "imdb": "tt13274016",
+    "imagem": "https://image.tmdb.org/t/p/w300//2FKm87VF8VKkIFJtRoPsWiux4sr.jpg"
+},
+{
+    "titulo": "Destinos \u00e0 Deriva",
+    "descricao": "Mia (Anna Castillo) é uma mulher grávida que se esconde em um contêiner para fugir de um país totalitário com o marido. Separada dele à força, ela precisa lutar pela sobrevivência quando uma violenta tempestade a atira ao mar. Sozinha e à deriva no meio do oceano, Mia fará o impossível para salvar a vida da filha e reencontrar o companheiro.",
+    "imdb": "tt15789472",
+    "imagem": "https://image.tmdb.org/t/p/w300//lJonRBSvmX3TEGhxSHooGmJa4GG.jpg"
+},
+{
+    "titulo": "Discurso Oculto",
+    "descricao": "Nesta comédia romântica politicamente incorreta, um assessor político usa seu poder de persuasão para ajudar seu candidato a vencer as eleições - mas perde o coração no processo.",
+    "imdb": "tt28455910",
+    "imagem": "https://image.tmdb.org/t/p/w300//a3mMwp42qXaA4DLNcXvNO0u01Pi.jpg"
+},
+{
+    "titulo": "Do Outro Lado da Fronteira",
+    "descricao": "Depois de ter o coração partido pelo seu primeiro amor, um jovem cantor decide se juntar ao seu tio, deixar a Califórnia e embarcar numa épica jornada rumo ao México, onde ele irá se reconectar com suas raízes e descobrirá mais sobre si mesmo.",
+    "imdb": "tt4072296",
+    "imagem": "https://image.tmdb.org/t/p/w300//1z8PDr9hiM4LHmOSU26fibuSer5.jpg"
+},
+{
+    "titulo": "Do Not Disturb",
+    "descricao": "Um homem de meia-idade consegue emprego em um hotel depois da pandemia, mas alguns hóspedes transformam sua primeira noite em uma aventura insana.",
+    "imdb": "tt23049270",
+    "imagem": "https://image.tmdb.org/t/p/w300//gyuMSazHAcTSZRhe17NFMXPXOgi.jpg"
+},
+{
+    "titulo": "Flora e Filho: M\u00fasica em Fam\u00edlia",
+    "descricao": "Flora, mãe solteira, não sabe o que fazer com Max, o filho adolescente rebelde. Quando a polícia sugere a Flora encontrar um hobby para Max, ela entrega a ele um violão surrado. Com a ajuda de um músico fracassado de LA, Flora e Max descobrem o poder de transformação da música.",
+    "imdb": "tt25471950",
+    "imagem": "https://image.tmdb.org/t/p/w300//i1Xv3pmIwEXmrbnMOwl6BExjV9a.jpg"
+},
+{
+    "titulo": "Luta por Vingan\u00e7a",
+    "descricao": "Jarah é uma mulher que leva uma vida tranquila no campo com seu marido Waru e sua filha Binda.",
+    "imdb": "tt11609692",
+    "imagem": "https://image.tmdb.org/t/p/w300//geG6hgy6WaGt5kTshuPeCF4bHIW.jpg"
+},
+{
+    "titulo": "O Ca\u00e7ador de Ratos",
+    "descricao": "Numa aldeia inglesa, um repórter e um mecânico ouvem um caçador de ratos explicar o seu plano inteligente para enganar a sua presa.",
+    "imdb": "tt28912858",
+    "imagem": "https://image.tmdb.org/t/p/w300//5fHwVtgJLeOiaKENJ2s8BPY6Rvv.jpg"
+},
+{
+    "titulo": "O Engenheiro",
+    "descricao": "Segue a maior caçada na história de Israel para encontrar Yahya Ayyash, o mentor da bomba que supervisionou um grupo de soldados suicidas em Israel em meados da década de 1990.",
+    "imdb": "tt26450742",
+    "imagem": "https://image.tmdb.org/t/p/w300//daEvqdnGCrbk5yMkYkxoDpNuCkP.jpg"
+},
+{
+    "titulo": "Obrigada Por Tudo",
+    "descricao": "As irmãs Marianne e Christine não se falam há um tempo, mas se reencontram após a morte inesperada de seu pai.",
+    "imdb": "tt11349958",
+    "imagem": "https://image.tmdb.org/t/p/w300//kb6b8x44yqHIglI2aMLk15RBy65.jpg"
+},
+{
+    "titulo": "O Efeito Mandela",
+    "descricao": "O Efeito Mandela, um termo cunhado de instâncias em que muitos certamente lembrariam algo de um jeito particular, mas resulta ser incorreto, segue um homem que fica obcecado com fatos e eventos que coletivamente foram lembrados por milhares de pessoas. Acreditando que o fenômeno é o sintoma de algo muito maior, sua obsessão eventualmente o leva a questionar a própria realidade.",
+    "imdb": "tt6544220",
+    "imagem": "https://image.tmdb.org/t/p/w300//lfNHN7octVCixn38Vu2iQ0klQCg.jpg"
+},
+{
+    "titulo": "Aldeia Maldita",
+    "descricao": "A anciã de um vilarejo luta contra a loucura e o macabro para salvar seu povo de um monstruoso ser que chega para tomar conta do local e levar todos para a escuridão.",
+    "imdb": "tt12700358",
+    "imagem": "https://image.tmdb.org/t/p/w300//nf4w2flxKHpzX7C2OCTiqzUl9xn.jpg"
+},
+{
+    "titulo": "Jogos Mortais X",
+    "descricao": "Entre os eventos de Jogos Mortais e Jogos Mortais II, um doente e desesperado John Kramer viaja para o México para um arriscado e experimental procedimento médico na esperança de uma cura milagrosa para seu câncer — apenas para descobrir que toda a operação é uma farsa para fraudar os mais vulneráveis. Armado com um propósito recém-descoberto, o infame assassino em série retorna ao seu trabalho, virando a mesa contra os vigaristas em sua maneira visceral característica por meio de armadilhas tortuosas, perturbadas e engenhosas.",
+    "imdb": "tt21807222",
+    "imagem": "https://image.tmdb.org/t/p/w300//ch1BGjadaiPU59zYbb6zPUTZtyO.jpg"
+},
+{
+    "titulo": "O Amor Est\u00e1 no Ar",
+    "descricao": "Independente e destemida, uma piloto luta para manter a empresa da família, mas começa a se interessar pelo homem enviado para tirá-la do mercado de aviação.",
+    "imdb": "tt28073548",
+    "imagem": "https://image.tmdb.org/t/p/w300//wFZ0gxa9fxaA7gk6v5nH1hyYfDi.jpg"
+},
+{
+    "titulo": "A Incr\u00edvel Hist\u00f3ria de Henry Sugar",
+    "descricao": "Wes Anderson dirige esta adaptação do conto de Roald Dahl sobre um homem rico determinado a dominar uma técnica extraordinária para trapacear no jogo.",
+    "imdb": "tt16968450",
+    "imagem": "https://image.tmdb.org/t/p/w300//azRL9bmByicPRzP0ljDNzFCwyUX.jpg"
+},
+{
+    "titulo": "Carga M\u00e1xima",
+    "descricao": "Com muita velocidade, perseguições e explosões nas pistas, vem aí no pinote CARGA MÁXIMA!",
+    "imdb": "tt16427938",
+    "imagem": "https://image.tmdb.org/t/p/w300//ocKoEvCPX809gWsyEXRP2zTViY5.jpg"
+},
 ];
 
 // Função para adicionar filmes à página
