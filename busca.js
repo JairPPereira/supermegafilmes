@@ -954,6 +954,96 @@ var filmes = [
     "imdb": "tt22469318",
     "imagem": "https://image.tmdb.org/t/p/w300//gHB2M3WYn27BeXxJyLHTLxu7dmJ.jpg"
 },
+{
+    "titulo": "A Safari Romance",
+    "descricao": "",
+    "imdb": "tt12962240",
+    "imagem": "https://image.tmdb.org/t/p/w300//wowRkAQ8PzkmZXswtQhMMRZ5UAP.jpg"
+},
+{
+    "titulo": "Resist\u00eancia",
+    "descricao": "",
+    "imdb": "tt11858890",
+    "imagem": "https://image.tmdb.org/t/p/w300//187OBBT5oMQ2XPXgx9F8JhlycvK.jpg"
+},
+{
+    "titulo": "Era Uma Vez em Nova York",
+    "descricao": "",
+    "imdb": "tt1951181",
+    "imagem": "https://image.tmdb.org/t/p/w300//pjSyQ0SEOqmcWiSt7U2ePD7a2KQ.jpg"
+},
+{
+    "titulo": "Menina de Ouro",
+    "descricao": "",
+    "imdb": "tt0405159",
+    "imagem": "https://image.tmdb.org/t/p/w300//b4FyJN6xo94bwUMKMy653eQHe3h.jpg"
+},
+{
+    "titulo": "Voc\u00ea Nunca Esteve Realmente Aqui",
+    "descricao": "",
+    "imdb": "tt5742374",
+    "imagem": "https://image.tmdb.org/t/p/w300//8OabfdTtAZgenyejDFD5UjVGQeE.jpg"
+},
+{
+    "titulo": "O Ver\u00e3o da Minha Vida",
+    "descricao": "",
+    "imdb": "tt1727388",
+    "imagem": "https://image.tmdb.org/t/p/w300//7Qp5Vmql5usbMbsf1QnUuSGB1fx.jpg"
+},
+{
+    "titulo": "Amantes",
+    "descricao": "",
+    "imdb": "tt1103275",
+    "imagem": "https://image.tmdb.org/t/p/w300//rKmqtmOtDoNgOhVFbF2m3FhXP4J.jpg"
+},
+{
+    "titulo": "Caminho sem Volta",
+    "descricao": "",
+    "imdb": "tt0138946",
+    "imagem": "https://image.tmdb.org/t/p/w300//meB6a3YMBqUqG3TrERLTqZJoHN3.jpg"
+},
+{
+    "titulo": "O Acusado",
+    "descricao": "",
+    "imdb": "tt12648266",
+    "imagem": "https://image.tmdb.org/t/p/w300//9lcVaSYlHAwsDqU3UFtUo4xvCZ.jpg"
+},
+{
+    "titulo": "Breaking Point: Paix\u00e3o \u00e0 Dan\u00e7a",
+    "descricao": "",
+    "imdb": "tt12053110",
+    "imagem": "https://image.tmdb.org/t/p/w300//k7ijpc3yvoynohvUGzI9MOmFoOA.jpg"
+},
+{
+    "titulo": "O Lodo",
+    "descricao": "",
+    "imdb": "tt11701102",
+    "imagem": "https://image.tmdb.org/t/p/w300//rtAbde8LTcD7aMxm1i5gVJnqVH5.jpg"
+},
+{
+    "titulo": "Ningu\u00e9m Vai te Salvar",
+    "descricao": "",
+    "imdb": "tt14509110",
+    "imagem": "https://image.tmdb.org/t/p/w300//hkIwPpdmGI1BaZeR2yrPSnNcv4v.jpg"
+},
+{
+    "titulo": "Passivonas",
+    "descricao": "",
+    "imdb": "tt17527468",
+    "imagem": "https://image.tmdb.org/t/p/w300//j6QzJKshfI2EoYCoGGdGszazmF1.jpg"
+},
+{
+    "titulo": "13 Dias Que Abalaram o Mundo",
+    "descricao": "",
+    "imdb": "tt0146309",
+    "imagem": "https://image.tmdb.org/t/p/w300//sZFsobB9BAPWXA07bwag7wwHfvG.jpg"
+},
+{
+    "titulo": "Magn\u00f3lia",
+    "descricao": "",
+    "imdb": "tt0175880",
+    "imagem": "https://image.tmdb.org/t/p/w300//cpesHJbdZeRIfG0BZBYSx4LIEdQ.jpg"
+},
 ];
 
 // Função para buscar filmes

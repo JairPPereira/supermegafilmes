@@ -947,6 +947,96 @@ var filmes = [
     "imdb": "tt22469318",
     "imagem": "https://image.tmdb.org/t/p/w300//gHB2M3WYn27BeXxJyLHTLxu7dmJ.jpg"
 },
+{
+    "titulo": "A Safari Romance",
+    "descricao": "",
+    "imdb": "tt12962240",
+    "imagem": "https://image.tmdb.org/t/p/w300//wowRkAQ8PzkmZXswtQhMMRZ5UAP.jpg"
+},
+{
+    "titulo": "Resist\u00eancia",
+    "descricao": "Em meio a uma futura guerra entre a raça humana e as forças da inteligência artificial, Joshua, um endurecido ex-agente das forças especiais que lamenta o desaparecimento de sua esposa, é recrutado para caçar e matar o Criador, o indescritível arquiteto da IA avançada que desenvolveu uma arma misteriosa com o poder de acabar com a guerra - e a própria humanidade.",
+    "imdb": "tt11858890",
+    "imagem": "https://image.tmdb.org/t/p/w300//187OBBT5oMQ2XPXgx9F8JhlycvK.jpg"
+},
+{
+    "titulo": "Era Uma Vez em Nova York",
+    "descricao": "Em 1921, as irmãs polonesas Magda e Ewa Cybulski partem em direção a Nova Iorque, em busca de uma vida melhor. Mas, assim que chegam, Magda fica doente e Ewa, sem ter a quem recorrer, acaba nas mãos do cafetão Bruno, que a explora em uma rede de prostituição. A chegada de Orlando, mágico e primo de Bruno, mostra um novo amor e um novo caminho para Ewa, mas o ciúme do cafetão acaba provocando uma tragédia.",
+    "imdb": "tt1951181",
+    "imagem": "https://image.tmdb.org/t/p/w300//pjSyQ0SEOqmcWiSt7U2ePD7a2KQ.jpg"
+},
+{
+    "titulo": "Menina de Ouro",
+    "descricao": "Frankie Dunn é um veterano treinador de boxe de Los Angeles que mantém quase todos a uma certa distância, exceto o velho amigo e sócio Eddie Dupris. Quando Maggie Fitzgerald, uma operária transferida de Missouri, chega ao ginásio de Frankie em busca de sua experiência, ele fica relutante em treinar a jovem. Mas quando cede ao seu jeito reservado, os dois formam um vínculo muito próximo que inevitavelmente mudará suas vidas.",
+    "imdb": "tt0405159",
+    "imagem": "https://image.tmdb.org/t/p/w300//b4FyJN6xo94bwUMKMy653eQHe3h.jpg"
+},
+{
+    "titulo": "Voc\u00ea Nunca Esteve Realmente Aqui",
+    "descricao": "Um homem, veterano de guerra, ganha a vida resgatando mulheres presas em cativeiros trabalhando como escravas sexuais. Após uma missão mal sucedida em um bordel de Manhattan, a opinião pública se torna contra ele e uma onda de violência se abate na região.",
+    "imdb": "tt5742374",
+    "imagem": "https://image.tmdb.org/t/p/w300//8OabfdTtAZgenyejDFD5UjVGQeE.jpg"
+},
+{
+    "titulo": "O Ver\u00e3o da Minha Vida",
+    "descricao": "Durante as férias de verão, ao ser menosprezado pelo namorado da mãe, um garoto faz amizade com um funcionário de um parque aquático. Além de encontrar um amigo e mentor, o jovem recupera a sua autoestima.",
+    "imdb": "tt1727388",
+    "imagem": "https://image.tmdb.org/t/p/w300//7Qp5Vmql5usbMbsf1QnUuSGB1fx.jpg"
+},
+{
+    "titulo": "Amantes",
+    "descricao": "Leonard Kraditor já tentou o suicídio diversas vezes. Ele não se recuperou do fim do noivado há dois anos, devido a uma doença, que ele e sua noiva possuíam, que faria com que seus filhos falecessem antes de completar um ano de vida. Seus pais, Reuben e Ruth, vivem preocupados com o filho e tentam fazer com que namore Sandra Cohen, filha de um casal amigo. Os dois se conhecem em um jantar na casa dos Kraditor, mantendo contato a partir de então. Dias depois Leonard conhece Michelle Rausch, sua vizinha, que está refugiada no corredor para evitar o mau humor de seu pai. Leonard oferece estadia em sua casa até que ele se acalme e logo demonstra interesse nela. Entretanto Michelle namora um homem casado, que sempre lhe promete que deixará a família mas nunca cumpre, e ainda tem problemas com drogas. Esta situação faz com que Leonard tenha que se decidir entre a paixão e o risco de viver com Michelle e o carinho e a tranquilidade oferecidos por Sandra.",
+    "imdb": "tt1103275",
+    "imagem": "https://image.tmdb.org/t/p/w300//rKmqtmOtDoNgOhVFbF2m3FhXP4J.jpg"
+},
+{
+    "titulo": "Caminho sem Volta",
+    "descricao": "Leo Handler (Mark Wahlberg) um rapaz durão com duas características: uma folha de crimes nas suas costas e a certeza de que pode recomeçar sua vida afastado dos negócios ilegais. Ao deixar a prisão após cumprir pena por um crime que não havia cometido, Leo consegue um emprego na empresa de trem do seu tio (James Caan). Porém, logo ele descobre as conexões da empresa em que trabalha com diversos crimes ocorridos e começa a se envolver em diversos problemas, decorrentes desta descoberta.",
+    "imdb": "tt0138946",
+    "imagem": "https://image.tmdb.org/t/p/w300//meB6a3YMBqUqG3TrERLTqZJoHN3.jpg"
+},
+{
+    "titulo": "O Acusado",
+    "descricao": "Um jovem é acusado injustamente de ter cometido um crime terrível. Quando justiceiros violentos invadem sua casa, ele se vê forçado a lutar para sobreviver.",
+    "imdb": "tt12648266",
+    "imagem": "https://image.tmdb.org/t/p/w300//9lcVaSYlHAwsDqU3UFtUo4xvCZ.jpg"
+},
+{
+    "titulo": "Breaking Point: Paix\u00e3o \u00e0 Dan\u00e7a",
+    "descricao": "Dois irmãos dançarinos desafiam o luto e suas diferenças para competir nas seletivas nacionais de breakdance da Grã-Bretanha e conseguir uma vaga na equipe que representará o país no Campeonato Mundial de Londres.",
+    "imdb": "tt12053110",
+    "imagem": "https://image.tmdb.org/t/p/w300//k7ijpc3yvoynohvUGzI9MOmFoOA.jpg"
+},
+{
+    "titulo": "O Lodo",
+    "descricao": "Para curar uma depressão, Manfredo, funcionário de uma empresa de seguros, procura um psiquiatra, o Dr. Pink. O médico insiste em saber de seu passado, mas há algo que Manfredo não deseja revelar e ele abandona o tratamento. O Dr.Pink passa a persegui-lo e a vida de Manfredo se transforma num verdadeiro inferno.",
+    "imdb": "tt11701102",
+    "imagem": "https://image.tmdb.org/t/p/w300//rtAbde8LTcD7aMxm1i5gVJnqVH5.jpg"
+},
+{
+    "titulo": "Ningu\u00e9m Vai te Salvar",
+    "descricao": "Brynn é uma jovem talentosa que vive isolada pela sua comunidade. Solitária, mas cheia de esperança, ela se refugia na casa onde cresceu, até o dia em que é despertada por barulhos estranhos que só podem ser oriundos de invasores alienígenas. O que se desenrola a partir daí é um duelo incessante entre Brynn e os seres extraterrestres que ameaçam seu futuro enquanto a obrigam a encarar seu passado",
+    "imdb": "tt14509110",
+    "imagem": "https://image.tmdb.org/t/p/w300//hkIwPpdmGI1BaZeR2yrPSnNcv4v.jpg"
+},
+{
+    "titulo": "Passivonas",
+    "descricao": "Duas alunas não populares do último ano do ensino médio criam um clube da luta para tentar impressionar e conquistar líderes de torcida. E o plano bizarro delas funciona! Mas será que elas vão se meter em encrenca?",
+    "imdb": "tt17527468",
+    "imagem": "https://image.tmdb.org/t/p/w300//j6QzJKshfI2EoYCoGGdGszazmF1.jpg"
+},
+{
+    "titulo": "13 Dias Que Abalaram o Mundo",
+    "descricao": "Durante treze extraordinários dias em outubro de 1962, o mundo esteve à beira de uma verdadeira catástrofe. Todo o planeta aguardava com ansiedade o desfecho do confronto político-militar entre Estados Unidos e União Soviética em razão da instalação de mísseis antiaéreos soviéticos em Cuba. O confronto foi tão sério que quase provocou uma guerra nuclear entre as duas potências, o que poderia ter destruído toda a humanidade.  O alarmante desenvolvimento dos eventos ocorridos durante esses treze dias envolveu um número enorme de políticos, militares e gente influente que temiam uma invasão russa através do estabelecimento da base militar em Cuba.  A ação se passa quase que em sua totalidade dentro da Casa Branca, onde discussões acaloradas e intermináveis sobre como encaminhar a questão do armamento de Cuba com o então poderoso governo da União Soviética consumiam os dias dos políticos e, principalmente, do presidente e seus dois fiéis confidentes e amigos.",
+    "imdb": "tt0146309",
+    "imagem": "https://image.tmdb.org/t/p/w300//sZFsobB9BAPWXA07bwag7wwHfvG.jpg"
+},
+{
+    "titulo": "Magn\u00f3lia",
+    "descricao": "Um dia em San Fernando Valley, na Califórnia, nos arredores da rua Magnólia, as vidas de nove personagens são interligadas através de um programa de televisão onde um grupo de três crianças desafia três adultos, cujas histórias se cruzam por coincidências do destino.",
+    "imdb": "tt0175880",
+    "imagem": "https://image.tmdb.org/t/p/w300//cpesHJbdZeRIfG0BZBYSx4LIEdQ.jpg"
+},
 ];
 
 // Função para adicionar filmes à página
