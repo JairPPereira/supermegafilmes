@@ -7,6 +7,24 @@ function searchMovies(event) {
 // Seu array de filmes
 var filmes = [
     {
+        "titulo": "Hotel Inferno 2: A Catedral da Dor",
+        "descricao": "",
+        "imdb": "tt4978404",
+        "imagem": "https://image.tmdb.org/t/p/w300//5G5HaQIfIWCKnvO8siCBA7cKz2f.jpg"
+    },
+    {
+        "titulo": "Hotel Inferno",
+        "descricao": "",
+        "imdb": "tt3398788",
+        "imagem": "https://image.tmdb.org/t/p/w300//9HUI2aCQVtN3vvIjLzfYp7pyB27.jpg"
+    },
+    {
+        "titulo": "Adeus \u00e0 Inoc\u00eancia",
+        "descricao": "",
+        "imdb": "tt0078753",
+        "imagem": "https://image.tmdb.org/t/p/w300//2HHFfieloWJcIz5PU3NKrv1i6DJ.jpg"
+    },
+    {
         "titulo": "2 Coelhos",
         "descricao": "Após se envolver em um grave acidente automobilístico, no qual uma mulher e seu filho são mortos, Edgar (Fernando Alves Pinto) é indiciado, mas consegue escapar da prisão graças à influência de um deputado estadual. Logo em seguida ele parte para uma temporada em Miami, onde retorna com um elaborado plano em que pretende atingir tanto o deputado que o ajudou, símbolo da corrupção política, quanto Maicon (Marat Descartes), um criminoso que consegue escapar da justiça graças ao suborno de políticos influentes.",
         "imdb": "tt1753722",
@@ -1043,6 +1061,84 @@ var filmes = [
     "descricao": "",
     "imdb": "tt0175880",
     "imagem": "https://image.tmdb.org/t/p/w300//cpesHJbdZeRIfG0BZBYSx4LIEdQ.jpg"
+},
+{
+    "titulo": "Rainha de Katwe",
+    "descricao": "",
+    "imdb": "tt4341582",
+    "imagem": "https://image.tmdb.org/t/p/w300//dYOzbMAJ9xwS3OUDVVbKaBa5h7u.jpg"
+},
+{
+    "titulo": "Na Natureza Selvagem",
+    "descricao": "",
+    "imdb": "tt0758758",
+    "imagem": "https://image.tmdb.org/t/p/w300//bv2od9QMVaojT9lI02Uk47Z40Ue.jpg"
+},
+{
+    "titulo": "O Compositor",
+    "descricao": "",
+    "imdb": "tt9724734",
+    "imagem": "https://image.tmdb.org/t/p/w300//eTUmWjp7DhARIfJLbw5DuWrD0Lb.jpg"
+},
+{
+    "titulo": "Suspeito X",
+    "descricao": "",
+    "imdb": "tt15748830",
+    "imagem": "https://image.tmdb.org/t/p/w300//sJqObd9wfW5EhCvnpzJuOar5fR1.jpg"
+},
+{
+    "titulo": "Na Linha de Frente",
+    "descricao": "",
+    "imdb": "tt10405760",
+    "imagem": "https://image.tmdb.org/t/p/w300//flMRy43ua8UQOkp555xZAQ9fYQn.jpg"
+},
+{
+    "titulo": "Um Jantar Quase Perfeito",
+    "descricao": "",
+    "imdb": "tt8563656",
+    "imagem": "https://image.tmdb.org/t/p/w300//17J49tGsoIsBy0GIl7LcH9eR068.jpg"
+},
+{
+    "titulo": "Entrando no Clima do Natal",
+    "descricao": "",
+    "imdb": "tt18350946",
+    "imagem": "https://image.tmdb.org/t/p/w300//lVQ1F1H5BCqDNjHIfmScpuTUnCh.jpg"
+},
+{
+    "titulo": "Hudson \u2013 Os Altos e Baixos da Vida",
+    "descricao": "",
+    "imdb": "tt7391126",
+    "imagem": "https://image.tmdb.org/t/p/w300//50srGK3wzqcKz7po5OQ7fn43CLf.jpg"
+},
+{
+    "titulo": "O Viajante do Tempo",
+    "descricao": "",
+    "imdb": "tt3484204",
+    "imagem": "https://image.tmdb.org/t/p/w300//b6SZ2fme18X5EPj7zN6bxeNHjEP.jpg"
+},
+{
+    "titulo": "Hist\u00f3rias de Meninas",
+    "descricao": "",
+    "imdb": "tt10434142",
+    "imagem": "https://image.tmdb.org/t/p/w300//aGeud4Kor6RKhx2jXWyDo7Dyryy.jpg"
+},
+{
+    "titulo": "Perdida",
+    "descricao": "",
+    "imdb": "tt6415842",
+    "imagem": "https://image.tmdb.org/t/p/w300//yYVLZgee1MpLGAB4YMneCdWLpEq.jpg"
+},
+{
+    "titulo": "Pequenos Espi\u00f5es: Apocalipse",
+    "descricao": "",
+    "imdb": "tt13978520",
+    "imagem": "https://image.tmdb.org/t/p/w300//cwCKYjIPXapuBtO51S81GNhoGxV.jpg"
+},
+{
+    "titulo": "Como Superar um Cora\u00e7\u00e3o em Peda\u00e7os",
+    "descricao": "",
+    "imdb": "tt28765467",
+    "imagem": "https://image.tmdb.org/t/p/w300//19CG7aTgNRF8DvM3Cla4Zn2qWzh.jpg"
 },
 ];
 

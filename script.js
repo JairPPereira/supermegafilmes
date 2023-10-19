@@ -1,5 +1,23 @@
 var filmes = [
     {
+        "titulo": "Hotel Inferno 2: A Catedral da Dor",
+        "descricao": "Após ter sido morto pelos malucos do culto Mistandrian, Frank está perdido em um nível especial do inferno: o Hotel Inferno. Frank deve coletar os cinco elementos que compõem a alma humana para que ela possa retornar a Terra e recuperar seu corpo.",
+        "imdb": "tt4978404",
+        "imagem": "https://image.tmdb.org/t/p/w300//5G5HaQIfIWCKnvO8siCBA7cKz2f.jpg"
+    },
+    {
+        "titulo": "Hotel Inferno",
+        "descricao": "O assassino de aluguel Frank Zimosa acabou de ser contratado para uma missão ridicularmente lucrativa pelo rico e poderoso Jorge Mistrandia. O objetivo: matar um casal escondido em um hotel na Europa. O que parecia ser um dos trabalhos mais simples de Frank já teve irá se transformar num pesadelo vivo.",
+        "imdb": "tt3398788",
+        "imagem": "https://image.tmdb.org/t/p/w300//9HUI2aCQVtN3vvIjLzfYp7pyB27.jpg"
+    },
+    {
+        "titulo": "Adeus \u00e0 Inoc\u00eancia",
+        "descricao": "No início da Primeira Guerra Mundial, Paul Baumer é um jovem patriota alemão, ávido por lutar. Doutrinado com propaganda na escola, ele e seus amigos ansiosamente se alistam no exército logo após a formatura. Mas quando os horrores da guerra logo se tornam demais para suportar, e quando seus amigos morrem ou ficam gravemente feridos, Paul questiona a sanidade de lutar por algumas centenas de metros de campos devastados pela guerra. (e 16 - Estimado 16 Anos)",
+        "imdb": "tt0078753",
+        "imagem": "https://image.tmdb.org/t/p/w300//2HHFfieloWJcIz5PU3NKrv1i6DJ.jpg"
+    },
+    {
         "titulo": "2 Coelhos",
         "descricao": "Após se envolver em um grave acidente automobilístico, no qual uma mulher e seu filho são mortos, Edgar (Fernando Alves Pinto) é indiciado, mas consegue escapar da prisão graças à influência de um deputado estadual. Logo em seguida ele parte para uma temporada em Miami, onde retorna com um elaborado plano em que pretende atingir tanto o deputado que o ajudou, símbolo da corrupção política, quanto Maicon (Marat Descartes), um criminoso que consegue escapar da justiça graças ao suborno de políticos influentes.",
         "imdb": "tt1753722",
@@ -1036,6 +1054,84 @@ var filmes = [
     "descricao": "Um dia em San Fernando Valley, na Califórnia, nos arredores da rua Magnólia, as vidas de nove personagens são interligadas através de um programa de televisão onde um grupo de três crianças desafia três adultos, cujas histórias se cruzam por coincidências do destino.",
     "imdb": "tt0175880",
     "imagem": "https://image.tmdb.org/t/p/w300//cpesHJbdZeRIfG0BZBYSx4LIEdQ.jpg"
+},
+{
+    "titulo": "Rainha de Katwe",
+    "descricao": "Phiona Mutesi é uma jovem de Uganda que faz de tudo para alcançar o seu objetivo de se tornar uma das melhores jogadoras de xadrez do mundo. Órfã de pai e moradora de uma região bem pobre, Mutesi foi obrigada a largar a escola por falta de dinheiro, mas agora está decidida a enfrentar todos os obstáculos para tornar seu sonho realidade.",
+    "imdb": "tt4341582",
+    "imagem": "https://image.tmdb.org/t/p/w300//dYOzbMAJ9xwS3OUDVVbKaBa5h7u.jpg"
+},
+{
+    "titulo": "Na Natureza Selvagem",
+    "descricao": "Início da década de 90. Christopher McCandless (Emile Hirsch) é um jovem recém-formado, que decide viajar sem rumo pelos Estados Unidos em busca da liberdade. Durante sua jornada pela Dakota do Sul, Arizona e Califórnia ele conhece pessoas que mudam sua vida, assim como sua presença também modifica as delas. Até que, após dois anos na estrada, Christopher decide fazer a maior das viagens e partir rumo ao Alasca.",
+    "imdb": "tt0758758",
+    "imagem": "https://image.tmdb.org/t/p/w300//bv2od9QMVaojT9lI02Uk47Z40Ue.jpg"
+},
+{
+    "titulo": "O Compositor",
+    "descricao": "Durante a Segunda Guerra Mundial, enquanto a cidade de Perm, na Rússia, é evacuada por causa do conflito, o renomado compositor Aram Khatchadourian é encarregado de criar uma última peça musical para o famoso balé Gayane. No decorrer de apenas 8 horas, apesar do caos da evacuação e da severa censura soviética, ele consegue criar o que se tornaria a obra mais famosa de sua carreira.",
+    "imdb": "tt9724734",
+    "imagem": "https://image.tmdb.org/t/p/w300//eTUmWjp7DhARIfJLbw5DuWrD0Lb.jpg"
+},
+{
+    "titulo": "Suspeito X",
+    "descricao": "Um talentoso professor de matemática tenta ajudar uma mãe solo envolvida em um crime. Mas um policial insistente pode atrapalhar.",
+    "imdb": "tt15748830",
+    "imagem": "https://image.tmdb.org/t/p/w300//sJqObd9wfW5EhCvnpzJuOar5fR1.jpg"
+},
+{
+    "titulo": "Na Linha de Frente",
+    "descricao": "Eden e Abdel são dois jovens terroristas que planejam um ataque a uma escola em Bruxelas. Porém, na hora do atentado, Abdel se explode antes do combinado e acaba ferindo Eden, que é socorrido por uma ambulância junto com outras vítimas. Os paramédicos não têm ideia de quem é o menino, mas, quando um deles percebe o cinto cheio de explosivos, já é tarde demais: Eden acordou e ameaça explodir a ambulância se os médicos não o fizerem o que ele manda.",
+    "imdb": "tt10405760",
+    "imagem": "https://image.tmdb.org/t/p/w300//flMRy43ua8UQOkp555xZAQ9fYQn.jpg"
+},
+{
+    "titulo": "Um Jantar Quase Perfeito",
+    "descricao": "Em uma mansão luxuosa de Hollywood, um jantar aparentemente amigável acaba se transformando em noite de terror e violência. A mistura perigosa de álcool, egos, luxúria e diferenças culturais leva os convidados a revelarem seus segredos mais obscuros e fazerem coisas inimagináveis enquanto tentam cumprir o desafio mais difícil de todos: escapar dessa noite com vida.",
+    "imdb": "tt8563656",
+    "imagem": "https://image.tmdb.org/t/p/w300//17J49tGsoIsBy0GIl7LcH9eR068.jpg"
+},
+{
+    "titulo": "Entrando no Clima do Natal",
+    "descricao": "Neste Natal, Rae organiza uma apresentação de dança para arrecadar fundos com o objetivo de levar seus alunos para ver um show da Broadway em Nova York. Billy, de visita nas festas, se oferece para ajudar Rae.",
+    "imdb": "tt18350946",
+    "imagem": "https://image.tmdb.org/t/p/w300//lVQ1F1H5BCqDNjHIfmScpuTUnCh.jpg"
+},
+{
+    "titulo": "Hudson \u2013 Os Altos e Baixos da Vida",
+    "descricao": "Em uma jornada para espalhar as cinzas de sua mãe, um homem recluso e tímido encontra amizades inesperadas e uma chance de começar a viver sua vida.",
+    "imdb": "tt7391126",
+    "imagem": "https://image.tmdb.org/t/p/w300//50srGK3wzqcKz7po5OQ7fn43CLf.jpg"
+},
+{
+    "titulo": "O Viajante do Tempo",
+    "descricao": "Um viajante do tempo e seu I.A. companheiro. Norman fica preso e isolado no passado, colocando em risco a vida no passado e no futuro. Ele deve inventar um caminho de volta ao futuro antes que o mundo entre em colapso.",
+    "imdb": "tt3484204",
+    "imagem": "https://image.tmdb.org/t/p/w300//b6SZ2fme18X5EPj7zN6bxeNHjEP.jpg"
+},
+{
+    "titulo": "Hist\u00f3rias de Meninas",
+    "descricao": "No início dos anos 1990, em Zaragoza, na Espanha, Celia é uma menina de 11 anos que vive com sua mãe viúva e estuda em uma escola religiosa. Até que Brisa, uma menina vinda de Barcelona, chega à escola e abre as portas da adolescência para Celia. Juntas, elas viverão o despertar sexual, questionarão a morte e descobrirão que a educação feminina é cheia de tabus e contradições.",
+    "imdb": "tt10434142",
+    "imagem": "https://image.tmdb.org/t/p/w300//aGeud4Kor6RKhx2jXWyDo7Dyryy.jpg"
+},
+{
+    "titulo": "Perdida",
+    "descricao": "A vida de Sofia dá uma guinada quando ela compra um celular novo e acaba sendo transportada para o século 19. Desesperada para voltar para casa e sua vida, ela é acolhida pela família Clarke, e encontra em Ian uma ajuda para resolver o mistério. No entanto, ela vai descobrir que seu coração tinha outros planos.",
+    "imdb": "tt6415842",
+    "imagem": "https://image.tmdb.org/t/p/w300//yYVLZgee1MpLGAB4YMneCdWLpEq.jpg"
+},
+{
+    "titulo": "Pequenos Espi\u00f5es: Apocalipse",
+    "descricao": "Quando os filhos dos maiores agentes secretos do mundo, involuntariamente, ajudam um poderoso desenvolvedor de jogos a liberar um vírus de computador que lhe dá o controle de toda a tecnologia, eles próprios devem se tornar espiões para salvar seus pais e o mundo.",
+    "imdb": "tt13978520",
+    "imagem": "https://image.tmdb.org/t/p/w300//cwCKYjIPXapuBtO51S81GNhoGxV.jpg"
+},
+{
+    "titulo": "Como Superar um Cora\u00e7\u00e3o em Peda\u00e7os",
+    "descricao": "Sequência do filme peruano Soltera Codiciada. apertado para escrever um novo livro.",
+    "imdb": "tt28765467",
+    "imagem": "https://image.tmdb.org/t/p/w300//19CG7aTgNRF8DvM3Cla4Zn2qWzh.jpg"
 },
 ];
 
