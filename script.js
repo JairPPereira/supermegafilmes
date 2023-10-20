@@ -1,5 +1,47 @@
 var filmes = [
     {
+        "titulo": "A Ilha do Dr. Moreau",
+        "descricao": "Em um futuro próximo, um homem (David Thewlis) em missão militar sofre um acidente no seu avião e, depois de vários dias, é resgatado por um cientista que o leva a uma remota ilha, onde um famoso geneticista (Marlon Brando), vencedor do prêmio Nobel, faz experiências com DNA e tenta criar uma raça perfeita, transformando animais selvagens em seres humanos. Porém, esta estranha mutação vai criar situações imprevisíveis.",
+        "imdb": "tt0116654",
+        "imagem": "https://image.tmdb.org/t/p/w300//aMQXj9YaeAoMwyigHW5cXfxmGpQ.jpg"
+    },
+    {
+        "titulo": "Desejo de Matar",
+        "descricao": "Após ter sua casa invadida e esposa assassinada por bandidos, Paul (Bruce Willis) passa a acompanhar a polícia nas investigações para capturar os criminosos. Em poucos dias ele percebe que a polícia jamais encontrará os assassinos. Sem opções, ele terá que se aventurar por caminhos obscuros em uma jornada pessoal em busca de justiça.",
+        "imdb": "tt1137450",
+        "imagem": "https://image.tmdb.org/t/p/w300//yo2FRPhsifn044quPVyMtYlnoyZ.jpg"
+    },
+    {
+        "titulo": "Desejo de Matar 5: A Face da Morte",
+        "descricao": "Paul Kersey abandonou há anos a sua carreira de vigilante para viver sob nova identidade. Mas resolve voltar às armas quando o gângster Tommy O'Shea desfigura e mata a sua nova namorada, a estilista Olivia Regent. Ciente de que nem a polícia e nem a justiça poderão ajudá-lo, Kersey começa a matar os membros da quadrilha de O Shea um a um.",
+        "imdb": "tt0109578",
+        "imagem": "https://image.tmdb.org/t/p/w300//jWI1LlDxvaE9FjkMo2KQAx8brP5.jpg"
+    },
+    {
+        "titulo": "A Casa do Espanto 3",
+        "descricao": "Finalmente, o detetive Lucas McCarthy (Lance Henriksen) consegue prender Max Jenke (Brion James), um assassino diabólico. Ele é executado na cadeira elétrica, porém isso só o transporta para um outro nível de realidade e o assassino jura vingança contra o detetive. E, após a sua morte, ele retorna para infernizar a vida de seu algoz. Agora, a família de Lucas está sendo atacada, ele está à beira da loucura e sua casa assombrada. Será que com a ajuda de um mal-afamado professor, ele conseguirá mandar Max de uma vez por todas para o inferno?",
+        "imdb": "tt0097527",
+        "imagem": "https://image.tmdb.org/t/p/w300//azkxRbusgAZiXGcZMfjWdYdqdGb.jpg"
+    },
+    {
+        "titulo": "A Casa do Espanto 2",
+        "descricao": "Jesse (Arye Gross), o tataraneto do explorador que constuiu a casa, recebe a mansão como herança embora tenha sido nela que seus pais foram mortos quando ele ainda era um bebê. Acreditando que seu tataravô tenha enterrado o produto de seus roubos em algum lugar na casa, com a ajuda de Kate (Lar Par Lincoln) sua namorada e seu amigos Charlie (Jonathan Stark), Jesse inicia sua busca. Mas, ao invés de encontrar um tesouro, ele desenterra seu tataravô (Royal Dano ) e descobre que o velho fora-da-lei usou os poderes de uma caveira de cristal asteca que proporciona a imortalidade a quem a possui. Mas, logo surgem mortos-vivos e zumbis que estão tão determinados a colocar as mãos na poderosa caveira quanto o valeho cadáver em mantê-la consigo... Tem início um arrepiante duelo entre dois feiticeiros, uma série de eventos assustadoramente bizarros.",
+        "imdb": "tt0093220",
+        "imagem": "https://image.tmdb.org/t/p/w300//A4tfyHwA0aZjDIBMRpONkNfhzUD.jpg"
+    },
+    {
+        "titulo": "A Casa do Espanto",
+        "descricao": "Roger Cobb (William Katt), é um veterano da guerra do Vietnã cuja carreira como escritor de histórias de horror, sofre uma reviravolta, quando misteriosamente seu filho Jimmy desaparece ao visitar a casa de sua tia. A obcecada procura por seu filho destruiu toda sua carreira como escritor e até mesmo seu casamento, mas agora, com a súbita morte de sua tia, ele retorna a casa onde seu pior pesadelo tem início. Os demoníacos seres que habitam a assustadora casa o forçam a enfrentar uma angustiante jornada ao passado, na qual ele reencontrará seu filho. Roger precisa combater as forças do mal que o assombraram por toda vida, a fim de salvar a ele e a seu filho da morte certa.",
+        "imdb": "tt0091223",
+        "imagem": "https://image.tmdb.org/t/p/w300//kiIZdDYP2vUV3PZrgY5vJBHhhdf.jpg"
+    },
+    {
+        "titulo": "Separados Pelo Casamento",
+        "descricao": "Levados ao rompimento após a última discussão do tipo por que não quer fazer isso por mim?, Brooke resolve acabar o relacionamento com o namorado Gary. O que se segue é uma série hilariante de mesquinharias, táticas de guerra, planos de vingança e truques baixos e os incentivos para reconciliação, vindo dos amigos e confidentes do ex-casal! Mas, quando nenhum, dos dois decidem deixar o apartamento que dividem, a única solução é continuar vivendo juntos em total desarmonia, esperando o momento em que uma das partes resolva cair fora.",
+        "imdb": "tt0452594",
+        "imagem": "https://image.tmdb.org/t/p/w300//odWaWYcmnxPmMDkjzL22164MOhU.jpg"
+    },    
+    {
         "titulo": "Hotel Inferno 2: A Catedral da Dor",
         "descricao": "Após ter sido morto pelos malucos do culto Mistandrian, Frank está perdido em um nível especial do inferno: o Hotel Inferno. Frank deve coletar os cinco elementos que compõem a alma humana para que ela possa retornar a Terra e recuperar seu corpo.",
         "imdb": "tt4978404",
@@ -1132,6 +1174,126 @@ var filmes = [
     "descricao": "Sequência do filme peruano Soltera Codiciada. apertado para escrever um novo livro.",
     "imdb": "tt28765467",
     "imagem": "https://image.tmdb.org/t/p/w300//19CG7aTgNRF8DvM3Cla4Zn2qWzh.jpg"
+},
+{
+    "titulo": "A Lista da Vingan\u00e7a",
+    "descricao": "Para salvar o filho acusado injustamente de sequestro, um homem decide fazer justiça com as próprias mãos e enfrenta uma gangue de policiais corruptos.",
+    "imdb": "tt24083908",
+    "imagem": "https://image.tmdb.org/t/p/w300//r8vVQ0blfRsRth1rCjNt45pY293.jpg"
+},
+{
+    "titulo": "Trapped in the Cabin",
+    "descricao": "",
+    "imdb": "tt27460992",
+    "imagem": "https://image.tmdb.org/t/p/w300//ykrOMIARBk0b4NY2I0IxsFUhUe8.jpg"
+},
+{
+    "titulo": "Love, Fashion, Repeat",
+    "descricao": "Lisa volta para sua cidade natal a procura de inspiração para sua nova linha de moda. Quando ela encontra Colin, um escritor que está escrevendo sua auto biografia, se apaixonar é a última coisa que vem a sua mente, será que Lisa encontrará tempo para se apaixonar?",
+    "imdb": "tt16411844",
+    "imagem": "https://image.tmdb.org/t/p/w300//zIFSswSCCnIHga9rT9ZV7jwPLmx.jpg"
+},
+{
+    "titulo": "Celebra\u00e7\u00e3o Mortal",
+    "descricao": "Quatro antigas colegas de faculdade pertencentes à mesma sororidade se reúnem para celebrar o Black Greek Weekend. No entanto, o passado bate em suas portas e coisas estranhas e inexplicáveis começam a acontecer.",
+    "imdb": "tt15146646",
+    "imagem": "https://image.tmdb.org/t/p/w300//oGo9L1KK8jV744GTZjSytMAXdis.jpg"
+},
+{
+    "titulo": "Brie's Bake Off Challenge",
+    "descricao": "",
+    "imdb": "tt8834630",
+    "imagem": "https://image.tmdb.org/t/p/w300//1eU21is04jYYaqNq6NMMvEWVP8J.jpg"
+},
+{
+    "titulo": "Aporia",
+    "descricao": "Desde a perda de seu marido Sophie tem lutado para administrar a dor, um emprego de tempo integral e cuidados com sua filha devastada mas, quando um ex-físico revela uma máquina secreta que dobra o tempo, Sophie se depara com uma escolha impossível.",
+    "imdb": "tt8511466",
+    "imagem": "https://image.tmdb.org/t/p/w300//8BnoaS3M8zEVE6pCkOoyyEjswCH.jpg"
+},
+{
+    "titulo": "The Hill",
+    "descricao": "A notável história real da improvável jornada de Ricky Hill para jogar na Major League Baseball.",
+    "imdb": "tt8051894",
+    "imagem": "https://image.tmdb.org/t/p/w300//gKh28PVUqt1vY2oAdFlauXkDacW.jpg"
+},
+{
+    "titulo": "Birth/Rebirth",
+    "descricao": "Uma técnica de necrotério reanima com sucesso o corpo de uma menina, mas para mantê-la respirando, ela precisará colher materiais biológicos de mulheres grávidas.",
+    "imdb": "tt9048804",
+    "imagem": "https://image.tmdb.org/t/p/w300//yyIYih3OGJBGzf1V8kPs3goDWTx.jpg"
+},
+{
+    "titulo": "Unfinished",
+    "descricao": "",
+    "imdb": "tt15106604",
+    "imagem": "https://image.tmdb.org/t/p/w300//VmFkaJdH1lXYU0a4ZDGO5Fq9B2.jpg"
+},
+{
+    "titulo": "\u6383\u6bd23\ufe30\u4eba\u5728\u5929\u6daf",
+    "descricao": "",
+    "imdb": "tt26929966",
+    "imagem": "https://image.tmdb.org/t/p/w300//xtsEksiUjysMYv4gxdRQcbu2v6V.jpg"
+},
+{
+    "titulo": "The Baker",
+    "descricao": "Um padeiro idoso precisa fazer de tudo para proteger sua neta dos mafiosos.",
+    "imdb": "tt3917710",
+    "imagem": "https://image.tmdb.org/t/p/w300//ocUrOchwIIageWWrHKiiVgUc06L.jpg"
+},
+{
+    "titulo": "Shrapnel",
+    "descricao": "",
+    "imdb": "tt11069220",
+    "imagem": "https://image.tmdb.org/t/p/w300//jYOhBEgqmCYjUWiFHilzLoSdrrX.jpg"
+},
+{
+    "titulo": "Sahir Deep Web",
+    "descricao": "",
+    "imdb": "tt10213294",
+    "imagem": "https://image.tmdb.org/t/p/w300//2Lth507c6e4tgtVPvQVqtWAKGNp.jpg"
+},
+{
+    "titulo": "Nasty",
+    "descricao": "",
+    "imdb": "tt22500124",
+    "imagem": "https://image.tmdb.org/t/p/w300//peN4vyEJOaJWKEUBXfQdu5WoYb2.jpg"
+},
+{
+    "titulo": "Mount Hideaway Mysteries: Heartache and Homecoming",
+    "descricao": "",
+    "imdb": "tt21310658",
+    "imagem": "https://image.tmdb.org/t/p/w300//rclheGt04HeMD892DFbm6xWjCFJ.jpg"
+},
+{
+    "titulo": "Miss Futuro",
+    "descricao": "",
+    "imdb": "tt14605448",
+    "imagem": "https://image.tmdb.org/t/p/w300//wWU3QLewLsdOFbGcFF5MUkvKyTV.jpg"
+},
+{
+    "titulo": "Hidayah",
+    "descricao": "",
+    "imdb": "tt20873488",
+    "imagem": "https://image.tmdb.org/t/p/w300//4WN1JVADjNBMBpphTU0jE8mp8PN.jpg"
+},
+{
+    "titulo": "Francesca Quinn, PI",
+    "descricao": "",
+    "imdb": "tt21532904",
+    "imagem": "https://image.tmdb.org/t/p/w300//4Z1uaezAaQd1r8wUUepuh2jdVAE.jpg"
+},
+{
+    "titulo": "Bakit 'Di Mo Sabihin?",
+    "descricao": "",
+    "imdb": "tt22029436",
+    "imagem": "https://image.tmdb.org/t/p/w300//o8XGtRGGf8JGv0CInCqXtxH88LY.jpg"
+},
+{
+    "titulo": "A Aposta",
+    "descricao": "Brucie perde sua aposta e é misteriosamente jogado de volta no tempo para ver a vida pelos olhos daqueles que ele feriu brutalmente - uma experiência que alterará para sempre sua vida destruída.",
+    "imdb": "tt8806252",
+    "imagem": "https://image.tmdb.org/t/p/w300//bMfnxFHXD5VBh6m0RBUkZoaYIYc.jpg"
 },
 ];
 

@@ -7,6 +7,48 @@ function searchMovies(event) {
 // Seu array de filmes
 var filmes = [
     {
+        "titulo": "A Ilha do Dr. Moreau",
+        "descricao": "",
+        "imdb": "tt0116654",
+        "imagem": "https://image.tmdb.org/t/p/w300//aMQXj9YaeAoMwyigHW5cXfxmGpQ.jpg"
+    },
+    {
+        "titulo": "Desejo de Matar",
+        "descricao": "",
+        "imdb": "tt1137450",
+        "imagem": "https://image.tmdb.org/t/p/w300//yo2FRPhsifn044quPVyMtYlnoyZ.jpg"
+    },
+    {
+        "titulo": "Desejo de Matar 5: A Face da Morte",
+        "descricao": "",
+        "imdb": "tt0109578",
+        "imagem": "https://image.tmdb.org/t/p/w300//jWI1LlDxvaE9FjkMo2KQAx8brP5.jpg"
+    },
+    {
+        "titulo": "A Casa do Espanto 3",
+        "descricao": "",
+        "imdb": "tt0097527",
+        "imagem": "https://image.tmdb.org/t/p/w300//azkxRbusgAZiXGcZMfjWdYdqdGb.jpg"
+    },
+    {
+        "titulo": "A Casa do Espanto 2",
+        "descricao": "",
+        "imdb": "tt0093220",
+        "imagem": "https://image.tmdb.org/t/p/w300//A4tfyHwA0aZjDIBMRpONkNfhzUD.jpg"
+    },
+    {
+        "titulo": "A Casa do Espanto",
+        "descricao": "",
+        "imdb": "tt0091223",
+        "imagem": "https://image.tmdb.org/t/p/w300//kiIZdDYP2vUV3PZrgY5vJBHhhdf.jpg"
+    },
+    {
+        "titulo": "Separados Pelo Casamento",
+        "descricao": "",
+        "imdb": "tt0452594",
+        "imagem": "https://image.tmdb.org/t/p/w300//odWaWYcmnxPmMDkjzL22164MOhU.jpg"
+    },    
+    {
         "titulo": "Hotel Inferno 2: A Catedral da Dor",
         "descricao": "",
         "imdb": "tt4978404",
@@ -1139,6 +1181,126 @@ var filmes = [
     "descricao": "",
     "imdb": "tt28765467",
     "imagem": "https://image.tmdb.org/t/p/w300//19CG7aTgNRF8DvM3Cla4Zn2qWzh.jpg"
+},
+{
+    "titulo": "A Lista da Vingan\u00e7a",
+    "descricao": "",
+    "imdb": "tt24083908",
+    "imagem": "https://image.tmdb.org/t/p/w300//r8vVQ0blfRsRth1rCjNt45pY293.jpg"
+},
+{
+    "titulo": "Trapped in the Cabin",
+    "descricao": "",
+    "imdb": "tt27460992",
+    "imagem": "https://image.tmdb.org/t/p/w300//ykrOMIARBk0b4NY2I0IxsFUhUe8.jpg"
+},
+{
+    "titulo": "Love, Fashion, Repeat",
+    "descricao": "",
+    "imdb": "tt16411844",
+    "imagem": "https://image.tmdb.org/t/p/w300//zIFSswSCCnIHga9rT9ZV7jwPLmx.jpg"
+},
+{
+    "titulo": "Celebra\u00e7\u00e3o Mortal",
+    "descricao": "",
+    "imdb": "tt15146646",
+    "imagem": "https://image.tmdb.org/t/p/w300//oGo9L1KK8jV744GTZjSytMAXdis.jpg"
+},
+{
+    "titulo": "Brie's Bake Off Challenge",
+    "descricao": "",
+    "imdb": "tt8834630",
+    "imagem": "https://image.tmdb.org/t/p/w300//1eU21is04jYYaqNq6NMMvEWVP8J.jpg"
+},
+{
+    "titulo": "Aporia",
+    "descricao": "",
+    "imdb": "tt8511466",
+    "imagem": "https://image.tmdb.org/t/p/w300//8BnoaS3M8zEVE6pCkOoyyEjswCH.jpg"
+},
+{
+    "titulo": "The Hill",
+    "descricao": "",
+    "imdb": "tt8051894",
+    "imagem": "https://image.tmdb.org/t/p/w300//gKh28PVUqt1vY2oAdFlauXkDacW.jpg"
+},
+{
+    "titulo": "Birth/Rebirth",
+    "descricao": "",
+    "imdb": "tt9048804",
+    "imagem": "https://image.tmdb.org/t/p/w300//yyIYih3OGJBGzf1V8kPs3goDWTx.jpg"
+},
+{
+    "titulo": "Unfinished",
+    "descricao": "",
+    "imdb": "tt15106604",
+    "imagem": "https://image.tmdb.org/t/p/w300//VmFkaJdH1lXYU0a4ZDGO5Fq9B2.jpg"
+},
+{
+    "titulo": "\u6383\u6bd23\ufe30\u4eba\u5728\u5929\u6daf",
+    "descricao": "",
+    "imdb": "tt26929966",
+    "imagem": "https://image.tmdb.org/t/p/w300//xtsEksiUjysMYv4gxdRQcbu2v6V.jpg"
+},
+{
+    "titulo": "The Baker",
+    "descricao": "",
+    "imdb": "tt3917710",
+    "imagem": "https://image.tmdb.org/t/p/w300//ocUrOchwIIageWWrHKiiVgUc06L.jpg"
+},
+{
+    "titulo": "Shrapnel",
+    "descricao": "",
+    "imdb": "tt11069220",
+    "imagem": "https://image.tmdb.org/t/p/w300//jYOhBEgqmCYjUWiFHilzLoSdrrX.jpg"
+},
+{
+    "titulo": "Sahir Deep Web",
+    "descricao": "",
+    "imdb": "tt10213294",
+    "imagem": "https://image.tmdb.org/t/p/w300//2Lth507c6e4tgtVPvQVqtWAKGNp.jpg"
+},
+{
+    "titulo": "Nasty",
+    "descricao": "",
+    "imdb": "tt22500124",
+    "imagem": "https://image.tmdb.org/t/p/w300//peN4vyEJOaJWKEUBXfQdu5WoYb2.jpg"
+},
+{
+    "titulo": "Mount Hideaway Mysteries: Heartache and Homecoming",
+    "descricao": "",
+    "imdb": "tt21310658",
+    "imagem": "https://image.tmdb.org/t/p/w300//rclheGt04HeMD892DFbm6xWjCFJ.jpg"
+},
+{
+    "titulo": "Miss Futuro",
+    "descricao": "",
+    "imdb": "tt14605448",
+    "imagem": "https://image.tmdb.org/t/p/w300//wWU3QLewLsdOFbGcFF5MUkvKyTV.jpg"
+},
+{
+    "titulo": "Hidayah",
+    "descricao": "",
+    "imdb": "tt20873488",
+    "imagem": "https://image.tmdb.org/t/p/w300//4WN1JVADjNBMBpphTU0jE8mp8PN.jpg"
+},
+{
+    "titulo": "Francesca Quinn, PI",
+    "descricao": "",
+    "imdb": "tt21532904",
+    "imagem": "https://image.tmdb.org/t/p/w300//4Z1uaezAaQd1r8wUUepuh2jdVAE.jpg"
+},
+{
+    "titulo": "Bakit 'Di Mo Sabihin?",
+    "descricao": "",
+    "imdb": "tt22029436",
+    "imagem": "https://image.tmdb.org/t/p/w300//o8XGtRGGf8JGv0CInCqXtxH88LY.jpg"
+},
+{
+    "titulo": "A Aposta",
+    "descricao": "",
+    "imdb": "tt8806252",
+    "imagem": "https://image.tmdb.org/t/p/w300//bMfnxFHXD5VBh6m0RBUkZoaYIYc.jpg"
 },
 ];
 
