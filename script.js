@@ -625,19 +625,19 @@ var filmes = [
     },
     {
         "titulo": "Sib\u00e9ria",
-        "descricao": "",
+        "descricao": "Clint, um homem atormentado pelo passado, decide se isolar em uma casa nas montanhas, em um ambiente frio e hostil.",
         "imdb": "tt4687856",
         "imagem": "https://image.tmdb.org/t/p/w300//zzibikz7IpXzMDzWIeFUJaMIsZa.jpg"
     },
     {
         "titulo": "Sib\u00e9ria",
-        "descricao": "",
+        "descricao": "Quando o colega russo de um americano se perde, ele viaja até Siberia para procurar por ele mas cai numa aventura amorosa.",
         "imdb": "tt6494418",
         "imagem": "https://image.tmdb.org/t/p/w300//nZC1KuUB1lXoXyA2DogZegHfXe5.jpg"
     },
     {
         "titulo": "Meu Sonho, Seu Filho",
-        "descricao": "",
+        "descricao": "Um estudo incendiário sobre os efeitos perigosos da cultura machista na sociedade mexicana.",
         "imdb": "tt8235050",
         "imagem": "https://image.tmdb.org/t/p/w300//aRcXdOZV1coZmkelaGEgfmTgXx.jpg"
     },
@@ -649,31 +649,31 @@ var filmes = [
     },
     {
         "titulo": "O Rapto do Bet\u00e3o",
-        "descricao": "",
+        "descricao": "Betão o Leão encantado, junto ao seu Baú Mágico, foram sequestrados, e agora a confusão está armada. Muito agito, enigmas a serem desvendados, e um caminhão de trapalhadas.",
         "imdb": "tt15445966",
         "imagem": "https://image.tmdb.org/t/p/w300//sBJchR1AyiiG664GXQSvqOhWkIG.jpg"
     },
     {
         "titulo": "Traumas do Passado",
-        "descricao": "",
+        "descricao": "Imogen Day é uma adolescente que se muda com seus pais para uma pequena cidade no interior dos Estados Unidos. Buscando fugir de seu passado, ela é obrigada a enfrentar antigos segredos e uma misteriosa presença em sua nova casa.",
         "imdb": "tt6300886",
         "imagem": "https://image.tmdb.org/t/p/w300//mX1mRHxHOnSq1Rm7LYNh3qZmrKc.jpg"
     },
     {
         "titulo": "Miss Revolu\u00e7\u00e3o",
-        "descricao": "",
+        "descricao": "Um grupo de mulheres traça um plano para atrapalhar o concurso de beleza de Miss Mundo de 1970 em Londres.",
         "imdb": "tt9148706",
         "imagem": "https://image.tmdb.org/t/p/w300//aTGC7rQR3YuTmBPDkxAS67q7unO.jpg"
     },
     {
         "titulo": "A Ressurrei\u00e7\u00e3o da M\u00famia",
-        "descricao": "",
+        "descricao": "Quando um sarcófago amaldiçoado cai nas mãos de Everett Randolph, um inescrupuloso vendedor ambulante, ele se torna obcecado pela ideia de ressuscitar a princesa mumificada dentro dele.",
         "imdb": "tt20141822",
         "imagem": "https://image.tmdb.org/t/p/w300//qIrJYG0ffdbkR0f0a6slVLXOnjQ.jpg"
     },
     {
         "titulo": "Acampamento do Pecado",
-        "descricao": "",
+        "descricao": "Depois que a conversa inocente se torna inadequada, uma adolescente católica no início dos anos 2000 descobre a masturbação e luta para suprimir seus novos impulsos diante da condenação eterna.",
         "imdb": "tt8949056",
         "imagem": "https://image.tmdb.org/t/p/w300//1L07mlJ5Yhxm7OgZmnzIsROaX4m.jpg"
     },
