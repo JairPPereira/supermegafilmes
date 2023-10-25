@@ -2003,6 +2003,174 @@ var filmes = [
     "imdb": "tt14954534",
     "imagem": "https://image.tmdb.org/t/p/w300//xDjd2n4dheT1r6qUYAVcODC293I.jpg"
 },
+{
+    "titulo": "Piedade",
+    "descricao": "",
+    "imdb": "tt6566846",
+    "imagem": "https://image.tmdb.org/t/p/w300//rUVrAAXXjGhYflRUtbyqgREABKD.jpg"
+},
+{
+    "titulo": "Amor em South Beach",
+    "descricao": "",
+    "imdb": "tt15214710",
+    "imagem": "https://image.tmdb.org/t/p/w300//h517jl5N8y6wHUdD4GUveLy58wI.jpg"
+},
+{
+    "titulo": "Lan\u00e7ando Segundas Chances",
+    "descricao": "",
+    "imdb": "tt27549543",
+    "imagem": "https://image.tmdb.org/t/p/w300//4yGhktbhmLixEfpK3yrRFHXdL7W.jpg"
+},
+{
+    "titulo": "Dampyr: O Filho do Vampiro",
+    "descricao": "",
+    "imdb": "tt10315050",
+    "imagem": "https://image.tmdb.org/t/p/w300//msPaqyt06Na9wT6hIyUZak3Smfv.jpg"
+},
+{
+    "titulo": "O Estranho Caso de Cornelius Bloom",
+    "descricao": "",
+    "imdb": "tt6012684",
+    "imagem": "https://image.tmdb.org/t/p/w300//wCRk3NcQgZgsND8ZL5zBzzwTkzy.jpg"
+},
+{
+    "titulo": "Encontrando o Caminho",
+    "descricao": "",
+    "imdb": "tt7838654",
+    "imagem": "https://image.tmdb.org/t/p/w300//fTfac1Oy6gm0jWEsxzH94fMRi8l.jpg"
+},
+{
+    "titulo": "Desculpa, Mas Vou Te Matar",
+    "descricao": "",
+    "imdb": "tt3442126",
+    "imagem": "https://image.tmdb.org/t/p/w300//qtViCHlPDZ4YXfIIiZKZefeao1Z.jpg"
+},
+{
+    "titulo": "Guerreiro Virtual",
+    "descricao": "",
+    "imdb": "tt18933046",
+    "imagem": "https://image.tmdb.org/t/p/w300//5ITRvcMqKUETNskzw2mcU6C9k6d.jpg"
+},
+{
+    "titulo": "A Cor da Vingan\u00e7a",
+    "descricao": "",
+    "imdb": "tt2793072",
+    "imagem": "https://image.tmdb.org/t/p/w300//w65phx3T8pvrdtuOQFniNElssNr.jpg"
+},
+{
+    "titulo": "Desencontros Amorosos",
+    "descricao": "",
+    "imdb": "tt9011040",
+    "imagem": "https://image.tmdb.org/t/p/w300//43PGEGYAvgpUE9EvET2YkfITWU7.jpg"
+},
+{
+    "titulo": "Acampamento de Teatro",
+    "descricao": "",
+    "imdb": "tt21232992",
+    "imagem": "https://image.tmdb.org/t/p/w300//j0vEroDi8SepB3lXQGrrWQVRTSm.jpg"
+},
+{
+    "titulo": "The Mistress",
+    "descricao": "",
+    "imdb": "tt13780990",
+    "imagem": "https://image.tmdb.org/t/p/w300//1kdmre0wlUAUk9BvySv4Xoveieg.jpg"
+},
+{
+    "titulo": "Nosso Amigo Extraordin\u00e1rio",
+    "descricao": "",
+    "imdb": "tt15428940",
+    "imagem": "https://image.tmdb.org/t/p/w300//f4448n6w3nxORg5LQstZpwFVao1.jpg"
+},
+{
+    "titulo": "Inside Man",
+    "descricao": "",
+    "imdb": "tt18071320",
+    "imagem": "https://image.tmdb.org/t/p/w300//3u1idRG0En5tilIhsgiHl9D06OL.jpg"
+},
+{
+    "titulo": "A Noite das Bruxas",
+    "descricao": "",
+    "imdb": "tt22687790",
+    "imagem": "https://image.tmdb.org/t/p/w300//9UAc4DF4oEObQk4sz4sNeHI4waY.jpg"
+},
+{
+    "titulo": "1942: A Batalha Desconhecida",
+    "descricao": "",
+    "imdb": "tt11426562",
+    "imagem": "https://image.tmdb.org/t/p/w300//ee8vgETGy7xRCM2VJh4tGW86nyk.jpg"
+},
+{
+    "titulo": "A Milh\u00f5es de Quil\u00f4metros",
+    "descricao": "",
+    "imdb": "tt21940010",
+    "imagem": "https://image.tmdb.org/t/p/w300//gve64tTbxgo5NErRkwKeMdlHt5o.jpg"
+},
+{
+    "titulo": "Amor \u00e0 Primeira Vista",
+    "descricao": "",
+    "imdb": "tt13444014",
+    "imagem": "https://image.tmdb.org/t/p/w300//3a13ifmIiOsgKoQpOpDfsWCx4Qh.jpg"
+},
+{
+    "titulo": "Morte a Pinochet",
+    "descricao": "",
+    "imdb": "tt13393776",
+    "imagem": "https://image.tmdb.org/t/p/w300//4WHSNZi1nvyV5GfXtR9PbVsqJbl.jpg"
+},
+{
+    "titulo": "O Conde",
+    "descricao": "",
+    "imdb": "tt21113540",
+    "imagem": "https://image.tmdb.org/t/p/w300//6Y4gXjzN9lbKAUq5IQdlPyWWYur.jpg"
+},
+{
+    "titulo": "Um Ato de F\u00e9",
+    "descricao": "",
+    "imdb": "tt15321028",
+    "imagem": "https://image.tmdb.org/t/p/w300//uMTHUzecoJgAlekqBu6EQDFzZ8E.jpg"
+},
+{
+    "titulo": "Os Mercen\u00e1rios 4",
+    "descricao": "",
+    "imdb": "tt3291150",
+    "imagem": "https://image.tmdb.org/t/p/w300//dQxlUkhKGILgq9jbVEe3WPaiW2q.jpg"
+},
+{
+    "titulo": "Ehrengard: A Ninfa do Lago",
+    "descricao": "",
+    "imdb": "tt27727074",
+    "imagem": "https://image.tmdb.org/t/p/w300//eZwkqc75XDMy35keKJkk2rh3Jhf.jpg"
+},
+{
+    "titulo": "Em uma Terra Muito Distante\u2026 Havia um Crime",
+    "descricao": "",
+    "imdb": "tt15944018",
+    "imagem": "https://image.tmdb.org/t/p/w300//8r9yZ6cmZ6bxIhqfo69X1m9jYNJ.jpg"
+},
+{
+    "titulo": "Lorelei: Amores do Passado",
+    "descricao": "",
+    "imdb": "tt6461318",
+    "imagem": "https://image.tmdb.org/t/p/w300//L7IfaA6XpmB22lgU6f2cTGc3Zd.jpg"
+},
+{
+    "titulo": "Uma Chance para Vencer",
+    "descricao": "",
+    "imdb": "tt14701278",
+    "imagem": "https://image.tmdb.org/t/p/w300//jM9HhujEVbKAG0gaUXVzuCinrLC.jpg"
+},
+{
+    "titulo": "After: Para Sempre",
+    "descricao": "",
+    "imdb": "tt15334488",
+    "imagem": "https://image.tmdb.org/t/p/w300//tRjzdNiFHda6lrXySOQPyY3OtCA.jpg"
+},
+{
+    "titulo": "Freestyle",
+    "descricao": "",
+    "imdb": "tt28366647",
+    "imagem": "https://image.tmdb.org/t/p/w300//x6HrGmmpVUX8XBI9Vg4hbSsdBCX.jpg"
+}
 ];
 
 // Função para adicionar filmes à página
