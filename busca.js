@@ -7,6 +7,180 @@ function searchMovies(event) {
 // Seu array de filmes
 var filmes = [
     {
+        "titulo": "Titulo God's Time",
+        "descricao": "",
+        "imdb": "tt13528840",
+        "imagem": "https://image.tmdb.org/t/p/w300//uEBpFcsvqwuEQJbk6B6ML6OAcLU.jpg"
+    },
+    {
+        "titulo": "Titulo County Line: No Fear",
+        "descricao": "",
+        "imdb": "tt15141146",
+        "imagem": "https://image.tmdb.org/t/p/w300//ckdp577N5M9qSU5hIAz5HDsg0QI.jpg"
+    },
+    {
+        "titulo": "Titulo Black Wolf",
+        "descricao": "",
+        "imdb": "tt10393330",
+        "imagem": "https://image.tmdb.org/t/p/w300//1E2wJPuaC8lN9EerSrN4Hwi2oa8.jpg"
+    },
+    {
+        "titulo": "Titulo All Crazy Random",
+        "descricao": "",
+        "imdb": "tt14361698",
+        "imagem": "https://image.tmdb.org/t/p/w300//peCWFlk4NqHCFgIJkRcecQhzrH1.jpg"
+    },
+    {
+        "titulo": "Titulo Alive",
+        "descricao": "",
+        "imdb": "tt11813708",
+        "imagem": "https://image.tmdb.org/t/p/w300//mzZOUDYaeeq9rGElNRQaqjMMLXS.jpg"
+    },
+    {
+        "titulo": "Titulo O Dia em que a Terra Parou",
+        "descricao": "",
+        "imdb": "tt0043456",
+        "imagem": "https://image.tmdb.org/t/p/w300//2d93VMmOCriN7dxXLjr5JpyZr86.jpg"
+    },
+    {
+        "titulo": "Titulo Sem Perd\u00e3o",
+        "descricao": "",
+        "imdb": "tt0091637",
+        "imagem": "https://image.tmdb.org/t/p/w300//kS2gd7yGJGPDeIOwJa3vKwX0bRL.jpg"
+    },
+    {
+        "titulo": "Titulo Pintou Sujeira",
+        "descricao": "",
+        "imdb": "tt0084788",
+        "imagem": "https://image.tmdb.org/t/p/w300//5THtxQetFqaXJ5w1uCnoQdH7b34.jpg"
+    },
+    {
+        "titulo": "Titulo Cheech e Chong Atacam Novamente",
+        "descricao": "",
+        "imdb": "tt0080520",
+        "imagem": "https://image.tmdb.org/t/p/w300//4PZpTkk7CE2956c3bER07HNUI1V.jpg"
+    },
+    {
+        "titulo": "Titulo O Corvo Branco",
+        "descricao": "",
+        "imdb": "tt5460858",
+        "imagem": "https://image.tmdb.org/t/p/w300//sOirlm1YRz0zDTyjbllzOacHPa4.jpg"
+    },
+    {
+        "titulo": "Titulo O Corvo",
+        "descricao": "",
+        "imdb": "tt0057449",
+        "imagem": "https://image.tmdb.org/t/p/w300//tt7m22ki1raa0NrvesawJgsQ4Jn.jpg"
+    },
+    {
+        "titulo": "Titulo Redirecionado",
+        "descricao": "",
+        "imdb": "tt2275946",
+        "imagem": "https://image.tmdb.org/t/p/w300//qQUqHogCcyqFGbxAG26yGymSMfT.jpg"
+    },
+    {
+        "titulo": "Titulo R\u00e1pidos e Perigosos 2",
+        "descricao": "",
+        "imdb": "tt4956984",
+        "imagem": "https://image.tmdb.org/t/p/w300//7YspOOslylCOlXsPo1qAuNb1lLG.jpg"
+    },
+    {
+        "titulo": "Titulo Opera\u00e7\u00e3o Kickbox 4 - Sem Aviso",
+        "descricao": "",
+        "imdb": "tt0130370",
+        "imagem": "https://image.tmdb.org/t/p/w300//mbQLRJ9SVax32z1SV2JMQLZz3nk.jpg"
+    },
+    {
+        "titulo": "Titulo C\u00e9u Vermelho",
+        "descricao": "",
+        "imdb": "tt1946381",
+        "imagem": "https://image.tmdb.org/t/p/w300//ydaLMfIrTQVlC8BpIuxmsgAy2Kc.jpg"
+    },
+    {
+        "titulo": "Titulo C\u00e9u em Chamas",
+        "descricao": "",
+        "imdb": "tt6157600",
+        "imagem": "https://image.tmdb.org/t/p/w300//63mTxkeY9hsb9nFIUEiR2yBopuz.jpg"
+    },
+    {
+        "titulo": "Titulo Sib\u00e9ria",
+        "descricao": "",
+        "imdb": "tt4687856",
+        "imagem": "https://image.tmdb.org/t/p/w300//zzibikz7IpXzMDzWIeFUJaMIsZa.jpg"
+    },
+    {
+        "titulo": "Titulo Sib\u00e9ria",
+        "descricao": "",
+        "imdb": "tt6494418",
+        "imagem": "https://image.tmdb.org/t/p/w300//nZC1KuUB1lXoXyA2DogZegHfXe5.jpg"
+    },
+    {
+        "titulo": "Titulo Meu Sonho, Seu Filho",
+        "descricao": "",
+        "imdb": "tt8235050",
+        "imagem": "https://image.tmdb.org/t/p/w300//aRcXdOZV1coZmkelaGEgfmTgXx.jpg"
+    },
+    {
+        "titulo": "Titulo Juventude Perdida",
+        "descricao": "",
+        "imdb": "tt8529772",
+        "imagem": "https://image.tmdb.org/t/p/w300//ow3qmhRH8egOMrDbNZEb3oImeS9.jpg"
+    },
+    {
+        "titulo": "Titulo O Rapto do Bet\u00e3o",
+        "descricao": "",
+        "imdb": "tt15445966",
+        "imagem": "https://image.tmdb.org/t/p/w300//sBJchR1AyiiG664GXQSvqOhWkIG.jpg"
+    },
+    {
+        "titulo": "Titulo Traumas do Passado",
+        "descricao": "",
+        "imdb": "tt6300886",
+        "imagem": "https://image.tmdb.org/t/p/w300//mX1mRHxHOnSq1Rm7LYNh3qZmrKc.jpg"
+    },
+    {
+        "titulo": "Titulo Miss Revolu\u00e7\u00e3o",
+        "descricao": "",
+        "imdb": "tt9148706",
+        "imagem": "https://image.tmdb.org/t/p/w300//aTGC7rQR3YuTmBPDkxAS67q7unO.jpg"
+    },
+    {
+        "titulo": "Titulo A Ressurrei\u00e7\u00e3o da M\u00famia",
+        "descricao": "",
+        "imdb": "tt20141822",
+        "imagem": "https://image.tmdb.org/t/p/w300//qIrJYG0ffdbkR0f0a6slVLXOnjQ.jpg"
+    },
+    {
+        "titulo": "Titulo Acampamento do Pecado",
+        "descricao": "",
+        "imdb": "tt8949056",
+        "imagem": "https://image.tmdb.org/t/p/w300//1L07mlJ5Yhxm7OgZmnzIsROaX4m.jpg"
+    },
+    {
+        "titulo": "Titulo Acampamento Maldito",
+        "descricao": "",
+        "imdb": "tt2789014",
+        "imagem": "https://image.tmdb.org/t/p/w300//ayMAxYTvCMWCQKG84dRT8ZEa0GC.jpg"
+    },
+    {
+        "titulo": "Titulo Ver\u00e3o 2003",
+        "descricao": "",
+        "imdb": "tt7284204",
+        "imagem": "https://image.tmdb.org/t/p/w300//yGWszbTJRmQVJv98abEyfdLOsHh.jpg"
+    },
+    {
+        "titulo": "Titulo A Chamada",
+        "descricao": "",
+        "imdb": "tt6906292",
+        "imagem": "https://image.tmdb.org/t/p/w300//eqaSh2PjYcGpS6rybz6UjLNuvrg.jpg"
+    },
+    {
+        "titulo": "Titulo O Diabo no Tribunal",
+        "descricao": "",
+        "imdb": "tt28810493",
+        "imagem": "https://image.tmdb.org/t/p/w300//6ZxFx9aQkZyd2SbxKt59x8WooPQ.jpg"
+    },
+    {
         "titulo": "A Ilha do Dr. Moreau",
         "descricao": "",
         "imdb": "tt0116654",
@@ -1301,6 +1475,12 @@ var filmes = [
     "descricao": "",
     "imdb": "tt8806252",
     "imagem": "https://image.tmdb.org/t/p/w300//bMfnxFHXD5VBh6m0RBUkZoaYIYc.jpg"
+},
+{
+    "titulo": "Titulo Cassandro",
+    "descricao": "",
+    "imdb": "tt14954534",
+    "imagem": "https://image.tmdb.org/t/p/w300//xDjd2n4dheT1r6qUYAVcODC293I.jpg"
 },
 ];
 
