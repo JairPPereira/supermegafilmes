@@ -1,174 +1,702 @@
 var filmes = [
     {
-        "titulo": "Titulo God's Time",
+        "titulo": "Super Tiras",
+        "descricao": "",
+        "imdb": "tt0247745",
+        "imagem": "https://image.tmdb.org/t/p/w300//wblrFSrqv1TlQSSfL3WIN2G7Idg.jpg"
+    },
+    {
+        "titulo": "Sem F\u00f4lego",
+        "descricao": "",
+        "imdb": "tt17422332",
+        "imagem": "https://image.tmdb.org/t/p/w300//3xkBEvQWGc7eZFSYr5oAOJvlBYh.jpg"
+    },
+    {
+        "titulo": "Ladr\u00e3o de Diamantes",
+        "descricao": "",
+        "imdb": "tt0367479",
+        "imagem": "https://image.tmdb.org/t/p/w300//xboAsy9Cywvt40qq5jxlUOPaHsh.jpg"
+    },
+    {
+        "titulo": "No Mundo da Lua",
+        "descricao": "",
+        "imdb": "tt3896100",
+        "imagem": "https://image.tmdb.org/t/p/w300//uKo4ESyXRTJt45YKN8ImCockJRY.jpg"
+    },
+    {
+        "titulo": "Walking on Sunshine",
+        "descricao": "",
+        "imdb": "tt2107861",
+        "imagem": "https://image.tmdb.org/t/p/w300//htU1F9o2yegoaGfIC2stIwIV8bs.jpg"
+    },
+    {
+        "titulo": "Agatha and the Midnight Murders",
+        "descricao": "",
+        "imdb": "tt11062400",
+        "imagem": "https://image.tmdb.org/t/p/w300//irV5m9TNccLSluETdX2KNy6noGp.jpg"
+    },
+    {
+        "titulo": "O Grande Drag\u00e3o Branco 4: O Cap\u00edtulo Final",
+        "descricao": "",
+        "imdb": "tt0172184",
+        "imagem": "https://image.tmdb.org/t/p/w300//32u0UK4GeKSkv6T0eAKqQoHDgUt.jpg"
+    },
+    {
+        "titulo": "O Grande Drag\u00e3o Branco 3",
+        "descricao": "",
+        "imdb": "tt0115714",
+        "imagem": "https://image.tmdb.org/t/p/w300//nqPP2EAKinHHAPelJ5Zs1wvHf1h.jpg"
+    },
+    {
+        "titulo": "O Grande Drag\u00e3o Branco 2",
+        "descricao": "",
+        "imdb": "tt0112536",
+        "imagem": "https://image.tmdb.org/t/p/w300//wQ2WKzinHvTYF6krkec0hdYzL0s.jpg"
+    },
+    {
+        "titulo": "O Grande Mentiroso",
+        "descricao": "",
+        "imdb": "tt0265298",
+        "imagem": "https://image.tmdb.org/t/p/w300//hRfa79dwJkLtVJjYLnCoPNLPz5.jpg"
+    },
+    {
+        "titulo": "A Killer Next Door",
+        "descricao": "",
+        "imdb": "tt10293308",
+        "imagem": "https://image.tmdb.org/t/p/w300//tGyWiFgBZEEHIgPUmzRh5S1poA0.jpg"
+    },
+    {
+        "titulo": "Aftermath",
+        "descricao": "",
+        "imdb": "tt0159241",
+        "imagem": "https://image.tmdb.org/t/p/w300//zdvSVIZqs7uXyXTikT6m7uxkdUr.jpg"
+    },
+    {
+        "titulo": "Pequenos Espi\u00f5es 2: A Ilha dos Sonhos Perdidos",
+        "descricao": "",
+        "imdb": "tt0287717",
+        "imagem": "https://image.tmdb.org/t/p/w300//okbpLqjaUmtYfLlpnNq1vMuLz1w.jpg"
+    },
+    {
+        "titulo": "Pequenos Espi\u00f5es",
+        "descricao": "",
+        "imdb": "tt0091420",
+        "imagem": "https://image.tmdb.org/t/p/w300//hU1I7KRrcgeMR9URJLn0bbtynV2.jpg"
+    },
+    {
+        "titulo": "Premoni\u00e7\u00e3o",
+        "descricao": "",
+        "imdb": "tt0075614",
+        "imagem": "https://image.tmdb.org/t/p/w300//xxJRCeLiJjaxbtWn7ttXW4UY2jP.jpg"
+    },
+    {
+        "titulo": "Escape Room 2",
+        "descricao": "",
+        "imdb": "tt5748392",
+        "imagem": "https://image.tmdb.org/t/p/w300//dCthgwsV0AXIMqliQL6njAWf7Sb.jpg"
+    },
+    {
+        "titulo": "60 Minutos para Morrer",
+        "descricao": "",
+        "imdb": "tt5159414",
+        "imagem": "https://image.tmdb.org/t/p/w300//i5pJ8IoOanVAPBzKi3GiVnGlOld.jpg"
+    },
+    {
+        "titulo": "Rua Cloverfield, 10",
+        "descricao": "",
+        "imdb": "tt1179933",
+        "imagem": "https://image.tmdb.org/t/p/w300//yZlG6mFGy3dqUxWka5XlYNC0JvD.jpg"
+    },
+    {
+        "titulo": "Bonitinha mas Ordin\u00e1ria ou Otto Lara Rezende",
+        "descricao": "",
+        "imdb": "tt0132891",
+        "imagem": "https://image.tmdb.org/t/p/w300//4YXVxQHv4XSp1hE3Dsx2wIiuwTy.jpg"
+    },
+    {
+        "titulo": "Hercules",
+        "descricao": "",
+        "imdb": "tt0085672",
+        "imagem": "https://image.tmdb.org/t/p/w300//mYRmG7Rwu8Z1ZvoBqVduS5RocRy.jpg"
+    },
+    {
+        "titulo": "H\u00e9rcules e o Labirinto do Minotauro",
+        "descricao": "",
+        "imdb": "tt0110018",
+        "imagem": "https://image.tmdb.org/t/p/w300//m2JoUnBae0GYYuTEKWRYvddtVnx.jpg"
+    },
+    {
+        "titulo": "O Albergue 3",
+        "descricao": "",
+        "imdb": "tt1255916",
+        "imagem": "https://image.tmdb.org/t/p/w300//1U5Eu5hZ9ztDXdXCKnuAMqVmajE.jpg"
+    },
+    {
+        "titulo": "Atomica: Amea\u00e7a Oculta",
+        "descricao": "",
+        "imdb": "tt2449638",
+        "imagem": "https://image.tmdb.org/t/p/w300//Alii4LGgsgu6fA8S8PrBh7Pv04u.jpg"
+    },
+    {
+        "titulo": "Creep",
+        "descricao": "",
+        "imdb": "tt2428170",
+        "imagem": "https://image.tmdb.org/t/p/w300//qn53D574tT0YRyLgirEFHQwGUXw.jpg"
+    },
+    {
+        "titulo": "Kickboxer: A Retalia\u00e7\u00e3o",
+        "descricao": "",
+        "imdb": "tt5208950",
+        "imagem": "https://image.tmdb.org/t/p/w300//yUteP76nVPVqtbxPzW5qDsNoJOI.jpg"
+    },
+    {
+        "titulo": "Kickboxer: A Vingan\u00e7a do Drag\u00e3o",
+        "descricao": "",
+        "imdb": "tt3082898",
+        "imagem": "https://image.tmdb.org/t/p/w300//gV816EXzpzpcWYW4cplZoSC4yyp.jpg"
+    },
+    {
+        "titulo": "Kickboxer 5: O Desafio Final",
+        "descricao": "",
+        "imdb": "tt0110256",
+        "imagem": "https://image.tmdb.org/t/p/w300//6KqxpTUoFnMkHuMImcad1F1dGRS.jpg"
+    },
+    {
+        "titulo": "Kickboxer 4: O Agressor",
+        "descricao": "",
+        "imdb": "tt0110255",
+        "imagem": "https://image.tmdb.org/t/p/w300//zkkZ0exLO4cZWWfRQYB4OgImg47.jpg"
+    },
+    {
+        "titulo": "Kickboxer 3: A Arte da Guerra",
+        "descricao": "",
+        "imdb": "tt0104609",
+        "imagem": "https://image.tmdb.org/t/p/w300//6Bkul5qft7BFHoHaPEs7ojx5Kr4.jpg"
+    },
+    {
+        "titulo": "Kickboxer 2: A Vingan\u00e7a do Drag\u00e3o",
+        "descricao": "",
+        "imdb": "tt0102202",
+        "imagem": "https://image.tmdb.org/t/p/w300//bFogwMNxqZhKSf6vorhE6Lb4Yu.jpg"
+    },
+    {
+        "titulo": "Kickboxer: O Desafio do Drag\u00e3o",
+        "descricao": "",
+        "imdb": "tt0097659",
+        "imagem": "https://image.tmdb.org/t/p/w300//bIgP4t0DPc67hBxNioKt6HbdmV2.jpg"
+    },
+    {
+        "titulo": "Os Brutamontes",
+        "descricao": "",
+        "imdb": "tt1456635",
+        "imagem": "https://image.tmdb.org/t/p/w300//e7RM7Nongzy0VexcDsbIaldHHNK.jpg"
+    },
+    {
+        "titulo": "O Juramento",
+        "descricao": "",
+        "imdb": "tt6220752",
+        "imagem": "https://image.tmdb.org/t/p/w300//7EAX0daHdlOYqErmPZVEhPSz7pP.jpg"
+    },
+    {
+        "titulo": "O Juramento",
+        "descricao": "",
+        "imdb": "tt4433890",
+        "imagem": "https://image.tmdb.org/t/p/w300//1iX3UeFjCfQW7iEa9Q9HuMlUhrL.jpg"
+    },
+    {
+        "titulo": "O Senhor dos An\u00e9is",
+        "descricao": "",
+        "imdb": "tt0077869",
+        "imagem": "https://image.tmdb.org/t/p/w300//phJOxWaWArXLazpdmQdmh1LX8RL.jpg"
+    },
+    {
+        "titulo": "Madagascar 2: A Grande Escapada",
+        "descricao": "",
+        "imdb": "tt0479952",
+        "imagem": "https://image.tmdb.org/t/p/w300//u6w0HVvpQTsthsi6pqxO5X72E8K.jpg"
+    },
+    {
+        "titulo": "O Pai da Noiva II",
+        "descricao": "",
+        "imdb": "tt0113041",
+        "imagem": "https://image.tmdb.org/t/p/w300//jleYA9C53MR7rajS7LUV0xFbzJo.jpg"
+    },
+    {
+        "titulo": "O Pai da Noiva",
+        "descricao": "",
+        "imdb": "tt13249596",
+        "imagem": "https://image.tmdb.org/t/p/w300//6605qfGpSGqNcUNY0nUgeE5z01v.jpg"
+    },
+    {
+        "titulo": "Os Invasores de Corpos",
+        "descricao": "",
+        "imdb": "tt0077745",
+        "imagem": "https://image.tmdb.org/t/p/w300//x3hXjVonuaUk9Kb5LvjpRamSFRP.jpg"
+    },
+    {
+        "titulo": "Os Invasores de Corpos - A Invas\u00e3o Continua",
+        "descricao": "",
+        "imdb": "tt0106452",
+        "imagem": "https://image.tmdb.org/t/p/w300//r6tFSYCbjA72VAMfy2tKPH11ozT.jpg"
+    },
+    {
+        "titulo": "Bad Ass: Acima da Lei",
+        "descricao": "",
+        "imdb": "tt1928330",
+        "imagem": "https://image.tmdb.org/t/p/w300//nTVRyHcPTrrMu90LIadJl44Itvo.jpg"
+    },
+    {
+        "titulo": "Karat\u00ea Kid 4: A Nova Aventura",
+        "descricao": "",
+        "imdb": "tt0110657",
+        "imagem": "https://image.tmdb.org/t/p/w300//uYLW0WvEVEmmsFQMDEIkbrUkEox.jpg"
+    },
+    {
+        "titulo": "Sayen: A Rota Seca",
+        "descricao": "",
+        "imdb": "tt27351936",
+        "imagem": "https://image.tmdb.org/t/p/w300//bPf85Ro1XgWnhJMfAZa3SdQ4Muf.jpg"
+    },
+    {
+        "titulo": "Diamantes do Caos",
+        "descricao": "",
+        "imdb": "tt29168830",
+        "imagem": "https://image.tmdb.org/t/p/w300//sBH3IkwCCMGIWAkdQ00tOEmLPkm.jpg"
+    },
+    {
+        "titulo": "Vingan\u00e7a em Duas Rodas",
+        "descricao": "",
+        "imdb": "tt13930868",
+        "imagem": "https://image.tmdb.org/t/p/w300//essd7DICfIsaE5iJgwdDr03vygy.jpg"
+    },
+    {
+        "titulo": "Nada Ser\u00e1 Como Antes",
+        "descricao": "",
+        "imdb": "tt11394288",
+        "imagem": "https://image.tmdb.org/t/p/w300//rROrBVkYyVFKwzZqOjNXLKspV96.jpg"
+    },
+    {
+        "titulo": "Caminhos Tortos",
+        "descricao": "",
+        "imdb": "tt14483774",
+        "imagem": "https://image.tmdb.org/t/p/w300//qgFLue2nYRyGuxjRHfpU0yyNZ3z.jpg"
+    },
+    {
+        "titulo": "Crypto Boy",
+        "descricao": "",
+        "imdb": "tt24785544",
+        "imagem": "https://image.tmdb.org/t/p/w300//6QOukjAgAm9L1WNiOjqJzlg5luU.jpg"
+    },
+    {
+        "titulo": "Massa Cinzenta",
+        "descricao": "",
+        "imdb": "tt25947954",
+        "imagem": "https://image.tmdb.org/t/p/w300//svjoahV70ZyZVRAmU3CJKbNKtKD.jpg"
+    },
+    {
+        "titulo": "Boneca de Luxo",
+        "descricao": "",
+        "imdb": "tt5176832",
+        "imagem": "https://image.tmdb.org/t/p/w300//nxes0g0XmYpjj44BT6QFcmhNm8K.jpg"
+    },
+    {
+        "titulo": "A Outra Zoey",
+        "descricao": "",
+        "imdb": "tt11951276",
+        "imagem": "https://image.tmdb.org/t/p/w300//9lZd2rV8Jgupu2bGTVgahKj5Gvc.jpg"
+    },
+    {
+        "titulo": "Tioz\u00f5es",
+        "descricao": "",
+        "imdb": "tt18394190",
+        "imagem": "https://image.tmdb.org/t/p/w300//pslwfOD7sFLmpRcHklHOFf2aoDi.jpg"
+    },
+    {
+        "titulo": "Kandasamys: O Beb\u00ea",
+        "descricao": "",
+        "imdb": "tt27048691",
+        "imagem": "https://image.tmdb.org/t/p/w300//byF0OTIt67FXCqan5bjPgF1v0Hi.jpg"
+    },
+    {
+        "titulo": "Women Is Losers",
+        "descricao": "",
+        "imdb": "tt9024096",
+        "imagem": "https://image.tmdb.org/t/p/w300//8Q0nxmmRvCpUiO9HuUvFV4khIQa.jpg"
+    },
+    {
+        "titulo": "Cercados",
+        "descricao": "",
+        "imdb": "tt2572212",
+        "imagem": "https://image.tmdb.org/t/p/w300//53zYYgWqxxmTaMlsIfiCWCLRwJf.jpg"
+    },
+    {
+        "titulo": "Snag",
+        "descricao": "",
+        "imdb": "tt26082308",
+        "imagem": "https://image.tmdb.org/t/p/w300//nhj4Q39qMSk6X5Ly9j9Yqyjrg5A.jpg"
+    },
+    {
+        "titulo": "No Limite do Mal",
+        "descricao": "",
+        "imdb": "tt13982526",
+        "imagem": "https://image.tmdb.org/t/p/w300//kiiRWx1I6HpWt16osBQhNZ2LCct.jpg"
+    },
+    {
+        "titulo": "A Vida Diante de Seus Olhos",
+        "descricao": "",
+        "imdb": "tt29291436",
+        "imagem": "https://image.tmdb.org/t/p/w300//djREwz46Ssm5LlMD9yN2ckvzVWU.jpg"
+    },
+    {
+        "titulo": "Resgate em 12 Horas",
+        "descricao": "",
+        "imdb": "tt14012572",
+        "imagem": "https://image.tmdb.org/t/p/w300//m19SDzdaCwcO6p7S5q0YP335x1Z.jpg"
+    },
+    {
+        "titulo": "Disco Inferno",
+        "descricao": "",
+        "imdb": "tt29291452",
+        "imagem": "https://image.tmdb.org/t/p/w300//mqlHnsj2l7NkXbmu7ZXcVvP8uda.jpg"
+    },
+    {
+        "titulo": "N\u00e3o Durma",
+        "descricao": "",
+        "imdb": "tt4329806",
+        "imagem": "https://image.tmdb.org/t/p/w300//kIZGBjlAY2lvpUBPnUCtPLVu51X.jpg"
+    },
+    {
+        "titulo": "Esperando por Voc\u00ea",
+        "descricao": "",
+        "imdb": "tt4727128",
+        "imagem": "https://image.tmdb.org/t/p/w300//7EjdSaUsk1TV29KxBPYOxqh4cRi.jpg"
+    },
+    {
+        "titulo": "A Maldi\u00e7\u00e3o de Villisca",
+        "descricao": "",
+        "imdb": "tt3320500",
+        "imagem": "https://image.tmdb.org/t/p/w300//zqWyPODcqBGvw6FOoCWtJt6bP8T.jpg"
+    },
+    {
+        "titulo": "O Pre\u00e7o do Poder",
+        "descricao": "",
+        "imdb": "tt11152422",
+        "imagem": "https://image.tmdb.org/t/p/w300//dtDfNAUoCPJVKexcRx2JlT2JAxI.jpg"
+    },
+    {
+        "titulo": "Era uma Vez um Est\u00fadio",
+        "descricao": "",
+        "imdb": "tt28035641",
+        "imagem": "https://image.tmdb.org/t/p/w300//zYbv3diKdEuxQrgRisbhQN6WhRr.jpg"
+    },
+    {
+        "titulo": "Um Broto Legal",
+        "descricao": "",
+        "imdb": "tt21220538",
+        "imagem": "https://image.tmdb.org/t/p/w300//jgKAAhnJ63nhrGrjrWl7cv7QFG7.jpg"
+    },
+    {
+        "titulo": "As G\u00eameas Silenciosas",
+        "descricao": "",
+        "imdb": "tt11052678",
+        "imagem": "https://image.tmdb.org/t/p/w300//zPZJuUSjFMvht73XDrvj0HbYWJC.jpg"
+    },
+    {
+        "titulo": "Assassinos da Lua das Flores",
+        "descricao": "",
+        "imdb": "tt5537002",
+        "imagem": "https://image.tmdb.org/t/p/w300//sz0HswdqLa6I5ialoyBvn5gm0r5.jpg"
+    },
+    {
+        "titulo": "Zombie Town",
+        "descricao": "",
+        "imdb": "tt21431644",
+        "imagem": "https://image.tmdb.org/t/p/w300//j1xiNhRJiyQiGMERtKNyTNRCBNm.jpg"
+    },
+    {
+        "titulo": "Tickets",
+        "descricao": "",
+        "imdb": "tt26660347",
+        "imagem": "https://image.tmdb.org/t/p/w300//6Vk3RLKIP9mzKZMpUTeAvQB82V8.jpg"
+    },
+    {
+        "titulo": "The Housekeeper",
+        "descricao": "",
+        "imdb": "tt11282154",
+        "imagem": "https://image.tmdb.org/t/p/w300//xFRNwqTl0WeWiTW10Wyixug1c9J.jpg"
+    },
+    {
+        "titulo": "The Cases of Mystery Lane",
+        "descricao": "",
+        "imdb": "tt26545218",
+        "imagem": "https://image.tmdb.org/t/p/w300//zsrBkr7VINwdc7lc4oYwSnUad10.jpg"
+    },
+    {
+        "titulo": "La stranezza",
+        "descricao": "",
+        "imdb": "tt17374778",
+        "imagem": "https://image.tmdb.org/t/p/w300//gtIhBUq4lnJrZyjuAkshXxW6Txi.jpg"
+    },
+    {
+        "titulo": "La Femme Anjola",
+        "descricao": "",
+        "imdb": "tt10751454",
+        "imagem": "https://image.tmdb.org/t/p/w300//4hPRoWuxht2jSVHPNm2Rq07fZ6L.jpg"
+    },
+    {
+        "titulo": "Family Friends",
+        "descricao": "",
+        "imdb": "tt18334732",
+        "imagem": "https://image.tmdb.org/t/p/w300//3SMaZgmqlzXWtfVaaEdtta6fgTv.jpg"
+    },
+    {
+        "titulo": "Escalation",
+        "descricao": "",
+        "imdb": "tt14622820",
+        "imagem": "https://image.tmdb.org/t/p/w300//6VfhJSnfeC1ETqwRSjcVwImzRDW.jpg"
+    },
+    {
+        "titulo": "\u0639\u0644\u0641\u0632\u0627\u0631",
+        "descricao": "",
+        "imdb": "tt18226208",
+        "imagem": "https://image.tmdb.org/t/p/w300//9VawiITTFZpF2dEAEW9WyHaD7Cl.jpg"
+    },
+    {
+        "titulo": "A Winning Team",
+        "descricao": "",
+        "imdb": "tt23057712",
+        "imagem": "https://image.tmdb.org/t/p/w300//xviCHALn9Hh86Y4ktQdkJ2Aajp7.jpg"
+    },
+    {
+        "titulo": "War - La guerra desiderata",
+        "descricao": "",
+        "imdb": "tt14558602",
+        "imagem": "https://image.tmdb.org/t/p/w300//lvEPAnb7S1rBbfpO6mIvKIqTpm8.jpg"
+    },
+    {
+        "titulo": "Us Or Them",
+        "descricao": "",
+        "imdb": "tt20420930",
+        "imagem": "https://image.tmdb.org/t/p/w300//e0vwczbBo3ugNSIrjvLEyWDGccU.jpg"
+    },
+    {
+        "titulo": "Capra cu trei iezi",
+        "descricao": "",
+        "imdb": "tt12981538",
+        "imagem": "https://image.tmdb.org/t/p/w300//dkEmr9C5ADkWINxPnrHlu7XNJIt.jpg"
+    },
+    {
+        "titulo": "The Fight Machine",
+        "descricao": "",
+        "imdb": "tt2076356",
+        "imagem": "https://image.tmdb.org/t/p/w300//iWh521y1iQALSYAsYt46uelYr7I.jpg"
+    },
+    {
+        "titulo": "The Drop Spot",
+        "descricao": "",
+        "imdb": "tt16383058",
+        "imagem": "https://image.tmdb.org/t/p/w300//iZL6f4sFwYOnh2CPm8IKu3TxyHn.jpg"
+    },
+    {
+        "titulo": "Perejil",
+        "descricao": "",
+        "imdb": "tt14213248",
+        "imagem": "https://image.tmdb.org/t/p/w300//aBI88CSRGDZ6pgKFtepeGUA3mYV.jpg"
+    },
+    {
+        "titulo": "Lucid",
+        "descricao": "",
+        "imdb": "tt16407414",
+        "imagem": "https://image.tmdb.org/t/p/w300//rmT4q8grAuCJblSoPNvPFD0Ub2s.jpg"
+    },
+    {
+        "titulo": "Keramat 2: Caruban Larang",
+        "descricao": "",
+        "imdb": "tt21116308",
+        "imagem": "https://image.tmdb.org/t/p/w300//A8dWcUw0clsWARfUn6x8xzQbPKU.jpg"
+    },
+    {
+        "titulo": "HiGH&LOW THE WORST X",
+        "descricao": "",
+        "imdb": "tt19783642",
+        "imagem": "https://image.tmdb.org/t/p/w300//kRlMWoqx0pq0K78f4seWOWtaTkF.jpg"
+    },
+    {
+        "titulo": "Hiding from My Husband",
+        "descricao": "",
+        "imdb": "tt21615444",
+        "imagem": "https://image.tmdb.org/t/p/w300//i5XuhPM6WKu0gZHdqS6GpmYAZH7.jpg"
+    },
+    {
+        "titulo": "God's Time",
         "descricao": "",
         "imdb": "tt13528840",
         "imagem": "https://image.tmdb.org/t/p/w300//uEBpFcsvqwuEQJbk6B6ML6OAcLU.jpg"
     },
     {
-        "titulo": "Titulo County Line: No Fear",
+        "titulo": "County Line: No Fear",
         "descricao": "",
         "imdb": "tt15141146",
         "imagem": "https://image.tmdb.org/t/p/w300//ckdp577N5M9qSU5hIAz5HDsg0QI.jpg"
     },
     {
-        "titulo": "Titulo Black Wolf",
+        "titulo": "Black Wolf",
         "descricao": "",
         "imdb": "tt10393330",
         "imagem": "https://image.tmdb.org/t/p/w300//1E2wJPuaC8lN9EerSrN4Hwi2oa8.jpg"
     },
     {
-        "titulo": "Titulo All Crazy Random",
+        "titulo": "All Crazy Random",
         "descricao": "",
         "imdb": "tt14361698",
         "imagem": "https://image.tmdb.org/t/p/w300//peCWFlk4NqHCFgIJkRcecQhzrH1.jpg"
     },
     {
-        "titulo": "Titulo Alive",
+        "titulo": "Alive",
         "descricao": "",
         "imdb": "tt11813708",
         "imagem": "https://image.tmdb.org/t/p/w300//mzZOUDYaeeq9rGElNRQaqjMMLXS.jpg"
     },
     {
-        "titulo": "Titulo O Dia em que a Terra Parou",
+        "titulo": "O Dia em que a Terra Parou",
         "descricao": "",
         "imdb": "tt0043456",
         "imagem": "https://image.tmdb.org/t/p/w300//2d93VMmOCriN7dxXLjr5JpyZr86.jpg"
     },
     {
-        "titulo": "Titulo Sem Perd\u00e3o",
+        "titulo": "Sem Perd\u00e3o",
         "descricao": "",
         "imdb": "tt0091637",
         "imagem": "https://image.tmdb.org/t/p/w300//kS2gd7yGJGPDeIOwJa3vKwX0bRL.jpg"
     },
     {
-        "titulo": "Titulo Pintou Sujeira",
+        "titulo": "Pintou Sujeira",
         "descricao": "",
         "imdb": "tt0084788",
         "imagem": "https://image.tmdb.org/t/p/w300//5THtxQetFqaXJ5w1uCnoQdH7b34.jpg"
     },
     {
-        "titulo": "Titulo Cheech e Chong Atacam Novamente",
+        "titulo": "Cheech e Chong Atacam Novamente",
         "descricao": "",
         "imdb": "tt0080520",
         "imagem": "https://image.tmdb.org/t/p/w300//4PZpTkk7CE2956c3bER07HNUI1V.jpg"
     },
     {
-        "titulo": "Titulo O Corvo Branco",
+        "titulo": "O Corvo Branco",
         "descricao": "",
         "imdb": "tt5460858",
         "imagem": "https://image.tmdb.org/t/p/w300//sOirlm1YRz0zDTyjbllzOacHPa4.jpg"
     },
     {
-        "titulo": "Titulo O Corvo",
+        "titulo": "O Corvo",
         "descricao": "",
         "imdb": "tt0057449",
         "imagem": "https://image.tmdb.org/t/p/w300//tt7m22ki1raa0NrvesawJgsQ4Jn.jpg"
     },
     {
-        "titulo": "Titulo Redirecionado",
+        "titulo": "Redirecionado",
         "descricao": "",
         "imdb": "tt2275946",
         "imagem": "https://image.tmdb.org/t/p/w300//qQUqHogCcyqFGbxAG26yGymSMfT.jpg"
     },
     {
-        "titulo": "Titulo R\u00e1pidos e Perigosos 2",
+        "titulo": "R\u00e1pidos e Perigosos 2",
         "descricao": "",
         "imdb": "tt4956984",
         "imagem": "https://image.tmdb.org/t/p/w300//7YspOOslylCOlXsPo1qAuNb1lLG.jpg"
     },
     {
-        "titulo": "Titulo Opera\u00e7\u00e3o Kickbox 4 - Sem Aviso",
+        "titulo": "Opera\u00e7\u00e3o Kickbox 4 - Sem Aviso",
         "descricao": "",
         "imdb": "tt0130370",
         "imagem": "https://image.tmdb.org/t/p/w300//mbQLRJ9SVax32z1SV2JMQLZz3nk.jpg"
     },
     {
-        "titulo": "Titulo C\u00e9u Vermelho",
+        "titulo": "C\u00e9u Vermelho",
         "descricao": "",
         "imdb": "tt1946381",
         "imagem": "https://image.tmdb.org/t/p/w300//ydaLMfIrTQVlC8BpIuxmsgAy2Kc.jpg"
     },
     {
-        "titulo": "Titulo C\u00e9u em Chamas",
+        "titulo": "C\u00e9u em Chamas",
         "descricao": "",
         "imdb": "tt6157600",
         "imagem": "https://image.tmdb.org/t/p/w300//63mTxkeY9hsb9nFIUEiR2yBopuz.jpg"
     },
     {
-        "titulo": "Titulo Sib\u00e9ria",
+        "titulo": "Sib\u00e9ria",
         "descricao": "",
         "imdb": "tt4687856",
         "imagem": "https://image.tmdb.org/t/p/w300//zzibikz7IpXzMDzWIeFUJaMIsZa.jpg"
     },
     {
-        "titulo": "Titulo Sib\u00e9ria",
+        "titulo": "Sib\u00e9ria",
         "descricao": "",
         "imdb": "tt6494418",
         "imagem": "https://image.tmdb.org/t/p/w300//nZC1KuUB1lXoXyA2DogZegHfXe5.jpg"
     },
     {
-        "titulo": "Titulo Meu Sonho, Seu Filho",
+        "titulo": "Meu Sonho, Seu Filho",
         "descricao": "",
         "imdb": "tt8235050",
         "imagem": "https://image.tmdb.org/t/p/w300//aRcXdOZV1coZmkelaGEgfmTgXx.jpg"
     },
     {
-        "titulo": "Titulo Juventude Perdida",
+        "titulo": "Juventude Perdida",
         "descricao": "",
         "imdb": "tt8529772",
         "imagem": "https://image.tmdb.org/t/p/w300//ow3qmhRH8egOMrDbNZEb3oImeS9.jpg"
     },
     {
-        "titulo": "Titulo O Rapto do Bet\u00e3o",
+        "titulo": "O Rapto do Bet\u00e3o",
         "descricao": "",
         "imdb": "tt15445966",
         "imagem": "https://image.tmdb.org/t/p/w300//sBJchR1AyiiG664GXQSvqOhWkIG.jpg"
     },
     {
-        "titulo": "Titulo Traumas do Passado",
+        "titulo": "Traumas do Passado",
         "descricao": "",
         "imdb": "tt6300886",
         "imagem": "https://image.tmdb.org/t/p/w300//mX1mRHxHOnSq1Rm7LYNh3qZmrKc.jpg"
     },
     {
-        "titulo": "Titulo Miss Revolu\u00e7\u00e3o",
+        "titulo": "Miss Revolu\u00e7\u00e3o",
         "descricao": "",
         "imdb": "tt9148706",
         "imagem": "https://image.tmdb.org/t/p/w300//aTGC7rQR3YuTmBPDkxAS67q7unO.jpg"
     },
     {
-        "titulo": "Titulo A Ressurrei\u00e7\u00e3o da M\u00famia",
+        "titulo": "A Ressurrei\u00e7\u00e3o da M\u00famia",
         "descricao": "",
         "imdb": "tt20141822",
         "imagem": "https://image.tmdb.org/t/p/w300//qIrJYG0ffdbkR0f0a6slVLXOnjQ.jpg"
     },
     {
-        "titulo": "Titulo Acampamento do Pecado",
+        "titulo": "Acampamento do Pecado",
         "descricao": "",
         "imdb": "tt8949056",
         "imagem": "https://image.tmdb.org/t/p/w300//1L07mlJ5Yhxm7OgZmnzIsROaX4m.jpg"
     },
     {
-        "titulo": "Titulo Acampamento Maldito",
+        "titulo": "Acampamento Maldito",
         "descricao": "",
         "imdb": "tt2789014",
         "imagem": "https://image.tmdb.org/t/p/w300//ayMAxYTvCMWCQKG84dRT8ZEa0GC.jpg"
     },
     {
-        "titulo": "Titulo Ver\u00e3o 2003",
+        "titulo": "Ver\u00e3o 2003",
         "descricao": "",
         "imdb": "tt7284204",
         "imagem": "https://image.tmdb.org/t/p/w300//yGWszbTJRmQVJv98abEyfdLOsHh.jpg"
     },
     {
-        "titulo": "Titulo A Chamada",
+        "titulo": "A Chamada",
         "descricao": "",
         "imdb": "tt6906292",
         "imagem": "https://image.tmdb.org/t/p/w300//eqaSh2PjYcGpS6rybz6UjLNuvrg.jpg"
     },
     {
-        "titulo": "Titulo O Diabo no Tribunal",
+        "titulo": "O Diabo no Tribunal",
         "descricao": "",
         "imdb": "tt28810493",
         "imagem": "https://image.tmdb.org/t/p/w300//6ZxFx9aQkZyd2SbxKt59x8WooPQ.jpg"
@@ -1470,7 +1998,7 @@ var filmes = [
     "imagem": "https://image.tmdb.org/t/p/w300//bMfnxFHXD5VBh6m0RBUkZoaYIYc.jpg"
 },
 {
-    "titulo": "Titulo Cassandro",
+    "titulo": "Cassandro",
     "descricao": "",
     "imdb": "tt14954534",
     "imagem": "https://image.tmdb.org/t/p/w300//xDjd2n4dheT1r6qUYAVcODC293I.jpg"
