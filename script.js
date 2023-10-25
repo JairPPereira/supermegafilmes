@@ -1,19 +1,19 @@
 var filmes = [
     {
         "titulo": "Super Tiras",
-        "descricao": "",
+        "descricao": "Cinco policiais de Vermont tentam salvar seus empregos e derrotar o departamento de polícia local, solucionando um crime.",
         "imdb": "tt0247745",
         "imagem": "https://image.tmdb.org/t/p/w300//wblrFSrqv1TlQSSfL3WIN2G7Idg.jpg"
     },
     {
         "titulo": "Sem F\u00f4lego",
-        "descricao": "",
+        "descricao": "O detetive Alex, um especialista em crimes violentos, é enviado à cidade de Santa Brigida para resolver o assassinato do filho de uma família rica e poderosa. Surpreendido por outros crimes, a investigação de Alex toma um rumo obscuro.",
         "imdb": "tt17422332",
         "imagem": "https://image.tmdb.org/t/p/w300//3xkBEvQWGc7eZFSYr5oAOJvlBYh.jpg"
     },
     {
         "titulo": "Ladr\u00e3o de Diamantes",
-        "descricao": "",
+        "descricao": "A história do que acontece depois que um renomado ladrão realiza seu último grande golpe, quando o FBI O agente que prometeu capturá-lo está prestes a fazer isso.",
         "imdb": "tt0367479",
         "imagem": "https://image.tmdb.org/t/p/w300//xboAsy9Cywvt40qq5jxlUOPaHsh.jpg"
     },
@@ -25,7 +25,7 @@ var filmes = [
     },
     {
         "titulo": "Walking on Sunshine",
-        "descricao": "",
+        "descricao": "Depois de um romance, Maddie está se preparando para casar com o lindo e italiano Raf e convidou sua irmã Taylor para o casamento. Sem o conhecimento de Maddie, no entanto, Raf o ex e o amor da vida de Taylor.",
         "imdb": "tt2107861",
         "imagem": "https://image.tmdb.org/t/p/w300//htU1F9o2yegoaGfIC2stIwIV8bs.jpg"
     },
@@ -55,7 +55,7 @@ var filmes = [
     },
     {
         "titulo": "O Grande Mentiroso",
-        "descricao": "",
+        "descricao": "Jason Shepherd, 14 anos, tem a reputação de exagerar a verdade. Assim, quando o grande produtor de Hollywood Marty Wolf rouba seu trabalho de classe e o transforma em um filme de sucesso, ninguém acredita na última história de Jason.",
         "imdb": "tt0265298",
         "imagem": "https://image.tmdb.org/t/p/w300//hRfa79dwJkLtVJjYLnCoPNLPz5.jpg"
     },
@@ -73,7 +73,7 @@ var filmes = [
     },
     {
         "titulo": "Pequenos Espi\u00f5es 2: A Ilha dos Sonhos Perdidos",
-        "descricao": "",
+        "descricao": "Os irmãos Cortez vão parar em uma ilha misteriosa, onde encontraram um cientista genético e um grupo de crianças espiões.",
         "imdb": "tt0287717",
         "imagem": "https://image.tmdb.org/t/p/w300//okbpLqjaUmtYfLlpnNq1vMuLz1w.jpg"
     },
@@ -691,13 +691,13 @@ var filmes = [
     },
     {
         "titulo": "A Chamada",
-        "descricao": "",
+        "descricao": "Um executivo se prepara para levar os filhos na escola. Ao ligar o carro, ele recebe uma ligação anônima informando que há uma bomba embaixo do seu assento e não poderão sair do carro",
         "imdb": "tt6906292",
         "imagem": "https://image.tmdb.org/t/p/w300//eqaSh2PjYcGpS6rybz6UjLNuvrg.jpg"
     },
     {
         "titulo": "O Diabo no Tribunal",
-        "descricao": "",
+        "descricao": "Por meio de reconstituições e gravações caseiras, este documentário sombrio investiga a suposta possessão de um garoto e um subsequente assassinato brutal.",
         "imdb": "tt28810493",
         "imagem": "https://image.tmdb.org/t/p/w300//6ZxFx9aQkZyd2SbxKt59x8WooPQ.jpg"
     },
