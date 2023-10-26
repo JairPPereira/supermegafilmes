@@ -1,5 +1,137 @@
 var filmes = [
     {
+        "titulo": "O T\u00fanel",
+        "descricao": "",
+        "imdb": "tt5910280",
+        "imagem": "https://image.tmdb.org/t/p/w300//xeoy33iYnZs2gFdzY14pG6LoSWW.jpg"
+    },
+    {
+        "titulo": "Cora\u00e7\u00e3o de Drag\u00e3o",
+        "descricao": "",
+        "imdb": "tt0116136",
+        "imagem": "https://image.tmdb.org/t/p/w300//yynXAb564y7g6d71arK3C4jcffl.jpg"
+    },
+    {
+        "titulo": "Cora\u00e7\u00e3o de Drag\u00e3o 3: A Maldi\u00e7\u00e3o do Feiticeiro",
+        "descricao": "",
+        "imdb": "tt3829170",
+        "imagem": "https://image.tmdb.org/t/p/w300//v7ex0EwdFnLhaXRELVA78w5R8qF.jpg"
+    },
+    {
+        "titulo": "Cora\u00e7\u00e3o de Drag\u00e3o 2: Um Novo Come\u00e7o",
+        "descricao": "",
+        "imdb": "tt0214641",
+        "imagem": "https://image.tmdb.org/t/p/w300//4lQiEhBVZ3p5MZdivUEIAMBHp53.jpg"
+    },
+    {
+        "titulo": "Abdu\u00e7\u00e3o",
+        "descricao": "",
+        "imdb": "tt2510434",
+        "imagem": "https://image.tmdb.org/t/p/w300//1doUNN4GGk667OhKrHYTO3pgdpJ.jpg"
+    },
+    {
+        "titulo": "Uma Prova de F\u00e9",
+        "descricao": "",
+        "imdb": "tt3475020",
+        "imagem": "https://image.tmdb.org/t/p/w300//lf2X2jNWdoneJtBdmg0erkIMX5L.jpg"
+    },
+    {
+        "titulo": "Shaun, o Carneiro - O Filme: A Fazenda Contra-Ataca",
+        "descricao": "",
+        "imdb": "tt6193408",
+        "imagem": "https://image.tmdb.org/t/p/w300//uVr8U96Pbj7sLk9qX6EQ8s3eTin.jpg"
+    },
+    {
+        "titulo": "Shaun, o Carneiro: As Lhamas do Fazendeiro",
+        "descricao": "",
+        "imdb": "tt5174284",
+        "imagem": "https://image.tmdb.org/t/p/w300//a3wjyadC2l3ehoqHjKlk5w89ErM.jpg"
+    },
+    {
+        "titulo": "Ben-Hur",
+        "descricao": "",
+        "imdb": "tt0052618",
+        "imagem": "https://image.tmdb.org/t/p/w300//m4WQ1dBIrEIHZNCoAjdpxwSKWyH.jpg"
+    },
+    {
+        "titulo": "Acampamento Sinistro 3",
+        "descricao": "",
+        "imdb": "tt0096119",
+        "imagem": "https://image.tmdb.org/t/p/w300//qladM9OMuGWfj2hdoj8NBpScLg9.jpg"
+    },
+    {
+        "titulo": "Acampamento Sinistro 2",
+        "descricao": "",
+        "imdb": "tt0096118",
+        "imagem": "https://image.tmdb.org/t/p/w300//q0PoNzcPYX5FuMKqSUdAYHWsPSG.jpg"
+    },
+    {
+        "titulo": "Acampamento Sinistro",
+        "descricao": "",
+        "imdb": "tt0086320",
+        "imagem": "https://image.tmdb.org/t/p/w300//fz9HeN5DzZgDVPZrpmeGORrZPR1.jpg"
+    },
+    {
+        "titulo": "Sim\u00e3o, o Fantasma Trapalh\u00e3o",
+        "descricao": "",
+        "imdb": "tt0192612",
+        "imagem": "https://image.tmdb.org/t/p/w300//hp6PFaJr7PXwl3Ci2Fgpq2OhLyt.jpg"
+    },
+    {
+        "titulo": "Kung Fu Panda: Segredos do Pergaminho",
+        "descricao": "",
+        "imdb": "tt5513770",
+        "imagem": "https://image.tmdb.org/t/p/w300//A1zrNJr9b56p6TxTeXGlKnUV6t6.jpg"
+    },
+    {
+        "titulo": "Kung Fu Panda: Os Segredos dos Mestres",
+        "descricao": "",
+        "imdb": "tt1980162",
+        "imagem": "https://image.tmdb.org/t/p/w300//4DlsFecqDZPEgDPWIW45DiFIOit.jpg"
+    },
+    {
+        "titulo": "Kung Fu Panda: Os Segredos dos Cinco Furiosos",
+        "descricao": "",
+        "imdb": "tt1287845",
+        "imagem": "https://image.tmdb.org/t/p/w300//3HENPRM1tGRswyjgiIbP9b4sult.jpg"
+    },
+    {
+        "titulo": "Kung Fu Panda",
+        "descricao": "",
+        "imdb": "tt0441773",
+        "imagem": "https://image.tmdb.org/t/p/w300//gmZIS9d7GnQvbDDu9ZxLfX4fKSI.jpg"
+    },
+    {
+        "titulo": "Taxi 5",
+        "descricao": "",
+        "imdb": "tt7238392",
+        "imagem": "https://image.tmdb.org/t/p/w300//lXeSraLgsLaeXRg6vEHv4tBrXxc.jpg"
+    },
+    {
+        "titulo": "T\u00e1xi 4",
+        "descricao": "",
+        "imdb": "tt0804540",
+        "imagem": "https://image.tmdb.org/t/p/w300//w24fH10gcaX1pf2VkViBzNgHVt5.jpg"
+    },
+    {
+        "titulo": "T\u00e1xi",
+        "descricao": "",
+        "imdb": "tt0316732",
+        "imagem": "https://image.tmdb.org/t/p/w300//eLDoNLJHZPcavTT1vJqZoGydoWB.jpg"
+    },
+    {
+        "titulo": "Carrossel de Emo\u00e7\u00f5es",
+        "descricao": "",
+        "imdb": "tt0058534",
+        "imagem": "https://image.tmdb.org/t/p/w300//nzB1aQauY8GTu1SCQV3EcGOqjXF.jpg"
+    },
+    {
+        "titulo": "Carrossel: O Filme",
+        "descricao": "",
+        "imdb": "tt4588050",
+        "imagem": "https://image.tmdb.org/t/p/w300//7mFT1RnjzI83o65kh6NRsg2P8V8.jpg"
+    },
+    {
         "titulo": "Super Tiras",
         "descricao": "Cinco policiais de Vermont tentam salvar seus empregos e derrotar o departamento de polícia local, solucionando um crime.",
         "imdb": "tt0247745",
@@ -2170,7 +2302,67 @@ var filmes = [
     "descricao": "",
     "imdb": "tt28366647",
     "imagem": "https://image.tmdb.org/t/p/w300//x6HrGmmpVUX8XBI9Vg4hbSsdBCX.jpg"
-}
+},
+{
+    "titulo": "Dalva",
+    "descricao": "",
+    "imdb": "tt19768016",
+    "imagem": "https://image.tmdb.org/t/p/w300//g8NmIbYDHDbQGMNiGhv8NLaYrG6.jpg"
+},
+{
+    "titulo": "O Trajeto",
+    "descricao": "",
+    "imdb": "tt11278608",
+    "imagem": "https://image.tmdb.org/t/p/w300//ducffbn4tq3WS1mrULO5qNuLdL0.jpg"
+},
+{
+    "titulo": "Sob a Lua de Outono",
+    "descricao": "",
+    "imdb": "tt8863322",
+    "imagem": "https://image.tmdb.org/t/p/w300//l4olj2UHfl9WwJKd5PIY9NFZ9a7.jpg"
+},
+{
+    "titulo": "As Escolhas do Amor",
+    "descricao": "",
+    "imdb": "tt19267924",
+    "imagem": "https://image.tmdb.org/t/p/w300//jNTGRX5MqWpZQuaa0ViNL7rV3Cj.jpg"
+},
+{
+    "titulo": "Imortais",
+    "descricao": "",
+    "imdb": "tt1253864",
+    "imagem": "https://image.tmdb.org/t/p/w300//d6AAE8SUJR6PEPkiQHtBPPLqQDe.jpg"
+},
+{
+    "titulo": "Bob Esponja Cal\u00e7a Quadrada apresenta: Zona das Mar\u00e9s",
+    "descricao": "",
+    "imdb": "tt22640250",
+    "imagem": "https://image.tmdb.org/t/p/w300//rozwpOPiTEYnXygWGvUPST4lVQa.jpg"
+},
+{
+    "titulo": "A Volta ao Mundo em 80 Dias",
+    "descricao": "",
+    "imdb": "tt10341040",
+    "imagem": "https://image.tmdb.org/t/p/w300//kuaBfUCrp1RBmdq1FsFHVe5eQO9.jpg"
+},
+{
+    "titulo": "A Voz da Resist\u00eancia",
+    "descricao": "",
+    "imdb": "tt4135418",
+    "imagem": "https://image.tmdb.org/t/p/w300//sKNKpWSJBWyceOIdZjEl0yTzZt2.jpg"
+},
+{
+    "titulo": "Inquieta\u00e7\u00e3o",
+    "descricao": "",
+    "imdb": "tt25869142",
+    "imagem": "https://image.tmdb.org/t/p/w300//j8FuUkC5doaNfmFq21HIhp0u3eJ.jpg"
+},
+{
+    "titulo": "Ruim pra Cachorro",
+    "descricao": "",
+    "imdb": "tt15153532",
+    "imagem": "https://image.tmdb.org/t/p/w300//hfSkDDJiCf6cJpd4R9O9lM1T6hz.jpg"
+},
 ];
 
 // Função para adicionar filmes à página
