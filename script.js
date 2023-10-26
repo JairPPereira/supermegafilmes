@@ -2363,6 +2363,96 @@ var filmes = [
     "imdb": "tt15153532",
     "imagem": "https://image.tmdb.org/t/p/w300//hfSkDDJiCf6cJpd4R9O9lM1T6hz.jpg"
 },
+{
+    "titulo": "A Sutil Arte de Ligar o F*da-se",
+    "descricao": "",
+    "imdb": "tt12380422",
+    "imagem": "https://image.tmdb.org/t/p/w300//jRRXELIL5G2L8SqrpZEEQF6MfwZ.jpg"
+},
+{
+    "titulo": "Shooting Stars: A Vida de Lebron James",
+    "descricao": "",
+    "imdb": "tt3715152",
+    "imagem": "https://image.tmdb.org/t/p/w300//rzOxUgqkQeKyhyuKZqIj87VqFUg.jpg"
+},
+{
+    "titulo": "Madre Teresa & Eu",
+    "descricao": "",
+    "imdb": "tt11228826",
+    "imagem": "https://image.tmdb.org/t/p/w300//8iPYXvAeUfuWU1bxgly02qmhwR7.jpg"
+},
+{
+    "titulo": "Domingo de P\u00e1scoa",
+    "descricao": "",
+    "imdb": "tt11952606",
+    "imagem": "https://image.tmdb.org/t/p/w300//4puabQ9VHHG8pA3rK3SUyP5Bx1H.jpg"
+},
+{
+    "titulo": "Hipnose",
+    "descricao": "",
+    "imdb": "tt14406178",
+    "imagem": "https://image.tmdb.org/t/p/w300//doNw8DOOIatMR7voYWIOO2R15zC.jpg"
+},
+{
+    "titulo": "Arquivos da Pervers\u00e3o: Os Abusos na Boy Scouts of America",
+    "descricao": "",
+    "imdb": "tt28660814",
+    "imagem": "https://image.tmdb.org/t/p/w300//dP6QJ62LQL8xPqBTueXRYILJKm0.jpg"
+},
+{
+    "titulo": "Xanadu Hellfire",
+    "descricao": "",
+    "imdb": "tt19766334",
+    "imagem": "https://image.tmdb.org/t/p/w300//eUZffAVsjEMGCQQFafhKE5AdVdi.jpg"
+},
+{
+    "titulo": "Wolf Garden",
+    "descricao": "",
+    "imdb": "tt12816912",
+    "imagem": "https://image.tmdb.org/t/p/w300//9lwzTA2JWdLbe5jA54XyvThVTgN.jpg"
+},
+{
+    "titulo": "Werewolf Cabal",
+    "descricao": "",
+    "imdb": "tt14348594",
+    "imagem": "https://image.tmdb.org/t/p/w300//8F1AEveZolSuIQ65Fb7XugPzb8b.jpg"
+},
+{
+    "titulo": "The Unlikely Pilgrimage of Harold Fry",
+    "descricao": "",
+    "imdb": "tt14097206",
+    "imagem": "https://image.tmdb.org/t/p/w300//qTIa7e5NINQ2oIHY9UXCk7fyVIC.jpg"
+},
+{
+    "titulo": "The Gates",
+    "descricao": "",
+    "imdb": "tt17501936",
+    "imagem": "https://image.tmdb.org/t/p/w300//zGrVrokVCP6nvSnJeI905aw1nWz.jpg"
+},
+{
+    "titulo": "Sur la branche",
+    "descricao": "",
+    "imdb": "tt26699546",
+    "imagem": "https://image.tmdb.org/t/p/w300//cVMHL7ThbqOSdfuYH6nZ0YVqCUA.jpg"
+},
+{
+    "titulo": "Spirit of Fear",
+    "descricao": "",
+    "imdb": "tt22410094",
+    "imagem": "https://image.tmdb.org/t/p/w300//v7htXVrfq9CXhlRXIVofuLUkc7M.jpg"
+},
+{
+    "titulo": "Sacrum Vindictae",
+    "descricao": "",
+    "imdb": "tt26443805",
+    "imagem": "https://image.tmdb.org/t/p/w300//auyGypNbvHh4KpEVwmzI8ngaMzv.jpg"
+},
+{
+    "titulo": "Pretty Problems",
+    "descricao": "",
+    "imdb": "tt15566896",
+    "imagem": "https://image.tmdb.org/t/p/w300//3EaJrQNs0MEuP4wi19StyMGdwpI.jpg"
+},
 ];
 
 // Função para adicionar filmes à página

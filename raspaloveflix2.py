@@ -21,7 +21,7 @@ def get_movie_image(imdb_id, api_key):
     return None
 
 # url da página com os filmes
-url = 'https://superflixapi.top/filmes/?paged=1' 
+url = 'https://superflixapi.top/filmes/?paged=28' 
 response = requests.get(url)
 
 soup = BeautifulSoup(response.content, 'html.parser')
