@@ -8,13 +8,13 @@ function searchMovies(event) {
 var filmes = [
     {
         "titulo": "O T\u00fanel",
-        "descricao": "",
+        "descricao": "Um homem está voltando para casa quando o túnel mal construído por onde ele dirige desaba, deixando-o preso.",
         "imdb": "tt5910280",
         "imagem": "https://image.tmdb.org/t/p/w300//xeoy33iYnZs2gFdzY14pG6LoSWW.jpg"
     },
     {
         "titulo": "Cora\u00e7\u00e3o de Drag\u00e3o",
-        "descricao": "",
+        "descricao": "O último dragão e um cavaleiro desiludido que mata dragões deve cooperar para deter um rei malvado, a quem foi dada uma imortalidade parcial.",
         "imdb": "tt0116136",
         "imagem": "https://image.tmdb.org/t/p/w300//yynXAb564y7g6d71arK3C4jcffl.jpg"
     },
@@ -2371,91 +2371,91 @@ var filmes = [
     "imagem": "https://image.tmdb.org/t/p/w300//hfSkDDJiCf6cJpd4R9O9lM1T6hz.jpg"
 },
 {
-    "titulo": "Titulo A Sutil Arte de Ligar o F*da-se",
+    "titulo": "A Sutil Arte de Ligar o F*da-se",
     "descricao": "",
     "imdb": "tt12380422",
     "imagem": "https://image.tmdb.org/t/p/w300//jRRXELIL5G2L8SqrpZEEQF6MfwZ.jpg"
 },
 {
-    "titulo": "Titulo Shooting Stars: A Vida de Lebron James",
+    "titulo": "Shooting Stars: A Vida de Lebron James",
     "descricao": "",
     "imdb": "tt3715152",
     "imagem": "https://image.tmdb.org/t/p/w300//rzOxUgqkQeKyhyuKZqIj87VqFUg.jpg"
 },
 {
-    "titulo": "Titulo Madre Teresa & Eu",
+    "titulo": "Madre Teresa & Eu",
     "descricao": "",
     "imdb": "tt11228826",
     "imagem": "https://image.tmdb.org/t/p/w300//8iPYXvAeUfuWU1bxgly02qmhwR7.jpg"
 },
 {
-    "titulo": "Titulo Domingo de P\u00e1scoa",
+    "titulo": "Domingo de P\u00e1scoa",
     "descricao": "",
     "imdb": "tt11952606",
     "imagem": "https://image.tmdb.org/t/p/w300//4puabQ9VHHG8pA3rK3SUyP5Bx1H.jpg"
 },
 {
-    "titulo": "Titulo Hipnose",
+    "titulo": "Hipnose",
     "descricao": "",
     "imdb": "tt14406178",
     "imagem": "https://image.tmdb.org/t/p/w300//doNw8DOOIatMR7voYWIOO2R15zC.jpg"
 },
 {
-    "titulo": "Titulo Arquivos da Pervers\u00e3o: Os Abusos na Boy Scouts of America",
+    "titulo": "Arquivos da Pervers\u00e3o: Os Abusos na Boy Scouts of America",
     "descricao": "",
     "imdb": "tt28660814",
     "imagem": "https://image.tmdb.org/t/p/w300//dP6QJ62LQL8xPqBTueXRYILJKm0.jpg"
 },
 {
-    "titulo": "Titulo Xanadu Hellfire",
+    "titulo": "Xanadu Hellfire",
     "descricao": "",
     "imdb": "tt19766334",
     "imagem": "https://image.tmdb.org/t/p/w300//eUZffAVsjEMGCQQFafhKE5AdVdi.jpg"
 },
 {
-    "titulo": "Titulo Wolf Garden",
+    "titulo": "Wolf Garden",
     "descricao": "",
     "imdb": "tt12816912",
     "imagem": "https://image.tmdb.org/t/p/w300//9lwzTA2JWdLbe5jA54XyvThVTgN.jpg"
 },
 {
-    "titulo": "Titulo Werewolf Cabal",
+    "titulo": "Werewolf Cabal",
     "descricao": "",
     "imdb": "tt14348594",
     "imagem": "https://image.tmdb.org/t/p/w300//8F1AEveZolSuIQ65Fb7XugPzb8b.jpg"
 },
 {
-    "titulo": "Titulo The Unlikely Pilgrimage of Harold Fry",
+    "titulo": "The Unlikely Pilgrimage of Harold Fry",
     "descricao": "",
     "imdb": "tt14097206",
     "imagem": "https://image.tmdb.org/t/p/w300//qTIa7e5NINQ2oIHY9UXCk7fyVIC.jpg"
 },
 {
-    "titulo": "Titulo The Gates",
+    "titulo": "The Gates",
     "descricao": "",
     "imdb": "tt17501936",
     "imagem": "https://image.tmdb.org/t/p/w300//zGrVrokVCP6nvSnJeI905aw1nWz.jpg"
 },
 {
-    "titulo": "Titulo Sur la branche",
+    "titulo": "Sur la branche",
     "descricao": "",
     "imdb": "tt26699546",
     "imagem": "https://image.tmdb.org/t/p/w300//cVMHL7ThbqOSdfuYH6nZ0YVqCUA.jpg"
 },
 {
-    "titulo": "Titulo Spirit of Fear",
+    "titulo": "Spirit of Fear",
     "descricao": "",
     "imdb": "tt22410094",
     "imagem": "https://image.tmdb.org/t/p/w300//v7htXVrfq9CXhlRXIVofuLUkc7M.jpg"
 },
 {
-    "titulo": "Titulo Sacrum Vindictae",
+    "titulo": "Sacrum Vindictae",
     "descricao": "",
     "imdb": "tt26443805",
     "imagem": "https://image.tmdb.org/t/p/w300//auyGypNbvHh4KpEVwmzI8ngaMzv.jpg"
 },
 {
-    "titulo": "Titulo Pretty Problems",
+    "titulo": "Pretty Problems",
     "descricao": "",
     "imdb": "tt15566896",
     "imagem": "https://image.tmdb.org/t/p/w300//3EaJrQNs0MEuP4wi19StyMGdwpI.jpg"

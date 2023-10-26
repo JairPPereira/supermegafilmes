@@ -1,13 +1,13 @@
 var filmes = [
     {
         "titulo": "O T\u00fanel",
-        "descricao": "",
+        "descricao": "Um homem está voltando para casa quando o túnel mal construído por onde ele dirige desaba, deixando-o preso.",
         "imdb": "tt5910280",
         "imagem": "https://image.tmdb.org/t/p/w300//xeoy33iYnZs2gFdzY14pG6LoSWW.jpg"
     },
     {
         "titulo": "Cora\u00e7\u00e3o de Drag\u00e3o",
-        "descricao": "",
+        "descricao": "O último dragão e um cavaleiro desiludido que mata dragões deve cooperar para deter um rei malvado, a quem foi dada uma imortalidade parcial.",
         "imdb": "tt0116136",
         "imagem": "https://image.tmdb.org/t/p/w300//yynXAb564y7g6d71arK3C4jcffl.jpg"
     },
