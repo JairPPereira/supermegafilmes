@@ -344,7 +344,7 @@ var filmes = [
     },
     {
         "titulo": "O Senhor dos An\u00e9is",
-        "descricao": "",
+        "descricao": "A Sociedade do Anel embarca em uma jornada através da Terra-Média para destruir o lendário Anel e impedir que ele caia nas mãos de Sauron, o Senhor do Escuro.",
         "imdb": "tt0077869",
         "imagem": "https://image.tmdb.org/t/p/w300//phJOxWaWArXLazpdmQdmh1LX8RL.jpg"
     },
