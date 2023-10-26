@@ -44,7 +44,7 @@ var filmes = [
     },
     {
         "titulo": "Shaun, o Carneiro - O Filme: A Fazenda Contra-Ataca",
-        "descricao": "",
+        "descricao": "Quando um extraterrestre com incríveis poderes pousa perto de Mossy Bottom Farm, a ovelha Shaun entra em uma missão para guiar o visitante intergaláctico para casa antes que uma organização sinistra possa capturá-lo.",
         "imdb": "tt6193408",
         "imagem": "https://image.tmdb.org/t/p/w300//uVr8U96Pbj7sLk9qX6EQ8s3eTin.jpg"
     },
@@ -56,7 +56,7 @@ var filmes = [
     },
     {
         "titulo": "Ben-Hur",
-        "descricao": "",
+        "descricao": "Quando um príncipe de Jerusalém é traído e enviado à escravidão por um amigo romano, ele recupera sua liberdade e retorna para se vingar.",
         "imdb": "tt0052618",
         "imagem": "https://image.tmdb.org/t/p/w300//m4WQ1dBIrEIHZNCoAjdpxwSKWyH.jpg"
     },
@@ -68,19 +68,19 @@ var filmes = [
     },
     {
         "titulo": "Acampamento Sinistro 2",
-        "descricao": "",
+        "descricao": "Angela, supostamente reformada e vivendo com um sobrenome falso, está trabalhando em um acampamento de verão. No entanto, quando os campistas começam a se comportar mal, ela logo volta aos velhos hábitos.",
         "imdb": "tt0096118",
         "imagem": "https://image.tmdb.org/t/p/w300//q0PoNzcPYX5FuMKqSUdAYHWsPSG.jpg"
     },
     {
         "titulo": "Acampamento Sinistro",
-        "descricao": "",
+        "descricao": "Angela Baker, uma jovem tímida e traumatizada, é enviada para o acampamento de verão com sua prima. Logo após sua chegada, qualquer pessoa com intenções sinistras recebe sua punição.",
         "imdb": "tt0086320",
         "imagem": "https://image.tmdb.org/t/p/w300//fz9HeN5DzZgDVPZrpmeGORrZPR1.jpg"
     },
     {
         "titulo": "Sim\u00e3o, o Fantasma Trapalh\u00e3o",
-        "descricao": "",
+        "descricao": "Dois motoristas se juntam com uma família rica que se muda para um antigo castelo habitado por um fantasma ressentido, porém amigável.",
         "imdb": "tt0192612",
         "imagem": "https://image.tmdb.org/t/p/w300//hp6PFaJr7PXwl3Ci2Fgpq2OhLyt.jpg"
     },
@@ -104,7 +104,7 @@ var filmes = [
     },
     {
         "titulo": "Kung Fu Panda",
-        "descricao": "",
+        "descricao": "O Dragon Warrior tem que enfrentar o selvagem Tai Lung, o destino da China está em jogo. O pânico se espalha quando o manto do Guerreiro Dragão é concedido a um jovem panda gordo nas artes marciais.",
         "imdb": "tt0441773",
         "imagem": "https://image.tmdb.org/t/p/w300//gmZIS9d7GnQvbDDu9ZxLfX4fKSI.jpg"
     },
@@ -122,7 +122,7 @@ var filmes = [
     },
     {
         "titulo": "T\u00e1xi",
-        "descricao": "",
+        "descricao": "Um mórbido e enérgico motorista de táxi tem bons conselhos para um policial inepto que se interessa em resolver uma série de assaltos a bancos em Nova York por um quarteto de assaltantes de bancos brasileiros.",
         "imdb": "tt0316732",
         "imagem": "https://image.tmdb.org/t/p/w300//eLDoNLJHZPcavTT1vJqZoGydoWB.jpg"
     },
@@ -134,7 +134,7 @@ var filmes = [
     },
     {
         "titulo": "Carrossel: O Filme",
-        "descricao": "",
+        "descricao": "A turminha do Carrossel está de férias da Escola Mundial. E desta vez, a aventura acontece no acampamento Panapaná, do avô de Alicia.",
         "imdb": "tt4588050",
         "imagem": "https://image.tmdb.org/t/p/w300//7mFT1RnjzI83o65kh6NRsg2P8V8.jpg"
     },
@@ -236,25 +236,25 @@ var filmes = [
     },
     {
         "titulo": "60 Minutos para Morrer",
-        "descricao": "",
+        "descricao": "Seis amigos puseram à prova sua perspicácia quando uma sala de fuga em que estão participando dá uma volta escura e retorcida.",
         "imdb": "tt5159414",
         "imagem": "https://image.tmdb.org/t/p/w300//i5pJ8IoOanVAPBzKi3GiVnGlOld.jpg"
     },
     {
         "titulo": "Rua Cloverfield, 10",
-        "descricao": "",
+        "descricao": "Depois de um accidente, uma mulher é levada para um albergue com dois homens que afirman que o mundo exterior foi afetado por um ataque químico.",
         "imdb": "tt1179933",
         "imagem": "https://image.tmdb.org/t/p/w300//yZlG6mFGy3dqUxWka5XlYNC0JvD.jpg"
     },
     {
         "titulo": "Bonitinha mas Ordin\u00e1ria ou Otto Lara Rezende",
-        "descricao": "",
+        "descricao": "Um homem rico quer pagar muito dinheiro a um dos seus funcionários para se casar com sua filha, que foi estuprada por cinco homens. Mas algo na história da garota não está certo.",
         "imdb": "tt0132891",
         "imagem": "https://image.tmdb.org/t/p/w300//4YXVxQHv4XSp1hE3Dsx2wIiuwTy.jpg"
     },
     {
         "titulo": "Hercules",
-        "descricao": "",
+        "descricao": "A história do personagem mitológico grego, atualizada nesta versão dos anos 80.",
         "imdb": "tt0085672",
         "imagem": "https://image.tmdb.org/t/p/w300//mYRmG7Rwu8Z1ZvoBqVduS5RocRy.jpg"
     },
@@ -272,25 +272,25 @@ var filmes = [
     },
     {
         "titulo": "Atomica: Amea\u00e7a Oculta",
-        "descricao": "",
+        "descricao": "Em um futuro próximo, um inspetor de segurança encontra dois homens misteriosos em uma usina nuclear no meio do deserto.",
         "imdb": "tt2449638",
         "imagem": "https://image.tmdb.org/t/p/w300//Alii4LGgsgu6fA8S8PrBh7Pv04u.jpg"
     },
     {
         "titulo": "Creep",
-        "descricao": "",
+        "descricao": "Um jovem cinegrafista responde a um anúncio on-line para um trabalho de um dia numa cidade remota para gravar as últimas mensagens de um homem que está morrendo.",
         "imdb": "tt2428170",
         "imagem": "https://image.tmdb.org/t/p/w300//qn53D574tT0YRyLgirEFHQwGUXw.jpg"
     },
     {
         "titulo": "Kickboxer: A Retalia\u00e7\u00e3o",
-        "descricao": "",
+        "descricao": "Após ganhar uma luta em Las Vegas, Kurt Sloane é sedado e levado para uma prisão em Bangkok, onde é forçado a lutar contra um gigante pela liberdade e um milhão de dólares, mas isso exigirá um treinamento intenso.",
         "imdb": "tt5208950",
         "imagem": "https://image.tmdb.org/t/p/w300//yUteP76nVPVqtbxPzW5qDsNoJOI.jpg"
     },
     {
         "titulo": "Kickboxer: A Vingan\u00e7a do Drag\u00e3o",
-        "descricao": "",
+        "descricao": "Um boxeador tenta vingar seu irmão.",
         "imdb": "tt3082898",
         "imagem": "https://image.tmdb.org/t/p/w300//gV816EXzpzpcWYW4cplZoSC4yyp.jpg"
     },
@@ -320,19 +320,19 @@ var filmes = [
     },
     {
         "titulo": "Kickboxer: O Desafio do Drag\u00e3o",
-        "descricao": "",
+        "descricao": "Kurt Sloane deve aprender a antiga arte do kick boxe para vingar seu irmão.",
         "imdb": "tt0097659",
         "imagem": "https://image.tmdb.org/t/p/w300//bIgP4t0DPc67hBxNioKt6HbdmV2.jpg"
     },
     {
         "titulo": "Os Brutamontes",
-        "descricao": "",
+        "descricao": "Rotulado como um pária por sua família inteligente, um goleiro supera as chances de liderar uma equipe de desajustados com baixos resultados para a glória semiprofissional do hóquei, superando tudo o que se interpõe em seu caminho.",
         "imdb": "tt1456635",
         "imagem": "https://image.tmdb.org/t/p/w300//e7RM7Nongzy0VexcDsbIaldHHNK.jpg"
     },
     {
         "titulo": "O Juramento",
-        "descricao": "",
+        "descricao": "Um grupo de calouros universitários ingressam em uma fraternidade prestigiada, mas logo percebem há mais coisas em jogo do que jamais poderiam imaginar.",
         "imdb": "tt6220752",
         "imagem": "https://image.tmdb.org/t/p/w300//7EAX0daHdlOYqErmPZVEhPSz7pP.jpg"
     },
