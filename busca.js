@@ -7,6 +7,42 @@ function searchMovies(event) {
 // Seu array de filmes
 var filmes = [
     {
+        "titulo": "Treinamento Brutal",
+        "descricao": "Buscando um recomeço, Bryant se muda para uma pequena cidade. Lá, faz amizade com um jovem e se torna seu mentor. Ele só não esperava que seu passado o forçasse a entrar em uma luta de vida ou morte.",
+        "imdb": "tt15131266",
+        "imagem": "https://image.tmdb.org/t/p/w300//t90jGam5utnYNrIG9AEgO2UhMh1.jpg"
+    },
+    {
+        "titulo": "Contos Sombrios",
+        "descricao": "Durante uma viagem para o Havaí, três estudantes decidem participar de um jogo para ver quem consegue contar a melhor história de terror. Os estudantes contam três histórias diferentes sobre fantasmas japoneses, mas conforme o jogo avança, as coisas começam a ficar cada vez mais sinistras.",
+        "imdb": "tt8954352",
+        "imagem": "https://image.tmdb.org/t/p/w300//2hXLV4PMgu8blPtvGEDlIVumwul.jpg"
+    },
+    {
+        "titulo": "Esperando por Voc\u00ea",
+        "descricao": "Quando Hee-Joo (Shim Eun-Kyung) tinha 7 anos, seu pai foi assassinado. Seu pai era detetive e estava trabalhando em um caso de serial killer. O assassino, Ki-Bum (Kim Sung-Oh), foi preso, mas considerado culpado por apenas um assassinato. 15 anos depois, Ki-Bum é libertado da prisão. O detetive Dae-Young (Yoon Je-Moon) trabalhou no caso original com o pai de Hee-Joo e ele não desistiu de ter uma condenação por assassinato para seu ex-sócio. Enquanto isso, Hee-Joo esperou pacientemente pela libertação de Ki-Bum.",
+        "imdb": "tt5545862",
+        "imagem": "https://image.tmdb.org/t/p/w300//uBluwU54W9XTmhMFBWsXupkpbjv.jpg"
+    },
+    {
+        "titulo": "Monster High 2",
+        "descricao": "O filme segue Clawdeen Wolf (Miia Harris), Draculaura (Naya Damasen) e Frankie Stein (Ceci Balagot) em seu segundo ano em Monster High. O poder das três amigas é posto à prova enquanto elas enfrentam desafios em um novo ano: novos alunos, novos poderes, amizades em evolução e uma ameaça ainda maior que pode não apenas romper a amizade, mas mudar o mundo para sempre. O filme também apresentará a nova personagem Toralei (Salena Qureshi), uma mulher-gato mal-humorada, que retorna após um ano no exterior em Scaris, França.",
+        "imdb": "tt23026954",
+        "imagem": "https://image.tmdb.org/t/p/w300//mClrCMfGpOqTSiuCTSK67WZ92x5.jpg"
+    },
+    {
+        "titulo": "Night of the Hunted",
+        "descricao": "Quando uma mulher desavisada para em um posto de gasolina remoto na calada da noite, ela se torna o joguete de um atirador sociopata com uma vingança secreta. Para sobreviver, ela deve não apenas desviar de suas balas e lutar por sua vida, mas também descobrir quem a quer morta e por quê.",
+        "imdb": "tt23642744",
+        "imagem": "https://image.tmdb.org/t/p/w300//tfNFmBGBVF1biwOTBgFONAeCaDZ.jpg"
+    },
+    {
+        "titulo": "O Lado Bom de Ser Tra\u00edda",
+        "descricao": "Nesta adaptação do livro de Sue Hecker, uma contadora vê a traição do noivo como uma oportunidade de transformar sua vida sexual, resultando em consequências arriscadas.",
+        "imdb": "tt26787296",
+        "imagem": "https://image.tmdb.org/t/p/w300//boPkFKrDSUeRxc9ltZRsuVSdRkz.jpg"
+    },
+    {
         "titulo": "O T\u00fanel",
         "descricao": "Um homem está voltando para casa quando o túnel mal construído por onde ele dirige desaba, deixando-o preso.",
         "imdb": "tt5910280",
