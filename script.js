@@ -1,5 +1,89 @@
 var filmes = [
     {
+        "titulo": "Golda - A Mulher de uma Na\u00e7\u00e3o",
+        "descricao": "Ambientado na Guerra do Yom Kippur, em 1973, o drama mostra como a primeira-ministra Golda Meir conhecida como a “Dama de Ferro” de Israel enfrenta uma possível destruição do Estado, tomando decisões de alto risco, enquanto luta contra o câncer.",
+        "imdb": "tt14454876",
+        "imagem": "https://image.tmdb.org/t/p/w300//7nB9OWfLWbbyfk0MYv2czQCeKZ3.jpg"
+    },
+    {
+        "titulo": "Irm\u00e3 Morte",
+        "descricao": "Espanha, 1949. Narcisa, uma noviça, chega a um antigo convento, convertido em uma escola para meninas, para trabalhar como professora.",
+        "imdb": "tt19175696",
+        "imagem": "https://image.tmdb.org/t/p/w300//jZXjucSt0SLxZjKa74lvxPsyKeg.jpg"
+    },
+    {
+        "titulo": "M\u00e1fia da Dor",
+        "descricao": "Uma mãe solo falida, mas ambiciosa, encontra uma oportunidade de ganhar dinheiro vendendo um analgésico potente. Mas até onde ela vai para ficar rica?",
+        "imdb": "tt15257160",
+        "imagem": "https://image.tmdb.org/t/p/w300//m3JAB0LIofPUaka941lyZb7yZlo.jpg"
+    },
+    {
+        "titulo": "Um Dia dos Mortos Nada Tradicional",
+        "descricao": "Uma morte repentina reúne as famílias García e San Román. Lidia e Manuel tentam manter vivo o romance, mas Francisco foi morar com eles. Lidia é promovida no emprego, mas isso requer uma mudança para Monterrey. Rosa lida com a memória do marido e tenta encontrar um lugar para Jaime em sua vida. As famílias celebram a memória dos mortos e se preparam para uma vida que nunca mais será a mesma.",
+        "imdb": "tt29621888",
+        "imagem": "https://image.tmdb.org/t/p/w300//xM1yX980L50kjyGuvhykkz4utry.jpg"
+    },
+    {
+        "titulo": "Terra das Oportunidades",
+        "descricao": "Kiran, um motorista de caminhão e futuro pai de família, encontra Elena, uma mexicana-americana de 10 anos de idade, escondida em seu caminhão e descobre o que significa ser pai enquanto tenta levá-la até sua família em Boston.",
+        "imdb": "tt14597532",
+        "imagem": "https://image.tmdb.org/t/p/w300//fpAbETuB9OtmIMCeYGFrIWItIKS.jpg"
+    },
+    {
+        "titulo": "LEGO Marvel Vingadores: C\u00f3digo Vermelho",
+        "descricao": "Os Vingadores se reúnem para comemorar sua última vitória, mas a comemoração é rapidamente interrompida pelo misterioso desaparecimento do pai da Viúva Negra, o Guardião Vermelho.  À medida que os Vingadores investigam, eles descobrem que o Guardião Vermelho não é o único desaparecido quando encontram um novo inimigo perigoso, muito diferente de tudo que já encontraram antes.",
+        "imdb": "tt28477867",
+        "imagem": "https://image.tmdb.org/t/p/w300//bhs2CZWqoee3JFMvSZd1Vg7HLfL.jpg"
+    },
+    {
+        "titulo": "Last Stop Larrimah: Murder Down Under",
+        "descricao": "Aninhada nas profundezas do Outback australiano está a cidade de Larrimah e seus 11 residentes excêntricos. Quando um deles desaparece misteriosamente no ar, os residentes restantes tornam-se suspeitos e uma longa história de lutas internas é revelada.",
+        "imdb": "tt26081866",
+        "imagem": "https://image.tmdb.org/t/p/w300//tmWsLKK6jgUJCeJMgUkiTkacqVH.jpg"
+    },
+    {
+        "titulo": "Marvel One-Shot: Todos Sa\u00fadem o Rei",
+        "descricao": "Trancado na prisão, o infame Trevor Slattery concorda em encontrar um documentarista.",
+        "imdb": "tt3438640",
+        "imagem": "https://image.tmdb.org/t/p/w300//49NnOLk7OxPfXs5LjwgPRjNTI2F.jpg"
+    },
+    {
+        "titulo": "Marvel One-Shot: Artigo 47",
+        "descricao": "Um casal se depara com uma arma Chitauri e usam ela para cometer crimes.",
+        "imdb": "tt2247732",
+        "imagem": "https://image.tmdb.org/t/p/w300//hnSxG8clwLuAXEkp9emc8HCUcHD.jpg"
+    },
+    {
+        "titulo": "A Centop\u00e9ia Humana 3 (Sequ\u00eancia Final)",
+        "descricao": "O carcereiro Bill Boss (Dieter Laser) precisa lidar com problemas como rebeliões, rotatividade profissional e a falta de reconhecimento do governador (Eric Roberts) em sua atividade de liderar um grande presídio americano. Vendo que Boss não tem nenhuma perspectiva de resolver esses problemas, Dwight (Laurence R. Harvey), seu braço-direito, surge com uma ideia capaz de revolucionar o sistema penitenciário americano: a criação de uma centopeia humana de 500 pessoas.",
+        "imdb": "tt1883367",
+        "imagem": "https://image.tmdb.org/t/p/w300//xUk5AGcGvybPBvvMqrDPbAFAknD.jpg"
+    },
+    {
+        "titulo": "A Centop\u00e9ia Humana 2",
+        "descricao": "Escrito e dirigido novamente por Six, a sequência foca em Martin, um homem solitário e mentalmente perturbado que mora com sua mãe e trabalha como guarda noturno em uma estacionamento-garagem no subsolo. Para escapar de sua triste existência, Martin se perde na fantasia do filme de terror cult A Centopéia Humana, fantasiando com as meticulosas habilidades cirurgicas do Dr. Heiter, cujo conhecimento do sistema gastrointestinal inspira Martin a praticar o impensável.",
+        "imdb": "tt1530509",
+        "imagem": "https://image.tmdb.org/t/p/w300//2cMTX2BQVJDZfFlnPL5dDstmLfz.jpg"
+    },
+    {
+        "titulo": "A Centop\u00e9ia Humana",
+        "descricao": "O filme relata uma viagem de duas jovens americanas por vários países da Europa. Ao atravessarem uma sombria floresta do interior da Alemanha, um acidente obriga-as a procurar refúgio na remota casa de um perverso cirurgião. Aí, depressa chegam à conclusão de que algo está errado quando o anfitrião revela os seus planos de transforma-las numa autêntica centopeia humana.",
+        "imdb": "tt1467304",
+        "imagem": "https://image.tmdb.org/t/p/w300//f969yH5iuSAh2IuKLik9c2iFdHp.jpg"
+    },
+    {
+        "titulo": "Os Peludos",
+        "descricao": "Poucas pessoas sabem que todas as casas são habitadas por finlandeses. São criaturas peludas que aparecem no mundo humano para cuidar de uma casa e manter a lareira. Finnick é um jovem finlandês, que não parece se importar com sua responsabilidade de fazer da casa um lar. Ele está apenas fazendo brincadeiras com «seu povo» e é por isso que nenhuma das famílias quis ficar muito tempo em sua casa. Tudo muda quando uma nova família chega à sua casa, onde os truques de Finnick não funcionam, e ele conhece Christine, de 13 anos, e eventos inexplicáveis ​​começam a acontecer na cidade. Finnick e Christine, que são o tão diferentes, terão que se unir e trabalhar juntos para resolver o mistério dos eventos e salvar a cidade.",
+        "imdb": "tt15547806",
+        "imagem": "https://image.tmdb.org/t/p/w300//q0poNkSayOtlwRzY6MKHTQcBauq.jpg"
+    },
+    {
+        "titulo": "O Dia da Colheita",
+        "descricao": "Jules, de seis anos, e sua mãe Chloé desembarcam em uma zona rural deserta da França. Para começar uma nova vida, longe de um passado doloroso, ela aceitou assumir a escola da aldeia. Mas a comunidade aparentemente tranquila está consumida pelo desaparecimento inexplicável de um menino meses atrás. Mathieu, o médico da cidade, não é insensível ao encanto do recém-chegado. À medida que se aproxima de Chloé, seu filho Jules fica cada vez mais ansioso. Ele sabe disso, ele sente: Mathieu é a fera, que agora quer devorá-lo e levar sua mãe embora.",
+        "imdb": "tt13845758",
+        "imagem": "https://image.tmdb.org/t/p/w300//tqR4TQnyhOnzLmPTkY1aqq5ZD71.jpg"
+    },
+    {
         "titulo": "Treinamento Brutal",
         "descricao": "Buscando um recomeço, Bryant se muda para uma pequena cidade. Lá, faz amizade com um jovem e se torna seu mentor. Ele só não esperava que seu passado o forçasse a entrar em uma luta de vida ou morte.",
         "imdb": "tt15131266",
