@@ -7,6 +7,162 @@ function searchMovies(event) {
 // Seu array de filmes
 var filmes = [
     {
+        "titulo": "Cuando acecha la maldad",
+        "descricao": "Em uma vila remota, dois irmãos encontram um homem possuído por demônios prestes a dar à luz ao mal encarnado. Eles decidem se livrar do sujeito, mas acabam apenas espalhando o caos.",
+        "imdb": "tt16300962",
+        "imagem": "https://image.tmdb.org/t/p/w300//9Ly4S99McgnhO50XikTGguPFNvo.jpg"
+    },
+    {
+        "titulo": "Five Nights at Freddy's - O Pesadelo Sem Fim",
+        "descricao": "Enquanto passa sua primeira noite no trabalho, um problemático guarda de segurança da Pizzaria Freddy Fazbear logo percebe que não será uma tarefa fácil sobreviver ao seu primeiro turno.",
+        "imdb": "tt4589218",
+        "imagem": "https://image.tmdb.org/t/p/w300//1yUbmAiw2cUSpyXNIaiST7JzCtG.jpg"
+    },
+    {
+        "titulo": "Tom & Jerry: O M\u00e1gico de Oz",
+        "descricao": "Tom e Jerry não estão mais no Kansas. Eles partiram para ver o mágico, o maravilhoso Mágico de Oz! Tom e Jerry passam pelo arco-íris e viajam pela estrada de tijolos amarelos nesta nova série animada baseada no conto clássico. Você verá seus personagens favoritos (Dorothy, Totó, o Espantalho, o Homem de Lata, o Leão, a Bruxa Malvada, o Mágico, os anões e muito mais), ouvirá muitas de suas músicas favoritas (incluindo Over the Rainbow) e dará risadas com as travessuras do seu gato e rato favoritos conforme eles entram em um tornado, enfrentam macacos voadores e invadem o castelo da Bruxa Malvada tentando heroicamente levar Dorothy e Totó de volta para o Kansas. Afinal, não existe nenhum lugar como a nossa casa!",
+        "imdb": "tt2027255",
+        "imagem": "https://image.tmdb.org/t/p/w300//kUs6z0aZdJo99rJ62voOlF0BUOr.jpg"
+    },
+    {
+        "titulo": "Tom & Jerry: O Anel M\u00e1gico",
+        "descricao": "Produção inédita nos cinemas, mostra uma aventura da dupla mais famosa dos desenhos animados numa época distante, onde um poderoso anel mágico é a chave para um poder que pode ajudar o mundo e também colocá-lo à beira da destruição.",
+        "imdb": "tt0303151",
+        "imagem": "https://image.tmdb.org/t/p/w300//b7j2a9nuGRIpnxTFz44cqPFVJ9t.jpg"
+    },
+    {
+        "titulo": "Tom & Jerry: Encontram Sherlock Holmes",
+        "descricao": "Na cidade de Londres, um bandido rouba jóias em torno da Scotland Yard, e Rubra, uma bela cantora, está sendo acusado do crime. Tom e Jerry, como assistentes, devem ajudar Sherlock Holmes a procurar por pistas e rastrear o verdadeiro ladrão para resolver este caso.",
+        "imdb": "tt1722638",
+        "imagem": "https://image.tmdb.org/t/p/w300//gk8EpbhbeFJJw10W4QPRHZ5R7ws.jpg"
+    },
+    {
+        "titulo": "Tom & Jerry: Terra do Boneco de Neve",
+        "descricao": "Está na hora de caçar o espírito natalício com o Tom e o Jerry! A magia paira pelo ar quando o Jerry e o seu sobrinho Tuffy criam um ratinho de neve que milagrosamente ganha vida! Para evitar que Larry o ratinho de neve derreta, Tuffy e Jerry terão de levá-lo rapidamente até à aldeia do boneco de neve. Entretanto, serão perseguidos sem tréguas pelo Tom e pelo Dr. Doublevay, que têm outros planos para a magia do Larry. Prepara-te para acelerar numa aventura épica cheia de melodias, neve, diversão, gargalhadas e até umas pitadas de magia natalícia!",
+        "imdb": "tt21958986",
+        "imagem": "https://image.tmdb.org/t/p/w300//pZke9IRWqbrBeliSw8usGmXqFTL.jpg"
+    },
+    {
+        "titulo": "Tom & Jerry: O Filme",
+        "descricao": "O gato e o rato mais divertidos do mundo conhecem Robyn Starling, uma fugitiva que precisa desesperadamente da ajuda deles para encontrar seu pai. Apesar dos esforços heróicos, Tom e Jerry são capturados pela malvada tia Figg e seu advogado Lickboot, e jogados na prisão do terrível Dr. Applecheeks. De uma maneira incrível, Tom e Jerry conseguem escapar e ainda libertam seus novos amigos Puggsy e Frankie Da Flea.",
+        "imdb": "tt0105616",
+        "imagem": "https://image.tmdb.org/t/p/w300//FP83rpJnnrOYeaQgN80XWxaiKp.jpg"
+    },
+    {
+        "titulo": "Ernest Vai Para A Escola",
+        "descricao": "Ernest retorna como um motorista de ônibus escolar que quer tirar seu diploma.",
+        "imdb": "tt0109739",
+        "imagem": "https://image.tmdb.org/t/p/w300//lVQVkwvxwJvcZMc127kPwkuxxHx.jpg"
+    },
+    {
+        "titulo": "Ernest e As J\u00f3ias da Coroa",
+        "descricao": "Ernest e seu amigo Abner descobrem um canhão que contém as jóias da coroa da Inglaterra.",
+        "imdb": "tt0106827",
+        "imagem": "https://image.tmdb.org/t/p/w300//tl1uWtVpjliVYvPKdzobe1yNusi.jpg"
+    },
+    {
+        "titulo": "Ernest & Celestine",
+        "descricao": "Na sociedade tradicional dos ursos, a amizade entre estes animais e os ratos não é algo bem visto. Ernest é um grande urso, palhaço e músico, que vai acolher em sua casa a ratinha Célestine, uma orfã que escapou do mundo subterrâneo dos roedores. Com muita amizade, os dois vão encontrar uma vida confortável, mudando, para sempre, as normas desse mundo.",
+        "imdb": "tt1816518",
+        "imagem": "https://image.tmdb.org/t/p/w300//3pNUKmcLhix0qEXsOUEVN15risM.jpg"
+    },
+    {
+        "titulo": "Robots",
+        "descricao": "Charles é um mulherengo enquanto Elaine é uma interesseira. A dupla aprende sobre humanidade quando é forçada a se unir e perseguir robôs idênticos a eles mesmos.Charles é um mulherengo enquanto Elaine é uma interesseira. A dupla aprende sobre humanidade quando é forçada a se unir e perseguir robôs idênticos a eles mesmos.",
+        "imdb": "tt12579470",
+        "imagem": "https://image.tmdb.org/t/p/w300//yf7aXA3qC3MA5fqnBmnFsrdZDDN.jpg"
+    },
+    {
+        "titulo": "Os amores dela",
+        "descricao": "",
+        "imdb": "tt13142240",
+        "imagem": "https://image.tmdb.org/t/p/w300//kkSxmweblX0h6fAeSXEYx6cmaBK.jpg"
+    },
+    {
+        "titulo": "How to Blow Up a Pipeline",
+        "descricao": "Uma equipe de jovens ativistas ambientais executa uma missão ousada de sabotar um oleoduto, que é em parte um assalto de alto risco, em parte uma exploração radical da crise climática. Baseado no polêmico livro de Andreas Malm",
+        "imdb": "tt21440780",
+        "imagem": "https://image.tmdb.org/t/p/w300//5HJF47ywTuxxouVdAHAZ7iPzB4T.jpg"
+    },
+    {
+        "titulo": "Trauma Therapy: Psychosis",
+        "descricao": "",
+        "imdb": "tt18181882",
+        "imagem": "https://image.tmdb.org/t/p/w300//7J34TdsF9Jv6U8oWKyxTxmVaFQT.jpg"
+    },
+    {
+        "titulo": "The Kill Room",
+        "descricao": "Um assassino de aluguel, seu chefe, um negociante de arte e um esquema de lavagem de dinheiro que acidentalmente transforma a assassina em uma sensação de vanguarda da noite para o dia, forçando-a a jogar o mundo da arte contra o submundo.",
+        "imdb": "tt11908172",
+        "imagem": "https://image.tmdb.org/t/p/w300//qKpdy7N6zX05eisopvvviiTwPxb.jpg"
+    },
+    {
+        "titulo": "My Animal",
+        "descricao": "Heather, uma jovem goleira rejeitada, se apaixona por Jonny, uma patinadora artística sedutora, mas atormentada. À medida que o relacionamento delas se aprofunda, os desejos crescentes de Heather colidem com seu segredo mais sombrio.",
+        "imdb": "tt23572542",
+        "imagem": "https://image.tmdb.org/t/p/w300//8fwsmvBMVQe1iF608ZpdH4CTx69.jpg"
+    },
+    {
+        "titulo": "Mittagsstunde",
+        "descricao": "Anaïs é uma mulher de 30 anos que está falida e tem um namorado que ela acredita não amar mais. Até que um dia ela conhece Daniel, e ele imediatamente se apaixona por ela. Daniel é casado com Emilie, por quem Anaïs acaba se apaixonando perdidamente....",
+        "imdb": "tt21148858",
+        "imagem": "https://image.tmdb.org/t/p/w300//9fS4pE4BzT0wyjJPR8bnD5KPMN2.jpg"
+    },
+    {
+        "titulo": "Megalomaniac",
+        "descricao": "Questiona a linha invisível entre vítima e carrasco e como ela é cruzada. Um filme sobre o peso do patriarcado e a ilusão do maniqueísmo.",
+        "imdb": "tt10916810",
+        "imagem": "https://image.tmdb.org/t/p/w300//iKADO87fy9nYIaq5NiEwYdKMN5S.jpg"
+    },
+    {
+        "titulo": "L\u00e4nge leve bonusfamiljen",
+        "descricao": "",
+        "imdb": "tt15742294",
+        "imagem": "https://image.tmdb.org/t/p/w300//onrVCImi6V2zXiVrCZKihJhbgiu.jpg"
+    },
+    {
+        "titulo": "Johnny & Clyde",
+        "descricao": "",
+        "imdb": "tt14875820",
+        "imagem": "https://image.tmdb.org/t/p/w300//cdfdR90WYCTQmYoQ0aDRZP8I2IL.jpg"
+    },
+    {
+        "titulo": "Foreclosure",
+        "descricao": "",
+        "imdb": "tt19034552",
+        "imagem": "https://image.tmdb.org/t/p/w300//cmAbtImZmY8hnKA9jOscpGgKCL2.jpg"
+    },
+    {
+        "titulo": "Da kommt noch was",
+        "descricao": "",
+        "imdb": "tt14409214",
+        "imagem": "https://image.tmdb.org/t/p/w300//hZbf8yN55mNaON532MJGS4stghu.jpg"
+    },
+    {
+        "titulo": "Anti-Squat",
+        "descricao": "",
+        "imdb": "tt28335337",
+        "imagem": "https://image.tmdb.org/t/p/w300//1U9VEhLuxp4SiqfkK3aHYXE5zSY.jpg"
+    },
+    {
+        "titulo": "The Adults",
+        "descricao": "Conta a história de Eric que volta para sua cidade natal para visitar suas irmãs, mas seu plano para que a viagem seja curta começa a dar errado quando ele encontra novas formas de avivar seu vício em pôquer. Enquanto permanece na cidade, Eric passa muito tempo de qualidade prometido com suas irmãs e é forçado a encarar que relacionamentos da infância nem sempre se traduzem em conexões na idade adulta.",
+        "imdb": "tt26443107",
+        "imagem": "https://image.tmdb.org/t/p/w300//iA8HDbXgQE6RIEwqCMBZwPbpfxT.jpg"
+    },
+    {
+        "titulo": "Pecados da M\u00e1fia",
+        "descricao": "Nas ruas de Nápoles, dominadas pelo crime, um padre recém-chegado enfrenta a máfia local e desafia o seu domínio sobre a comunidade.",
+        "imdb": "tt7263736",
+        "imagem": "https://image.tmdb.org/t/p/w300//2EIBBacO6Jw7mw2UFvMT2bjL8Uz.jpg"
+    },
+    {
+        "titulo": "Ele Vem \u00e0 Noite",
+        "descricao": "Um carpinteiro problemático aceita um trabalho para restaurar um antigo moinho de água na floresta, mas ele esconde segredos que ressoarão com seu misterioso passado",
+        "imdb": "tt9750368",
+        "imagem": "https://image.tmdb.org/t/p/w300//2ocm4qhruZrDODyAPWQmJa3lXsL.jpg"
+    },
+    {
         "titulo": "Golda - A Mulher de uma Na\u00e7\u00e3o",
         "descricao": "Ambientado na Guerra do Yom Kippur, em 1973, o drama mostra como a primeira-ministra Golda Meir conhecida como a “Dama de Ferro” de Israel enfrenta uma possível destruição do Estado, tomando decisões de alto risco, enquanto luta contra o câncer.",
         "imdb": "tt14454876",
