@@ -1,5 +1,23 @@
 var filmes = [
     {
+        "titulo": "Animal",
+        "descricao": "Marvin Mage é um fracote que sempre sonhou em ser um policial mas nunca teve físico para tal profissão. Sua vida era um completo fiasco até sofrer um grave acidente automobilístico, que quase o matou. Para salvar sua vida, um cientista decidiu por fazer uma inovadora cirurgia, que reconstruía seu corpo com órgãos de animais. A experiência dá certo e a partir de então Marvin fica famoso e se torna um superpolicial. Porém, logo os novos órgãos fazem com que Marvin passe a ter instintos animais, que se manifestam nas piores horas e das maneiras mais bizarras possíveis",
+        "imdb": "tt0255798",
+        "imagem": "https://image.tmdb.org/t/p/w300//IBghsc7sRo1DteneBvvfnBEnzx.jpg"
+    },
+    {
+        "titulo": "Happy Feet: O Pinguim",
+        "descricao": "Os pinguins imperadores nasceram para cantar. Todos eles, a não ser o jovem Mano, que parece ter nascido para sapatear...  Esse comportamento pouco comum para um pinguim acaba cavando a saída de Mano da Terra do Imperador e o lança em um mundo enorme e frio. Acompanhado por amigos e por um bando de pinguins diferentes liderados pelo divertido Amoroso. Mano embarca em uma jornada épica e definitiva para sua vida, que prova que sendo fiel aquilo que acredita, qualquer pessoa pode fazer diferença no mundo.",
+        "imdb": "tt0366548",
+        "imagem": "https://image.tmdb.org/t/p/w300//vd5OoU5rhfKblLoLwaCK5QU0yJS.jpg"
+    },
+    {
+        "titulo": "Stuart Little 3",
+        "descricao": "A família Little vai longe nesta animada aventura selvagem super emocionante. Stuart e George vão para um acampamento longe da cidade de Nova York a fim de aprender as noções básicas de sobrevivência na selva com o grupo Escoteiros do Lago. Enquanto George aproveita a viagem junto com sua nova amizade com a bonitinha Brooke, Stuart aprende as suas melhores lições com o gambá Reeko. Já Snowbell faz com que gato Monty o proteja do famoso monstro da floresta, enquanto o resto da família curte a viagem sem se preocupar com nada.",
+        "imdb": "tt0472602",
+        "imagem": "https://image.tmdb.org/t/p/w300//5BeiCNKNtAtN3tqzVtqhn1hyoKI.jpg"
+    },
+    {
         "titulo": "George, O Curioso: Um Natal Cheio de Macacadas",
         "descricao": "George, o macaquinho mais curioso do mundo, estrela mais uma história divertida e educativa. Nesta nova aventura, George e O Homem do Chapéu Amarelo estão contando os dias para o Natal.",
         "imdb": "tt1570964",

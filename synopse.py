@@ -13,7 +13,7 @@ def get_movie_info(tmdb_id):
     else:
         return None, None
 
-tmdb_ids = [263945, 23903, 9975, 734372, 661067, 452895, 657597, 828264, 818110, 1034062, 1150537, 584004, 681303, 1175343, 1010928,]
+tmdb_ids = [11090, 9836, 30178,]
 
 # Imprime o título e a sinopse de cada filme
 for tmdb_id in tmdb_ids:
