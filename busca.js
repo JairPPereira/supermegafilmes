@@ -7,6 +7,126 @@ function searchMovies(event) {
 // Seu array de filmes
 var filmes = [
     {
+        "titulo": "A Menina Que Matou os Pais: A Confiss\u00e3o",
+        "descricao": "Veja o que Suzane von Richthofen, Daniel Cravinhos e Cristian Cravinhos fizeram nos dias que sucederam o crime brutal que levou o casal Richthofen à morte. Este filme revela momentos cruciais da investigação policial, depoimentos e a confissão do crime.",
+        "imdb": "tt25153888",
+        "imagem": "https://image.tmdb.org/t/p/w300//hcdF2VcSwv4hUGBAhQiZSYw9OeH.jpg"
+    },
+    {
+        "titulo": "Paralisia",
+        "descricao": "Ao tentar entender o que realmente aconteceu com uma paciente em coma, uma enfermeira acaba descobrindo uma trama de rivalidade, infidelidade, traição e assassinato.",
+        "imdb": "tt24870072",
+        "imagem": "https://image.tmdb.org/t/p/w300//cjEpz3rZNOae9SghNhoUqxpEjlY.jpg"
+    },
+    {
+        "titulo": "South Park: Entrando no Panderverso",
+        "descricao": "Os sonhos profundamente perturbadores de Cartman indicam o fim da vida que ele conhece e ama.",
+        "imdb": "tt29474455",
+        "imagem": "https://image.tmdb.org/t/p/w300//18IsRVfs5MkkTcqTGlUAnka6sCh.jpg"
+    },
+    {
+        "titulo": "Na Ponta dos Dedos",
+        "descricao": "Como sabemos ao certo que encontramos o verdadeiro amor? Imagine um exame que consegue responder essa questão definitivamente comparando uma unha de cada pessoa. Você gostaria de saber o resultado—e conseguiria aceitá-lo?",
+        "imdb": "tt13968674",
+        "imagem": "https://image.tmdb.org/t/p/w300//t1CrJNPsoofVWFiNb3JpXmZgu9W.jpg"
+    },
+    {
+        "titulo": "Vista Perigosa",
+        "descricao": "Um homem que encobre um crime presume que um vizinho intrometido pode ter visto o que ele fez. Ele vira a vida do vizinho de cabeça para baixo para manter seu segredo. Mas há mais motivos para isso?",
+        "imdb": "tt10730376",
+        "imagem": "https://image.tmdb.org/t/p/w300//qu7eRGjz6Uu2UdUZzqpkk6TRyy8.jpg"
+    },
+    {
+        "titulo": "Terror nas Profundezas",
+        "descricao": "Navegando sozinha pelo Caribe num barco a vela, uma mulher enfrenta perigos dentro e fora d'água quando sua viagem se torna uma luta por sobrevivência.",
+        "imdb": "tt14865406",
+        "imagem": "https://image.tmdb.org/t/p/w300//1ZZFTMqbQaP59yGTqKOcfqVE7NC.jpg"
+    },
+    {
+        "titulo": "O Sequestro",
+        "descricao": "Julio Levy retorna do exílio político para assumir um cargo nos grandes negócios da família quando seu irmão mais velho, como outros argentinos, é sequestrado. Encarregado de organizar o resgate e com todo o peso da família sobre os ombros, Julio descobre as forças que ainda operam por trás da recém-recuperada democracia argentina. Ele então inicia uma luta desfavorecida contra o sistema vigente.",
+        "imdb": "tt21340020",
+        "imagem": "https://image.tmdb.org/t/p/w300//k5vgkmlaOSDOMqgKPUhWBXEYTpR.jpg"
+    },
+    {
+        "titulo": "Sly",
+        "descricao": "O amor pelo cinema foi o passaporte de saída da infância traumática. De jovem sem futuro a lenda de Hollywood, Sylvester Stallone conta sua história neste documentário.",
+        "imdb": "tt28254460",
+        "imagem": "https://image.tmdb.org/t/p/w300//1utWajLPvv1R9ZwkD98s2ZEngS.jpg"
+    },
+    {
+        "titulo": "NYAD",
+        "descricao": "Aos 60 anos, a atleta Diana Nyad se prepara para realizar o sonho da sua vida: nadar de Cuba até a Flórida, uma travessia em águas abertas de mais de 160 km.",
+        "imdb": "tt5302918",
+        "imagem": "https://image.tmdb.org/t/p/w300//eh1IjDZfDRjgv5NzMBkjN1GzKgy.jpg"
+    },
+    {
+        "titulo": "F\u00e9rias de Ver\u00e3o",
+        "descricao": "Ao perderem os empregos, dois amigos fazem bico como animadores infantis em um hotel de luxo e levam os filhos escondidos para aproveitar as férias de verão.",
+        "imdb": "tt26756609",
+        "imagem": "https://image.tmdb.org/t/p/w300//mcMj1XhDPyxa0xuZ9aNrbPVs1CJ.jpg"
+    },
+    {
+        "titulo": "Quiz Lady",
+        "descricao": "Anne é uma moça brilhante, mas que vive estressada e é obcecada por programas de jogos na TV. Jenny, a irmã dela, mora longe e leva uma vida que é um desastre. Agora, as duas precisam se unir para pagar uma dívida de jogo da mãe delas. Quando o amado cachorro de Anne é sequestrado, elas partem numa aventura e cruzam o país para conseguir o dinheiro da única maneira que sabem: transformando Anne em campeã do programa de jogos da TV.",
+        "imdb": "tt13405810",
+        "imagem": "https://image.tmdb.org/t/p/w300//2kkz5jZwKkwYxV8sw6EGMyHjSzO.jpg"
+    },
+    {
+        "titulo": "A Hora do Pesadelo",
+        "descricao": "Um grupo de adolescentes de um subúrbio americano tem um sonho em comum, envolvendo Freddy Krueger (Jackie Earle Haley). Ele é um assassino desfigurado, que sempre os persegue em seus sonhos. Enquanto eles estão acordados não há risco algum, mas quando adormecem é a chance que Krueger tem para dominá-los.",
+        "imdb": "tt1179056",
+        "imagem": "https://image.tmdb.org/t/p/w300//qGtWD2V7xqRtrA2ImKmcHXJvq56.jpg"
+    },
+    {
+        "titulo": "Bull: Hora da Vingan\u00e7a",
+        "descricao": "Bull misteriosamente volta para casa após uma ausência de 10 anos para se vingar daqueles que o traíram todos aqueles anos atrás.",
+        "imdb": "tt13266998",
+        "imagem": "https://image.tmdb.org/t/p/w300//mFxHsGp04g1X9oLGIF1MFM0vzOg.jpg"
+    },
+    {
+        "titulo": "A Vingan\u00e7a dos Nerds 4: Os Nerds Tamb\u00e9m Amam",
+        "descricao": "Booger se apaixona por Jeannie, mas o pai de sua amada fará tudo o que estiver ao seu alcance para evitar que sua filha se case com um nerd.",
+        "imdb": "tt0110982",
+        "imagem": "https://image.tmdb.org/t/p/w300//ck5RanWyhq80GYjKtmpjpJkNejJ.jpg"
+    },
+    {
+        "titulo": "O Justiceiro",
+        "descricao": "Mestre em artes marciais e lutador, Kung Wei, vive numa casa humilde, com a esposa que está muito doente e com Johnny, seu filho que o adora e segue seus ensinamentos morais e de artes marciais. Kung Wei, é recrutado sigilosamente pela polícia, para disfarçado, desmantelar uma quadrilha em Hong Kong. Enquanto trabalhava com outra identidade, seu filho sofria com seus colegas que chamavam o pai de bandido; pois, a ele imputavam um crime. Neste meio tempo, sua esposa morre. Antes de morrer, ela confia a guarda do pequeno Johnny, ao policial que investigava Kung, supondo que se marido fosse um bandido perigoso. O mestre Kung Wei, terá que lutar muito nessa missão!",
+        "imdb": "tt0113153",
+        "imagem": "https://image.tmdb.org/t/p/w300//eoqPa4v4xd3l84ahEbx4edot2GB.jpg"
+    },
+    {
+        "titulo": "O Justiceiro",
+        "descricao": "A polícia está em polvorosa devido a uma série de 125 assassinatos realizados. Decidido a acabar com a onda de crimes, Frank Castle toma a dianteira e passa a investigar o caso. Castle é um ex-policial que está em busca de vingança desde que sua esposa e filho foram assassinados, tendo a partir de então se dedicado a combater o crime nas ruas por conta própria. Quando Castle acredita estar com a organização quase destruída, ele passa a enfrentar um novo grupo criminoso, que pretende ocupar o lugar vago.",
+        "imdb": "tt0098141",
+        "imagem": "https://image.tmdb.org/t/p/w300//ymYOIoWu4bfHmU6XYInvpMDAevw.jpg"
+    },
+    {
+        "titulo": "Os Sete Pecados Capitais: F\u00faria de Edimburgo \u2013 Parte 1",
+        "descricao": "Tristan, filho de Meliodas e Elizabeth, herda o poder do Clã da Deusa e pode curar as feridas e ferimentos das pessoas, mas muitas vezes acaba machucando outras pessoas devido a sua incapacidade de controlar o poder do seu Clã Demônio. Para proteger sua família, Tristan segue para o Castelo de Edimburgo e conhece uma série de novos amigos ao longo do caminho.",
+        "imdb": "tt17677744",
+        "imagem": "https://image.tmdb.org/t/p/w300//5KGPNFmtTHXBWCsXFkwluoFeb9L.jpg"
+    },
+    {
+        "titulo": "Mega Shark vs Colosso",
+        "descricao": "Em busca de uma nova fonte de energia, a Rússia acidentalmente revive o Kolossus, um robô gigante da Guerra Fria. Enquanto isso, um mega tubarão mortal aparece no mar, ameaçando a segurança do planeta.",
+        "imdb": "tt4566574",
+        "imagem": "https://image.tmdb.org/t/p/w300//dpio25Dlj2s3Jg1qVAfy2138gg7.jpg"
+    },
+    {
+        "titulo": "O Substituto",
+        "descricao": "Henry Barthes (Adrien Brody) é um professor de ensino médio, que apesar de ter o dom nato para se comunicar com os jovens, só dá aulas como substituto, para não criar vinculos com ninguém. Mas quando ele é chamado para lecionar em uma escola pública, se encontra em meio à professores desmotivados e adolescentes violentos e desencantados com a vida, que só querem encontrar um apoio para substituir seus pais negligentes ou ausentes. Sofrendo uma crise familiar, Henry verá três mulheres entrando em sua vida e vai começar a perceber como ele pode fazer a diferença, mesmo que isso venha com um alto custo. ",
+        "imdb": "tt1683526",
+        "imagem": "https://image.tmdb.org/t/p/w300//3C6aZjzBfyVbrtAhiMsbkvImjVj.jpg"
+    },
+    {
+        "titulo": "O Substituto",
+        "descricao": "Em uma escola pobre de Miami, uma professora é agredida pelo líder de uma gangue. Ela é substituída por um novo professor que na verdade é um mercenário do governo americano infiltrado no colégio para combater a criminalidade no local, onde imperam o medo, a violência, as armas e as drogas.",
+        "imdb": "tt0117774",
+        "imagem": "https://image.tmdb.org/t/p/w300//cb1iHx3qmtNy2rHmTx5zAH7nDIe.jpg"
+    },
+    {
         "titulo": "Cuando acecha la maldad",
         "descricao": "Em uma vila remota, dois irmãos encontram um homem possuído por demônios prestes a dar à luz ao mal encarnado. Eles decidem se livrar do sujeito, mas acabam apenas espalhando o caos.",
         "imdb": "tt16300962",
