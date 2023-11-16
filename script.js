@@ -1,5 +1,95 @@
 var filmes = [
     {
+        "titulo": "George, O Curioso: Um Natal Cheio de Macacadas",
+        "descricao": "George, o macaquinho mais curioso do mundo, estrela mais uma história divertida e educativa. Nesta nova aventura, George e O Homem do Chapéu Amarelo estão contando os dias para o Natal.",
+        "imdb": "tt1570964",
+        "imagem": "https://image.tmdb.org/t/p/w300//pnJ3dZBxWRbpWvkeNb7UUhFRAfI.jpg"
+    },
+    {
+        "titulo": "George, O Curioso 2: Siga Aquele Macaco!",
+        "descricao": "George conhece Kayla, uma filhote de elefante, numa apresentação de circo. George decide ajudá-la a reencontrar sua família e para isso precisará cruzar o país.",
+        "imdb": "tt1350484",
+        "imagem": "https://image.tmdb.org/t/p/w300//meH51XPPx2coyFa8gRIyNmHWDec.jpg"
+    },
+    {
+        "titulo": "George, o Curioso",
+        "descricao": "No filme online George, o Curioso, George, o macaquinho mais curioso do mundo, estrela mais uma história divertida e educativa. Nesta nova aventura, George e O Homem do Chapéu Amarelo estão contando os dias para o Natal.",
+        "imdb": "tt0381971",
+        "imagem": "https://image.tmdb.org/t/p/w300//60RXQPjPgjrjsVnvwG0sutIeoeY.jpg"
+    },
+    {
+        "titulo": "Invasor",
+        "descricao": "Sam e sua família são aterrorizados por um perseguidor malicioso... mas à medida que uma investigação aumenta, ele teme que os ataques possam estar relacionados a segredos que ele escondeu violentamente de sua família e detetives.",
+        "imdb": "tt10308502",
+        "imagem": "https://image.tmdb.org/t/p/w300//kRTFXVCedeh2PqKwkhPLhUCg1c4.jpg"
+    },
+    {
+        "titulo": "Matan\u00e7a",
+        "descricao": "Quando o novo prefeito decide enfrentar uma gangue de traficantes de drogas que comandam a cidade, ele e sua família se tornam alvos de uma retaliação brutal...",
+        "imdb": "tt11568362",
+        "imagem": "https://image.tmdb.org/t/p/w300//csapBzUWR7rmuwtmno8oCeWA2HX.jpg"
+    },
+    {
+        "titulo": "As 7 Bruxas",
+        "descricao": "Um casal decide celebrar o casamento e aluga uma mansão distante de tudo e de todos. No entanto, o dia do casamento cai exatamente no centenário de um ritual que reúne as 7 bruxas mais poderosas da atualidade.",
+        "imdb": "tt4424722",
+        "imagem": "https://image.tmdb.org/t/p/w300//z4Jub9n4p7Eqicoh9RHrrYgiWIO.jpg"
+    },
+    {
+        "titulo": "Aprisionados",
+        "descricao": "Em 1951, a polícia secreta da União Soviética bate na porta de uma família comum de Budapeste. Mas ao invés de prendê-los, os policiais decidem se mudar e manter a família em cativeiro dentro de sua própria casa.",
+        "imdb": "tt8757586",
+        "imagem": "https://image.tmdb.org/t/p/w300//nIjb23q0qKTrXpac4vf3Q7eP1CD.jpg"
+    },
+    {
+        "titulo": "V\u00edtima 3/19",
+        "descricao": "Camila é uma advogada de sucesso que se envolve em um acidente de trânsito que resulta na morte de um jovem. Na tentativa de descobrir a identidade da vítima, ela conhecerá Bruno, o diretor do necrotério, descobrirá lugares que não costuma frequentar e começará uma jornada de autoconhecimento.",
+        "imdb": "tt15715020",
+        "imagem": "https://image.tmdb.org/t/p/w300//zr6CYGPRajDdcbXJreaUfJfqCOB.jpg"
+    },
+    {
+        "titulo": "A Flauta M\u00e1gica",
+        "descricao": "O jovem estudante de música londrino Tim chega ao internato austríaco de Mozart e descobre uma porta secreta. Transportado para uma terra mística, ele embarca em uma emocionante aventura em busca da lendária flauta mágica.",
+        "imdb": "tt8206398",
+        "imagem": "https://image.tmdb.org/t/p/w300//5cSgFlXAMTv8M1jbfkJ25lqaLC1.jpg"
+    },
+    {
+        "titulo": "Mortal Kombat Legends: Cage Bom de Luta",
+        "descricao": "Na Hollywood dos anos 1980, o astro de ação Johnny Cage está procurando se tornar um ator do primeiro escalão. Mas, quando sua companheira, Jennifer, desaparece do set, ele se vê jogado em um mundo cheio de sombras e perigo. Ao embarcar em uma jornada sangrenta, Johnny rapidamente descobre que a Cidade dos Anjos tem mais do que alguns demônios em seu meio. Ele enfrenta uma sinistra sociedade secreta tramando um esquema nefasto, mas a luta brutal contra os guerreiros sanguinários de Netherrealm está apenas começando.",
+        "imdb": "tt22698070",
+        "imagem": "https://image.tmdb.org/t/p/w300//qx6DPthpaAZEUfcKaAoP3OL3aW2.jpg"
+    },
+    {
+        "titulo": "Liga da Justi\u00e7a x RWBY: Super-Her\u00f3is e Ca\u00e7adores - Parte 2",
+        "descricao": "A Liga da Justiça reaparece em seu próprio mundo e descobre que Grimm dominou a Terra! Para derrotar os monstros, eles precisarão pedir ajuda a suas novas amigas: a Equipe RWBY!",
+        "imdb": "tt28786861",
+        "imagem": "https://image.tmdb.org/t/p/w300//oopH7qWS4Z2HqHCbn9gsVwV3RQW.jpg"
+    },
+    {
+        "titulo": "Ressurrei\u00e7\u00e3o do Mal",
+        "descricao": "Em um futuro distópico, o Vaticano possui o conhecimento de ressuscitar pessoas. No entanto, um padre descobre uma teia de conspiração e assassinatos ligada a estes aparentes milagres.",
+        "imdb": "tt15340206",
+        "imagem": "https://image.tmdb.org/t/p/w300//7q6OFowMWFABPY7fyJMuHI0upBj.jpg"
+    },
+    {
+        "titulo": "A Fada do Dente",
+        "descricao": "Violetta, uma fada curiosa e atrevida, se perde no mundo humano.  Para encontrar o caminho de volta ao mundo das fadas, ela se junta à garota humana Maxie e descobre seu verdadeiro destino.",
+        "imdb": "tt20199226",
+        "imagem": "https://image.tmdb.org/t/p/w300//7Biyu5aP0o86GjxnffsHThYN4h1.jpg"
+    },
+    {
+        "titulo": "Temporada de Furac\u00f5es",
+        "descricao": "Quando um grupo de adolescentes encontra um corpo flutuando em um canal, a dura realidade por trás de um crime perverso revela os segredos ocultos de uma cidade.",
+        "imdb": "tt28657882",
+        "imagem": "https://image.tmdb.org/t/p/w300//bbfcDxGCvCuhMphluVOMkuPy6hF.jpg"
+    },
+    {
+        "titulo": "As Ladras",
+        "descricao": "Cansada de viver se escondendo, uma ladra profissional decide se aposentar. Mas só depois de um último roubo com a parceira no crime e uma nova motorista para a fuga.",
+        "imdb": "tt21638298",
+        "imagem": "https://image.tmdb.org/t/p/w300//wnLJ7nVObgbAD7cgF87XW1t9JT2.jpg"
+    },
+    {
         "titulo": "A Menina Que Matou os Pais: A Confiss\u00e3o",
         "descricao": "Veja o que Suzane von Richthofen, Daniel Cravinhos e Cristian Cravinhos fizeram nos dias que sucederam o crime brutal que levou o casal Richthofen à morte. Este filme revela momentos cruciais da investigação policial, depoimentos e a confissão do crime.",
         "imdb": "tt25153888",
