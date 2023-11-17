@@ -7,6 +7,96 @@ function searchMovies(event) {
 // Seu array de filmes
 var filmes = [
     {
+        "titulo": "She Came to Me",
+        "descricao": "",
+        "imdb": "tt6689014",
+        "imagem": "https://image.tmdb.org/t/p/w300//2lG18RqCK8qTk7R5jA1L7ZRMWXu.jpg"
+    },
+    {
+        "titulo": "Satanic Hispanics",
+        "descricao": "",
+        "imdb": "tt22085392",
+        "imagem": "https://image.tmdb.org/t/p/w300//8oRsWDVKBiLE7laQLH6uwgmKioE.jpg"
+    },
+    {
+        "titulo": "Lust, Lies, and Polygamy",
+        "descricao": "",
+        "imdb": "tt27925750",
+        "imagem": "https://image.tmdb.org/t/p/w300//pI12cBmY6lHmOxrpQlz0d8GDydw.jpg"
+    },
+    {
+        "titulo": "Jurassic Shark 3: Seavenge",
+        "descricao": "",
+        "imdb": "tt27036477",
+        "imagem": "https://image.tmdb.org/t/p/w300//zoJIAM7icpAG1Y7mWKIEHn1qJ8x.jpg"
+    },
+    {
+        "titulo": "Game of Deceit",
+        "descricao": "",
+        "imdb": "tt22168778",
+        "imagem": "https://image.tmdb.org/t/p/w300//vm9UevgNtoeZJhXYzJlnAmCFDc1.jpg"
+    },
+    {
+        "titulo": "Dinheiro F\u00e1cil",
+        "descricao": "O vlogger Keith Gill investe suas economias em ações da GameStop e posta sobre isso.  Quando a mídia social começa a explodir, o mesmo acontece com a vida dele e a de todos que o seguem.  À medida que uma dica sobre ações se transforma num movimento, todos ficam ricos – até que os multimilionários revidam e ambos os lados vêem os seus mundos virados do avesso.",
+        "imdb": "tt13957560",
+        "imagem": "https://image.tmdb.org/t/p/w300//qQxgyH6AT8EDLHmOuam1v6nSSCJ.jpg"
+    },
+    {
+        "titulo": "Fundo do Po\u00e7o",
+        "descricao": "Gary, um divorciado reprimido de meia-idade, contrata Cameron, um garoto de programa divertido e sem filtro, para lhe fazer uma massagem erótica. Quando Cameron descobre o quanto Gary é inexperiente, ele decide dar um curso intensivo sobre a vida queer sem remorso. A “grade curricular” de Cameron, que envolve aplicativos de sexo e muita gíria gay, rapidamente faz com que o dia tome rumos cada vez mais obscuros. A dupla enfrenta um vizinho intrometido viciado em remédios, um intruso da dark web e outras figuras em uma noite engraçadíssima, cheia de consequências e confrontos.",
+        "imdb": "tt14592044",
+        "imagem": "https://image.tmdb.org/t/p/w300//ijXKi02M7HIAHtjpBCWKTQj5L3X.jpg"
+    },
+    {
+        "titulo": "F20 - Jovens e Perigosos",
+        "descricao": "Dois jovens, um relacionamento recente, Martina e Filip querem ir à uma grandiosa festa na praia, mas para essa aventura precisam de dinheiro. Eles estão dispostos a tudo para consegui-lo. Ingenuamente não consideram as consequências, mas serão perseguidos incessantemente por elas.",
+        "imdb": "tt7580598",
+        "imagem": "https://image.tmdb.org/t/p/w300//plarm6ZgH4OKmZU9DoeVZ7OaaTR.jpg"
+    },
+    {
+        "titulo": "Festa do Pijama Muito Louca",
+        "descricao": "Quando uma brincadeira numa festa do pijama dá errado, um grupo de amigas acorda sem lembrança nenhuma da noite anterior e precisa refazer seus passos para encontrar a aniversariante que desapareceu.",
+        "imdb": "tt22375620",
+        "imagem": "https://image.tmdb.org/t/p/w300//1i7dglSbXeDUJrGd4rKGhLKzqGJ.jpg"
+    },
+    {
+        "titulo": "Toque de Recolher",
+        "descricao": "O anúncio de que uma venerada academia militar será destruída para dar lugar a um condomínio provoca uma revolta entre os alunos. Liderados pelo jovem cadete Brian Moreland (Timothy Hutton), os estudantes decidem tomar o campus para impedir sua derrubada. Mas um incidente pode colocar todo o plano por água abaixo.",
+        "imdb": "tt0083169",
+        "imagem": "https://image.tmdb.org/t/p/w300//6f4qOrzSMUqSc0iAODL6wnwJ7km.jpg"
+    },
+    {
+        "titulo": "De Volta \u00e0 Lagoa Azul",
+        "descricao": "Em virtude da cólera, Sarah, uma viúva, é deixada em um barco com um marinheiro e dois bebês: Lilli, sua filha, e Richard, filho de Emmeline, que tinha sido resgatado há poucos dias de um barco à deriva, onde seus pais foram encontrados mortos. Depois de vários dias o marinheiro pensa em matar os bebês para economizar água, mas Sarah não aceita tal atitude e mata o marujo. Depois de muitos dias ela chega com os bebês em uma bela ilha. Ela educa as crianças e quando elas têm quase 8 anos, ela morre. Quando Lilli e Richard se tornam jovens, se apaixonam e se casam. Quando um navio chega na ilha alguns problemas acontecem, mas o principal é que um dos marujos tenta estuprar Lilli. O casal então questiona se quer ou não voltar para a civilização.",
+        "imdb": "tt0102782",
+        "imagem": "https://image.tmdb.org/t/p/w300//1Ok3ZAnUXJk4y0Ij4QCt1LyYX7b.jpg"
+    },
+    {
+        "titulo": "Espelhos do Medo",
+        "descricao": "Ben Carson (Kiefer Sutherland) é um ex-detetive que, há um ano, foi suspenso do Departamento de Polícia de Nova York por ter atingido com um tiro um policial infiltrado. O caso fez com que se tornasse alcóolatra, o que o afastou de sua esposa e filhos. Tentando retomar sua vida em família, Ben aceita o emprego de vigia noturno nas ruínas de uma loja de departamentos. Porém enquanto patrulha o local ele começa a notar algo estranho nos espelhos usados como enfeite, já que refletem imagens horripilantes.",
+        "imdb": "tt0790686",
+        "imagem": "https://image.tmdb.org/t/p/w300//1hnjHdVSsfnblSK1Q40cHpEumUa.jpg"
+    },
+    {
+        "titulo": "Dias de Trov\u00e3o",
+        "descricao": "",
+        "imdb": "tt7051022",
+        "imagem": "https://image.tmdb.org/t/p/w300//1Pj9vuYnwH92hN95g1CwIFeVcju.jpg"
+    },
+    {
+        "titulo": "O Garoto-Formiga 2: A Vingan\u00e7a da F\u00faria Vermelha",
+        "descricao": "Após vencer a sua primeira batalha contra o crime, o garoto-formiga precisa lidar com as repercussões da fama. Enquanto enfrenta um novo e perigoso vilão, o menino irá fazer de tudo para impedir que um aluno da escola conquiste o coração de Ida.",
+        "imdb": "tt3606698",
+        "imagem": "https://image.tmdb.org/t/p/w300//aaczjMc3BJZBfqMULxgvHz1nkGW.jpg"
+    },
+    {
+        "titulo": "O Garoto-Formiga",
+        "descricao": "Pelle Nohrmann, um garoto de 12 anos de idade, é mordido por uma formiga e logo começa a desenvolver misteriosos poderes. Com a ajuda de Wilhelm, um fã de quadrinhos, Pelle cria uma identidade secreta.",
+        "imdb": "tt2436046",
+        "imagem": "https://image.tmdb.org/t/p/w300//fdCz4EO46osXxZ93MNO4Uvb33mr.jpg"
+    },
+    {
         "titulo": "Animal",
         "descricao": "Marvin Mage é um fracote que sempre sonhou em ser um policial mas nunca teve físico para tal profissão. Sua vida era um completo fiasco até sofrer um grave acidente automobilístico, que quase o matou. Para salvar sua vida, um cientista decidiu por fazer uma inovadora cirurgia, que reconstruía seu corpo com órgãos de animais. A experiência dá certo e a partir de então Marvin fica famoso e se torna um superpolicial. Porém, logo os novos órgãos fazem com que Marvin passe a ter instintos animais, que se manifestam nas piores horas e das maneiras mais bizarras possíveis",
         "imdb": "tt0255798",
