@@ -1,5 +1,89 @@
 var filmes = [
     {
+        "titulo": "7:11 PM",
+        "descricao": "O incidente que ocorre às 19h11 muda o destino de uma cidade e de um planeta chamado Proxima-EV12. Ravi viaja além da imaginação através do tempo para deter um gênio do crime, salvar seus entes queridos e sua amada cidade",
+        "imdb": "tt26258634",
+        "imagem": "https://image.tmdb.org/t/p/w300//3BNikHPFp2TCJvXRdXnBs8Tvcdv.jpg"
+    },
+    {
+        "titulo": "Tumbal Kanjeng Iblis",
+        "descricao": "",
+        "imdb": "tt24049304",
+        "imagem": "https://image.tmdb.org/t/p/w300//s0XfyBl9Yly93KAD3XdYKbmFZGY.jpg"
+    },
+    {
+        "titulo": "Toni, en famille",
+        "descricao": "",
+        "imdb": "tt23856264",
+        "imagem": "https://image.tmdb.org/t/p/w300//1UphVqMPYZ2wa5ZmvDNmT5z4uyq.jpg"
+    },
+    {
+        "titulo": "\u96f6\u865f\u8ffd\u6bba",
+        "descricao": "",
+        "imdb": "tt28482763",
+        "imagem": "https://image.tmdb.org/t/p/w300//5aCmEH8dgWLiAmTZiVqVrtte7jk.jpg"
+    },
+    {
+        "titulo": "\u738b\u724c\u66ff\u8eab",
+        "descricao": "",
+        "imdb": "tt27915108",
+        "imagem": "https://image.tmdb.org/t/p/w300//A1ScaEbCVPwYi7oFkDInHaG5AXd.jpg"
+    },
+    {
+        "titulo": "Outlaw Johnny Black",
+        "descricao": "Determinado a vingar a morte de seu pai, Johnny Black jura matar Brett Clayton e se torna um homem procurado ao se passar por um pregador em uma pequena cidade mineradora tomada por um notório barão da terra.",
+        "imdb": "tt8667828",
+        "imagem": "https://image.tmdb.org/t/p/w300//nnMW6UT0sVwPF02cQf0q5lGMf8Q.jpg"
+    },
+    {
+        "titulo": "#\u30de\u30f3\u30db\u30fc\u30eb",
+        "descricao": "",
+        "imdb": "tt24670176",
+        "imagem": "https://image.tmdb.org/t/p/w300//1IQbegy17gqIK5kmXGgAnJgeQ6y.jpg"
+    },
+    {
+        "titulo": "Little Jar",
+        "descricao": "",
+        "imdb": "tt13267436",
+        "imagem": "https://image.tmdb.org/t/p/w300//n1he5VCapQhTjKn2IVFHYsiBvry.jpg"
+    },
+    {
+        "titulo": "Ile Owo",
+        "descricao": "",
+        "imdb": "tt20861100",
+        "imagem": "https://image.tmdb.org/t/p/w300//aK7wpIsDAi9R6Vn518wb7JMEFVs.jpg"
+    },
+    {
+        "titulo": "House of Deadly Lies",
+        "descricao": "",
+        "imdb": "tt27196841",
+        "imagem": "https://image.tmdb.org/t/p/w300//7qnkSA9yqGj20selczomB1IcUXx.jpg"
+    },
+    {
+        "titulo": "Firenado",
+        "descricao": "",
+        "imdb": "tt18082808",
+        "imagem": "https://image.tmdb.org/t/p/w300//22KdiH4B6VuFyTuDMaUcRDtqHsW.jpg"
+    },
+    {
+        "titulo": "Captive",
+        "descricao": "Um grupo de drogados invade uma casa para uma festa de fim de semana, mas percebe que nem tudo está bem quando encontra um misterioso estranho preso no porão.",
+        "imdb": "tt11584674",
+        "imagem": "https://image.tmdb.org/t/p/w300//1VKCtDnTnhYRnxmwYotN1gKE9gX.jpg"
+    },
+    {
+        "titulo": "The New Boy",
+        "descricao": "A história hipnotizante de um menino órfão australiano aborígene de nove anos que chega na calada da noite a um remoto mosteiro administrado por uma freira renegada.",
+        "imdb": "tt18180926",
+        "imagem": "https://image.tmdb.org/t/p/w300//bp5Smw1lhUWA8B4T5LP24X7YBaX.jpg"
+    },
+    {
+        "titulo": "Taken In Montana",
+        "descricao": "",
+        "imdb": "tt28833706",
+        "imagem": "https://image.tmdb.org/t/p/w300//epHK4A64TgCfgK6bF2U8WR3ricU.jpg"
+    },
+    {
         "titulo": "She Came to Me",
         "descricao": "Uma compositora com bloqueio criativo redescobre sua paixão após uma noite com uma pessoa.",
         "imdb": "tt6689014",
