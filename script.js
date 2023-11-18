@@ -1,5 +1,173 @@
 var filmes = [
     {
+        "titulo": "O Reino Gelado",
+        "descricao": "Desejando criar um novo mundo no qual o vento polar esfrie as almas humanas, a Rainha da Neve cobriu o planeta com gelo e ordenou a destruição de todas as artes. De acordo com as previsões de um espelho mágico, a última ameaça aos seus planos estaria no mestre-vidreiro Vegard, cujos espelhos refletem não apenas a aparência, mas também as almas das pessoas. Então, o vento polar sequestra Vegard e sua esposa Una, deixando seus filhos Kai e Gerda para trás. O tempo passa e os servos da Rainha acabam capturando também Kai, acreditando que o garoto é o sucessor de seu pai. Mas sua irmã Gerda, agora uma garota muito corajosa, não vai deixar isso barato. Embarcando em uma jornada pelo reino, ela vai encarar todos os obstáculos ao lado de seus novos amigos para salvar o irmão e voltar a aquecer os corações das pessoas.",
+        "imdb": "tt2243621",
+        "imagem": "https://image.tmdb.org/t/p/w300//5Dgcj1C0UWephw5jZ59DIr8iHtP.jpg"
+    },
+    {
+        "titulo": "Dif\u00edcil de Matar",
+        "descricao": "Em Los Angeles, 1983, Mason Storm, um detetive da polícia, investiga Vernon Trent, um político corrupto que, ao saber que Mason tinha gravado uma fita que o comprometia seriamente, ordena uma emboscada contra a família Storm, que resulta na morte de Felicia, a mulher de Mason. No entanto, Sonny, o filho do casal consegue escapar. Quanto a Mason, ele fica tão seriamente ferido que inicialmente foi dado como morto, mas ficou em coma até 1990. Assim que ele sai do coma a notícia chega aos responsáveis pelo atentado, que mandam um assassino até o hospital para terminar o serviço. Porém, prevendo a gravidade da situação ele pede para Andy Stewart, sua enfermeira, que o tire logo dali. Ela não o atende logo, mas quando vê que se ficarem no hospital morrerão o retira do local e leva Mason para a casa de um amigo, que ficará no exterior por seis meses. Agora Mason tem tempo para se recuperar e preparar sua vingança.",
+        "imdb": "tt0099739",
+        "imagem": "https://image.tmdb.org/t/p/w300//ytZk9AnveQLkDyOTv5tihQzhrcg.jpg"
+    },
+    {
+        "titulo": "As Marvels",
+        "descricao": "Quando suas obrigações a levam a uma fenda espacial anômala ligada a um revolucionário Kree, os poderes de Carol Danvers, a Capitã Marvel, se entrelaçam aos de Kamala Khan, a Ms. Marvel, e aos da sobrinha de Carol, astronauta da S.A.B.E.R., Capitã Monica Rambeau. Juntas, esse trio improvável deve ser unir para salvar o universo como As Marvels.",
+        "imdb": "tt10676048",
+        "imagem": "https://image.tmdb.org/t/p/w300//sPmmgdmApfjX9x2mg02bo0aUOU9.jpg"
+    },
+    {
+        "titulo": "P\u00e2nico a Bordo",
+        "descricao": "Quando uma aluna excessivamente ambiciosa é convidada para uma jornada submarina por um empresário excêntrico, ela percebe que, no fundo, as pessoas não são quem fingem ser.",
+        "imdb": "tt8424638",
+        "imagem": "https://image.tmdb.org/t/p/w300//tyAVkcQlUtWgmXuGvnIXvR466H0.jpg"
+    },
+    {
+        "titulo": "A Fam\u00edlia Noel 3",
+        "descricao": "A entrega dos presentes dá errado e o Vovô Noel fica em apuros. Para salvar o Natal, os irmãos Jules e Norah vão ter que trabalhar juntos… mas será que eles conseguem?",
+        "imdb": "tt19072084",
+        "imagem": "https://image.tmdb.org/t/p/w300//fhARqtq7lAdahwGgTPMVWmpd5LG.jpg"
+    },
+    {
+        "titulo": "Crimes em Hollywood",
+        "descricao": "Um ex-detetive da polícia de Los Angeles vive uma vida minimalista na mata. Sua vida tranquila chega a um sobressalto surpreendente quando ele volta a trabalhar como detetive particular, para investigar o assassinato da excêntrica esposa de uma estrela de televisão.",
+        "imdb": "tt9244554",
+        "imagem": "https://image.tmdb.org/t/p/w300//7g2dtDG3yiCpIAPOGaTFjY2kfJ1.jpg"
+    },
+    {
+        "titulo": "Monster High: A Assustadora Barreira de Coral",
+        "descricao": "Junte-se as suas monstrinhas preferidas em uma nova aventura aquática! Quando as monstrinhas são empurradas e caem na piscina da escola, elas são transportadas para um mundo submarino: a Assustadora Barreira de Coral. A Lagoona vê que está em casa em uma missão de arrepiar onde decide enfrentar os próprios medos de uma vez por todas. É claro que ela vai precisar da ajuda das melhores amigas ao combater um inimigo do passado, competir em um campeonato de dança e lutar com um assustador monstro marino!",
+        "imdb": "tt5475710",
+        "imagem": "https://image.tmdb.org/t/p/w300//1TE2OcddMK0t7kbAW7tkqA6Hg5W.jpg"
+    },
+    {
+        "titulo": "Monster High: Monstros, C\u00e2mera, A\u00e7\u00e3o!",
+        "descricao": "Quando é levada a acreditar que é a herdeira do trono vampiro, Draculaura e suas melhores amigas viajam para a Transilvânia para uma coroação real de arrasar. Mas logo elas descobrem que a caçada pela rainha ainda não acabou. Para descobrir a identidade da verdadeira Rainha Vampira as monstrinhas embarcam em uma viagem repleta de aventura que as levará da nebulosa Londoom aos pântanos de Nova Goreleans e finalmente aos glamorosos estúdios de Hauntlywood. Será esse o momento em que Draculaura finalmente recebe seus poderes vampiros e descobre que os seus sonhos podem mesmo se tornar reais?",
+        "imdb": "tt3565904",
+        "imagem": "https://image.tmdb.org/t/p/w300//hc0FthE5mKEehkQ9ZzaQdFlGZJs.jpg"
+    },
+    {
+        "titulo": "Monster High: Monster Fusion",
+        "descricao": "Ao tentar ajudar Frankie a aprender mais sobre seus antepassados, as monstrinhas por descuido voltam no tempo para 1814, no primeiro dia de Monster High. Lá, elas encontram Sparky, um jovem cientista com uma obsessão por criar vida. Buscando descobrir o segredo que trouxe Frankie a vida, Sparky realiza uma série de experimentos no laboratório da escola, resultando na fusão de oito monstrinhas em quatro monstras misturadas. Sem saber controlar seus novos corpos, as monstrinhas precisam da ajuda de uma nova turma de monstros, os híbridos.  Será que elas resolveram tudo a tempo de se apresentar no grande Show do Bicentenário?",
+        "imdb": "tt3824344",
+        "imagem": "https://image.tmdb.org/t/p/w300//5gY4LVtjtv5kZlfJNEBAfAsHx21.jpg"
+    },
+    {
+        "titulo": "Cortina de Fogo",
+        "descricao": "Chicago, 1971. Quando criança, Brian McCafferty viu seu pai, bombeiro, perder a vida no cumprimento do dever. Vinte anos depois ele passa a integrar o corpo de bombeiros, juntando-se ao irmão mais velho, Stephen. Os dois brigam o tempo todo e Brian vai trabalhar com Donald Rimgale, investigador de incêndios, num caso de 'cortina de fogo' que pode ter motivações políticas.",
+        "imdb": "tt0101393",
+        "imagem": "https://image.tmdb.org/t/p/w300//2CwjDztPws8TM9ly9KIzpFZbwCT.jpg"
+    },
+    {
+        "titulo": "Penetras Bons de Bico",
+        "descricao": "John Beckwith e Jeremy Grey são dois inseparáveis conquistadores que entram como penetras em festas de casamento para aproveitarem-se do clima de romance no ar, conhecendo e seduzindo todas as mulheres que vêem pela frente. Mas a história destes penetras começa a mudar quando, no maior casamento do ano, John se apaixona por Claire Clearly, a adorável filha de um importante político. Enquanto John se esforça para manter as mentiras que contou e conquistar o coração da menina, Jeremy vai ter que se livrar da irmã mimada de Claire, Gloria, que está absolutamente alucinada pelo rapaz.",
+        "imdb": "tt0396269",
+        "imagem": "https://image.tmdb.org/t/p/w300//sRxkUMVx1QfuGeBMOWsT8pv68vW.jpg"
+    },
+    {
+        "titulo": "Os Penetras",
+        "descricao": "Os Penetras narra o divertido encontro entre Marco Polo (Marcelo Adnet), um malandro de Copacabana, e Beto (Eduardo Sterblitch), rapaz apaixonado e um tanto amalucado, às vésperas do réveillon carioca. Juntos, eles penetram em festas e aprontam confusões em busca da bela Laura. O elenco conta ainda com Stepan Nercessian, Susana Vieira, Andrea Beltrão e Mariana Ximenes.",
+        "imdb": "tt0452664",
+        "imagem": "https://image.tmdb.org/t/p/w300//iY9ucqKxL2G4cYRk5Lgc4YZynZu.jpg"
+    },
+    {
+        "titulo": "Emmanuelle - Possess\u00e3o Carnal",
+        "descricao": "Emmanuelle e algumas amigas viajam para uma vila alugada para as férias de verão. Elas não desconfiavam que o local estava assombrado pelos fantasmas dos antigos proprietários. Quando todas estão instaladas, eles aparecem para possuir o grupo e explorar a sua sexualidade latente.",
+        "imdb": "tt7425296",
+        "imagem": "https://image.tmdb.org/t/p/w300//2TC7TrnDiSajVWflBqeFSjxOSSb.jpg"
+    },
+    {
+        "titulo": "Emmanuelle - Prazer e \u00caxtase",
+        "descricao": "Emmanuelle tem uma nova missão: ajudar um talentoso artista a recuperar sua criatividade e melhorar suas obras. Em busca de inspiração o jovem se encontra com a especialista Emmanuelle, que o ensina tudo sobre os amor e suas artes e o ajuda a criar obras cada vez mais apaixonantes.",
+        "imdb": "tt7441778",
+        "imagem": "https://image.tmdb.org/t/p/w300//bI6eyVCrKXrPiCRYEIldJEeVnP0.jpg"
+    },
+    {
+        "titulo": "Emmanuelle in Space 2: A World of Desire",
+        "descricao": "",
+        "imdb": "tt0173796",
+        "imagem": "https://image.tmdb.org/t/p/w300//4L1wGmbC6K9L3JdpYfkSz3pci7Q.jpg"
+    },
+    {
+        "titulo": "Emmanuelle au 7\u00e8me ciel",
+        "descricao": "Por meio das maravilhas da realidade virtual, Emmanuelle tenta ajudar uma ex-colega de escola a superar um passado sexual traumático.",
+        "imdb": "tt0160245",
+        "imagem": "https://image.tmdb.org/t/p/w300//4RCXzlP2uM98nkgKUljijZh5zZ9.jpg"
+    },
+    {
+        "titulo": "Emmanuelle 4 \u2013 E Sua forma de Amar",
+        "descricao": "Sylvia (Sylvia Kristel) sofre uma grande desilusão amorosa e para fugir do namorado, se submete a cirurgia plástica para mudar sua fisionomia completamente. Loira e rejuvenescida ela se transforma na bela Emmanuelle (Mia Nygren). Junto de sua psiquiatra, Emmanuelle viaja para o Brasil em busca de novas sensações e se entrega a ardentes aventuras amorosas. Ao se sentir incompleta, ela decide lutar por sua antiga paixão, Marc (Patrick Bauchau), utilizando os seus novos dotes.",
+        "imdb": "tt0085486",
+        "imagem": "https://image.tmdb.org/t/p/w300//jrwozD3AyiQRL6g0D3jeiwhTqn2.jpg"
+    },
+    {
+        "titulo": "Adeus, Emmanuelle",
+        "descricao": "Na derradeira aparição de Sylvia Kristel no papel principal, Emmanuelle leva uma vida liberal e alegre nas ilhas Seychelles com o seu marido, até a chegada de um jovem cineasta, cheio de idéias para o seu novo filme. É quando o ciúme se interpõe na relação. Emmanuelle agora procura emoções ainda mais fortes.",
+        "imdb": "tt0077497",
+        "imagem": "https://image.tmdb.org/t/p/w300//di2ZdeiAXhkU9f8zbw3Rcy27CAb.jpg"
+    },
+    {
+        "titulo": "Emmanuelle 2 - Antivirgem",
+        "descricao": "Deixando a Tailândia, Emmanuelle (Sylvia Kristel) navega para Hong Kong para ir ao encontro de seu marido, Jean (Umberto Orsini), com quem mantêm um casamento aberto. Ao chegar descobre que ele convidara Christopher (Frédéric Lagache) para ficar hospedado na casa deles. Ela tenta seduzir o hóspede mas não obtém sucesso, pois ele prefere a companhia de asiáticas, o que o faz estar sempre no Jardim de Jade, um prostíbulo. Emmanuelle conhece Laura (Florence L. Afuma), com quem Jean teve um caso. Paralelamente ela tem suas aventuras amorosas, mas o futuro lhes reserva a mesma pessoa.",
+        "imdb": "tt0072933",
+        "imagem": "https://image.tmdb.org/t/p/w300//tFFmKV9jnzzTseJ8kH4I4zXTWKU.jpg"
+    },
+    {
+        "titulo": "Emmanuelle",
+        "descricao": "Uma modelo, Emmanuelle (Sylvia Kristel), vai de Paris até Bangcoc, na Tailândia, para se encontrar com o marido, Jean (Daniel Sarky), que atua no corpo diplomático. Lá Emmanuelle tem aventuras amorosas com homens e mulheres do novo círculo de amizades, apesar de amar Jean. Ele também tem casos extraconjugais, no entanto ambos aceitam este comportamento, que Emmanuelle se recusa a rotular de traição, pois não há mentiras entre eles.",
+        "imdb": "tt0071464",
+        "imagem": "https://image.tmdb.org/t/p/w300//13t1r3ZH3WUzUUnv6Qrg8kOa8xy.jpg"
+    },
+    {
+        "titulo": "Os Miser\u00e1veis",
+        "descricao": "Na França do século 19, o ex-prisioneiro Jean Valjean, perseguido ao longo de décadas pelo impiedoso policial Javert por ter violado sua liberdade condicional, busca redenção pelo seu passado e decide acolher a filha da prostituta Fantine.",
+        "imdb": "tt1707386",
+        "imagem": "https://image.tmdb.org/t/p/w300//BNYPwiysQXdFdNy41PDDIIjW5D.jpg"
+    },
+    {
+        "titulo": "Doom Asylum",
+        "descricao": "Um advogado horrivelmente desfigurado, injustamente declarado morto após um terrível acidente de carro, é levado a um asilo para dissecação, apenas para voltar vivo, matar todos e fazer do asilo seu terreno de morte.",
+        "imdb": "tt0092910",
+        "imagem": "https://image.tmdb.org/t/p/w300//gszNkyba7UwCoJdjH0JKJTmSaBt.jpg"
+    },
+    {
+        "titulo": "Um Homem de Fam\u00edlia",
+        "descricao": "Um implacavél headhunter corporativo de Chicago está em plena guerra para conseguir assumir o controle das contratações de equipe da empresa. Em meio a rivalidade no trabalho, uma tragédia familiar faz com que sua vida pessoal e profissional entrem em conflito.",
+        "imdb": "tt1718924",
+        "imagem": "https://image.tmdb.org/t/p/w300//cV4Nlsxdetem4Dk44t44YFaS8Li.jpg"
+    },
+    {
+        "titulo": "Fica Comigo",
+        "descricao": "Nicole e Chase são vizinhos, mas vivem em mundos completamente diferentes. Porém, os dois armam um plano para atrair o interesse e causar ciúme nas respectivas paixões de suas vidas. Eles fingem estar namorando! Durante as preparações para um baile da gala, Nicole e Chase começam a perceber que o seu verdadeiro objeto de desejo está muito mais perto do que pensavam.",
+        "imdb": "tt0164114",
+        "imagem": "https://image.tmdb.org/t/p/w300//2POSaoZEyiPoT2wzALNjX8hFxT2.jpg"
+    },
+    {
+        "titulo": "A Bab\u00e1",
+        "descricao": "Cole já sabia que a babá dele era linda e sexy, mas descobre também que ela faz parte de um culto satânico e que a turma da seita quer muito manter o segredo.",
+        "imdb": "tt4225622",
+        "imagem": "https://image.tmdb.org/t/p/w300//wfs8vJ5TfEvKEK8OsUJzx3GriGg.jpg"
+    },
+    {
+        "titulo": "Uma Fam\u00edlia Extraordin\u00e1ria",
+        "descricao": "A história de Bea Johnson desde o seu nascimento até a formatura enquanto ela navega pela vida com pais que possuem deficiência intelectual e uma família extensa que não consegue chegar a um acordo sobre a melhor maneira de ajuda-la.",
+        "imdb": "tt12024308",
+        "imagem": "https://image.tmdb.org/t/p/w300//jsNulf9CgHSSRSCgdhNsLynUTvm.jpg"
+    },
+    {
+        "titulo": "Un m\u00e9tier s\u00e9rieux",
+        "descricao": "",
+        "imdb": "tt21348598",
+        "imagem": "https://image.tmdb.org/t/p/w300//5mLX4dGLgLaxvUc7hmeJZxsNObX.jpg"
+    },
+    {
+        "titulo": "The Sleeping Negro",
+        "descricao": "",
+        "imdb": "tt10520754",
+        "imagem": "https://image.tmdb.org/t/p/w300//tdvmpkrPxuM90wFfPTh93uUUPtc.jpg"
+    },
+    {
         "titulo": "Suro",
         "descricao": "Elena e Iván decidem deixar a cidade grande para começar uma nova vida no interior. Eles começam a trabalhar em uma plantação de cortiça, mas as diferentes ideias sobre como cuidar da terra passam a interferir na relação do casal.",
         "imdb": "tt11069038",
