@@ -1,5 +1,137 @@
 var filmes = [
     {
+        "titulo": "A Slice of Chicago Romance",
+        "descricao": "",
+        "imdb": "tt15821952",
+        "imagem": "https://image.tmdb.org/t/p/w300//j3J3Ms1L8Cdlqzx80wQJzuUybvI.jpg"
+    },
+    {
+        "titulo": "A New Breed of Criminal",
+        "descricao": "",
+        "imdb": "tt21600628",
+        "imagem": "https://image.tmdb.org/t/p/w300//wbEspShqygMbhjuvlbmxknPZB6C.jpg"
+    },
+    {
+        "titulo": "A Hustler's Son",
+        "descricao": "",
+        "imdb": "tt28213780",
+        "imagem": "https://image.tmdb.org/t/p/w300//l3Fgpf0luNrgDlEQMZucKHzCIMa.jpg"
+    },
+    {
+        "titulo": "57 Segundos",
+        "descricao": "Quando um blogueiro de tecnologia consegue uma entrevista com um guru da tecnologia e interrompe um ataque contra ele, ele encontra um anel misterioso que o leva de volta 57 segundos no passado.",
+        "imdb": "tt18083578",
+        "imagem": "https://image.tmdb.org/t/p/w300//dfS5qHWFuXyZQnwYREwb7N4qU5p.jpg"
+    },
+    {
+        "titulo": "1943",
+        "descricao": "",
+        "imdb": "tt27758276",
+        "imagem": "https://image.tmdb.org/t/p/w300//c8MaMcTTSJc8bpVZnZTRh6gWVD6.jpg"
+    },
+    {
+        "titulo": "Les Survivants",
+        "descricao": "",
+        "imdb": "tt19895588",
+        "imagem": "https://image.tmdb.org/t/p/w300//g0m8NDhMhNFlAl6YHqNoZORAwKB.jpg"
+    },
+    {
+        "titulo": "The End of Sex",
+        "descricao": "Um casal que sente as pressões da paternidade e da idade adulta envia suas filhas para um acampamento de inverno pela primeira vez e embarca em uma série de aventuras sexuais para revigorar seu relacionamento.",
+        "imdb": "tt18081000",
+        "imagem": "https://image.tmdb.org/t/p/w300//6shiIHV2XjDK5yErHhoeMphwpwP.jpg"
+    },
+    {
+        "titulo": "Super bourr\u00e9s",
+        "descricao": "",
+        "imdb": "tt25154176",
+        "imagem": "https://image.tmdb.org/t/p/w300//hmPZ1nR7wWgk4DbNX7D2rEeR4rs.jpg"
+    },
+    {
+        "titulo": "Bowling Saturne",
+        "descricao": "",
+        "imdb": "tt15012246",
+        "imagem": "https://image.tmdb.org/t/p/w300//QmXBN3FFYdketHzG1wBCuXOHu9.jpg"
+    },
+    {
+        "titulo": "Les secrets de la princesse de Cadignan",
+        "descricao": "",
+        "imdb": "tt21967006",
+        "imagem": "https://image.tmdb.org/t/p/w300//kw0mxbkM53bttMN3hLocMlrfX7J.jpg"
+    },
+    {
+        "titulo": "Camp Hideout",
+        "descricao": "Depois que um adolescente problemático rouba um item importante de dois bandidos da cidade grande, ele se esconde em um acampamento de verão e descobre que deve proteger seus novos amigos a todo custo quando os criminosos o localizam.",
+        "imdb": "tt14051976",
+        "imagem": "https://image.tmdb.org/t/p/w300//iRqstvN60G1JytNcqerdvOvEA21.jpg"
+    },
+    {
+        "titulo": "O Pr\u00edncipe do Natal",
+        "descricao": "Uma jovem jornalista recebe um belo presente de Natal ao ser enviada para cobrir a história de um príncipe prestes a se tornar Rei.",
+        "imdb": "tt7608418",
+        "imagem": "https://image.tmdb.org/t/p/w300//hSfOYaqgCOVs7XIb8L6WaQVAQyY.jpg"
+    },
+    {
+        "titulo": "O Plano Perfeito",
+        "descricao": "Assaltantes vestidos com uniformes de pintor invadem um movimentado banco em Nova York e fazem reféns. A polícia chega ao local esperando resolver a situação rapidamente, mas os detetives Frazier e Mitchell se surpreendem com a inteligência e a frieza do líder dos bandidos, Dalton Russell, que parece estar sempre um passo à frente das ações da polícia",
+        "imdb": "tt0454848",
+        "imagem": "https://image.tmdb.org/t/p/w300//76z8q24vMul7IPguc0QUODF3THk.jpg"
+    },
+    {
+        "titulo": "Em Busca da Vit\u00f3ria",
+        "descricao": "O colegial Louden Swain, é um praticante da luta livre e um rapaz obcecado, tentando perder cerca de 10 quilos num curto espaço de tempo, para desafiar Shute, um imbatível campeão, pesando quase 80 quilos, duro na queda e considerado o melhor lutador do estado. Até o dia em que uma sexy mulher, ameaça arrastar Louden, e seus sonhos para um amor não correspondido.",
+        "imdb": "tt0090270",
+        "imagem": "https://image.tmdb.org/t/p/w300//o9Jp5ItzqM0c9oL5gvLIztOMN7y.jpg"
+    },
+    {
+        "titulo": "Comando Final 2: Hora das Consequ\u00eancias",
+        "descricao": "Um policial disfarçado tem a missão de pegar o Sr. Hung, o mestre de um sindicato do crime. Quando a operação dá errado e seu disfarce é descoberto, ele é levado a uma prisão na Tailânda. Lá, ele contará com a ajuda de um guarda da prisão, para que consiga sair vivo e obter a sua vingança contra aqueles que o enganaram.",
+        "imdb": "tt3197766",
+        "imagem": "https://image.tmdb.org/t/p/w300//r0oikCPARyjvjs9JyA5itsQJQUa.jpg"
+    },
+    {
+        "titulo": "Comando Final",
+        "descricao": "O Detetive Chan da policia de Hong Kong (Simon Yam) foi quase toda sua carreira devoto em colocar na cadeia o chefe da Triade, Wong Po (Sammo Hung). Depois de Descobrir ter um tumor no Cerebro e que lhe resta poucos anos de vida. Chan e sua equipe decidem colocar Wong Po a qualquer custo na cadeia, antes de sua morte. Poucos dias antes de sua aposentadoria, Ma Kwun (Donnie Yen)respeitado Detetive que substituira Chan, passa a acompanhar a equipe e compreender suas ações.",
+        "imdb": "tt0478024",
+        "imagem": "https://image.tmdb.org/t/p/w300//bIzjdRznNg7vcLqfZgFA9RFGvjz.jpg"
+    },
+    {
+        "titulo": "Animales Humanos",
+        "descricao": "Um casal e sua pequena filha vivem apavorados pelo cão dos vizinhos, que tempo depois ataca a menina. O cão será sacrificado apesar da tristeza dos seus donos que o consideravam um filho. Eles vão se vingar, aterrorizando a família e fazendo justiça de uma forma terrível.",
+        "imdb": "tt10719946",
+        "imagem": "https://image.tmdb.org/t/p/w300//1EPy9y9l94zQyQDnMpcCyzwD4Jp.jpg"
+    },
+    {
+        "titulo": "Terapia de Casal",
+        "descricao": "Um casal procura Judy Small, uma conselheira matrimonial, mas a conselheira é mais do que aquilo que se vê.",
+        "imdb": "tt8488518",
+        "imagem": "https://image.tmdb.org/t/p/w300//lXvccIkJtVlnrRJcCveQ5rZT5IZ.jpg"
+    },
+    {
+        "titulo": "O Assassino",
+        "descricao": "Depois de um erro desastroso, um assassino enfrenta quem o contratou e a si mesmo em uma caçada internacional por vingança. Mas ele jura que nada disso é pessoal.",
+        "imdb": "tt1136617",
+        "imagem": "https://image.tmdb.org/t/p/w300//mkEQgdQcvmxSYvY4bMhabxLjjXY.jpg"
+    },
+    {
+        "titulo": "Guerra Entre Herdeiros",
+        "descricao": "Duas irmãs tentam conquistar sua tia doente terminal e difícil de agradar na esperança de se tornarem beneficiárias de sua rica propriedade, apenas para descobrir que o resto de seus gananciosos membros da família tem a mesma ideia.",
+        "imdb": "tt16302202",
+        "imagem": "https://image.tmdb.org/t/p/w300//mQQvSozFKxJZmWrmnnrE5LV8CKG.jpg"
+    },
+    {
+        "titulo": "O Reino Gelado 3: Fogo e Gelo",
+        "descricao": "O raro talento de se meter em problemas é o legado da família de Kai e Gerda. O que mais você poderia esperar de quem foi criado em montanhas nevadas por trolls? Crescidos, os irmãos se metem em um desastre de proporções globais, tudo para encontrar seus pais que estão desaparecidos após serem levados pelo Vento do Norte.",
+        "imdb": "tt4685554",
+        "imagem": "https://image.tmdb.org/t/p/w300//52YjoWA0zwgH7dpMCReKzICF0rM.jpg"
+    },
+    {
+        "titulo": "O Reino Gelado 2",
+        "descricao": "Após a queda da Rainha da Neve, o troll Orm precisa refazer sua vida em meio aos seres de sua espécie. Para tanto, ele passa a trabalhar como mineiro e morar com a avó. Apesar da vida regrada que leva, sempre dentro da lei, ainda assim Orm enfrenta dificuldades em pagar as prestações da casa. Desta forma, resolve se candidatar a um torneio onde o vencedor terá a mão da princesa e o direito de morar no palácio real. Entretanto, Orm esconde o fato de já ter trabalhado para a Rainha da Neve e, aos poucos, fica tentado a dar vazão ao lado malvado que possuía quando era lacaio dela.",
+        "imdb": "tt3477554",
+        "imagem": "https://image.tmdb.org/t/p/w300//mZJGBPMZy2Fy1yFVHmLNK3BznP4.jpg"
+    },
+    {
         "titulo": "O Reino Gelado",
         "descricao": "Desejando criar um novo mundo no qual o vento polar esfrie as almas humanas, a Rainha da Neve cobriu o planeta com gelo e ordenou a destruição de todas as artes. De acordo com as previsões de um espelho mágico, a última ameaça aos seus planos estaria no mestre-vidreiro Vegard, cujos espelhos refletem não apenas a aparência, mas também as almas das pessoas. Então, o vento polar sequestra Vegard e sua esposa Una, deixando seus filhos Kai e Gerda para trás. O tempo passa e os servos da Rainha acabam capturando também Kai, acreditando que o garoto é o sucessor de seu pai. Mas sua irmã Gerda, agora uma garota muito corajosa, não vai deixar isso barato. Embarcando em uma jornada pelo reino, ela vai encarar todos os obstáculos ao lado de seus novos amigos para salvar o irmão e voltar a aquecer os corações das pessoas.",
         "imdb": "tt2243621",
