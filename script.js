@@ -1,5 +1,95 @@
 var filmes = [
     {
+        "titulo": "Suro",
+        "descricao": "Elena e Iván decidem deixar a cidade grande para começar uma nova vida no interior. Eles começam a trabalhar em uma plantação de cortiça, mas as diferentes ideias sobre como cuidar da terra passam a interferir na relação do casal.",
+        "imdb": "tt11069038",
+        "imagem": "https://image.tmdb.org/t/p/w300//q7pEWV0FxL5AOU9Pr5mUDQWnZ4A.jpg"
+    },
+    {
+        "titulo": "\u8d85\u80fd\u900f\u660e\u4eba",
+        "descricao": "",
+        "imdb": "tt28478180",
+        "imagem": "https://image.tmdb.org/t/p/w300//HryQ1lVFVWAdJtTQPdoEeuAafF.jpg"
+    },
+    {
+        "titulo": "Sins of the Father",
+        "descricao": "",
+        "imdb": "tt13839336",
+        "imagem": "https://image.tmdb.org/t/p/w300//hzg1P0KhWIj0jwOTJUradOYO99p.jpg"
+    },
+    {
+        "titulo": "Scrapper",
+        "descricao": "Georgie, uma menina sonhadora de 12 anos, vive feliz sozinha em seu apartamento em Londres, enchendo-o de magia. De repente, seu pai distante aparece e a força a confrontar a realidade.",
+        "imdb": "tt8649252",
+        "imagem": "https://image.tmdb.org/t/p/w300//fezRPcjrd4whodnVVcFRCgDpK11.jpg"
+    },
+    {
+        "titulo": "Mercy Road",
+        "descricao": "A história de um homem comum imperfeito que comete um crime. Ele logo descobre até onde está disposto a ir para salvar seu filho.",
+        "imdb": "tt23779058",
+        "imagem": "https://image.tmdb.org/t/p/w300//38oREG1dTSLyIPhdzZ1Cb67AoLD.jpg"
+    },
+    {
+        "titulo": "Love Machine 2",
+        "descricao": "",
+        "imdb": "tt16450934",
+        "imagem": "https://image.tmdb.org/t/p/w300//85NP2u4YUpKlv40Aj1XCCWnCx3S.jpg"
+    },
+    {
+        "titulo": "L'\u00e9tat et moi",
+        "descricao": "",
+        "imdb": "tt17544202",
+        "imagem": "https://image.tmdb.org/t/p/w300//2xSzrHr51wAkHv7qOzamULJxKbE.jpg"
+    },
+    {
+        "titulo": "Kill Her Goats",
+        "descricao": "O presente de formatura de Audra é a casa dos seus sonhos, mas logo se torna um pesadelo quando alguns convidados não convidados vêm para sua festa de boas-vindas que não são muito sutis sobre o fato de que não aprovam o novo dono da casa.",
+        "imdb": "tt13174108",
+        "imagem": "https://image.tmdb.org/t/p/w300//oHVuaIHBX0dqqBUbvYyHgkhyCr8.jpg"
+    },
+    {
+        "titulo": "Heretic",
+        "descricao": "",
+        "imdb": "tt16742890",
+        "imagem": "https://image.tmdb.org/t/p/w300//2kl8UpHt0MpQI7QG5lKUcnIyRFh.jpg"
+    },
+    {
+        "titulo": "Divorce Bait",
+        "descricao": "",
+        "imdb": "tt13659434",
+        "imagem": "https://image.tmdb.org/t/p/w300//xfJsZuAg81uKkpn4wq3Ms4AIyZx.jpg"
+    },
+    {
+        "titulo": "Deadly Estate",
+        "descricao": "",
+        "imdb": "tt22771748",
+        "imagem": "https://image.tmdb.org/t/p/w300//wQo2d80arhZZ3pBxvEaK8Y3MAZT.jpg"
+    },
+    {
+        "titulo": "Bone Cold",
+        "descricao": "Um experiente atirador de elite da Black Ops tenta escapar de um pesadelo depois de uma missão fracassada, sendo rastreado por soldados inimigos determinados a se vingar e caçado por algo sinistro e monstruoso, faminto e determinado.",
+        "imdb": "tt9658288",
+        "imagem": "https://image.tmdb.org/t/p/w300//yi8TQ9txgb7wDtGkghQmkkZLL9r.jpg"
+    },
+    {
+        "titulo": "\u30d0\u30c3\u30c9\u30b7\u30c6\u30a3",
+        "descricao": "",
+        "imdb": "tt21243618",
+        "imagem": "https://image.tmdb.org/t/p/w300//9mDyrEk2FHw79BEHd3EWxOPcX3n.jpg"
+    },
+    {
+        "titulo": "Adult Adoption",
+        "descricao": "",
+        "imdb": "tt14430834",
+        "imagem": "https://image.tmdb.org/t/p/w300//A3LFny4Jgs9xXxoclbCImzpJkIE.jpg"
+    },
+    {
+        "titulo": "A Young Time Ago",
+        "descricao": "",
+        "imdb": "tt28815396",
+        "imagem": "https://image.tmdb.org/t/p/w300//suDB8L1QbpgmTwPqHuffYsfhvI5.jpg"
+    },
+    {
         "titulo": "7:11 PM",
         "descricao": "O incidente que ocorre às 19h11 muda o destino de uma cidade e de um planeta chamado Proxima-EV12. Ravi viaja além da imaginação através do tempo para deter um gênio do crime, salvar seus entes queridos e sua amada cidade",
         "imdb": "tt26258634",
