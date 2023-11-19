@@ -2,21 +2,21 @@ import requests
 
 # inserir os ids dos filmes imdb, separados por quebra de linha
 imdb_codes = """
-tt15821952
-tt21600628
-tt28213780
-tt18083578
-tt27758276
-tt19895588
-tt18081000
-tt25154176
-tt15012246
-tt21967006
-tt14051976
-tt7608418
-tt0454848
-tt0090270
-tt3197766
+tt26763922
+tt13110998
+tt8891560
+tt16235342
+tt15783520
+tt17663876
+tt15732890
+tt26349732
+tt7718100
+tt22044656
+tt26256606
+tt21930066
+tt15552570
+tt21305808
+tt1462759
 """
 
 # converter a string em uma lista com os códigos imdb

@@ -7,6 +7,102 @@ function searchMovies(event) {
 // Seu array de filmes
 var filmes = [
     {
+        "titulo": "Ukryty",
+        "descricao": "",
+        "imdb": "tt26763922",
+        "imagem": "https://image.tmdb.org/t/p/w300//qtUpNUYZXQPcuc6hj5X9MLAaeVz.jpg"
+    },
+    {
+        "titulo": "Sweet Dreams",
+        "descricao": "",
+        "imdb": "tt13110998",
+        "imagem": "https://image.tmdb.org/t/p/w300//ml5koO8OLOSafFF675rfU69H9Qd.jpg"
+    },
+    {
+        "titulo": "Surprised by Oxford",
+        "descricao": "",
+        "imdb": "tt8891560",
+        "imagem": "https://image.tmdb.org/t/p/w300//bE8wDiRzOHvfqMCJ74oGVYX9fYI.jpg"
+    },
+    {
+        "titulo": "Space Wars: Quest for the Deepstar",
+        "descricao": "Uma equipe de recuperadores de carga espacial formada por pai e filha deve combater um bando de mercenários malignos para chegar à um cargueiro mítico.",
+        "imdb": "tt16235342",
+        "imagem": "https://image.tmdb.org/t/p/w300//lVoJVFyAyEPfxYnbp3Tem5FXipe.jpg"
+    },
+    {
+        "titulo": "On Fire",
+        "descricao": "Uma família mora em um trailer na floresta e de repente é confrontada por um incêndio. A sobrevivência se torna o objetivo principal.",
+        "imdb": "tt15783520",
+        "imagem": "https://image.tmdb.org/t/p/w300//1ms0zRAMtbVq5XoIfrlcSj84g6G.jpg"
+    },
+    {
+        "titulo": "Muzzle",
+        "descricao": "Depois que seu cachorro é morto em Skid Row, Jake Rosser mergulha em um submundo sinistro para descobrir a verdade sobre quem pode ser o responsável.",
+        "imdb": "tt17663876",
+        "imagem": "https://image.tmdb.org/t/p/w300//qXChf7MFL36BgoLkiB3BzXiwW82.jpg"
+    },
+    {
+        "titulo": "Le Livre des solutions",
+        "descricao": "",
+        "imdb": "tt15732890",
+        "imagem": "https://image.tmdb.org/t/p/w300//yWM5pp1zrKVB7YWsTBjp2yra5lP.jpg"
+    },
+    {
+        "titulo": "Insidious Inferno",
+        "descricao": "",
+        "imdb": "tt26349732",
+        "imagem": "https://image.tmdb.org/t/p/w300//8kljUAovBatZRYp2ye2RZr239hU.jpg"
+    },
+    {
+        "titulo": "Heist 88",
+        "descricao": "Um gênio do crime recruta um grupo de jovens funcionários de banco para roubar 80 milhões de dólares em um dos maiores assaltos a banco da história dos EUA.",
+        "imdb": "tt7718100",
+        "imagem": "https://image.tmdb.org/t/p/w300//4ueFteb6V38fnSWTN4jIbLOlMlM.jpg"
+    },
+    {
+        "titulo": "Head Count",
+        "descricao": "",
+        "imdb": "tt22044656",
+        "imagem": "https://image.tmdb.org/t/p/w300//4gQb5y4NzsW4D5j8jZ7FyoysrDI.jpg"
+    },
+    {
+        "titulo": "Fables for the Witching Hour",
+        "descricao": "",
+        "imdb": "tt26256606",
+        "imagem": "https://image.tmdb.org/t/p/w300//pTM6rhgZbUTevPN0pmTYKU4vP4G.jpg"
+    },
+    {
+        "titulo": "Double Kill",
+        "descricao": "",
+        "imdb": "tt21930066",
+        "imagem": "https://image.tmdb.org/t/p/w300//z57M0GAfnRETh44VECfjNiU94pL.jpg"
+    },
+    {
+        "titulo": "Dark Asset",
+        "descricao": "",
+        "imdb": "tt15552570",
+        "imagem": "https://image.tmdb.org/t/p/w300//hfxqsC8Bz2wMZmXKwEZqKyJiScT.jpg"
+    },
+    {
+        "titulo": "Cerebrum",
+        "descricao": "",
+        "imdb": "tt21305808",
+        "imagem": "https://image.tmdb.org/t/p/w300//gfLgPSUpQH4Mx3LtfIWWL5YAadw.jpg"
+    },
+    {
+        "titulo": "Butcher's Crossing",
+        "descricao": "Na década de 1870, um jovem que abandonou Harvard busca seu destino no Oeste, vinculando seu destino a uma equipe de caçadores de búfalos liderada por um homem chamado Miller. Juntos, eles embarcam em uma jornada angustiante arriscando a vida e a sanidade.",
+        "imdb": "tt1462759",
+        "imagem": "https://image.tmdb.org/t/p/w300//ecCHA70C9PwG1AJz09wZrlPHzzF.jpg"
+    },
+    {
+        "titulo": "Barber",
+        "descricao": "Val Barber, um investigador particular, é contratado por uma rica viúva para encontrar sua neta desaparecida.",
+        "imdb": "tt15783464",
+        "imagem": "https://image.tmdb.org/t/p/w300//lO3hGCsGF9SMkgxja1OX1BZh4Qq.jpg"
+    },
+    {
         "titulo": "A Slice of Chicago Romance",
         "descricao": "",
         "imdb": "tt15821952",
