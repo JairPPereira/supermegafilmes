@@ -1,5 +1,65 @@
 var filmes = [
     {
+        "titulo": "Asterix entre os Bret\u00f5es",
+        "descricao": "As tropas romanas invadem a Bretanha em mais uma etapa na sua fase de conquistas por toda a Europa antiga. Os bretões se pareciam com os gauleses e muitos deles descendiam de tribos vindas da Gália. Entre eles estava um contra-parente de Asterix que, ao perceber que os bretões não resistiriam por muito tempo ao ataque romano, resolve partir em busca de Asterix para conseguir um pouco da poção mágica que lhes dá uma força descomunal. Asterix e seus amigos concordam, afinal os bretões sempre ajudaram os gauleses nas batalhas contra o exército romano. Eles enchem um barril com poção suficiente para toda a tribo bretã e partem rumo à grande ilha. No caminho deparam-se com uma galera romana que, embora tenha sido derrotada, volta para avisar que os bretões estão recebendo a poção. Daí para frente têm início as mais divertidas aventuras de Asterix e Obelix para evitar que os romanos se apoderem da poção.",
+        "imdb": "tt0090667",
+        "imagem": "https://image.tmdb.org/t/p/w300//stgc9FgwWQWpSD4HGr98O9ru3bc.jpg"
+    },
+    {
+        "titulo": "Asterix Conquista a Am\u00e9rica",
+        "descricao": "Durante uma batalha na vila gaulesa, a poção que dá força sobre humana a Asterix e Obelix se acaba. Antes que Panoramix possa preparar outra, é capturado e os dois amigos são enviados para salvá-lo. Eles terminam na América, onde os índios, que já haviam feito Panoramix prisioneiro, capturam Asterix. O pajé da tribo quer, de qualquer maneira, a fórmula da poção mágica e o druida se utiliza de todos os artifícios para proteger seu segredo. Quando os três gauleses finalmente conseguem escapar dos índios e retornar para casa, começa uma outra missão: libertar o povo gaulês do imperador Júlio César.",
+        "imdb": "tt0109162",
+        "imagem": "https://image.tmdb.org/t/p/w300//9wa5KnDRiWKk5REMtUPbUiX8aqT.jpg"
+    },
+    {
+        "titulo": "Caindo na Estrada 2: O Jogo da Cerveja",
+        "descricao": "Três colegas de quarto vão na viagem das suas vidas quando largam tudo para participar na mais sexy das competições esportivas, o “National Beer Pong Tournament”. No caminho eles vão encontrar as mais incriveis atrações,tais como, o esquadrão de strip da avô-mãe-filha, as adoráveis virgens da puridade até ao casamente e muito mais. Com todos estes desvios será que chegam a tempo da competição e ganhar o título?",
+        "imdb": "tt1319733",
+        "imagem": "https://image.tmdb.org/t/p/w300//gxFuJKUWpZlfDauSPjrDwxHleOB.jpg"
+    },
+    {
+        "titulo": "Upgrade: Atualiza\u00e7\u00e3o",
+        "descricao": "No futuro próximo, a tecnologia controla quase todos os aspectos da vida. Mas quando Gray, um tecnofóbico, tem seu mundo virado de cabeça para baixo, sua única esperança de vingança é um implante experimental de chips de computador chamado Stem.",
+        "imdb": "tt6499752",
+        "imagem": "https://image.tmdb.org/t/p/w300//yVRDpj9wg6sYnBugfxUbnjBdHWo.jpg"
+    },
+    {
+        "titulo": "Bruxa de Blair",
+        "descricao": "Um grupo de estudantes universitários se aventuram na floresta de Black Hills para desvendar os mistérios que cercam o desaparecimento da irmã de James, que muitos acreditam estar ligado à lenda da Bruxa de Blair. No início, o grupo está esperançoso, especialmente quando uma dupla de moradores se oferecem para guia-los na floresta. Mas com o cair da noite, o grupo é surpreendido por uma presença ameaçadora e lentamente, eles começam a perceber que a lenda é real e muito mais sinistra do que imaginaram.",
+        "imdb": "tt1540011",
+        "imagem": "https://image.tmdb.org/t/p/w300//vfdK9NtUqbSgFqvzPJi8kEnq2ee.jpg"
+    },
+    {
+        "titulo": "Miss Simpatia 2: Armada e Poderosa",
+        "descricao": "A Agente Especial Gracie Hart é a bola da vez dentro do FBI, curtindo o status de celebridade, participando de talk shows (seu ato heróico durante o concurso Miss Estados Unidos a fez muito famosa para exercer o seu trabalho). Ela também tem uma nova parceira, uma agente com temperamento explosivo e uma opinião não muito boa sobre Gracie. Mas quando os amigos de Gracie são sequestrados, nada vai impedir que ela entre em ação. Preparem-se todos! Esta Miss promete não ser nada simpática com os bandidos.",
+        "imdb": "tt0385307",
+        "imagem": "https://image.tmdb.org/t/p/w300//lT0IQTGioZ026n2fmhbvmvCCZQ0.jpg"
+    },
+    {
+        "titulo": "Um Homem de Sorte",
+        "descricao": "Um talentoso engenheiro abandona suas raízes austeras por riqueza e sucesso em meio à elite de Copenhague. Mas o mesmo orgulho que o motiva pode representar sua ruína.",
+        "imdb": "tt8436026",
+        "imagem": "https://image.tmdb.org/t/p/w300//bka5V6BESl3BH60a1TDBfWg1clb.jpg"
+    },
+    {
+        "titulo": "Zeppos: Het Mercatorspoor",
+        "descricao": "",
+        "imdb": "tt14305738",
+        "imagem": "https://image.tmdb.org/t/p/w300//3IQLVTK1Mfqm0ysJnJPCtPuGBi2.jpg"
+    },
+    {
+        "titulo": "Warrior Strong",
+        "descricao": "Bilal Irving é convidado para ser o assistente técnico de seu antigo time de basquete do ensino médio. Lá, ele aprende que ser um verdadeiro treinador envolve muito mais do que simplesmente ensinar o jogo.",
+        "imdb": "tt21622842",
+        "imagem": "https://image.tmdb.org/t/p/w300//3dlxBt3Me8szEROHDMbSHxR6cEw.jpg"
+    },
+    {
+        "titulo": "The Vigilante",
+        "descricao": "",
+        "imdb": "tt5660834",
+        "imagem": "https://image.tmdb.org/t/p/w300//pWuGTUPJfxqJffRxvAYNNvI2SRx.jpg"
+    },
+    {
         "titulo": "Ukryty",
         "descricao": "",
         "imdb": "tt26763922",
