@@ -1,5 +1,65 @@
 var filmes = [
     {
+        "titulo": "Dr. Dolittle 3",
+        "descricao": "Maya Dolittle sonha em ser uma adolescente normal, mas herdou de seu pai o dom de falar com os animais. Suas habilidades sempre a deixam em situações embaraçosas, o que faz com que seus amigos a considerem maluca. Em um acampamento de verão Maya tenta esconder de todos seu dom, na tentativa de se enturmar. Porém quando seus amigos entram em perigo ela precisa usar mais uma vez suas habilidades para salvá-los.",
+        "imdb": "tt0481513",
+        "imagem": "https://image.tmdb.org/t/p/w300//mODEH6RuoL8s9ptF1Mbrq1Z6aYz.jpg"
+    },
+    {
+        "titulo": "Dr. Dolittle 2",
+        "descricao": "O Dr. John Dolittle, o médico que tem o dom de conversar com os animais, parte para uma floresta juntamente com sua família, a fim de evitar a extinção de uma raça de ursos. Mas para que isto ocorra ele precisa antes arrumar um companheiro para a ursa local.",
+        "imdb": "tt0240462",
+        "imagem": "https://image.tmdb.org/t/p/w300//mznxoYMKFOmJt7TOn12XHy4YiH1.jpg"
+    },
+    {
+        "titulo": "Dr. Dolittle",
+        "descricao": "Após um pequeno acidente, o Doutor John Dolittle recupera o dom de infância de conversar com animais. Mas esta habilidade rara começa a causar muitas confusões na vida do médico, que agora tem que cuidar de macacos embriagados e leões deprimidos que precisam de ajuda. O comportamento estranho de Dr. Dolittle acaba fazendo com que ele vá parar em um hospital psiquiátrico.",
+        "imdb": "tt0118998",
+        "imagem": "https://image.tmdb.org/t/p/w300//g84Os8iaDJNs51oNo1VtATGpbOV.jpg"
+    },
+    {
+        "titulo": "Doze \u00e9 Demais 2",
+        "descricao": "Tom Baker e sua esposa, Kate, levam seus filhos para o que esperam ser um verão relaxante em um resort à beira do lago. Porém, logo descobrem que vão ficar em um quarto muito ruim. Para piorar a situação, o antigo inimigo de Tom, Jimmy Murtaugh, e sua enorme família aparecem no lugar e envolvem os Baker em uma competição nada amigável, que ameaça estragar sua viagem.",
+        "imdb": "tt0452598",
+        "imagem": "https://image.tmdb.org/t/p/w300//pWycE2t6Vu4X8QWbJLzq4Wx0aO6.jpg"
+    },
+    {
+        "titulo": "Asterix e os Doze Trabalhos",
+        "descricao": "Depois de mais uma tentativa de conquistar a vila gaulesa, alguns dos senadores romanos começam a suspeitar de que os moradores dali são, na verdade, uma espécie de deuses. César,  para manter seu trono, envia à vila uma lista com doze tarefas que só poderiam ser realizadas por seres superiores. Se os gauleses vencerem o desafio, ele admitiria sua derrota. Caso contrário, se tornariam seus escravos. A proposta é aceita. Asterix, por ser o mais esperto, e Obelix, por ser o mais forte, são escolhidos para representar a vila. Com o peso de não falhar em uma só tarefa, os dois saem para cumprir os doze trabalhos e manter a dignidade gaulesa.",
+        "imdb": "tt0072901",
+        "imagem": "https://image.tmdb.org/t/p/w300//ulhCzWTgE91jHB7o5lx5pAeBtxd.jpg"
+    },
+    {
+        "titulo": "Asterix & Obelix Contra C\u00e9sar",
+        "descricao": "A pequena aldeia de Asterix e Obelix é a pedra no sapato do imperador Júlio César: de toda a França, a aldeia gaulesa é o único local que não é controlado pelo Império Romano. O maior problema, segundo os comandantes da legião romana, é a força descomunal dos gauleses, conseguida através de uma poção mágica preparada pelo druida Panoramix. Entretanto, o comandante Detritus tem um plano para derrotar os gauleses: capturar Obelix e o druida Panoramix.",
+        "imdb": "tt0133385",
+        "imagem": "https://image.tmdb.org/t/p/w300//vUw8OtCAP2XJIYC8wS1F1PwHYq2.jpg"
+    },
+    {
+        "titulo": "Asterix e o Dom\u00ednio dos Deuses",
+        "descricao": "O imperador romano Júlio César sempre quis derrotar os irredutíveis gauleses, mas jamais teve sucesso em seus planos de conquista. Até que, um dia, ele resolve mudar de estratégia. Ao invés de atacá-los, passa a oferecer os prazeres da civilização aos gauleses. Desta forma, Júlio César ordena a construção da Terra dos Deuses ao redor da vila gaulesa, de forma a impressioná-los e, assim, convencê-los a se unir ao império romano. Só que a dupla Asterix e Obelix não está nem um pouco disposta a cooperar com os planos de César.",
+        "imdb": "tt3759416",
+        "imagem": "https://image.tmdb.org/t/p/w300//axLyPQz7Dln0a7tpl2iST60vTSY.jpg"
+    },
+    {
+        "titulo": "Asterix e a Grande Luta",
+        "descricao": "A única coisa que realmente põe medo nos gauleses é a possibilidade do céu cair sobre suas cabeças... E parece que isso vai acontecer... Uma terrível tempestade assola a vila e, para piorar, o druida Panoramix é atingido acidentalmente por Obelix com uma pedra gigante, e fica inconsciente. Ao acordar, não se lembra de praticamente nada, em especial da fórmula de sua poção mágica. Agora, Asterix e Obelix terão de defender a vila por conta própria.",
+        "imdb": "tt0096842",
+        "imagem": "https://image.tmdb.org/t/p/w300//oYQfsF6qtt7QpNNvqEROF6MIoab.jpg"
+    },
+    {
+        "titulo": "Asterix e a Surpresa de C\u00e9sar",
+        "descricao": "Asterix e Obelix se alistam no exército romano para salvar dois jovens gauleses que foram sequestrados. Passando por vários apuros eles terão que enfrentar gladiadores no grande e famoso Coliseu. Será que desta vez Asterix e Obelix falharão? ",
+        "imdb": "tt0088748",
+        "imagem": "https://image.tmdb.org/t/p/w300//pIGrPXg4zdgu0SYIrWUpXWdSStE.jpg"
+    },
+    {
+        "titulo": "Asterix e Cle\u00f3patra",
+        "descricao": "No Egito, Júlio César insulta Cleópatra ao dizer que sua nação está condenada a viver sob o regime de semiescravidão dos romanos. Decidida a provar que seu povo não está decadente, Cleópatra diz que construirá um magnífico palácio em Alexandria, em apenas 3 meses. Sem saber o que fazer, o engenheiro da obra decide contactar o druida Panoramix, para que ele possa ajudá-lo disponibilizando um pouco da poção mágica que dá força sobrehumana a quem a bebe.",
+        "imdb": "tt0062687",
+        "imagem": "https://image.tmdb.org/t/p/w300//fsvNagTYR9n8Edc60fdXffIU1rJ.jpg"
+    },
+    {
         "titulo": "Asterix entre os Bret\u00f5es",
         "descricao": "As tropas romanas invadem a Bretanha em mais uma etapa na sua fase de conquistas por toda a Europa antiga. Os bretões se pareciam com os gauleses e muitos deles descendiam de tribos vindas da Gália. Entre eles estava um contra-parente de Asterix que, ao perceber que os bretões não resistiriam por muito tempo ao ataque romano, resolve partir em busca de Asterix para conseguir um pouco da poção mágica que lhes dá uma força descomunal. Asterix e seus amigos concordam, afinal os bretões sempre ajudaram os gauleses nas batalhas contra o exército romano. Eles enchem um barril com poção suficiente para toda a tribo bretã e partem rumo à grande ilha. No caminho deparam-se com uma galera romana que, embora tenha sido derrotada, volta para avisar que os bretões estão recebendo a poção. Daí para frente têm início as mais divertidas aventuras de Asterix e Obelix para evitar que os romanos se apoderem da poção.",
         "imdb": "tt0090667",
