@@ -1,7 +1,9 @@
 import requests
 
+
 def get_movie_info(tmdb_id):
-    url = f"https://api.themoviedb.org/3/movie/{tmdb_id}?api_key=fcfe44809de84129fab53e785124bb95&language=pt-BR"
+    url = f"https://api.themoviedb.org/3/movie/{
+        tmdb_id}?api_key=fcfe44809de84129fab53e785124bb95&language=pt-BR"
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()
@@ -13,7 +15,8 @@ def get_movie_info(tmdb_id):
     else:
         return None, None
 
-tmdb_ids = [18843, 10808, 3050, 9641, 9385, 9564, 170522, 11625, 8868, 9929,]
+
+tmdb_ids = [18843, 10808,]
 
 # Imprime o título e a sinopse de cada filme
 for tmdb_id in tmdb_ids:
@@ -24,4 +27,5 @@ for tmdb_id in tmdb_ids:
         print(synopsis)
         print()
     else:
-        print(f"Não foi possível obter informações do filme com TMDb ID {tmdb_id}.")
+        print(
+            f"Não foi possível obter informações do filme com TMDb ID {tmdb_id}.")
