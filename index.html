@@ -33,18 +33,7 @@
     <script src="/busca.js"></script>
     <script src="script.js"></script>
     <script src="/info.js"></script>
-    <script>
-        function openMovie(titulo, url) {
-            window.location.href = 'single-movie.html?titulo=' + encodeURIComponent(titulo) + '&url=' + encodeURIComponent(url);
-        }
-    
-        function reproduzirFilme(titulo, url) {
-            alert('Reproduzindo ' + titulo + ' de ' + url);
-            // resto do código para carregar o player de vídeo...
-            window.location.href = 'single-movie.html?titulo=' + encodeURIComponent(titulo) + '&url=' + encodeURIComponent(url);
-        }
-        
-    </script>
+  
   
 </head>
 
@@ -189,7 +178,19 @@
                 <script>
                     document.getElementById('filmes-container').innerHTML = adicionarFilmesNaPagina(0);
                 </script>
-            
+                <script>
+                    function openMovie(titulo, url) {
+                        window.open('single-movie.html?titulo=' + encodeURIComponent(titulo) + '&url=' + encodeURIComponent(url), '_blank');
+                    }
+                
+                    function reproduzirFilme(titulo, url) {
+                        alert('Reproduzindo ' + titulo + ' de ' + url);
+                        // resto do código para carregar o player de vídeo...
+                        window.open('single-movie.html?titulo=' + encodeURIComponent(titulo) + '&url=' + encodeURIComponent(url), '_blank');
+                    }
+                </script>
+                
+                
          
             </div>
                        </div>
