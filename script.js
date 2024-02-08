@@ -1,5 +1,4352 @@
 var filmes = [
     {
+        "titulo": "Marte Ataca!",
+        "descricao": "Os marcianos invadem nosso planeta, matando e destruindo tudo no caminho, pois acham bem divertido e querem transformar a Terra em um \"parque de divers\u00f5es\". Se ningu\u00e9m achar uma maneira de det\u00ea-los, a ra\u00e7a humana est\u00e1 condenada ao exterm\u00ednio.",
+        "imdb": "tt0116996",
+        "imagem": "https://image.tmdb.org/t/p/w300//koIxmF4RUofBWYhcpekQCbjefXY.jpg"
+    }
+    ,
+    {
+        "titulo": "Condena\u00e7\u00e3o Brutal",
+        "descricao": "Faltam apenas seis meses para Frank Leone, um prisioneiro modelo, terminar de cumprir sua pena por um crime menor, em uma pris\u00e3o de seguran\u00e7a m\u00ednima. At\u00e9 que, repentinamente, ele \u00e9 transferido para uma pris\u00e3o de seguran\u00e7a m\u00e1xima que \u00e9 administrada pelo diretor Drumgoole, que nutre um imenso \u00f3dio por Leone e vai fazer de tudo para que ele nunca mais seja solto, pois transformar\u00e1 o que resta da sua pena em um inferno. Drumgoole espera que fazendo isto Leone ir\u00e1 se descontrolar, justificando uma a\u00e7\u00e3o violenta dos guardas ou mesmo dos detentos, que provocam Leone para conseguir algum favor de Drumgoole.",
+        "imdb": "tt0097770",
+        "imagem": "https://image.tmdb.org/t/p/w300//fDyEClXTDc13iEXjEZaw6mNb4uy.jpg"
+    }
+    ,
+    {
+        "titulo": "Curtindo a Vida Adoidado",
+        "descricao": "No \u00faltimo semestre do curso do col\u00e9gio, o estudante Ferris Bueller (Matthew Broderick) sente um incontrol\u00e1vel desejo de matar aula e planeja um grande passeio na cidade com a namorada Sloane Peterson (Mia Sara) e com seu melhor amigo Cameron Frye (Alan Ruck) \u00e0 bordo de uma Ferrari. S\u00f3 que, para poder realizar seu desejo, ele precisa escapar do diretor do col\u00e9gio Ed Rooney (Jeffrey Jones) e de sua pr\u00f3pria irm\u00e3 Jeanie Bueller (Jennifer Grey).",
+        "imdb": "tt0091042",
+        "imagem": "https://image.tmdb.org/t/p/w300//kUqhcfr5IoaE76NOIQl53gn3y3Q.jpg"
+    }
+    ,
+    {
+        "titulo": "Esp\u00edrito Jovem",
+        "descricao": "Violet (Elle Fanning) \u00e9 uma garota adolescente que sonha em ser popstar e escapar no vilarejo rural onde mora junto da m\u00e3e desajustada. Quando o concurso Teen Spirit passa por sua cidade, ela decide se arriscar, entre centenas de garotas. Aos poucos, Violet recebe a ajuda de Vlad (Zlatko Buric), cantor de \u00f3pera b\u00f3snio e decadente, e come\u00e7a a superar as etapas do concurso. Mas conforme a fama se aproxima, a garota deve pensar suas prioridades e enfrentar os perigos da fama.",
+        "imdb": "tt6483364",
+        "imagem": "https://image.tmdb.org/t/p/w300//zEZlO2bjC6zS9aWaOXv8ug7Cjje.jpg"
+    }
+    ,
+    {
+        "titulo": "Hotel Artemis",
+        "descricao": "Num futuro pr\u00f3ximo, no subsolo de um hospital em Los Angeles, os criminosos mais sinistros da cidade recebem cuidados especiais. A enfermeira (Jodie Foster), que controla o lugar, acaba descobrindo que um de seus pacientes est\u00e1 l\u00e1 para cometer um assassinato.",
+        "imdb": "tt5834262",
+        "imagem": "https://image.tmdb.org/t/p/w300//lDj5AEPO121NJIMZBFXrMs7Y06A.jpg"
+    }
+    ,
+    {
+        "titulo": "Mais Que o Acaso",
+        "descricao": "Buddy Amaral (Ben Affleck) \u00e9 um bem-sucedido publicit\u00e1rio que, impedido de pegar um v\u00f4o, cede seu assento a um desconhecido, poucos minutos antes da decolagem. Por\u00e9m, o avi\u00e3o sofre um acidente, matando todos os passageiros que nele estavam. Em crise de consci\u00eancia por causa do ocorrido, Buddy decide ir conhecer a vi\u00fava (Gwyneth Paltrow) do estranho a quem cedera o assento. A partir de ent\u00e3o, os dois se conhecem e iniciam um profundo relacionamento.",
+        "imdb": "tt0186894",
+        "imagem": "https://image.tmdb.org/t/p/w300//kA2MhMSwcXQLll54UGH2mC8mTAc.jpg"
+    }
+    ,
+    {
+        "titulo": "N\u00e1ufrago",
+        "descricao": "Chuck Noland (Tom Hanks) um inspetor da Federal Express (FedEx), multinacional encarregada de enviar cargas e correspond\u00eancias, que tem por fun\u00e7\u00e3o checar v\u00e1rios escrit\u00f3rios da empresa pelo planeta. Por\u00e9m, em uma de suas costumeiras viagens ocorre um acidente, que o deixa preso em uma ilha completamente deserta por 4 anos. Com sua noiva (Helen Hunt) e seus amigos imaginando que ele morrera no acidente, Chuck precisa lutar para sobreviver, tanto fisicamente quanto emocionalmente, a fim de que um dia consiga retornar civiliza\u00e7\u00e3o.",
+        "imdb": "tt0162222",
+        "imagem": "https://image.tmdb.org/t/p/w300//eaJRnsUIxOeMgpY81iIgGr372vp.jpg"
+    }
+    ,
+    {
+        "titulo": "O Corvo",
+        "descricao": "O roqueiro Eric Draven est\u00e1 morto... Mas, estranhamente, ele ainda vive. Ele ainda n\u00e3o pode descansar em paz. N\u00e3o enquanto os vermes respons\u00e1veis por sua morte e tamb\u00e9m pelo assassinato de sua noiva permanecerem vivos. Assim, Draven retorna de seu t\u00famulo para submeter seus matadores \u00e0 uma implac\u00e1vel vingan\u00e7a. E ele n\u00e3o est\u00e1 sozinho. Um amedrontador corvo do outro mundo guia Draven em sua jornada.",
+        "imdb": "tt0109506",
+        "imagem": "https://image.tmdb.org/t/p/w300//ohPkFlIDvxQajr0eKyVCCAVVlj6.jpg"
+    }
+    ,
+    {
+        "titulo": "O Homem Que Inventou o Natal",
+        "descricao": "Antes de criar a grande obra Um Conto de Natal, o autor Charles Dickens estava sem ideias e precisando de um livro genial para sustentar sua fam\u00edlia e retomar sua carreira. Misturando inspira\u00e7\u00f5es da vida real com uma imagina\u00e7\u00e3o incompar\u00e1vel, ele \u00e9 capaz de criar personagens inesquec\u00edveis que mudaram o natal para sempre.",
+        "imdb": "tt6225520",
+        "imagem": "https://image.tmdb.org/t/p/w300//dtUfJuikCE7bhgYZapTtnWgmoR5.jpg"
+    }
+    ,
+    {
+        "titulo": "Opera\u00e7\u00e3o Big Hero",
+        "descricao": "O grande rob\u00f4 infl\u00e1vel est\u00e1 sempre a postos para cuidar de Hiro Hamada. Quando algo devastador assola a cidade, o menino prod\u00edgio, seus amigos e o rob\u00f4 formam um grupo de her\u00f3is para combater o mal.",
+        "imdb": "tt2245084",
+        "imagem": "https://image.tmdb.org/t/p/w300//5EodFesjReSDlX1c0I5ANZijBFy.jpg"
+    }
+    ,
+    {
+        "titulo": "Os Incr\u00edveis",
+        "descricao": "Beto P\u00eara e sua mulher Helena estavam entre os maiores super-her\u00f3is do mundo, salvando in\u00fameras vidas e combatendo o mal diariamente. Quinze anos depois, eles foram for\u00e7ados a adotar novas identidades e a mudar-se para o sub\u00farbio, onde vivem como cidad\u00e3os comuns com seus tr\u00eas filhos, Violeta, Flecha e Zez\u00e9. Louco para voltar \u00e0 a\u00e7\u00e3o, Beto tem a sua chance quando uma misteriosa liga\u00e7\u00e3o o intima a comparecer a uma ilha distante para receber uma miss\u00e3o ultra-secreta. Ele logo descobre que s\u00f3 uma fam\u00edlia inteira de super-her\u00f3is ser\u00e1 capaz de salvar o mundo e impedir sua total destrui\u00e7\u00e3o.",
+        "imdb": "tt0317705",
+        "imagem": "https://image.tmdb.org/t/p/w300//z8k5EhZZTLsCRF8NWjSe6snWNZg.jpg"
+    }
+    ,
+    {
+        "titulo": "Pare! Sen\u00e3o Mam\u00e3e Atira",
+        "descricao": "Em Los Angeles Joe Bromowski, um detetive da pol\u00edcia, h\u00e1 pouco tempo rompeu o relacionamento que tinha com Gwen Harper, sua namorada e tamb\u00e9m sua chefe no departamento de pol\u00edcia. Assim Tutti, sua m\u00e3e, decide que est\u00e1 na hora de lhe fazer uma visita. Tutti transforma a vida de Joe em algo deprimente quando come\u00e7a a criticar sua roupa, limpar seu apartamento e at\u00e9 mesmo lavar sua arma. Tutti participa de investiga\u00e7\u00f5es e de alguma maneira se envolve com uma organiza\u00e7\u00e3o que comercializa armas ilegalmente e na qual a pol\u00edcia tenta se infiltrar. Al\u00e9m disto, trata Joe como uma crian\u00e7a e, para seu desespero, ela n\u00e3o pode sair da cidade, pois testemunhou um crime.",
+        "imdb": "tt0105477",
+        "imagem": "https://image.tmdb.org/t/p/w300//yrXGOipP4EKTRrqyVvohTAkKUQj.jpg"
+    }
+    ,
+    {
+        "titulo": "Ghost: Do Outro Lado da Vida",
+        "descricao": "Sam Wheat \u00e9 um jovem executivo apaixonado por sua namorada, Molly. Ele acaba morto em um assalto, mas seu esp\u00edrito n\u00e3o vai para o outro plano e descobre que Molly tamb\u00e9m corre perigo. Para salv\u00e1-la, Sam pede ajuda a uma m\u00e9dium que consegue ouvi-lo.",
+        "imdb": "tt0099653",
+        "imagem": "https://image.tmdb.org/t/p/w300//nGSeOwr3XRP2M7bBjcOol8vi2jT.jpg"
+    }
+    ,
+    {
+        "titulo": "Poderes Extraordin\u00e1rios",
+        "descricao": "Em um futuro dist\u00f3pico, Ruth (Gugu Mbatha-Raw) \u00e9 uma mulher com superpoderes capazes de abalar as estruturas do planeta. Ap\u00f3s anos vivendo escondida, ela precisa retornar para casa, onde est\u00e3o sua m\u00e3e e a filha, que herdou parte de suas habilidades. Juntas, elas lutar\u00e3o para se manterem a salvo das m\u00e3os de cientistas gananciosos.",
+        "imdb": "tt6418778",
+        "imagem": "https://image.tmdb.org/t/p/w300//fKJECMy7sikWhlCu0qUJkzZbF7J.jpg"
+    }
+    ,
+    {
+        "titulo": "Quest\u00e3o de Honra",
+        "descricao": "Ap\u00f3s um soldado morrer acidentalmente em uma base militar, depois de ter sido atacado por dois colegas da corpora\u00e7\u00e3o, surge a forte suspeita de ter existido um \"alerta vermelho\", uma esp\u00e9cie de puni\u00e7\u00e3o extra-oficial na qual um oficial ordena a subordinados seus que castiguem um soldado que n\u00e3o tenha se comportado corretamente. Quando o caso chega aos tribunais, um jovem advogado (Tom Cruise) resolve n\u00e3o fazer nenhum tipo de acordo e tentar descobrir a verdade.",
+        "imdb": "tt0104257",
+        "imagem": "https://image.tmdb.org/t/p/w300//cPSZgOjUA8WJoFw3K6KX0qiZYdJ.jpg"
+    }
+    ,
+    {
+        "titulo": "Sexta-feira em Apuros",
+        "descricao": "Em Los Angeles, Craig Jones (Ice Cube) e Smokey (Chris Tucker) s\u00e3o dois amigos insepar\u00e1veis e sem dinheiro. Craig foi despedido na v\u00e9spera e Smokey s\u00f3 se preocupa em fumar maconha, que lhe foi dada para vender pelo traficante do bairro. Enquanto conversam ficam vendo as v\u00e1rias confus\u00f5es que acontecem nas vizinhan\u00e7as. Mas eles podem participar da maior de todas, pois Smokey est\u00e1 sendo pressionado pelo traficante para, \u00e0s dez horas da noite, lhe entregar duzentos d\u00f3lares ou ent\u00e3o os dois v\u00e3o morrer.",
+        "imdb": "tt0113118",
+        "imagem": "https://image.tmdb.org/t/p/w300//oM6hiQYs8ERJMo36u3pIZNwLhQN.jpg"
+    }
+    ,
+    {
+        "titulo": "Sherlock Holmes: O Jogo de Sombras",
+        "descricao": "Watson est\u00e1 prestes a se casar com a sua amada Mary Morstan. Por\u00e9m, a \u00fanica coisa com que ele n\u00e3o contava era que seu amigo Holmes apareceria com uma nova teoria conspirat\u00f3ria de que o professor Moriarty estaria por tr\u00e1s de uma s\u00e9rie de assassinatos.",
+        "imdb": "tt1515091",
+        "imagem": "https://image.tmdb.org/t/p/w300//3huojZMBkUWys5xczqJYlCrSNFR.jpg"
+    }
+    ,
+    {
+        "titulo": "Spawn: O Soldado do Inferno",
+        "descricao": "O assassino do governor Al Simmons \u00e9 morto depois de ser tra\u00eddo por seu chefe, Jason Wynn. Ao chegar no inferno, Simmons recebe uma oferta para retornar \u00e0 Terra se ele estiver disposto a liderar um ex\u00e9rcito do mal. Ele aceita e \u00e9 reencarnado como um Hellspawn, uma vers\u00e3o horrivelmente distorcida de sua antiga personalidade. No entanto, Spawn serve como uma for\u00e7a do bem para o desespero de capanga do Diabo, um palha\u00e7o mau.",
+        "imdb": "tt0120177",
+        "imagem": "https://image.tmdb.org/t/p/w300//lz1Paov9USdS8INBdWhj1FcW5ek.jpg"
+    }
+    ,
+    {
+        "titulo": "Te Pego L\u00e1 Fora",
+        "descricao": "Jerry Mitchell est\u00e1 tendo um dia daqueles: Se atrasou para a aula, seu carro estava com o pneu furado e o professor o mandou para a sala do diretor da escola. S\u00f3 que o pior ainda estava por vir. Quando ele precisa dar uma passada urgente no banheiro, tem o azar de trombar com Buddy Revell, o valent\u00e3o rec\u00e9m-chegado \u00e0 escola. Ao se desculpar, Jerry d\u00e1 um tapinha de leve nas costas do rapaz. Terr\u00edvel erro! Buddy n\u00e3o suporta ser tocado e desafia o pobre coitado para uma briga \u00e0s tr\u00eas da tarde, no estacionamento da escola. Em p\u00e2nico, Jerry pede ajuda a sua irm\u00e3 mais nova e, juntos, eles precisam pensar em uma maneira de evitar o confronto, j\u00e1 que ele \u00e9 um covarde de primeira. O tempo passa e as op\u00e7\u00f5es de Jerry v\u00e3o ficando cada vez menores.",
+        "imdb": "tt0094138",
+        "imagem": "https://image.tmdb.org/t/p/w300//vMCyrV3jMHAxcuHTTeXPM1Rw64j.jpg"
+    }
+    ,
+    {
+        "titulo": "Tudo Por Amor",
+        "descricao": "Hilary \u00e9 uma mo\u00e7a muito atraente e extrovertida. A vida lhe reservou poucas oportunidades, quase nenhum dinheiro e uma s\u00e9rie de relacionamentos fracassados. Victor \u00e9 rico, bem educado, filho de um pai dominador. Ele tem uma doen\u00e7a grave. O destino os uniu e mostrou que cada um deles ainda tinha muito a dar ao outro. Hilary e Victor, uma aula de amor, uma li\u00e7\u00e3o de vida.",
+        "imdb": "tt0101787",
+        "imagem": "https://image.tmdb.org/t/p/w300//uKdlX8IwM0YT2kw5Qg9og4BmhW3.jpg"
+    }
+    ,
+    {
+        "titulo": "Um Lobisomem Americano em Paris",
+        "descricao": "Serafine \u00e9 uma linda jovem filha de um lobisomem que mora em Paris, onde sua m\u00e3e e o padrasto lutam para cur\u00e1-la de uma terr\u00edvel doen\u00e7a que herdou geneticamente, mas nem tudo corre como o planejado e ela tenta se suicidar colocando um fim em tanto sofrimento. Mas ela n\u00e3o contava que iria ser salva por Andy, um jovem americano que viaja atrav\u00e9s da Europa com dois amigos em busca de aventura. Serafine e Andy acabavam se apaixonando, mas a garota tenta lutar contra este sentimento sabendo que seria perigoso demais para Andy. Mesmo assim o romance tem in\u00edcio e Andy logo encontra-se envolvido em uma sociedade secreta de lobisomens onde, em meio a estas macabras e drogas, ele ter\u00e1 que lutar para salvar sua pr\u00f3pria vida e de Serafine.",
+        "imdb": "tt0118604",
+        "imagem": "https://image.tmdb.org/t/p/w300//qUAKzAf3MEH7BMiaA7W8guYWLi8.jpg"
+    }
+    ,
+    {
+        "titulo": "Asterix Conquista a Am\u00e9rica",
+        "descricao": "Durante uma batalha na vila gaulesa, a po\u00e7\u00e3o que d\u00e1 for\u00e7a sobre humana a Asterix e Obelix se acaba. Antes que Panoramix possa preparar outra, \u00e9 capturado e os dois amigos s\u00e3o enviados para salv\u00e1-lo. Eles terminam na Am\u00e9rica, onde os \u00edndios, que j\u00e1 haviam feito Panoramix prisioneiro, capturam Asterix. O paj\u00e9 da tribo quer, de qualquer maneira, a f\u00f3rmula da po\u00e7\u00e3o m\u00e1gica e o druida se utiliza de todos os artif\u00edcios para proteger seu segredo. Quando os tr\u00eas gauleses finalmente conseguem escapar dos \u00edndios e retornar para casa, come\u00e7a uma outra miss\u00e3o: libertar o povo gaul\u00eas do imperador J\u00falio C\u00e9sar.",
+        "imdb": "tt0109162",
+        "imagem": "https://image.tmdb.org/t/p/w300//9wa5KnDRiWKk5REMtUPbUiX8aqT.jpg"
+    }
+    ,
+    {
+        "titulo": "Vai que Cola 2: O Come\u00e7o",
+        "descricao": "Muito antes de socializarem quase todos os dias na pens\u00e3o da Dona J\u00f4 (Catarina Abdala), J\u00e9ssica (Samantha Schm\u00fctz), Ferdinando (Marcus Majella), M\u00e1icol (Emiliano D'\u00c1vila) sequer se conheciam. Mas Terezinha (Cacau Prot\u00e1sio) decide organizar uma grande feijoada no Morro do Cerol, todos eles se encontram pela primeira vez, da maneira mais inusitada poss\u00edvel.",
+        "imdb": "tt10627858",
+        "imagem": "https://image.tmdb.org/t/p/w300//ekJG2dZMOzEbKGI4PW45vc52Go8.jpg"
+    }
+    ,
+    {
+        "titulo": "Voando Alto",
+        "descricao": "O pequeno Manou passou a vida inteira acreditando que era uma gaivota, quando na realidade ele \u00e9 filho de um casal de andorinhas. Enquanto tenta aprender a voar, ele percebe que nunca ser\u00e1 capaz de al\u00e7ar grandes voos e foge de casa. Mas quando os animais correm perigo de vida a uma nova amea\u00e7a, s\u00f3 ele ser\u00e1 capaz de salvar o dia.",
+        "imdb": "tt4153828",
+        "imagem": "https://image.tmdb.org/t/p/w300//in8pqzzRf7FzLtpU9FvPrznDtjU.jpg"
+    }
+    ,
+    {
+        "titulo": "Willow - Na Terra da Magia",
+        "descricao": "Numa terra m\u00edstica onde o m\u00e1gico \u00e9 real, vive Willow Ufgood (Warwick Davis), um pequeno fazendeiro Nelwin que sonha em ser um feiticeiro. Willow se torna guardi\u00e3o de um beb\u00ea pertencente aos Daikinis, guerreiros temidos pelos Nelwin. De acordo com a profecia, a crian\u00e7a dever\u00e1 destruir a malvada feiticeira Bavmorda (Jean Marsh) e acabar com seu reinado de terror, a menos que a bruxa possa destruir a crian\u00e7a primeiro. Willow come\u00e7a uma perigosa e fabulosa jornada para manter a crian\u00e7a a salvo, junto a dois duendes, um guerreiro rebelado e um feiticeiro bondoso.",
+        "imdb": "tt0096446",
+        "imagem": "https://image.tmdb.org/t/p/w300//R2RRuyZX30KXbrx7So3SaYMFoK.jpg"
+    }
+    ,
+    {
+        "titulo": "1917",
+        "descricao": "Os cabos Schofield e Blake s\u00e3o jovens soldados brit\u00e2nicos durante a Primeira Guerra Mundial. Quando eles s\u00e3o encarregados de uma miss\u00e3o aparentemente imposs\u00edvel, os dois precisam atravessar territ\u00f3rio inimigo, lutando contra o tempo, para entregar uma mensagem que pode salvar cerca de 1600 colegas de batalh\u00e3o.",
+        "imdb": "tt8579674",
+        "imagem": "https://image.tmdb.org/t/p/w300//m6VVgmwNdOWvLo8nlheLPQU5wr7.jpg"
+    }
+    ,
+    {
+        "titulo": "Invas\u00e3o Noturna",
+        "descricao": "A enfermeira Daphne \u00e9 injustamente demitida do hospital em que trabalhava ap\u00f3s a morte de um paciente. Desempregada, ela aceita tomar conta do filho diab\u00e9tico de um m\u00e9dico rico. Quando surge a not\u00edcia de que uma bab\u00e1 foi assassinada na mesma vizinhan\u00e7a, Daphne percebe que sua vida est\u00e1 em risco.",
+        "imdb": "tt7521324",
+        "imagem": "https://image.tmdb.org/t/p/w300//y7cE4knaLJbGZpjoK5LxS2zVP78.jpg"
+    }
+    ,
+    {
+        "titulo": "Quatro Hist\u00f3rias de Fantasmas",
+        "descricao": "Quatro thrillers de Zoya Akhtar, Anurag Kashyap, Dibakar Banerjee e Karan Johar, os mesmos diretores de Quatro Hist\u00f3rias de Desejo, indicado ao Emmy.",
+        "imdb": "tt10230404",
+        "imagem": "https://image.tmdb.org/t/p/w300//iXtqWsjs4kiClTD6zLJlijFdDBY.jpg"
+    }
+    ,
+    {
+        "titulo": "Midway: Batalha em Alto Mar",
+        "descricao": "Narra os acontecimentos da Batalha de Midway, confronto entre as for\u00e7as americanas e a Marinha Imperial Japonesa, que marcou um ponto de virada fundamental na Guerra do Pac\u00edfico, seis meses depois do ataque a Pearl Harbor. O filme se baseia em fatos hist\u00f3ricos para contar a trajet\u00f3ria de l\u00edderes e soldados que usaram instinto e coragem para superar as adversidades e se manterem vivos durante a guerra no meio do maior oceano do planeta.",
+        "imdb": "tt6924650",
+        "imagem": "https://image.tmdb.org/t/p/w300//f2x8lIh0olfwqe5Jbwsw4Ojc5ie.jpg"
+    }
+    ,
+    {
+        "titulo": "Dora e a Cidade Perdida",
+        "descricao": "Ambientado na floresta peruana, o filme narra as aventuras de Dora (Isabella Merced) junto de seu macaco Botas, amigos que acabou de fazer na escola e um misterioso explorador a fim de salvar seus pais de mercen\u00e1rios. Mas Dora tamb\u00e9m ter\u00e1 de solucionar um grande mist\u00e9rio envolvendo Parapata, uma antiga cidade perdida dos Incas.",
+        "imdb": "tt7547410",
+        "imagem": "https://image.tmdb.org/t/p/w300//zn6uvrCTymyl9dYkoU2XDODC8IC.jpg"
+    }
+    ,
+    {
+        "titulo": "Frozen 2",
+        "descricao": "Elsa, Anna, Kristoff, Olaf e Sven se aventuram na floresta encantada e nos mares escuros al\u00e9m de Arendelle \u2013 onde Elsa descobre n\u00e3o apenas a verdade sobre seu passado, mas uma amea\u00e7a ao seu reino.",
+        "imdb": "tt4520988",
+        "imagem": "https://image.tmdb.org/t/p/w300//uVHishB6G4T6BOnUsV4JgdJXdIz.jpg"
+    }
+    ,
+    {
+        "titulo": "10 Coisas Que Eu Odeio em Voc\u00ea",
+        "descricao": "Em seu primeiro dia na nova escola, Cameron se apaixona por Bianca. Mas ela s\u00f3 poder\u00e1 sair com rapazes at\u00e9 que Kat, sua irm\u00e3 mais velha, arrume um namorado. O problema \u00e9 que ela \u00e9 insuport\u00e1vel. Cameron, ent\u00e3o, negocia com o \u00fanico garoto que talvez consiga sair com Kat \u2013 um misterioso bad-boy com uma p\u00e9ssima reputa\u00e7\u00e3o.",
+        "imdb": "tt0147800",
+        "imagem": "https://image.tmdb.org/t/p/w300//6WImK7UIRY7fZ0l9UwnxbP74w1p.jpg"
+    }
+    ,
+    {
+        "titulo": "22 Milhas",
+        "descricao": "Um oficial da intelig\u00eancia de elite dos Estados Unidos, auxiliado por uma unidade de comando t\u00e1tico ultrassecreta, tenta tirar do pa\u00eds um misterioso policial com informa\u00e7\u00f5es confidenciais.",
+        "imdb": "tt4560436",
+        "imagem": "https://image.tmdb.org/t/p/w300//qgiU6AvEoyuLMnt7KnoubXrKsC.jpg"
+    }
+    ,
+    {
+        "titulo": "A Bela e a Fera",
+        "descricao": "Em uma pequena aldeia da Fran\u00e7a vive Belle, uma jovem inteligente que \u00e9 considerada estranha pelo moradores da localidade, e seu pai, Maurice, um inventor que \u00e9 visto como um louco. Ela \u00e9 cortejada por Gaston, que quer casar com ela. Mas apesar de todas as jovens do lugarejo o acharem um homem bonito, Belle n\u00e3o o suporta, pois v\u00ea nele uma pessoa primitiva e convencida. Quando o pai de Belle vai para uma feira demonstrar sua nova inven\u00e7\u00e3o, ele acaba se perdendo na floresta e \u00e9 atacado por lobos. Desesperado, Maurice procura abrigo em um castelo, mas acaba se tornando prisioneiro da Fera, o senhor do castelo, que na verdade \u00e9 um pr\u00edncipe que foi amaldi\u00e7oado por uma feiticeira quando negou abrigo a ela.",
+        "imdb": "tt0101414",
+        "imagem": "https://image.tmdb.org/t/p/w300//is4c02QuP70BCVLp27SSlDeByoe.jpg"
+    }
+    ,
+    {
+        "titulo": "A Dama do Espelho: O Ritual das Trevas",
+        "descricao": "Uma lenda antiga diz que todo espelho pode ser um portal para o mundo dos mortos e ser usado para convocar a Rainha de Espadas. Quatro adolescentes brincam com um espelho sem saber do horror que os aguarda.",
+        "imdb": "tt4901756",
+        "imagem": "https://image.tmdb.org/t/p/w300//r9kTsSbkBBFYMFuqZZux70fyzne.jpg"
+    }
+    ,
+    {
+        "titulo": "A Forca",
+        "descricao": "H\u00e1 vinte anos o col\u00e9gio de uma cidadezinha foi palco de uma trag\u00e9dia. Um acidente grave aconteceu durante uma pe\u00e7a escolar e, agora, os novos estudantes planejam reencenar a pe\u00e7a como forma de homenagear aqueles que perderam suas vidas anos atr\u00e1s. Mas os alunos logo percebem que essa \u00e9 uma decis\u00e3o errada com graves consequ\u00eancias.",
+        "imdb": "tt2309260",
+        "imagem": "https://image.tmdb.org/t/p/w300//m1XAXcLK592ucNPJfuJeK0mFsiV.jpg"
+    }
+    ,
+    {
+        "titulo": "A Forca 2",
+        "descricao": "Uma jovem aspirante a atriz se v\u00ea presa numa aterrorizante maldi\u00e7\u00e3o ap\u00f3s apresentar uma parte da pe\u00e7a A Forca em uma transmiss\u00e3o ao vivo.",
+        "imdb": "tt7473716",
+        "imagem": "https://image.tmdb.org/t/p/w300//r9Se1buPgxxMF5iZ4tIK8AzT5td.jpg"
+    }
+    ,
+    {
+        "titulo": "Alice Atrav\u00e9s do Espelho",
+        "descricao": "Alice retorna ap\u00f3s uma longa viagem pelo mundo, e reencontra a m\u00e3e. No casar\u00e3o de uma grande festa, ela percebe a presen\u00e7a de um espelho m\u00e1gico. A jovem atravessa o objeto e retorna ao Pa\u00eds das Maravilhas, onde descobre que o Chapeleiro Maluco corre risco de morte ap\u00f3s fazer uma descoberta sobre seu passado. Para salvar o amigo, Alice deve conversar com o Tempo para voltar \u00e0s v\u00e9speras de um evento traum\u00e1tico e mudar o destino do Chapeleiro. Nesta aventura, tamb\u00e9m descobre um trauma que separou as irm\u00e3s Rainha Branca e Rainha Vermelha.",
+        "imdb": "tt2567026",
+        "imagem": "https://image.tmdb.org/t/p/w300//7xdxiHU1brLnPy7jmZlFW746mCf.jpg"
+    }
+    ,
+    {
+        "titulo": "Alice no Pa\u00eds das Maravilhas",
+        "descricao": "A Alice de 19 anos de idade, que regressa ao exc\u00eantrico mundo que encontrou pela primeira vez quando era crian\u00e7a reunindo-se assim com os seus amigos de inf\u00e2ncia: o Coelho Branco, Tweedledee e Tweedledum, a Ratazana, a Lagarta, o Gato Cheshire, e claro, o Chapeleiro Louco. Alice embarca numa fant\u00e1stica viagem para encontrar o seu verdadeiro destino e acabar com o reino de terror da Rainha Vermelha.",
+        "imdb": "tt1014759",
+        "imagem": "https://image.tmdb.org/t/p/w300//fjaiHtykx4LcHJLzhKhn7tNPpAj.jpg"
+    }
+    ,
+    {
+        "titulo": "Anjos e Dem\u00f4nios",
+        "descricao": "O professor de simbologia Robert Langdon (Tom Hanks), depois de decifrar o c\u00f3digo DaVinci, \u00e9 chamado pelo Vaticano para investigar o misterioso desaparecimento de quatro cardeais. Agora, al\u00e9m de enfrentar a resist\u00eancia da pr\u00f3pria igreja em ajud\u00e1-lo nos detalhes de sua investiga\u00e7\u00e3o, Langdon precisa decifrar charadas numa verdadeira corrida contra o tempo porque a sociedade secreta por tr\u00e1s do crime em andamento tem planos de explodir o Vaticano.",
+        "imdb": "tt0808151",
+        "imagem": "https://image.tmdb.org/t/p/w300//pVhKBn8HTJVksw3Msk76MgMogiy.jpg"
+    }
+    ,
+    {
+        "titulo": "A Pequena Sereia",
+        "descricao": "Um jovem rep\u00f3rter vai fazer uma reportagem sobre um circo que diz apresentar uma sereia de verdade. Inicialmente c\u00e9tico, ele leva sua jovem sobrinha na viagem e l\u00e1 eles descobrem uma bela e encantadora critatura a qual eles acreditam ser realmente uma sereia. Juntos eles embarcar numa aventura de salvar a mo\u00e7a da vida naquele lugar.",
+        "imdb": "tt5493944",
+        "imagem": "https://image.tmdb.org/t/p/w300//fK2UnoO7PhWsCVDF1y0cXd0A7Kh.jpg"
+    }
+    ,
+    {
+        "titulo": "A.I.: Intelig\u00eancia Artificial",
+        "descricao": "O primeiro menino-rob\u00f4 programado para amar, David, \u00e9 adotado por um funcion\u00e1rio da Cybertronics e sua esposa. Apesar de aos poucos ele ir se tornando o filho do casal, uma s\u00e9rie de circunst\u00e2ncias inesperadas dificulta a vida de David. Sem a total aceita\u00e7\u00e3o dos humanos ou das m\u00e1quinas, o menino-rob\u00f4 embarca em uma jornada para descobrir seu verdadeiro mundo.",
+        "imdb": "tt0212720",
+        "imagem": "https://image.tmdb.org/t/p/w300//jBF8tF6k8yLZnOHaTH5G2IptYiy.jpg"
+    }
+    ,
+    {
+        "titulo": "Asilo do Medo",
+        "descricao": "Quando uma equipe de investigadores paranormais \u00e9 contratada para investigar um sanat\u00f3rio prestes a ser demolido, acabam por descobrir pistas que levam a um massacre violento causado por um m\u00e9dico insano nos anos 60.",
+        "imdb": "tt3289080",
+        "imagem": "https://image.tmdb.org/t/p/w300//kvJu4vrPpJIE4qo3wWQVsblEXH7.jpg"
+    }
+    ,
+    {
+        "titulo": "Asterix e o Segredo da Po\u00e7\u00e3o M\u00e1gica",
+        "descricao": "Ast\u00e9rix e Obelix embarcam em uma jornada in\u00e9dita. Dessa vez eles precisam ajudar o velho dru\u00edda Getafix a encontrar um novo guardi\u00e3o para a po\u00e7\u00e3o m\u00e1gica de G\u00e1lia. Durante a viagem pela regi\u00e3o, eles devem impedir que a receita m\u00e1gica caia nas m\u00e3os erradas, dando in\u00edcio a uma inesperada aventura.",
+        "imdb": "tt8001346",
+        "imagem": "https://image.tmdb.org/t/p/w300//y0zfYNjoXQKDoHlYJqIvGx9Hkvx.jpg"
+    }
+    ,
+    {
+        "titulo": "A Vida Moderna de Rocko: Volta ao Lar",
+        "descricao": "Depois de 20 anos no espa\u00e7o, Rocko retorna!!!  e tem como miss\u00e3o principal levar seu programa favorito de volta ao ar.",
+        "imdb": "tt6172460",
+        "imagem": "https://image.tmdb.org/t/p/w300//k65BZ0njzoTXhJFeXhIZt6owqDI.jpg"
+    }
+    ,
+    {
+        "titulo": "A Vingan\u00e7a de Lefty Brown",
+        "descricao": "Lefty Brown (Bill Pullman) \u00e9 um ajudante de 63 anos que toda a sua vida ficou ao lado da lenda do faroeste Eddie Johnson (Peter Fonda). Johnson foi apontado como senador de Montana e, apesar das obje\u00e7\u00f5es da esposa Laura, planeja deixar Lefty em cargo do rancho. Quando um ladr\u00e3o mata Johnson, Lefty \u00e9 confrontado pela sombra do parceiro e das feias realidades da justi\u00e7a na fronteira.",
+        "imdb": "tt4400994",
+        "imagem": "https://image.tmdb.org/t/p/w300//xQoi7Dapb6UZHpYQRfdX2eYAtwT.jpg"
+    }
+    ,
+    {
+        "titulo": "Bacurau",
+        "descricao": "Num futuro recente, Bacurau, um povoado do sert\u00e3o de Pernambuco, some misteriosamente do mapa. Quando uma s\u00e9rie de assassinatos inexplic\u00e1veis come\u00e7am a acontecer, os moradores da cidade tentam reagir. Mas como se defender de um inimigo desconhecido e implac\u00e1vel?",
+        "imdb": "tt2762506",
+        "imagem": "https://image.tmdb.org/t/p/w300//mqRMPsygHLcF65JOQpvMr4Chhep.jpg"
+    }
+    ,
+    {
+        "titulo": "Bom Comportamento",
+        "descricao": "O plano de Constantine Nikas era assaltar um banco e descolar uma boa quantia em dinheiro, mas nada sai como o planejado e seu irm\u00e3o mais novo acaba sendo preso. Decidido a resgat\u00e1-lo, Constantine embarca em uma perigosa corrida contra o rel\u00f3gio, onde ele mesmo \u00e9 o pr\u00f3ximo alvo da pol\u00edcia.",
+        "imdb": "tt4846232",
+        "imagem": "https://image.tmdb.org/t/p/w300//lbuGKMPrnFa0xxukS8gk9jfyqpY.jpg"
+    }
+    ,
+    {
+        "titulo": "Branca de Neve e os Sete An\u00f5es",
+        "descricao": "A rainha malvada morre de ci\u00fames da beleza de Branca de Neve e manda mata-la. Logo, descobre que a jovem n\u00e3o morreu e est\u00e1 morando na floresta com sete amiguinhos. A princesa ent\u00e3o \u00e9 envenenada pela rainha e s\u00f3 o beijo de um pr\u00edncipe pode salv\u00e1-la.",
+        "imdb": "tt0029583",
+        "imagem": "https://image.tmdb.org/t/p/w300//3QrD3ljHe6j5GxAFgntlGWTwypm.jpg"
+    }
+    ,
+    {
+        "titulo": "Canguru Jack",
+        "descricao": "Charlie Carbone (Jerry O'Connell) e Louis Booker (Anthony Anderson) s\u00e3o dois amigos criados no Brooklyn que acabam sendo for\u00e7ados a realizar uma entrega na Austr\u00e1lia. Ap\u00f3s viajarem para o local, eles decidem se divertir um pouco e come\u00e7am a tirar fotos e fazer brincadeiras com cangurus. Um deles acaba vestindo uma jaqueta vermelha dos turistas, justamente a que est\u00e1 com a encomenda a ser entregue, e vai embora. \u00c9 quando Charlie e Louis precisam enfrentar uma s\u00e9rie de problemas para reencontrar o canguru e recumperar a encomenda perdida.",
+        "imdb": "tt0257568",
+        "imagem": "https://image.tmdb.org/t/p/w300//3z4tNgPXb03JI87teNWQWbEZe0d.jpg"
+    }
+    ,
+    {
+        "titulo": "Bad Boys Para Sempre",
+        "descricao": "Marcus Burnett agora \u00e9 um inspetor e Mike Lowrey se encontra numa crise de meia-idade. Mas a dupla tem que se juntar novamente quando um mercen\u00e1rio alban\u00eas, cujo irm\u00e3o foi capturado por eles, promete um b\u00f4nus de vingan\u00e7a justamente quando eles est\u00e3o prestes a se aposentar.",
+        "imdb": "tt1502397",
+        "imagem": "https://image.tmdb.org/t/p/w300//lkWYrzLIclGj56r4NJxuWeisK9R.jpg"
+    }
+    ,
+    {
+        "titulo": "A Fant\u00e1stica F\u00e1brica de Chocolate",
+        "descricao": "Willy Wonka (Johnny Depp) \u00e9 o exc\u00eantrico dono da maior f\u00e1brica de doces do planeta, que decide realizar um concurso mundial para escolher um herdeiro para seu imp\u00e9rio. Cinco crian\u00e7as de sorte, entre elas Charlie Bucket (Freddie Highmore), encontram um convite dourado em barras de chocolate Wonka e com isso ganham uma visita guiada pela lend\u00e1ria f\u00e1brica de chocolate, que n\u00e3o era visitada por ningu\u00e9m h\u00e1 quinze anos. Encantado com as maravilhas da f\u00e1brica, Charlie fica cada vez mais fascinado com a visita.",
+        "imdb": "tt0367594",
+        "imagem": "https://image.tmdb.org/t/p/w300//vSl1u0z4TCKL4VPVyr6KDtZibYT.jpg"
+    }
+    ,
+    {
+        "titulo": "Cascavel",
+        "descricao": "Como retribui\u00e7\u00e3o a uma mulher misteriosa que salvou sua filha picada por uma cobra mortal, uma m\u00e3e solteira tem de matar um desconhecido antes do p\u00f4r do sol.",
+        "imdb": "tt9257484",
+        "imagem": "https://image.tmdb.org/t/p/w300//ca9IhQ2H72TRmnHf2ZDJXbffIdX.jpg"
+    }
+    ,
+    {
+        "titulo": "Cloverfield: Monstro",
+        "descricao": "Rob Hawkins mora em Nova York e est\u00e1 prestes a se mudar para o Jap\u00e3o. Ele re\u00fane os amigos em uma festa de despedida, na qual pretende revelar sentimentos mal-resolvidos. Entretanto um forte solavanco assusta os convidados. Todos buscam not\u00edcias sobre o ocorrido na TV, que diz que a cidade sofreu um terremoto. Ao chegar ao terra\u00e7o para ver os estragos o grupo nota uma bola de fogo gigante, seguida pela queda de luz na cidade. O p\u00e2nico toma conta de todos, o que aumenta ainda mais quando eles enfim conseguem chegar \u00e0 rua.",
+        "imdb": "tt1060277",
+        "imagem": "https://image.tmdb.org/t/p/w300//bhz6R8G702ECl8MgYo2JvN17ABR.jpg"
+    }
+    ,
+    {
+        "titulo": "Crian\u00e7as Malignas",
+        "descricao": "A vida de Albert e Rose Poe ao longo de 4 dias, incluindo o anivers\u00e1rio de um ano de suas mortes de filhas de 5 e 6 anos. O dia em que as meninas morreram tamb\u00e9m eram anivers\u00e1rios. Em breve, descobrimos que h\u00e1 mais para as mortes das meninas e a casa que o Poe pensou ser o seu ref\u00fagio seguro.",
+        "imdb": "tt5278886",
+        "imagem": "https://image.tmdb.org/t/p/w300//4Y87tY5BbG3zL1MGV5RhGy1iKw3.jpg"
+    }
+    ,
+    {
+        "titulo": "Death Note: Iluminando um Novo Mundo",
+        "descricao": "Em 2016, dez anos ap\u00f3s os acontecimentos dos filmes anteriores, a sociedade sofre com o ciberterrorismo. O Death Note \u00e9 um caderno sobrenatural que concede ao seu usu\u00e1rio o poder de matar simplesmente escrevendo o nome de uma pessoa em suas p\u00e1ginas. Seis Death Notes diferentes caem para o mundo humano, sendo essa quantidade o n\u00famero m\u00e1ximo de cadernos que podem existir ao mesmo tempo. Em meio a isso, dois novos indiv\u00edduos, herdeiros do DNA de Light Yagami e de L, come\u00e7am um jogo mortal de gato e rato mais uma vez.",
+        "imdb": "tt5058340",
+        "imagem": "https://image.tmdb.org/t/p/w300//sxB7WnDiYuujXaF26PCfifWWv78.jpg"
+    }
+    ,
+    {
+        "titulo": "Doze Homens e Outro Segredo",
+        "descricao": "Ap\u00f3s o sucesso do roubo e de conseguir de volta sua esposa, Danny Ocean (George Clooney) reparte o dinheiro e cada um da equipe vai viver de forma discreta. No entanto, Terry Benedict, o dono do cassino assaltado, reaparece e exige a quantia roubada de volta com juros, mas os membros da gangue j\u00e1 gastaram grande parte do dinheiro. Danny e sua equipe concluem que a melhor op\u00e7\u00e3o \u00e9 roubar uma rar\u00edssima obra que est\u00e1 sendo exibido em um museu de Roma, no valor que eles precisam.",
+        "imdb": "tt0349903",
+        "imagem": "https://image.tmdb.org/t/p/w300//jLt2z5Zg3lDHuWU0NabkLDSvfDy.jpg"
+    }
+    ,
+    {
+        "titulo": "Ela",
+        "descricao": "Em um futuro pr\u00f3ximo, um escritor solit\u00e1rio desenvolve um relacionamento improv\u00e1vel com um sistema operacional projetado para atender todas as suas necessidades.",
+        "imdb": "tt1798709",
+        "imagem": "https://image.tmdb.org/t/p/w300//yyDGhBY8RYXyXYADeFq1BDxpLkl.jpg"
+    }
+    ,
+    {
+        "titulo": "Se Beber, N\u00e3o Case! - Parte II",
+        "descricao": "Phil, Stu, Alan e Doug viajam \u00e0 ex\u00f3tica Tail\u00e2ndia para o casamento de Stu. O que poderia dar errado? Dois anos depois da desastrosa despedida de solteiro de Doug em Las Vegas, agora \u00e9 a vez de Stu. Ele decide se casar na Tail\u00e2ndia, pa\u00eds de sua futura mulher. Com medo de que os incidentes da despedida de solteiro em Las Vegas se repitam, Stu organiza muito bem a comemora\u00e7\u00e3o, mas nada sai como o esperado, e as confus\u00f5es prometem ser inimagin\u00e1veis.",
+        "imdb": "tt1411697",
+        "imagem": "https://image.tmdb.org/t/p/w300//lvwO6R9RImeq3UBbh6DPWG3Iiqw.jpg"
+    }
+    ,
+    {
+        "titulo": "Emoji: O Filme",
+        "descricao": "Textopolis \u00e9 a cidade onde os Emojis favoritos dos usu\u00e1rios de smartphones vivem e trabalham. L\u00e1, todos eles vivem em fun\u00e7\u00e3o de um sonho: serem usados nos textos dos humanos. Todos est\u00e3o acostumados a ter somente uma express\u00e3o facial - com exce\u00e7\u00e3o de Gene, que nasceu com um bug em seu sistema, que o permite trocar de rosto atrav\u00e9s de um filtro especial. Determinado \u00e0 se tornar um emoji normal como todos os outros, eles vai encarar uma jornada fant\u00e1sticas atrav\u00e9s dos aplicativos de celular mais populares desta gera\u00e7\u00e3o - e no meio do caminho, claro, fazer novos amigos.",
+        "imdb": "tt4877122",
+        "imagem": "https://image.tmdb.org/t/p/w300//g4LW0JOeHyOFRsN6PAyWrH4qbG.jpg"
+    }
+    ,
+    {
+        "titulo": "Entre Facas e Segredos",
+        "descricao": "Ap\u00f3s comemorar 85 anos de idade, o famoso escritor de hist\u00f3rias policiais Harlan Thrombey \u00e9 encontrado morto dentro de sua propriedade. Logo, o detetive Benoit Blanc \u00e9 contratado para investigar o caso e descobre que, entre os funcion\u00e1rios misteriosos e a fam\u00edlia conflituosa de Harlan, todos podem ser considerados suspeitos do crime.",
+        "imdb": "tt8946378",
+        "imagem": "https://image.tmdb.org/t/p/w300//y9bPnWN7M0SmDvh4Nns0R4Jc2Jn.jpg"
+    }
+    ,
+    {
+        "titulo": "Ex_Machina: Instinto Artificial",
+        "descricao": "Um jovem programador chamado Caleb ganha um concurso e recebe a oportunidade de testar uma intelig\u00eancia artificial criada por Nathan, um brilhante e recluso bilion\u00e1rio. Mas conforme os testes progridem, Caleb descobre que essa intelig\u00eancia artificial \u00e9 t\u00e3o sofisticada e imprevis\u00edvel que ele n\u00e3o sabe mais em quem confiar.",
+        "imdb": "tt0470752",
+        "imagem": "https://image.tmdb.org/t/p/w300//hfpnFtgcYom9Gk9s1IyWiovpZYg.jpg"
+    }
+    ,
+    {
+        "titulo": "Exterm\u00ednio",
+        "descricao": "Um poderoso v\u00edrus est\u00e1 a solta. Transmitido em uma gota de sangue e com efeito devastador em alguns segundos, o v\u00edrus mant\u00e9m os infectados em um estado permanente de descontrole assassino. Dentro de 28 dias, o pa\u00eds est\u00e1 tomado e um punhado de sobreviventes inicia esfor\u00e7os para garantir algum futuro \u00e0 ra\u00e7a humana, mas o que n\u00e3o percebem \u00e9 que o v\u00edrus mortal n\u00e3o \u00e9 \u00fanica coisa que os amea\u00e7a.",
+        "imdb": "tt0289043",
+        "imagem": "https://image.tmdb.org/t/p/w300//tKAqttsESgFYAz3pkjxey3JxYUn.jpg"
+    }
+    ,
+    {
+        "titulo": "Exterm\u00ednio 2",
+        "descricao": "Seis meses depois de um v\u00edrus ter destru\u00eddo um grande n\u00famero de pessoas na Gr\u00e3-Betanha, o ex\u00e9rcito americano declara que o perigo j\u00e1 passou e come\u00e7a a reconstru\u00e7\u00e3o da cidade. Os refugiados retornam, mas um deles carrega um segredo mortal. O v\u00edrus n\u00e3o est\u00e1 morto e agora est\u00e1 mais perigoso.",
+        "imdb": "tt0463854",
+        "imagem": "https://image.tmdb.org/t/p/w300//mZVFtNKPv3aiESKKeUDV61DaQ90.jpg"
+    }
+    ,
+    {
+        "titulo": "Os Feiticeiros de Waverly Place: O Filme",
+        "descricao": "Enquanto est\u00e1 de f\u00e9rias, Alex acidentalmente lan\u00e7a um feiti\u00e7o que afetar\u00e1 a exist\u00eancia de sua fam\u00edlia, evitando o primeiro encontro de seus pais. Agora Max tenta manter seus pais juntos enquanto Alex e Justin usam todos os truques que conhecem para encontrar a Pedra dos Sonhos, para reverter a magia e salvar sua fam\u00edlia.",
+        "imdb": "tt1369845",
+        "imagem": "https://image.tmdb.org/t/p/w300//iLH4qYOgfpSrvZAnGAKuIS2feqN.jpg"
+    }
+    ,
+    {
+        "titulo": "Fragmentado",
+        "descricao": "Embora Kevin tenha revelado 23 personalidades a seu psiquiatra, uma ainda permanece submersa, pronta para se materializar e dominar todas as outras. Quando sua compuls\u00e3o o for\u00e7a a raptar tr\u00eas adolescentes, Kevin vive uma guerra para sobreviver dentre os que habitam dentro dele, al\u00e9m dos outros  em tono dele, \u00e0 medida que as divis\u00f5es que separam seus compartimentos come\u00e7am a se despeda\u00e7ar.",
+        "imdb": "tt4972582",
+        "imagem": "https://image.tmdb.org/t/p/w300//ztYvYWpSpFtzM2w5MwsmNzzQbJg.jpg"
+    }
+    ,
+    {
+        "titulo": "Independence Day: O Ressurgimento",
+        "descricao": "Duas d\u00e9cadas depois do devastador ataque alien\u00edgena do Dia da Independ\u00eancia, a Terra enfrenta uma nova amea\u00e7a que vem diretamente do espa\u00e7o. Uma nova gera\u00e7\u00e3o de pilotos \u00e9 convocada para combater os inimigos e garantir a liberdade da humanidade.",
+        "imdb": "tt1628841",
+        "imagem": "https://image.tmdb.org/t/p/w300//fpQEX5OrVfI6KftsuqpGTapKYpT.jpg"
+    }
+    ,
+    {
+        "titulo": "Indiana Jones e o Reino da Caveira de Cristal",
+        "descricao": "Durante a Guerra Fria, Indiana Jones e o jovem Mutt buscam a Caveira de Cristal, um objeto m\u00edstico de grande valor, mas logo percebem que n\u00e3o est\u00e3o sozinhos. Sovi\u00e9ticos liderados pela cruel Irina Spalko tamb\u00e9m querem o objeto para tentar dominar o mundo atrav\u00e9s dele.",
+        "imdb": "tt0367882",
+        "imagem": "https://image.tmdb.org/t/p/w300//vAIj9NwY5fTzlghxEQwfxajPYGf.jpg"
+    }
+    ,
+    {
+        "titulo": "Khali: O Assassino",
+        "descricao": "Depois de decidir se aposentar, um homem aposta em um \u00faltimo trabalho para ajudar a apoiar o fim de sua av\u00f3 doente dos cuidados de vida. Mas tudo se desmorona, quando ele desenvolve empatia com as metas de seu sucesso, e ele \u00e9 for\u00e7ado a tomar a decis\u00e3o mais dif\u00edcil de sua vida.",
+        "imdb": "tt4498760",
+        "imagem": "https://image.tmdb.org/t/p/w300//q6EldW7WxPezb4RDeQohcseyuyo.jpg"
+    }
+    ,
+    {
+        "titulo": "Legalidade",
+        "descricao": "Legalidade narra a hist\u00f3ria fict\u00edcia de dois irm\u00e3os envolvidos com o movimento da Legalidade e que se apaixonam pela mesma mulher. Este tri\u00e2ngulo amoroso provoca uma rivalidade entre eles, que acabam encontrando a uni\u00e3o em torno da causa c\u00edvica. Nos por\u00f5es do Pal\u00e1cio Piratini, o Governador do Rio Grande do Sul, Leonel Brizola, se prepara para ser alvo de um bombardeio das for\u00e7as armadas brasileiras. O pa\u00eds est\u00e1 \u00e0 beira de uma guerra civil, ao tentar impedir que o vice-presidente assuma a presid\u00eancia. Brizola carrega uma metralhadora a tiracolo, por\u00e9m suas armas mais potentes s\u00e3o um microfone e as ondas do r\u00e1dio que transmitem o discurso mais inflamado de sua vida. Uma revolu\u00e7\u00e3o, onde o poder da comunica\u00e7\u00e3o fez com que o povo brasileiro protagonizasse um movimento de resist\u00eancia e mobiliza\u00e7\u00e3o popular sem precedentes na hist\u00f3ria do pa\u00eds.",
+        "imdb": "tt6682820",
+        "imagem": "https://image.tmdb.org/t/p/w300//jyZZ2dYYoGC7NfhcW7SrFrZu9Jd.jpg"
+    }
+    ,
+    {
+        "titulo": "Leo Da Vinci: Miss\u00e3o Mona Lisa",
+        "descricao": "Leo e sua amiga Lisa retornam de uma viagem para descobrir que sua casa est\u00e1 em chamas. Che tem que ser ajudado! A solu\u00e7\u00e3o parece estar \u00e0 m\u00e3o com a chegada de um mago estranho que fala de um tesouro escondido. E assim come\u00e7a uma grande aventura\u2026",
+        "imdb": "tt7139246",
+        "imagem": "https://image.tmdb.org/t/p/w300//vyJBGnjaSHCgmgbx5YsLjDhOuJu.jpg"
+    }
+    ,
+    {
+        "titulo": "Mad Max: Estrada da F\u00faria",
+        "descricao": "Em um mundo apocal\u00edptico, Max Rockatansky acredita que a melhor forma de sobreviver \u00e9 n\u00e3o depender de ningu\u00e9m. Por\u00e9m, ap\u00f3s ser capturado pelo tirano Immortan Joe e seus rebeldes, Max se v\u00ea no meio de uma guerra mortal, iniciada pela imperatriz Furiosa que tenta salvar um grupo de garotas. Tamb\u00e9m tentando fugir, Max aceita ajudar Furiosa. Dessa vez, o tirano Joe est\u00e1 ainda mais implac\u00e1vel pois teve algo insubstitu\u00edvel roubado.",
+        "imdb": "tt1392190",
+        "imagem": "https://image.tmdb.org/t/p/w300//tH64gzAHDFg7EFcgfkkZyHdGM5P.jpg"
+    }
+    ,
+    {
+        "titulo": "Matilda",
+        "descricao": "Matilda Wormwood (Mara Wilson) \u00e9 uma crian\u00e7a brilhante de apenas seis anos, que cresceu em meio a pais grosseiros e ignorantes. Seu pai Harry (Danny DeVito) trabalha como vendedor de carros, enquanto que sua m\u00e3e Zinnia (Rhea Perlman) \u00e9 dona de casa. Ambos ignoram a filha, a ponto de esquecerem de matricul\u00e1-la na escola. Desta forma Matilda fica sempre em casa ou na livraria, onde costuma estimular sua imagina\u00e7\u00e3o. Ap\u00f3s uma s\u00e9rie de estranhos eventos ocorridos em casa, quando Matilda descobre que possui poderes m\u00e1gicos, Harry resolve envi\u00e1-la \u00e0 escola. O local \u00e9 controlado com m\u00e3o de ferro pela diretora Agatha Trunchbull (Pam Ferris), o que faz com que Matilda apenas se sinta bem ao lado da professora Honey (Embeth Davidtz), que tenta ajud\u00e1-la o m\u00e1ximo poss\u00edvel.",
+        "imdb": "tt0117008",
+        "imagem": "https://image.tmdb.org/t/p/w300//anKGylXCQ8NUv41TusuxIxbA06i.jpg"
+    }
+    ,
+    {
+        "titulo": "Marvel Rising: Cora\u00e7\u00e3o de Ferro",
+        "descricao": "Enquanto tenta se ajustar \u00e0 sua solit\u00e1ria e isolada rotina escolar, a jovem Riri Williams lida com a intelig\u00eancia muito acima da m\u00e9dia para algu\u00e9m da sua idade. Quando a vil\u00e3 Hala destr\u00f3i o laborat\u00f3rio da sua escola e sequestra a sua melhor amiga, Riri encontra inspira\u00e7\u00e3o no seu her\u00f3i favorito, Homem de Ferro, para virar a salvadora do dia.",
+        "imdb": "tt9073746",
+        "imagem": "https://image.tmdb.org/t/p/w300//j2UPS5hPBFgRN1Zbs7RKvn0iipu.jpg"
+    }
+    ,
+    {
+        "titulo": "Millennium: Os Homens Que N\u00e3o Amavam as Mulheres",
+        "descricao": "Um jornalista investigativo e uma hacker de computador s\u00e3o contratados para desvendar o desaparecimento de uma jovem h\u00e1 36 anos. \u00c0 medida que avan\u00e7am na investiga\u00e7\u00e3o crescem os riscos, pois a fam\u00edlia da jovem n\u00e3o quer ter seus segredos revelados.",
+        "imdb": "tt1568346",
+        "imagem": "https://image.tmdb.org/t/p/w300//iwaFFPTJFD5cH8DvKlsjy8Thtg3.jpg"
+    }
+    ,
+    {
+        "titulo": "Miss\u00e3o Catmandu - As Aventuras de Nelly e Simon",
+        "descricao": "Uma detetive novata e um cientista met\u00f3dico partem em uma aventura para provar a exist\u00eancia do Yeti no Himalaia com a ajuda de um guia xerpa.",
+        "imdb": "tt5433884",
+        "imagem": "https://image.tmdb.org/t/p/w300//oeEdKE0Pk0iLvsfcQdLrGV98aVy.jpg"
+    }
+    ,
+    {
+        "titulo": "Mulher-Maravilha: Linhagem de Sangue",
+        "descricao": "Veja a origem lend\u00e1ria de um dos renomados membros da Liga da Justi\u00e7a, Mulher Maravilha, conforme ela enfrenta o mal com sua espada e seu la\u00e7o m\u00e1gico. Determinada e igualmente forte no corpo e no cora\u00e7\u00e3o, ela assume a miss\u00e3o de ajudar uma jovem garota problem\u00e1tica que foi recrutada por uma organiza\u00e7\u00e3o mortal conhecida como Corpora\u00e7\u00e3o Vilania, cujos membros criminosos almejam invadir Themyscira, o lar paradis\u00edaco de nossa hero\u00edna. A batalha ser\u00e1 \u00e9pica, porque se h\u00e1 uma coisa que as Amazonas conhecem bem, \u00e9 a guerra!",
+        "imdb": "tt8752498",
+        "imagem": "https://image.tmdb.org/t/p/w300//bjwO46qdVwq2WxoYT4qlKpuaGxX.jpg"
+    }
+    ,
+    {
+        "titulo": "Nem Que a Vaca Tussa",
+        "descricao": "A fazenda Caminho do Para\u00edso est\u00e1 em p\u00e2nico, pois uma a\u00e7\u00e3o de despejo amea\u00e7a acabar com o local. Temendo ir para o matadouro, os animais da fazenda decidem ajudar a dona a conseguir a quantia necess\u00e1ria para pagar a hipoteca. O alvo escolhido pelo grupo \u00e9 o perigoso bandido Alameda Slim, que tem uma grande recompensa reservada para quem captur\u00e1-lo.",
+        "imdb": "tt0299172",
+        "imagem": "https://image.tmdb.org/t/p/w300//h6Sm61aFV7UVFMHWrzrSRRjVhiD.jpg"
+    }
+    ,
+    {
+        "titulo": "Next Gen",
+        "descricao": "Ao acidentalmente ativar um rob\u00f4 secreto, a garotinha Mai e seu novo amigo unem for\u00e7as para enfrentar os valent\u00f5es de plant\u00e3o e minar um plano diab\u00f3lico.",
+        "imdb": "tt7133686",
+        "imagem": "https://image.tmdb.org/t/p/w300//hUDDo5MPWM6rc6COQYhaoRNqvhE.jpg"
+    }
+    ,
+    {
+        "titulo": "Artista do Desastre",
+        "descricao": "Greg Sestero se aproxima do exc\u00eantrico Tommy Wiseau ap\u00f3s uma aula de atua\u00e7\u00e3o e os dois desenvolvem uma intensa amizade ancorada no sonho em comum de fazer sucesso nas artes dram\u00e1ticas. Juntos eles partem para Hollywood, onde Tommy, cansado de ser rejeitado em testes, decide produzir, financiar, dirigir, escrever e protagonizar \u2013 ao lado do melhor amigo \u2013 o longa que o catapultar\u00e1 ao estrelato \"The Room\".",
+        "imdb": "tt3521126",
+        "imagem": "https://image.tmdb.org/t/p/w300//mIu3lfpxwt5YprslsSjnU0nZj8y.jpg"
+    }
+    ,
+    {
+        "titulo": "O Chefe",
+        "descricao": "Um empres\u00e1rio rude e egoc\u00eantrico est\u00e1 prestes a perder tudo pelo que lutou at\u00e9 receber a inesperada ajuda de uma servente de limpeza do escrit\u00f3rio.",
+        "imdb": "tt7527538",
+        "imagem": "https://image.tmdb.org/t/p/w300//jvHzkK0VvKQ3noByKaRnKB2VYYt.jpg"
+    }
+    ,
+    {
+        "titulo": "O Espanta Tubar\u00f5es",
+        "descricao": "Oscar \u00e9 um pequeno peixe que tem sonhos grandes, que se torna um her\u00f3i involunt\u00e1rio ap\u00f3s pregar uma grande mentira. Ap\u00f3s ser perseguido pelo filho do tubar\u00e3o-chefe, Oscar presencia sua morte. Querendo bancar o her\u00f3i, ele assume a autoria do assassinato e, com isso, se torna uma grande celebridade no mundo aqu\u00e1tico. Por\u00e9m a situa\u00e7\u00e3o se complica quando ele \u00e9 designado para repetir a fa\u00e7anha, eliminando outros tubar\u00f5es.",
+        "imdb": "tt0307453",
+        "imagem": "https://image.tmdb.org/t/p/w300//1tPhFqGScPYbaLuczBnlFGjNUqj.jpg"
+    }
+    ,
+    {
+        "titulo": "O Exterminador do Futuro",
+        "descricao": "Em um futuro pr\u00f3ximo, a guerra entre humanos e m\u00e1quinas foi iniciada. Com a tecnologia a seu dispor, um plano inusitado \u00e9 arquitetado pelas m\u00e1quinas ao enviar para o passado um andr\u00f3ide com a miss\u00e3o de matar a m\u00e3e daquele que viria a se transformar num l\u00edder e seu pior inimigo. Contudo, os humanos tamb\u00e9m conseguem enviar seu representante para proteger a mulher e tentar garantir o futuro da humanidade.",
+        "imdb": "tt0088247",
+        "imagem": "https://image.tmdb.org/t/p/w300//fo4SSoNT1ASI4JP7dOLrosWNWKa.jpg"
+    }
+    ,
+    {
+        "titulo": "O Exterminador do Futuro 2: O Julgamento Final",
+        "descricao": "O jovem John Connor \u00e9 a chave para a vit\u00f3ria da civiliza\u00e7\u00e3o sobre uma rebeli\u00e3o de rob\u00f4s do futuro. No entanto, ele torna-se alvo de T-1000, um exterminador que pode assumir a forma que desejar e que foi enviado do futuro para mat\u00e1-lo. Outro exterminador, o renovado T-800, tamb\u00e9m \u00e9 enviado de volta ao passado para proteger o garoto. Quando John e sua m\u00e3e embarcam na fuga com T-800, o menino cria um v\u00ednculo forte e inesperado com o rob\u00f4.",
+        "imdb": "tt0103064",
+        "imagem": "https://image.tmdb.org/t/p/w300//l5uPlrjcVSI3z3duYeyRAP2E2D0.jpg"
+    }
+    ,
+    {
+        "titulo": "O Exterminador do Futuro 3: A Rebeli\u00e3o das M\u00e1quinas",
+        "descricao": "Na inten\u00e7\u00e3o de concluir a miss\u00e3o ainda inacabada, a bela e perigosa m\u00e1quina mort\u00edfera T-X \u00e9 enviada para matar John Connor, l\u00edder da resist\u00eancia humana contra as m\u00e1quinas da Skynet. Para proteg\u00ea-lo mais uma vez o ciborgue T-800 volta \u00e0 cena.",
+        "imdb": "tt0181852",
+        "imagem": "https://image.tmdb.org/t/p/w300//lzzuKhx8Ly6SZa8LxkT5Fvouc5z.jpg"
+    }
+    ,
+    {
+        "titulo": "O Exterminador do Futuro 4: A Salva\u00e7\u00e3o",
+        "descricao": "John Connor \u00e9 designado para liderar a resist\u00eancia humana ao dom\u00ednio das m\u00e1quinas, coordenadas pela Skynet e seu ex\u00e9rcito de exterminadores. Quando surge um estranho homem chamado Marcus Wright, cuja \u00faltima mem\u00f3ria que possui \u00e9 de estar no corredor da morte. John Connor precisa descobrir se ele foi enviado do futuro ou resgatado do passado, ao mesmo tempo em que a Skynet prepara seu ataque definitivo, que pode aniquilar a humanidade.",
+        "imdb": "tt0438488",
+        "imagem": "https://image.tmdb.org/t/p/w300//yA35bB3q5NQyzjhKvrqY4LT6GP3.jpg"
+    }
+    ,
+    {
+        "titulo": "O Imposs\u00edvel",
+        "descricao": "O casal Maria e Henry est\u00e1 aproveitando as f\u00e9rias de inverno na Tail\u00e2ndia junto com os tr\u00eas filhos pequenos. Mas em uma manh\u00e3, um tsunami de propor\u00e7\u00f5es devastadoras atinge o local, arrastando tudo o que encontra pela frente. Separados em dois grupos, a m\u00e3e e o filho mais velho v\u00e3o enfrentar situa\u00e7\u00f5es desesperadoras para se manterem vivos, enquanto, o pai e as duas crian\u00e7as menores n\u00e3o sabem se os outros dois ainda est\u00e3o vivos.",
+        "imdb": "tt1649419",
+        "imagem": "https://image.tmdb.org/t/p/w300//sLSQBkyrn2r7UfZxefZNrIMNmhP.jpg"
+    }
+    ,
+    {
+        "titulo": "Amor, Romance e Chocolate",
+        "descricao": "Dispensada pelo namorado, Emma decide fazer uma viagem para a B\u00e9lgica, onde conhece o charmoso chocolateiro Luc Simon. Emma ent\u00e3o descobre uma paix\u00e3o pela gastronomia e vive um intenso romance.",
+        "imdb": "tt9552488",
+        "imagem": "https://image.tmdb.org/t/p/w300//kRJHVr3RHJHLNXH3Xh1GcJ2FPwV.jpg"
+    }
+    ,
+    {
+        "titulo": "O Mist\u00e9rio das Duas Irm\u00e3s",
+        "descricao": "Ap\u00f3s sua m\u00e3e morrer em um inc\u00eandio, a jovem Anna tenta o suic\u00eddio. Como resultado, vai parar em uma cl\u00ednica para tratamento. Dez meses depois, Anna continua sem lembrar o que aconteceu na noite em que a m\u00e3e morreu. Apesar disto, o dr. Silberling resolve lhe dar alta. Anna \u00e9 ent\u00e3o levada de volta para casa por seu pai, Steven, um escritor de sucesso. L\u00e1 ela encontra Rachel Summers, a enfermeira de sua m\u00e3e, como sua madrasta e tamb\u00e9m sua irm\u00e3, Alex. Logo Anna passa a ser assombrada por fantasmas, que a fazem acreditar que Rachel matou sua m\u00e3e.",
+        "imdb": "tt0815245",
+        "imagem": "https://image.tmdb.org/t/p/w300//lGiJe3J8tgsLzRWsrAB6kCYB5FJ.jpg"
+    }
+    ,
+    {
+        "titulo": "Onze Homens e um Segredo",
+        "descricao": "Danny Ocean \u00e9 um homem de a\u00e7\u00e3o. Apenas 24 horas ap\u00f3s deixar a penitenci\u00e1ria de Nova Jersey ele j\u00e1 est\u00e1 pondo em pr\u00e1tica seu mais novo plano: Assaltar tr\u00eas cassinos de Las Vegas em apenas uma noite, em meio \u00e0 realiza\u00e7\u00e3o de uma luta que vale o t\u00edtulo mundial dos peso-pesados. Para tanto, Ocean re\u00fane uma equipe de 11 especialistas a fim de ajud\u00e1-lo em seu plano, seguindo sempre tr\u00eas regras b\u00e1sicas: N\u00e3o ferir ningu\u00e9m, n\u00e3o roubar algu\u00e9m que realmente n\u00e3o mere\u00e7a e seguir o plano como se n\u00e3o tivesse nada a perder.",
+        "imdb": "tt0240772",
+        "imagem": "https://image.tmdb.org/t/p/w300//8NbSiE9xnymrcMEfiUbSM9it7hq.jpg"
+    }
+    ,
+    {
+        "titulo": "O Pianista",
+        "descricao": "Um pianista judeu polon\u00eas v\u00ea Vars\u00f3via mudar gradualmente \u00e0 medida que a Segunda Guerra Mundial come\u00e7a. Szpilman \u00e9 for\u00e7ado a ir para o Gueto de Vars\u00f3via, mas depois \u00e9 separado de sua fam\u00edlia durante a Opera\u00e7\u00e3o Reinhard. A partir deste momento at\u00e9 que os prisioneiros dos campos de concentra\u00e7\u00e3o sejam liberados, Szpilman se esconde em v\u00e1rios locais entre as ru\u00ednas de Vars\u00f3via.",
+        "imdb": "tt0253474",
+        "imagem": "https://image.tmdb.org/t/p/w300//s0evYrftQZepUEaLPUFUdRvBG80.jpg"
+    }
+    ,
+    {
+        "titulo": "O Poderoso Chef\u00e3o",
+        "descricao": "Em 1945, Don Corleone \u00e9 o chefe de uma mafiosa fam\u00edlia italiana de Nova York. Ele costuma apadrinhar v\u00e1rias pessoas, realizando importantes favores para elas, em troca de favores futuros. Com a chegada das drogas, as fam\u00edlias come\u00e7am uma disputa pelo promissor mercado. Quando Corleone se recusa a facilitar a entrada dos narc\u00f3ticos na cidade, n\u00e3o oferecendo ajuda pol\u00edtica e policial, sua fam\u00edlia come\u00e7a a sofrer atentados para que mudem de posi\u00e7\u00e3o. \u00c9 nessa complicada \u00e9poca que Michael, um her\u00f3i de guerra nunca envolvido nos neg\u00f3cios da fam\u00edlia, v\u00ea a necessidade de proteger o seu pai e tudo o que ele construiu ao longo dos anos.",
+        "imdb": "tt0068646",
+        "imagem": "https://image.tmdb.org/t/p/w300//oJagOzBu9Rdd9BrciseCm3U3MCU.jpg"
+    }
+    ,
+    {
+        "titulo": "O Poderoso Chef\u00e3o: Parte II",
+        "descricao": "Ap\u00f3s a m\u00e1fia matar sua fam\u00edlia, o jovem Vito foge da sua cidade na Sic\u00edlia e vai para a Am\u00e9rica. Vito luta para manter sua fam\u00edlia. Ele mata Black Hand Fanucci, que exigia dos comerciantes uma parte dos seus ganhos. Com a morte de Fanucci, o poderio de Vito cresce, mas sua fam\u00edlia \u00e9 o que mais importa para ele. Agora baseado no Lago Tahoe, Michael planeja fazer incurs\u00f5es em Las Vegas e Havana instalando neg\u00f3cios ligados ao lazer, mas descobre que aliados como Hyman Roth est\u00e3o tentando mat\u00e1-lo.",
+        "imdb": "tt0071562",
+        "imagem": "https://image.tmdb.org/t/p/w300//7g6wvsWHxBQujUcSXvZLhdFpDUy.jpg"
+    }
+    ,
+    {
+        "titulo": "O Poderoso Chef\u00e3o: Parte III",
+        "descricao": "Don Michael Corleone est\u00e1 envelhecendo e, com a ajuda do sobrinho Vicente Mancini, busca a legitima\u00e7\u00e3o dos interesses da fam\u00edlia, em Nova York e na It\u00e1lia, antes de sua morte. Mas seu protegido n\u00e3o est\u00e1 s\u00f3 interessado em parte do imp\u00e9rio da fam\u00edlia. Ele tamb\u00e9m deseja a filha de Michael, Mary.",
+        "imdb": "tt0099674",
+        "imagem": "https://image.tmdb.org/t/p/w300//y8GROCjgD8amoFufSx2USKrOy7d.jpg"
+    }
+    ,
+    {
+        "titulo": "O Quarto de Jack",
+        "descricao": "Joy e seu filho Jack vivem isolados em um quarto. O \u00fanico contato que ambos t\u00eam com o mundo exterior \u00e9 a visita peri\u00f3dica do Velho Nick, que os mant\u00e9m em cativeiro. Joy faz o poss\u00edvel para tornar suport\u00e1vel a vida no local, mas n\u00e3o v\u00ea a hora de deix\u00e1-lo. Para tanto, elabora um plano em que, com a ajuda do filho, poder\u00e1 enganar Nick e retornar \u00e0 realidade.",
+        "imdb": "tt3170832",
+        "imagem": "https://image.tmdb.org/t/p/w300//tARXudrc5K1z8x8OsE9ko5TopMK.jpg"
+    }
+    ,
+    {
+        "titulo": "Reino do Superman",
+        "descricao": "Adaptando a hist\u00f3ria lend\u00e1ria da batalha fatal do Superman com o Apocalypse, esse ser\u00e1 o segundo filme original do DC Universe \u00e0 adaptar o material. O primeiro \u2013 de 2007 \u2013 Superman: Doomsday, foi muito condensado e trouxe o evento dos quadrinhos para dentro de 75 minutos de dura\u00e7\u00e3o. A pr\u00f3xima adapta\u00e7\u00e3o ser\u00e1 mais fiel ao material de origem, muito menos condensada e incluir\u00e1 muitos dos momentos de f\u00e3s da hist\u00f3ria que foram deixados de fora do Apocalypse.",
+        "imdb": "tt7167686",
+        "imagem": "https://image.tmdb.org/t/p/w300//u4rWHJLzM8CrsdtcTOLGY58ef4j.jpg"
+    }
+    ,
+    {
+        "titulo": "Os Jovens Tit\u00e3s em A\u00e7\u00e3o! Nos Cinemas",
+        "descricao": "Robin, Ciborgue, Estelar, Ravena e Mutano s\u00e3o os Jovens Tit\u00e3s. Ao perceberem que todos os super-her\u00f3is est\u00e3o estrelando filmes, eles decidem se mobilizar para tamb\u00e9m ter espa\u00e7o nas telonas. O l\u00edder do grupo, Robin, est\u00e1 determinado a ser visto como um astro e com ideias malucas e at\u00e9 uma can\u00e7\u00e3o eles partem em busca de um diretor de Hollywood, mas acabam enganados por um supervil\u00e3o.",
+        "imdb": "tt7424200",
+        "imagem": "https://image.tmdb.org/t/p/w300//y8sTpoYcjvFut9DtemQcppAQr9s.jpg"
+    }
+    ,
+    {
+        "titulo": "O Segredo dos Animais",
+        "descricao": "Otis (Kevin James) \u00e9 um bezerro de bem com a vida, que vive em uma fazenda e adora dan\u00e7ar, cantar e se divertir pregando pe\u00e7as nos humanos. Ao contr\u00e1rio de seus pais, Ben (Sam Elliott) e Miles (Danny Glover), Otis n\u00e3o est\u00e1 preocupado em esconder dos humanos os talentos que os animais da fazenda possuem. At\u00e9 ser colocado \u00e0 prova, quando precisa demonstrar coragem e responsabilidade.",
+        "imdb": "tt0414853",
+        "imagem": "https://image.tmdb.org/t/p/w300//nG4eJPNA4M4odMPR9bso3RZUKOL.jpg"
+    }
+    ,
+    {
+        "titulo": "O Touro Ferdinando",
+        "descricao": "Ferdinando \u00e9 um touro com um temperamento calmo e tranquilo, que prefere sentar-se embaixo de uma \u00e1rvore e relaxar ao inv\u00e9s de correr por a\u00ed bufando e batendo cabe\u00e7a com os outros. A medida que vai crescendo, ele se torna forte e grande, mas com o mesmo pensamento. Quando cinco homens v\u00e3o at\u00e9 sua fazenda para escolher o melhor animal para touradas em Madri, Ferdinando \u00e9 selecionado acidentalmente.",
+        "imdb": "tt3411444",
+        "imagem": "https://image.tmdb.org/t/p/w300//rnoYZvoSbS6uogrESSbKOpwg0sB.jpg"
+    }
+    ,
+    {
+        "titulo": "Os Perdedores",
+        "descricao": "Clay (Jeffrey Dean Morgan), Jensen (Chris Evans), Roque (Idris Elba), Pooch (Columbus Short) e Cougar (Oscar Jaenada) s\u00e3o integrantes de uma unidade de elite das for\u00e7as armadas dos Estados Unidos. Eles s\u00e3o enviados em miss\u00e3o na Bol\u00edvia, mas l\u00e1 s\u00e3o tra\u00eddos por um poderoso inimigo o qual apenas se sabe seu nome: Max (Jason Patric). Dados como mortos, eles planejam virar o jogo contando com a ajuda de Aisha (Zoe Saldana), uma bela e misteriosa mulher.",
+        "imdb": "tt0480255",
+        "imagem": "https://image.tmdb.org/t/p/w300//4K87EAcsXhFfyyHLRuBvF34sAVx.jpg"
+    }
+    ,
+    {
+        "titulo": "Patrick: Aprendendo a Amar",
+        "descricao": "Sarah \u00e9 uma jovem mulher cuja vida est\u00e1 um pouco bagun\u00e7ada. A \u00faltima coisa que ela precisa \u00e9 de algu\u00e9m para cuidar. Ainda assim, gostando ou n\u00e3o, a av\u00f3 dela lhe deixou um legado, um pug muito mimado \u2013 Patrick. Certamente ela deve ter tido seus motivos?",
+        "imdb": "tt6542108",
+        "imagem": "https://image.tmdb.org/t/p/w300//ib6i2qP4USS7ihw8GhdP64aTsJk.jpg"
+    }
+    ,
+    {
+        "titulo": "Pedro Coelho",
+        "descricao": "Pedro Coelho \u00e9 um animal rebelde que apronta todas no quintal e at\u00e9 dentro da casa do Mr. McGregor, com quem trava uma dura batalha pelo carinho da amante de animais Bea.",
+        "imdb": "tt5117670",
+        "imagem": "https://image.tmdb.org/t/p/w300//f9Yp41eDDrx4HxFKW8vt9xKPobB.jpg"
+    }
+    ,
+    {
+        "titulo": "Pequena Miss Sunshine",
+        "descricao": "Nenhuma fam\u00edlia \u00e9 verdadeiramente normal, mas a fam\u00edlia Hoover extrapola. O pai desenvolveu um m\u00e9todo de auto-ajuda que \u00e9 um fracasso, o filho mais velho fez voto de sil\u00eancio, o cunhado \u00e9 um professor suicida e o av\u00f4 foi expulso de uma casa de repouso por usar hero\u00edna. Nada funciona para o cl\u00e3, at\u00e9 que a filha ca\u00e7ula, a desajeitada Olive (Abigail Breslin), \u00e9 convidada para participar de um concurso de beleza para meninas pr\u00e9-adolescentes. Durante tr\u00eas dias eles deixam todas as suas diferen\u00e7as de lado e se unem para atravessar o pa\u00eds numa kombi amarela enferrujada.",
+        "imdb": "tt0449059",
+        "imagem": "https://image.tmdb.org/t/p/w300//gGYiZc8Mjd9nysDUfzw1N0NgqbP.jpg"
+    }
+    ,
+    {
+        "titulo": "PLOEY:  Voc\u00ea Nunca Voar\u00e1 Sozinho",
+        "descricao": "Um filhote de tarambola ainda n\u00e3o aprendeu a voar quando chega a hora de sua fam\u00edlia migrar no outono. Ele precisa sobreviver ao inverno \u00e1rtico, inimigos cru\u00e9is e a si mesmo, a fim de se reunir com seus entes queridos na pr\u00f3xima primavera.",
+        "imdb": "tt2766104",
+        "imagem": "https://image.tmdb.org/t/p/w300//2ioAymnfrJ28kIyUge2lWN83G5h.jpg"
+    }
+    ,
+    {
+        "titulo": "Por \u00c1gua Abaixo",
+        "descricao": "Roddy St. James, o mimado ratinho de estima\u00e7\u00e3o, acha que j\u00e1 chegou l\u00e1... at\u00e9 que entra literalmente pelo cano e vai parar num submundo de r\u00e3s ninjas, ratos-capangas e lesmas cantoras. Esta surpreendente a criativa aventura c\u00f4mica \u00e9 uma enxurrada de divers\u00e3o tanto para crian\u00e7as quanto para adultos.",
+        "imdb": "tt0424095",
+        "imagem": "https://image.tmdb.org/t/p/w300//qzyUeoCg6fh8nSQD1LFiUiiOs8P.jpg"
+    }
+    ,
+    {
+        "titulo": "Poseidon",
+        "descricao": "Uma onda gigantesca faz com que um luxuoso transatl\u00e2ntico, chamado Poseidon, tombe e fique de cabe\u00e7a para baixo em alto mar. Poucos s\u00e3o os sobreviventes, que precisam se unir. O capit\u00e3o Michael Bradford (Andre Braugher) sugere que todos aguardem por socorro no local em que est\u00e3o, mas John Dylan (Josh Lucas), um jogador profissional, prefere buscar um lugar que lhe d\u00ea maior seguran\u00e7a. A atitude de Dylan atrai outros sobreviventes, que decidem segui-lo. Entre eles est\u00e1 Robert Ramsey (Kurt Russell), que est\u00e1 desesperado por n\u00e3o conseguir encontrar sua filha, Jennifer (Emmy Rossum), e o noivo dela, Christian (Mike Vogel). Tamb\u00e9m se juntam a eles Maggie James (Jacinda Barrett) e seu filho Conor (Jimmy Bennett), a passageira clandestina Elena Gonzalez (Mia Maestro) e Richard Nelson (Richard Dreyfuss), um homem que embarcou no navio em d\u00favida se queria viver. Desperados em encontrar uma sa\u00edda, o grupo se embrenha no a\u00e7o retorcido enquanto o navio cada vez mais vai se enchendo de \u00e1gua.",
+        "imdb": "tt0409182",
+        "imagem": "https://image.tmdb.org/t/p/w300//1ma5b9XLCziCHzQP0Zy1Y1PqNyM.jpg"
+    }
+    ,
+    {
+        "titulo": "Precisamos Falar Sobre o Kevin",
+        "descricao": "Eva (Tilda Swinton) nunca quiz ser m\u00e3e, mas p\u00f5e suas ambi\u00e7\u00f5es profissionais de lado para dar a luz \u00e0 Kevin (Ezra Miller). A rela\u00e7\u00e3o entre os dois, por\u00e9m, \u00e9 muito complicada desde o come\u00e7o. Quando Kevin chega aos 15 anos toma uma atitude irracional e imperdo\u00e1vel, cometendo um assassinato em massa em sua escola. Eva, por sua vez, se agarra ao sentimento de tristeza e responsabilidade pelo acontecido. Ser\u00e1 que ela um dia amou o filho? Qual parcela das atitudes de Kevin pode ser considerada culpa da m\u00e3e?",
+        "imdb": "tt1242460",
+        "imagem": "https://image.tmdb.org/t/p/w300//k13tASemEhEDMV089QOlImesdBq.jpg"
+    }
+    ,
+    {
+        "titulo": "Premoni\u00e7\u00e3o 5",
+        "descricao": "A Morte est\u00e1 mais onipresente do que nunca, e inicia seu ataque ap\u00f3s a premoni\u00e7\u00e3o de um homem que salva um grupo de colegas de trabalho de um terr\u00edvel colapso em uma ponte suspensa. Mas este grupo de almas inocentes n\u00e3o deveria sobreviver e, em uma aterrorizante corrida contra o tempo, o grupo tenta freneticamente descobrir uma maneira de escapar dos planos sinistros da Morte.",
+        "imdb": "tt1622979",
+        "imagem": "https://image.tmdb.org/t/p/w300//jJZPD1eOzLJph5yedRv0dxwk5GA.jpg"
+    }
+    ,
+    {
+        "titulo": "Quarteto Fant\u00e1stico",
+        "descricao": "Quatro jovens astronautas ganham superpoderes ao serem transportados a um universo alternativo e ficarem expostos \u00e0 radia\u00e7\u00e3o c\u00f3smica. Eles precisam usar suas novas habilidades para proteger o planeta contra o Doutor Destino.",
+        "imdb": "tt1502712",
+        "imagem": "https://image.tmdb.org/t/p/w300//XJ8jZ4hGyusnN41NnxR0vv5ghS.jpg"
+    }
+    ,
+    {
+        "titulo": "Rango",
+        "descricao": "Rango (Johnny Depp) \u00e9 um camale\u00e3o da cidade grande que vai parar, ap\u00f3s um acidente, em pleno velho oeste, na cidade de Poeira no deserto do Mojave, na Calif\u00f3rnia. De uma hora para outra, sua rotina de animal de estima\u00e7\u00e3o mudou radicalmente e agora ele precisa deixar a vida \"camuflada\" para enfrentar os perigos existentes no mundo real, fazendo com que ele vivencie a experi\u00eancia de fazer amigos, conhecer inimigos e at\u00e9, quem sabe, se tornar um her\u00f3i.",
+        "imdb": "tt1192628",
+        "imagem": "https://image.tmdb.org/t/p/w300//e5kYzP2hljfdooEzl1lskWn7yoj.jpg"
+    }
+    ,
+    {
+        "titulo": "Bem Vindo \u00e0 Selva",
+        "descricao": "O grupo de funcion\u00e1rios de uma empresa \u00e9 enviado a umas f\u00e9rias na selva, com a ajuda do guia Storm. O que deveria ser uma viagem de descanso e autodescoberta acaba se transformando em um verdadeiro caos quando o piloto do avi\u00e3o fretado \u00e9 encontrado morto, e ningu\u00e9m sabe como fazer para voltar para casa.",
+        "imdb": "tt2193265",
+        "imagem": "https://image.tmdb.org/t/p/w300//5fJYDJDv3xVs6VbjHHoARjVJf0o.jpg"
+    }
+    ,
+    {
+        "titulo": "Em Busca do Vale Encantado II: A Grande Aventura do Vale",
+        "descricao": "A hist\u00f3ria continua no lindo e pac\u00edfico vale encantado onde Littlefoot e seus amigos vegetarianos moram e brincam sob o atento olhar de seus pais. Mas quando a desobediente Saura conduz o grupo para uma regi\u00e3o proibida, os problemas aparecem: eles encontram dois ladr\u00f5es de ovos chamados Ozzie e Strut, uma barulhenta Avalanche, dois ferozes tiranossauros, al\u00e9m de um misterioso ovo preste a chocar. Nesta incr\u00edvel aventura, a turma do Vele Encantado vai aprender como \u00e9 dif\u00edcil crescer nesta envolvente hist\u00f3ria de esperan\u00e7a, amor e confian\u00e7a.",
+        "imdb": "tt0110300",
+        "imagem": "https://image.tmdb.org/t/p/w300//o8oBw8UCxsYVjj0pul0j1GGNJbk.jpg"
+    }
+    ,
+    {
+        "titulo": "Scooby-Doo! De Volta \u00e0 Ilha dos Zumbis",
+        "descricao": "Tentando deixar os dias de resolu\u00e7\u00e3o de mist\u00e9rios para tr\u00e1s, a turma do Scooby tira f\u00e9rias em uma ilha tropical, mas o sossego n\u00e3o dura muito... porque um ex\u00e9rcito de zumbis os espera!",
+        "imdb": "tt10622136",
+        "imagem": "https://image.tmdb.org/t/p/w300//9DWSsLs8jltBxH2LSazuSR9FjpQ.jpg"
+    }
+    ,
+    {
+        "titulo": "Se Beber, N\u00e3o Case!",
+        "descricao": "Dois dias antes de seu casamento, Doug e tr\u00eas amigos v\u00e3o de carro at\u00e9 Las Vegas para uma louca e memor\u00e1vel despedida de solteiro. Quando os tr\u00eas padrinhos acordam na manh\u00e3 seguinte, eles n\u00e3o conseguem se lembrar de nada e notam que Doug desapareceu. Com pouco tempo de sobra, os amigos tentam refazer a noite anterior e encontrar Doug para que possam lev\u00e1-lo de volta a Los Angeles a tempo de chegar ao altar.",
+        "imdb": "tt1119646",
+        "imagem": "https://image.tmdb.org/t/p/w300//6Hi9g065cxrQc2TLh5zwmTOurvK.jpg"
+    }
+    ,
+    {
+        "titulo": "Se Beber, N\u00e3o Case! - Parte III",
+        "descricao": "Faz dois anos desde que o quarteto, conhecido como Wolfpack, quase escapou de um desastre em Bangkok. Agora, Phil, Stu e Doug vivem felizes em casa, mas Alan n\u00e3o. Ainda sem rumo na vida, Alan n\u00e3o tem tomado seus rem\u00e9dios e est\u00e1 vivendo sob impulsos naturais. Est\u00e1 nas m\u00e3os dos amigos ajud\u00e1-lo com sua crise pessoal, embarcando em uma viagem para o lugar onde tudo come\u00e7ou: Las Vegas.",
+        "imdb": "tt1951261",
+        "imagem": "https://image.tmdb.org/t/p/w300//7QobPkQLohlXAoIGuN97F3C6xJw.jpg"
+    }
+    ,
+    {
+        "titulo": "Seguran\u00e7a de Shopping",
+        "descricao": "O chefe de fam\u00edlia Paul Blart (Kevin James), trabalha como seguran\u00e7a em um shopping de New Jersey. Para al\u00e9m de excesso de peso, ele falhou no exame f\u00edsico e n\u00e3o pode se tornar policial. Quando um grupo de criminosos ataca o centro comercial, Blart fica preso no local e opera como informante do Departamento de Pol\u00edcia, al\u00e9m de trabalhar sozinho para deter os bandidos que est\u00e3o amea\u00e7ando ref\u00e9ns.",
+        "imdb": "tt1114740",
+        "imagem": "https://image.tmdb.org/t/p/w300//1cNfnzonc6tQ6Ej6cK4vxIE84tr.jpg"
+    }
+    ,
+    {
+        "titulo": "Seguran\u00e7a de Shopping 2",
+        "descricao": "Nesta sequ\u00eancia, o seguran\u00e7a Paul Blart (Kevin James) \u00e9 contratado para trabalhar em um importante evento de arte na cidade de Las Vegas. Os colegas e os profissionais do cassino duvidam das compet\u00eancias dele, mas logo Blart poder\u00e1 comprovar as suas capacidades contra um grupo de ladr\u00f5es de obras de arte.",
+        "imdb": "tt3450650",
+        "imagem": "https://image.tmdb.org/t/p/w300//dJ52hQePdIAUVcDEIMmeTUr4vhY.jpg"
+    }
+    ,
+    {
+        "titulo": "Shopkins: Aventura Selvagem",
+        "descricao": "Encontre seu estilo selvagem e venha conhecer os Shoppets de Pawville em uma aventura animal! Quando as famosas estrelas de cinema Scarletta Gateau e Rubi Radiante recrutam a turma de Shopville para salvar os Shoppets, eles viajam pela selva e descobrem o incr\u00edvel mundo de Pawville. Mas Pawville e os Shoppets claramente n\u00e3o precisam ser salvos. E de repente nada do que Scarletta diz parece ser verdade! O que est\u00e1 acontecendo? Ser\u00e1 que os Shopkins, Shoppies e Shoppets v\u00e3o conseguir se unir para resolver o mist\u00e9rio? Encontre sua tribo e se prepare para a aventura mais selvagem de todas!",
+        "imdb": "tt8059506",
+        "imagem": "https://image.tmdb.org/t/p/w300//u6SuXzWrfX5OmSznf3J175DG5X7.jpg"
+    }
+    ,
+    {
+        "titulo": "Sobreviva a Noite",
+        "descricao": "Goro, um g\u00eanio criminoso, conspirou para roubar um enorme dep\u00f3sito de ouro da fam\u00edlia Rossini. Sem o conhecimento de Goro e seus soldados da fortuna, um dos h\u00f3spedes de Rossini \u00e9 um agente estrangeiro altamente treinado que luta n\u00e3o s\u00f3 para salvar os ref\u00e9ns e o ouro, mas sua fam\u00edlia em perigo.",
+        "imdb": "tt4059460",
+        "imagem": "https://image.tmdb.org/t/p/w300//4gm5L27IrhUNcObLMnnVZHlHmqX.jpg"
+    }
+    ,
+    {
+        "titulo": "Stephanie",
+        "descricao": "A hist\u00f3ria gira em torno de uma garotinha chamada Stephanie, que \u00e9 abandonada pelos seus pais e for\u00e7ada a viver sozinha com sua tartaruga de pel\u00facia. Um casal a encontra e se surpreendem ao perceber que sobreviveu depois de tanto tempo sozinha, aos poucos eles descobrem que a escurid\u00e3o e for\u00e7as sobrenaturais passam a se manifestar tendo a menina no centro de tudo.",
+        "imdb": "tt3829378",
+        "imagem": "https://image.tmdb.org/t/p/w300//saH984W3ZGjRX0NMCEsuKh8VUP9.jpg"
+    }
+    ,
+    {
+        "titulo": "Susp\u00edria: A Dan\u00e7a do Medo",
+        "descricao": "As trevas tomam conta de uma renomada companhia de dan\u00e7a, envolvendo a diretora art\u00edstica do grupo, uma ambiciosa jovem dan\u00e7arina e um psicoterapeuta de luto. Alguns ir\u00e3o sucumbir ao pesadelo. Outros ir\u00e3o finalmente despertar.",
+        "imdb": "tt1034415",
+        "imagem": "https://image.tmdb.org/t/p/w300//qklGv6ZvmIpEP7RTInbngyKUT5V.jpg"
+    }
+    ,
+    {
+        "titulo": "T\u00e1 Chovendo Hamb\u00farguer",
+        "descricao": "Flint Lockwood \u00e9 um jovem cientista que sonha criar algo que fa\u00e7a com que seja reconhecido pela popula\u00e7\u00e3o de Boca Grande, uma pequena ilha no Atl\u00e2ntico. Um dia ele consegue descobrir uma forma de transformar \u00e1gua em comida, s\u00f3 que precisa de bastante eletricidade para coloc\u00e1-la em funcionamento. Ao tentar usar a energia da geradora local, ele perde o controle da inven\u00e7\u00e3o e ela ruma para o c\u00e9u. Para piorar, a confus\u00e3o que ele cria destroi um parque de divers\u00f5es, o grande trunfo do prefeito Shelbourne para melhorar a economia local. Flint acredita ter perdido a m\u00e1quina, mas repentinamente come\u00e7a a chover hamb\u00fargueres em toda a cidade. Com o apoio de Sam Sparks, uma estagi\u00e1ria de jornalismo que foi enviada \u00e0 ilha para ser a nova \"garota do tempo\", Flint logo vira uma celebridade local.",
+        "imdb": "tt0844471",
+        "imagem": "https://image.tmdb.org/t/p/w300//czEUatnzoLXjCDZjTKHyjcKBTFy.jpg"
+    }
+    ,
+    {
+        "titulo": "T\u00e1 Chovendo Hamb\u00farguer 2",
+        "descricao": "Ap\u00f3s a desastrosa tempestade de comida no primeiro filme, Flint (Bill Hader) e seus amigos s\u00e3o obrigados a deixar a cidade de Boca Grande. Sem sa\u00edda, ele aceita o convite de seu \u00eddolo, Chester V (Will Forte), e junta-se \u00e0 The Live Corp Company, que re\u00fane os melhores inventores do mundo. Por\u00e9m, quando descobre que sua m\u00e1quina ainda funciona e agora cria perigosas comidas animalescas mutantes, Flint decide retornar e tentar salvar o mundo.",
+        "imdb": "tt1985966",
+        "imagem": "https://image.tmdb.org/t/p/w300//jyIWUZCtt3pRxi727NxFjhcdzNd.jpg"
+    }
+    ,
+    {
+        "titulo": "Treze Homens e um Novo Segredo",
+        "descricao": "Reuben Tischkoff, o homem que bancou financeiramente o assalto triplo aos cassinos de Terry Benedict, foi tra\u00eddo por Willie Bank, um inescrupuloso dono de cassinos. Com Reuben no hospital, Danny Ocean, Rusty Ryan e sua trupe mais uma vez se re\u00fanem para iniciar um plano de vingan\u00e7a. O objetivo \u00e9 derrotar Bank na noite de inaugura\u00e7\u00e3o de seu mais luxuoso cassino, chamado The Bank, derrotando-o financeiramente e tamb\u00e9m atingindo sua reputa\u00e7\u00e3o.",
+        "imdb": "tt0496806",
+        "imagem": "https://image.tmdb.org/t/p/w300//hWmFe0A26TNmnfHrHdmKmN0N6QZ.jpg"
+    }
+    ,
+    {
+        "titulo": "Um Amor para Recordar",
+        "descricao": "Em plenos anos 90, Landon Carter (Shane West) \u00e9 punido por ter feito uma brincadeira de mau gosto em sua escola. Como puni\u00e7\u00e3o ele \u00e9 encarregado de participar de uma pe\u00e7a teatral, que est\u00e1 sendo montada na escola. \u00c9 quando ele conhece Jamie Sullivan (Mandy Moore), uma jovem estudante de uma escola pobre. Com o tempo Landon acaba se apaixonando por Jamie que, por raz\u00f5es pessoais, faz de tudo para escapar de seu ass\u00e9dio.",
+        "imdb": "tt0281358",
+        "imagem": "https://image.tmdb.org/t/p/w300//s2UxmxiIOupjHmjs1Jl7TdWDVFc.jpg"
+    }
+    ,
+    {
+        "titulo": "Um Lugar Silencioso",
+        "descricao": "Em uma fazenda dos Estados Unidos, uma fam\u00edlia do meio-oeste \u00e9 perseguida por uma entidade fantasmag\u00f3rica assustadora. Para se protegerem, eles devem permanecer em sil\u00eancio absoluto, a qualquer custo, pois o perigo \u00e9 ativado pela percep\u00e7\u00e3o do som.",
+        "imdb": "tt6644200",
+        "imagem": "https://image.tmdb.org/t/p/w300//rNgg9wuyeYpCpuzkyLbvaupnmvq.jpg"
+    }
+    ,
+    {
+        "titulo": "Viagem Maldita",
+        "descricao": "Viagem Maldita \u00e9 a hist\u00f3ria de uma fam\u00edlia em f\u00e9rias com dire\u00e7\u00e3o \u00e0 Calif\u00f3rnia, que no entanto \u00e9 desviada com muito pavor a um trecho desolado do deserto, levando seus viajantes a ficarem presos em um zona at\u00f4mica do governo. Longe de tudo, a fam\u00edlia Carter logo percebe que esta aparente desabitada terra devastada, \u00e9 na verdade local de procria\u00e7\u00e3o de uma cruel e sanguin\u00e1ria, fam\u00edlia de mutantes...que far\u00e1 deles suas presas, enfrentando assim uma batalha desesperada pela sobreviv\u00eancia.",
+        "imdb": "tt0454841",
+        "imagem": "https://image.tmdb.org/t/p/w300//m7rGCY9MafDX3N3Z9jSzHSWGqtg.jpg"
+    }
+    ,
+    {
+        "titulo": "Viagem Maldita 2: O Retorno dos Malditos",
+        "descricao": "Como parte de uma miss\u00e3o de rotina, uma unidade de soldados da Guarda Nacional p\u00e1ra no isolado laborat\u00f3rio do Novo M\u00e9xico. L\u00e1 eles encontram um campo de pesquisa misteriosamente deserto. Ap\u00f3s presenciar um sinal de perigo em uma montanha distante, o grupo decide iniciar uma miss\u00e3o de procura e resgate. Por\u00e9m o que eles n\u00e3o sabem \u00e9 que estas s\u00e3o as mesmas montanhas que a fam\u00edlia Carver visitou e que uma tribo de mutantes canibais os aguarda.",
+        "imdb": "tt0800069",
+        "imagem": "https://image.tmdb.org/t/p/w300//tFLQiq2nOZoRYyZUnmRdRToTpfM.jpg"
+    }
+    ,
+    {
+        "titulo": "Wallace & Gromit: A Batalha dos Vegetais",
+        "descricao": "O bairro onde moram o pacato inventor Wallace (Peter Sallis) e seu fiel c\u00e3o Gromit est\u00e1 em polvorosa com a proximidade do concurso anual de legumes gigantes, organizado pela bela e solteira Lady Tottington (Helena Bonham Carter). Para proteger as planta\u00e7\u00f5es de coelhos famintos, Wallace inventa um equipamento que captura os animais sem machuc\u00e1-los. O problema \u00e9 o que fazer com o excesso de coelhos, que n\u00e3o demoram a superpovoar a casa do inventor. A dupla tem ainda de lidar com uma misteriosa fera vegetariana, que est\u00e1 destruindo as planta\u00e7\u00f5es \u00e0 noite. Agora a honra de Wallace est\u00e1 em jogo, pois ele precisa captur\u00e1-la antes do arrogante Victor Quartermaine (Ralph Fiennes), que est\u00e1 de olho na fortuna de Lady Tottington.",
+        "imdb": "tt0312004",
+        "imagem": "https://image.tmdb.org/t/p/w300//l5buWxOG80tzzDqmIyG3i7KG9rS.jpg"
+    }
+    ,
+    {
+        "titulo": "Watchmen: O Filme",
+        "descricao": "Um de seus antigos colegas \u00e9 assassinado, e o vigilante mascarado Rorschach decide investigar um plano para matar e desacreditar todos os super-her\u00f3is do passado e do presente. \u00c0 medida que ele se reconecta com sua antiga legi\u00e3o de combate ao crime, um grupo desorganizado de super-her\u00f3is aposentados, dentre os quais somente um possui verdadeiros poderes, Rorschach vislumbra uma ampla e perturbadora conspira\u00e7\u00e3o que est\u00e1 ligada ao passado deles e a catastr\u00f3ficas consequ\u00eancias para o futuro.",
+        "imdb": "tt0409459",
+        "imagem": "https://image.tmdb.org/t/p/w300//oYEF02pi6goGRAXgfL0MZq5jFEo.jpg"
+    }
+    ,
+    {
+        "titulo": "Cont\u00e1gio",
+        "descricao": "Pouco depois de voltar de uma viagem de neg\u00f3cios, Beth Emhoff morre de uma suposta gripe. Enquanto a epidemia mortal se espalha, os m\u00e9dicos precisam identificar o v\u00edrus para conseguir combat\u00ea-lo e acabar com o p\u00e2nico da popula\u00e7\u00e3o.",
+        "imdb": "tt1598778",
+        "imagem": "https://image.tmdb.org/t/p/w300//vKCC5qNMJAdJwOKZoVSAzGJRO2x.jpg"
+    }
+    ,
+    {
+        "titulo": "O Limite da Trai\u00e7\u00e3o",
+        "descricao": "Uma cidad\u00e3 exemplar \u00e9 acusada de assassinar o marido, e sua advogada logo desconfia de uma conspira\u00e7\u00e3o.",
+        "imdb": "tt11390036",
+        "imagem": "https://image.tmdb.org/t/p/w300//uQqmFcKOSg7RVtaIKOTtv1vWQPx.jpg"
+    }
+    ,
+    {
+        "titulo": "A Corrente do Bem",
+        "descricao": "Apenas imagine. Voc\u00ea faz um favor que realmente ajuda algu\u00e9m e diz para ele ou ela n\u00e3o pagar de volta, mas passar adiante para tr\u00eas pessoas que, em troca, devem pagar para mais tr\u00eas \u2013 e sem parar em uma abund\u00e2ncia global de generosidade e dec\u00eancia. Imposs\u00edvel? O estudante ginasial Trevor McKinney n\u00e3o aceita isso.",
+        "imdb": "tt0223897",
+        "imagem": "https://image.tmdb.org/t/p/w300//e9SdXO13Jws7HZcu7D4pvDW2uEb.jpg"
+    }
+    ,
+    {
+        "titulo": "Anjos da Vida: Mais Bravos Que o Mar",
+        "descricao": "Ainda muito abalado com um salvamento mal sucedido que resultou na morte de toda sua equipe, o lend\u00e1rio salva-vidas Ben Randall recebe uma miss\u00e3o que ele n\u00e3o quer aceitar \u2013 treinar jovens recrutas para os salvamentos em alto mar. Durante os treinos, ele enfrenta problemas com o aprendiz Jake Fisher, um campe\u00e3o de nata\u00e7\u00e3o que esconde um doloroso segredo e parece estar mais interessado em quebrar os recordes de Ben do que salvar vidas. Mas Ben percebe mais do que isso no novato. Jake \u00e9 capaz de fazer o que for preciso para ser o melhor dos melhores.",
+        "imdb": "tt0406816",
+        "imagem": "https://image.tmdb.org/t/p/w300//zLGq0aNMZ8ETeJSEGVYCTVGOpy9.jpg"
+    }
+    ,
+    {
+        "titulo": "\u00c0 Procura da Felicidade",
+        "descricao": "Chris enfrenta s\u00e9rios problemas financeiros e Linda, sua esposa, decide partir. Ele agora \u00e9 pai solteiro e precisa cuidar de Christopher, seu filho de 5 anos. Chris tenta usar sua habilidade como vendedor para conseguir um emprego melhor, mas s\u00f3 consegue um est\u00e1gio n\u00e3o remunerado. Seus problemas financeiros n\u00e3o podem esperar uma promo\u00e7\u00e3o e eles acabam despejados. Chris e Christopher passam a dormir em abrigos ou onde quer que consigam um ref\u00fagio, mantendo a esperan\u00e7a de que dias melhores vir\u00e3o.",
+        "imdb": "tt0454921",
+        "imagem": "https://image.tmdb.org/t/p/w300//vHGC2sSh7pBWXY0qzMdPD7fcjzS.jpg"
+    }
+    ,
+    {
+        "titulo": "As Branquelas",
+        "descricao": "O que acontece quando dois atrapalhados agentes do FBI se disfar\u00e7am de princesas mega-ricas para se infiltrarem na alta sociedade? O resultado \u00e9 situa\u00e7\u00f5es extremamente engra\u00e7adas e divers\u00e3o total ao ver estes dois irm\u00e3os azarados transformando-se em duas senhoritas refinadas e com estilo!",
+        "imdb": "tt0381707",
+        "imagem": "https://image.tmdb.org/t/p/w300//aJZOcorpgloDLkPP6ED0t9sXjNu.jpg"
+    }
+    ,
+    {
+        "titulo": "Bem-vindo \u00e0 Selva",
+        "descricao": "Travis (Seann William Scott) \u00e9 um jovem de fam\u00edlia rica que foi para a Amaz\u00f4nia em busca de uma mina de ouro perdida, popularmente chamada de Helldorado. Para encontr\u00e1-lo sua fam\u00edlia contrata Beck (The Rock), que parte para o Brasil \u00e0 sua busca. Ap\u00f3s alguns desentendimentos iniciais, Travis convence Beck a ajud\u00e1-lo em sua busca. Por\u00e9m eles precisar\u00e3o enfrentar Hatcher (Christopher Walken), o chefe de uma mineradora, que tamb\u00e9m est\u00e1 em busca de Helldorado.",
+        "imdb": "tt0327850",
+        "imagem": "https://image.tmdb.org/t/p/w300//5CgCYCiObKgst1UIdqibU8ZeKAX.jpg"
+    }
+    ,
+    {
+        "titulo": "Buscando...",
+        "descricao": "Ap\u00f3s uma jovem de 16 anos desaparecer, seu pai David Kim pede ajuda \u00e0s autoridades locais. Sem sucesso, ap\u00f3s 37 horas, David decide invadir o computador de sua filha para procurar pistas que possam levar ao seu paradeiro.",
+        "imdb": "tt7668870",
+        "imagem": "https://image.tmdb.org/t/p/w300//rVU4tDYu8d8w9T5qsBqHNXEGOd7.jpg"
+    }
+    ,
+    {
+        "titulo": "C\u00e3o de Briga",
+        "descricao": "Desde que Bart tirou Danny da rua, com a idade de 4 anos, sempre o tratou como um c\u00e3o, treinando-o literalmente para o ataque. Danny \u00e9 hoje sua grande arma, capaz de se atirar sobre qualquer um com uma simples ordem. Isolado do mundo, Danny n\u00e3o tem outra escolha a n\u00e3o ser aceitar essa exist\u00eancia de animal. Mas as coisas mudam quando ele conhece Sam, um cego que ganha a vida como afinador de pianos. Sam faz Danny descobrir um lado humano que at\u00e9 ent\u00e3o lhe era desconhecido.",
+        "imdb": "tt0342258",
+        "imagem": "https://image.tmdb.org/t/p/w300//l0yMxpDDqs1WdDfMrG3ZZK34UTi.jpg"
+    }
+    ,
+    {
+        "titulo": "A Nova Onda do Imperador",
+        "descricao": "Divirta-se com o arrogante imperador Kuzco que \u00e9 transformado em Ihama pela malvada conselheira Yzma e seu capanga bonit\u00e3o Kronk, para governar o reino. Agora o imperador, que sempre teve o mundo a seus p\u00e9s, tem de se aliar a um caipira simp\u00e1tico chamado Pacha. Mas ser\u00e1 que essa realeza t\u00e3o antip\u00e1tica conseguir\u00e1 mudar, tornando-se uma pessoa mais bondosa e gentil?",
+        "imdb": "tt0120917",
+        "imagem": "https://image.tmdb.org/t/p/w300//wLeHgN6zdW1rfKP3KXJwa4AbJx.jpg"
+    }
+    ,
+    {
+        "titulo": "Evocando Esp\u00edritos",
+        "descricao": "Uma fam\u00edlia \u00e9 for\u00e7ada a se mudar para perto de uma cl\u00ednica, na qual o filho adolescente recebe tratamento contra o c\u00e2ncer. Por\u00e9m, eventos sobrenaturais e violentos come\u00e7am a aterroriz\u00e1-los em sua nova casa.",
+        "imdb": "tt0492044",
+        "imagem": "https://image.tmdb.org/t/p/w300//h8YctT9uEOv2iOIF4TKDMGSg3GT.jpg"
+    }
+    ,
+    {
+        "titulo": "Evocando Esp\u00edritos 2",
+        "descricao": "Uma jovem fam\u00edlia muda-se para uma casa hist\u00f3ria na Ge\u00f3rgia e l\u00e1 percebem que n\u00e3o s\u00e3o os \u00fanicos habitantes. Logo notam que h\u00e1 um segredo obscuro e amea\u00e7ador que derrubar\u00e1 todos no seu caminho...",
+        "imdb": "tt1457765",
+        "imagem": "https://image.tmdb.org/t/p/w300//qmgBPmtQezRELhYSK4hZMyDeXbM.jpg"
+    }
+    ,
+    {
+        "titulo": "Deuses do Egito",
+        "descricao": "Bek \u00e9 um mortal pacato que se considera apenas mais um soldado, e que vive em um Egito ancestral dominado por deuses e for\u00e7as ocultas. Quando o impiedoso Set, deus da escurid\u00e3o, toma o trono da na\u00e7\u00e3o e mergulha a sociedade no caos, o jovem se unir\u00e1 a outros cidad\u00e3os e com o poderoso Deus Horus, para formar uma expressiva resist\u00eancia.",
+        "imdb": "tt2404233",
+        "imagem": "https://image.tmdb.org/t/p/w300//4xJb2Nll3vHKztHVasHwf6603MB.jpg"
+    }
+    ,
+    {
+        "titulo": "Thor: Amor e Trov\u00e3o",
+        "descricao": "Thor parte em uma jornada de autodescoberta, diferente de tudo que ele j\u00e1 enfrentou. Mas seus esfor\u00e7os s\u00e3o interrompidos por um assassino gal\u00e1ctico conhecido como Gorr, o Carniceiro dos Deuses, que busca a extin\u00e7\u00e3o dos deuses. Para combater esta amea\u00e7a, Thor pede a ajuda da Rei Valqu\u00edria, Korg e da ex-namorada Jane Foster, que, para a surpresa de Thor, inexplicavelmente empunha seu m\u00e1gico martelo, Mjolnir, como a Poderosa Thor. Juntos, eles embarcam em uma angustiante aventura c\u00f3smica para descobrir o mist\u00e9rio da vingan\u00e7a do Carniceiro dos Deuses e det\u00ea-lo antes que seja tarde demais.",
+        "imdb": "tt10648342",
+        "imagem": "https://image.tmdb.org/t/p/w300//71XnRvkadkWZZowCGcuBi4XAKdJ.jpg"
+    }
+    ,
+    {
+        "titulo": "Cinderela",
+        "descricao": "Ap\u00f3s a tr\u00e1gica e inesperada morte do seu pai, Ella (Lily James) fica \u00e0 merc\u00ea da sua terr\u00edvel madrasta, Lady Tremaine (Cate Blanchett), e suas filhas Anastasia e Drisella. A jovem ganha o apelido de Cinderela e \u00e9 obrigada a trabalhar como empregada na sua pr\u00f3pria casa, mas continua otimista com a vida. Passeando na floresta, ela se encanta por um corajoso estranho (Richard Madden), sem desconfiar que ele \u00e9 o pr\u00edncipe do castelo. Cinderela recebe um convite para o grande baile e acredita que pode voltar a encontrar sua alma g\u00eamea, mas seus planos v\u00e3o por \u00e1gua abaixo quando a madrasta m\u00e1 rasga seu vestido. Agora, ser\u00e1 preciso uma fada madrinha (Helena Bonham Carter) para mudar o seu destino.",
+        "imdb": "tt1661199",
+        "imagem": "https://image.tmdb.org/t/p/w300//4DsfRsCxrhkHQHGLeY9m8oi9q46.jpg"
+    }
+    ,
+    {
+        "titulo": "Div\u00f3rcio",
+        "descricao": "O casal Noeli e J\u00falio leva uma vida humilde, at\u00e9 que os dois ficam ricos depois de criar um molho de tomate que virou sucesso nacional. Com o passar dos anos os dois v\u00e3o se distanciando e um incidente \u00e9 a gota d'\u00e1gua para a separa\u00e7\u00e3o. Enquanto v\u00e3o em busca do melhor advogado para defender o patrim\u00f4nio, os dois se envolvem num processo de div\u00f3rcio complicado",
+        "imdb": "tt5813948",
+        "imagem": "https://image.tmdb.org/t/p/w300//zOI81CTgr1ZkDR62RFOTu6mtFrv.jpg"
+    }
+    ,
+    {
+        "titulo": "Extin\u00e7\u00e3o",
+        "descricao": "Atormentado por sonhos com uma invas\u00e3o alien\u00edgena, um homem v\u00ea seu pesadelo se tornar realidade quando uma for\u00e7a extraterrestre ataca o planeta Terra.",
+        "imdb": "tt3201640",
+        "imagem": "https://image.tmdb.org/t/p/w300//9nPnDDPrSgMw7TUrYShiZ3Ud07.jpg"
+    }
+    ,
+    {
+        "titulo": "Goosebumps: Monstros e Arrepios",
+        "descricao": "O jovem Zach Cooper se muda de Nova York para uma cidade pequena dos Estados Unidos, para onde a m\u00e3e \u00e9 transferida. L\u00e1, eles passam a morar na casa ao lado da de Hannah por quem o adolescente se apaixona e o pai, o ranzinza R. L. Stine. Depois de escutar gritos vindo da propriedade ao lado, Zach invade a resid\u00eancia com a ajuda do medroso colega e acaba, acidentalmente, abrindo um dos livros e, consequentemente, dando in\u00edcio \u00e0 liberta\u00e7\u00e3o de todos os monstros criados por Stine. Juntos, eles ter\u00e3o que mandar as criaturas de volta para as prateleiras.",
+        "imdb": "tt1051904",
+        "imagem": "https://image.tmdb.org/t/p/w300//d1rkpUr64IY0ARTyWU6MrHJD2Wt.jpg"
+    }
+    ,
+    {
+        "titulo": "Hercules",
+        "descricao": "Meio homem, meio deus, o semideus H\u00e9rcules anda atormentado pela terra. Depois de doze \u00e1rduos trabalhos realizados e a perda de sua fam\u00edlia, ele conhece seis assassinos impiedosos e une-se ao grupo em busca de trabalho, at\u00e9 que o rei da Tr\u00e1cia convida-o para treinar o seu ex\u00e9rcito.",
+        "imdb": "tt1267297",
+        "imagem": "https://image.tmdb.org/t/p/w300//op64HvQ8XyB4l2afElLqxuYEuPT.jpg"
+    }
+    ,
+    {
+        "titulo": "Homens de Honra",
+        "descricao": "Carl Brashear, um jovem negro, entra para a Marinha americana nos 50, \u00e9poca em que o racismo prevalecia no pa\u00eds. O jovem enfrenta o preconceito de seus colegas brancos e de seu instrutor, mas sua coragem e determina\u00e7\u00e3o conquistam o respeito de todos.",
+        "imdb": "tt0203019",
+        "imagem": "https://image.tmdb.org/t/p/w300//gv6BZRbfJGxBp9tFFKMuXuJGwTe.jpg"
+    }
+    ,
+    {
+        "titulo": "Inatividade Paranormal",
+        "descricao": "Malcolm e Kisha se mudam para a casa dos sonhos, mas logo percebem que n\u00e3o est\u00e3o sozinhos. N\u00e3o porque a casa seja assombrada, mas porque Kisha est\u00e1 possu\u00edda por dem\u00f4nios. Para salv\u00e1-la, Malcolm contrata um grupo de paranormais.",
+        "imdb": "tt2243537",
+        "imagem": "https://image.tmdb.org/t/p/w300//2Qi13G9tjRtCBeT6Lsw9jY45EES.jpg"
+    }
+    ,
+    {
+        "titulo": "Inimigo Mortal",
+        "descricao": "No filme, Jackie Chan \u00e9 um agente das for\u00e7as especiais dur\u00e3o que acaba se envolvendo em uma misteriosa conspira\u00e7\u00e3o, ao mesmo tempo em que luta para proteger uma jovem de um perigoso grupo de criminosos. Estranhamente, ele sente que tem uma conex\u00e3o especial com a mo\u00e7a, como se eles tivessem se conhecido em uma vida diferente.",
+        "imdb": "tt5813366",
+        "imagem": "https://image.tmdb.org/t/p/w300//tzz1t8UvSvISZxDxBmEd531nIPg.jpg"
+    }
+    ,
+    {
+        "titulo": "JT\tLeroy\t- Escritor\tFantasma",
+        "descricao": "Com\tsua\tobra\tcome\u00e7ando\ta\tgerar\tburburinho,\ta\tescritora\tLaura\tAlbert\t(Laura\tDern)\tconvence\tsua  cunhada\tSavannah\tKnoop (Kristen\tStewart)\ta\tser\ta\tpersonifica\u00e7\u00e3o\tdo\tautor\tde\tseus\tlivros.\tCriando\tuma\tfigura  de\tg\u00eanero\tfluido,\tSavannah\tganha\tos\tholofotes\te\tconsegue\tenganar\ttoda\ta\tHollywood\tpor\tanos.\tMesmo\tassim,  conflitos\tde\tideias\tentre\ta\tdupla\tacabam\tcolocando\to\tsegredo\tem\trisco.\tBaseado\tem\tuma\thist\u00f3ria\treal.",
+        "imdb": "tt5460522",
+        "imagem": "https://image.tmdb.org/t/p/w300//43ffZhMCWQhzMneGP4kDWoPV48X.jpg"
+    }
+    ,
+    {
+        "titulo": "Jumanji",
+        "descricao": "Quando duas crian\u00e7as encontram e jogam um jogo de tabuleiro m\u00e1gico, elas soltam um homem preso por d\u00e9cadas - e uma s\u00e9rie de perigos que s\u00f3 podem ser detidos ao terminar o jogo.",
+        "imdb": "tt0113497",
+        "imagem": "https://image.tmdb.org/t/p/w300//bdHG5Mo83VPobeZZdlSz0Y7HQHB.jpg"
+    }
+    ,
+    {
+        "titulo": "King Kong",
+        "descricao": "Nova York, 1933. Ann Darrow (Naomi Watts), uma atriz de vaudeville, enfrenta dificuldades para se sustentar, como v\u00e1rios outros americanos durante a Grande Depress\u00e3o. Ela caminha pelas ruas de Manhattan pensando na possibilidade de trabalhar em um cabar\u00e9, at\u00e9 que a fome a faz roubar uma ma\u00e7\u00e3. Ann \u00e9 salva pelo cineasta Carl Denham (Jack Black), que oferece a ela o papel principal em sua pr\u00f3xima produ\u00e7\u00e3o. Inicialmente indecisa, Ann aceita a oferta ap\u00f3s saber que o roteirista \u00e9 o conceituado dramaturgo Jack Driscoll (Adrien Brody). Na verdade Carl est\u00e1 em apuros, j\u00e1 que o patroc\u00ednio para concluir seu filme inacabado foi cancelado e sua antiga atriz principal abandonou o projeto. Apesar dos problemas, Carl embarca a equipe e o elenco de seu filme no cargueiro fretado S.S. Venture. O objetivo da viagem \u00e9 chegar na Ilha da Caveira, que tem a fama de abrigar uma ra\u00e7a perdida e v\u00e1rias criaturas consideradas extintas.",
+        "imdb": "tt0360717",
+        "imagem": "https://image.tmdb.org/t/p/w300//rdat3dqmakvhE2oRnUml9g5gZJg.jpg"
+    }
+    ,
+    {
+        "titulo": "Kingsman: O C\u00edrculo Dourado",
+        "descricao": "Um grandioso ataque destr\u00f3i o quartel-general Kingsman, obrigando Eggsy, Merlin e cia a unirem for\u00e7as com o equivalente estadunidense da ag\u00eancia, os Statesman. Brit\u00e2nicos e norte-americanos ignoram as diferen\u00e7as em defesa do mundo, amea\u00e7ado pelos planos da vil\u00e3 Poppy.",
+        "imdb": "tt4649466",
+        "imagem": "https://image.tmdb.org/t/p/w300//k8lduAlGOXDYYKSlBeJ0CDyra0x.jpg"
+    }
+    ,
+    {
+        "titulo": "Kung Fu Yoga",
+        "descricao": "Um grupo formado pelo professor de Jack, pela professora indiana Ashmita e pela assistente Kyra, partem em uma grande miss\u00e3o no Tibete: localizar o tesouro de Magadha, escondido em uma profunda caverna de gelo tibetana. Presos no local por um descendente de um capit\u00e3o do ex\u00e9rcito real, Randall. Com in\u00fameras reviravoltas e mist\u00e9rios surgindo sobre o tesouro, eles v\u00e3o ter que lutar para fugir e descobrir toda a verdade.",
+        "imdb": "tt4217392",
+        "imagem": "https://image.tmdb.org/t/p/w300//rvUMGvHc0roYX8MSoIN0Kw8XZ3V.jpg"
+    }
+    ,
+    {
+        "titulo": "L\u00e1grimas do Sol",
+        "descricao": "O governo nigeriano est\u00e1 falido e o pa\u00eds est\u00e1 \u00e0 beira de uma guerra civil. O Tenente A.K. Waters \u00e9 respons\u00e1vel por liderar uma equipe de soldados para a selva para resgatarem a Dra. Lena Kendricks. Quando Waters e sua equipe localizam Kendricks, ela conta que n\u00e3o deixar\u00e1 seus pacientes para serem abatidos por rebeldes. A equipe provoca a ira das for\u00e7as dos Estados Unidos e da Nig\u00e9ria quando lado a lado com Kendricks tenta proteger os refugiados.",
+        "imdb": "tt0314353",
+        "imagem": "https://image.tmdb.org/t/p/w300//WksMUDKv4I241w6mR263m3IKBs.jpg"
+    }
+    ,
+    {
+        "titulo": "Gente Grande",
+        "descricao": "A morte do treinador de basquete da inf\u00e2ncia de velhos amigos os re\u00fane no mesmo lugar que celebraram um campeonato anos atr\u00e1s. Os amigos, acompanhados de suas esposas e filhos, descobrem que idade n\u00e3o significa o mesmo que maturidade.",
+        "imdb": "tt1375670",
+        "imagem": "https://image.tmdb.org/t/p/w300//ppU2xJnlKdW3F01AtC9wMuXRZCg.jpg"
+    }
+    ,
+    {
+        "titulo": "Gente Grande 2",
+        "descricao": "Lenny Feder e sua fam\u00edlia se mudam para sua cidade natal para ficar perto dos amigos, mas acabam tendo que enfrentar alguns fantasmas do passado, como a covardia diante de valent\u00f5es e o famigerado bullying na escola.",
+        "imdb": "tt2191701",
+        "imagem": "https://image.tmdb.org/t/p/w300//vaXiEVLD0fGSMU801Zftw1csPPm.jpg"
+    }
+    ,
+    {
+        "titulo": "P\u00e1ssaro do Oriente",
+        "descricao": "Em T\u00f3quio de 1989, Lucy Fly, uma misteriosa estrangeira assombrada por um passado doloroso, entra em um intenso relacionamento com Teiji, um fot\u00f3grafo local com problemas semelhantes. A aparente paz de esp\u00edrito de Lucy come\u00e7a a ser testada quando uma rec\u00e9m-chegada, Lily Bridges se envolve em suas vidas.",
+        "imdb": "tt8178486",
+        "imagem": "https://image.tmdb.org/t/p/w300//4gTOkZ1tePVGM115MNmxJ7pxyq.jpg"
+    }
+    ,
+    {
+        "titulo": "Bohemian Rhapsody",
+        "descricao": "Freddie Mercury e seus companheiros Brian May, Roger Taylor e John Deacon mudam o mundo da m\u00fasica para sempre ao formar a banda Queen, durante a d\u00e9cada de 1970. Por\u00e9m, quando o estilo de vida extravagante de Mercury come\u00e7a a sair do controle, a banda tem que enfrentar o desafio de conciliar a fama e o sucesso com suas vidas pessoais cada vez mais complicadas.",
+        "imdb": "tt1727824",
+        "imagem": "https://image.tmdb.org/t/p/w300//qxgdqcxI216kEoypGbA9BemB7mW.jpg"
+    }
+    ,
+    {
+        "titulo": "Apollo 11",
+        "descricao": "Com o plano de desembarcar dois astronautas na superf\u00edcie lunar e regressar para a Terra em seguran\u00e7a, a miss\u00e3o Apollo 11 \u00e9 at\u00e9 hoje uma grande refer\u00eancia quando se trata de momentos importantes na humanidade. Durante d\u00e9cadas, trechos dos bastidores permaneceram guardados e apenas recentemente foram liberados para visualiza\u00e7\u00e3o do p\u00fablico no geral.",
+        "imdb": "tt8760684",
+        "imagem": "https://image.tmdb.org/t/p/w300//woLMRroHyoTGoXyxdEeBJEYBFtu.jpg"
+    }
+    ,
+    {
+        "titulo": "A F\u00faria de Vajra",
+        "descricao": "O ex-monge shaolin Xing Yu vive Vajra, sequestrado por japoneses ainda crian\u00e7a para ser treinado no Templo de Hades, culto da morte que visava a destrui\u00e7\u00e3o da China. J\u00e1 consagrado como o maior assassino do Imperador, ele foge para sua terra natal para se vingar de seus algozes e proteger seu povo.",
+        "imdb": "tt3259968",
+        "imagem": "https://image.tmdb.org/t/p/w300//ffbwHf6jbbsqhmJybsxAZjHP3qF.jpg"
+    }
+    ,
+    {
+        "titulo": "A Lenda de Tarzan",
+        "descricao": "Releitura da cl\u00e1ssica lenda de Tarzan, na qual um pequeno garoto \u00f3rf\u00e3o \u00e9 criado na selva, e mais tarde tenta se adaptar \u00e0 vida entre os humanos. Na d\u00e9cada de 30, Tarzan, aclimitado \u00e0 vida em Londres em conjunto com sua esposa Jane, \u00e9 chamado para retornar \u00e0 selva onde passou a maior parte da sua vida onde servir\u00e1 como um emiss\u00e1rio do Parlamento Brit\u00e2nico.",
+        "imdb": "tt0918940",
+        "imagem": "https://image.tmdb.org/t/p/w300//aRwe397WjpHouR5sCRH48XBdpvr.jpg"
+    }
+    ,
+    {
+        "titulo": "American Son",
+        "descricao": "O filho adolescente de um casal inter-racial desaparece. Enquanto eles esperam por not\u00edcias, o clima na delegacia fica cada vez mais tenso.",
+        "imdb": "tt9664078",
+        "imagem": "https://image.tmdb.org/t/p/w300//lEIlxhIyFsia7yCqbfD4UH8iIkN.jpg"
+    }
+    ,
+    {
+        "titulo": "A M\u00fasica da Minha Vida",
+        "descricao": "Em 1987, durante o governo de Margareth Thatcher, um jovem aprende a viver sua vida, entender a sua fam\u00edlia, e encontra o seu caminho ap\u00f3s ouvir uma fita com m\u00fasicas de Bruce Springsteen.",
+        "imdb": "tt8266310",
+        "imagem": "https://image.tmdb.org/t/p/w300//uV0Mt7mkmt6uujYMqNdL6ceXPjz.jpg"
+    }
+    ,
+    {
+        "titulo": "Animais Fant\u00e1sticos: Os Crimes de Grindelwald",
+        "descricao": "Depois que o poderoso bruxo das trevas Gellert Grindelwald se liberta, Newt Scamander \u00e9 chamado em Hogwarts pelo professor Albus Dumbledore mais uma vez. Enfrentando perigos inesperados, Newt precisa encontrar uma maneira de impedir Grindelwald de seguir com seu plano que amea\u00e7a dividir todo o mundo bruxo: fazer com que apenas os bruxos de sangue puro comandem os seres n\u00e3o m\u00e1gicos.",
+        "imdb": "tt4123430",
+        "imagem": "https://image.tmdb.org/t/p/w300//oANEhQDQ3eB8tcqRPSzABim8oNg.jpg"
+    }
+    ,
+    {
+        "titulo": "Anna: O Perigo Tem Nome",
+        "descricao": "Por tr\u00e1s da beleza marcante de Anna Poliatova h\u00e1 um segredo que ir\u00e1 expor sua indestrut\u00edvel for\u00e7a e habilidade para se tornar uma das assassinas mais temidas do mundo. Uma eletrizante e emocionante viagem repleta de energia, reviravoltas surpreendentes e a\u00e7\u00e3o de tirar o f\u00f4lego. ANNA apresenta Sasha Luss na personagem que d\u00e1 nome ao filme e traz um elenco com v\u00e1rias estrelas, incluindo a vencedora do Oscar Helen Mirren, Cillian Murphy e Luke Evans.",
+        "imdb": "tt7456310",
+        "imagem": "https://image.tmdb.org/t/p/w300//itUXQRTYJYDM5vwJFDWKb0uxqoC.jpg"
+    }
+    ,
+    {
+        "titulo": "A Princesa e a Plebeia",
+        "descricao": "Uma duquesa e uma confeiteira descobrem que s\u00e3o s\u00f3sias perfeitas uma da outra e decidem trocar de lugar. Quando elas se apaixonam por homens que n\u00e3o fazem a menor ideia de quem elas s\u00e3o de verdade, esse plano pode virar um problema.",
+        "imdb": "tt8954732",
+        "imagem": "https://image.tmdb.org/t/p/w300//mpIZEkNudLQrQO7hwDNTqQphe2l.jpg"
+    }
+    ,
+    {
+        "titulo": "Uma Guerra Pessoal",
+        "descricao": "Biografia sobre a jornalista Marie Colvin,  premiada rep\u00f3rter norte-americana, conhecida por cobrir zonas de conflito como Chech\u00eania, Kosovo e Zimb\u00e1bue. Durante um trabalho no Sri Lanka, ela perdeu seu olho esquerdo em 2001 e passou a usar um tapa-olho, que se tornou sua marca registrada at\u00e9 sua morte em 2012. (e 16 - Estimado 16 Anos)",
+        "imdb": "tt2368254",
+        "imagem": "https://image.tmdb.org/t/p/w300//6tuw5ZA1n1JJZGAIyOpBtYJynCt.jpg"
+    }
+    ,
+    {
+        "titulo": "Astro Kid",
+        "descricao": "O jovem Willy se perde de seus pais depois que a nave espacial deles \u00e9 destru\u00edda por uma chuva de meteoros. Sua c\u00e1psula aterriza em um planeta selvagem e inexplorado, e Willy deve aprender a sobreviver nele. Gra\u00e7as \u00e0 ajuda de Buck, um rob\u00f4 de sobreviv\u00eancia, ele espera at\u00e9 a chegada da miss\u00e3o de resgate enquanto descobre a fauna, a flora e tamb\u00e9m os perigos do planeta com seu novo amigo alien\u00edgena, Flash.",
+        "imdb": "tt8329148",
+        "imagem": "https://image.tmdb.org/t/p/w300//2WjImKh2iXGFRuteLzXU782MJ6l.jpg"
+    }
+    ,
+    {
+        "titulo": "A \u00daltima Gargalhada",
+        "descricao": "Depois de se mudar para uma casa de repouso, Al, um inquieto empres\u00e1rio do showbiz, retoma o contato com o cliente Buddy e o convence a voltar ao circuito de com\u00e9dia.",
+        "imdb": "tt7427356",
+        "imagem": "https://image.tmdb.org/t/p/w300//rXfZ7zacGNdtf1N44VzmE8CmrWy.jpg"
+    }
+    ,
+    {
+        "titulo": "As Tartarugas Ninja",
+        "descricao": "Depois de ser atacada por trombadinhas, a rep\u00f3rter April O'Neil \u00e9 salva por tartarugas mutantes, que passaram a se dedicar a combater o crime desde que foram contaminadas por uma subst\u00e2ncia radioativa nos esgotos de Nova York e se tornarem guerreiros ap\u00f3s serem treinados pelo mestre Splinter.",
+        "imdb": "tt0100758",
+        "imagem": "https://image.tmdb.org/t/p/w300//dkCdKgl24TMzwEfAtKrBNxqujv8.jpg"
+    }
+    ,
+    {
+        "titulo": "As Tartarugas Ninja III",
+        "descricao": "Um cetro m\u00e1gico comprado pela jornalista April O'Neill acidentalmente a transporta a para o Jap\u00e3o do s\u00e9culo XVII. As Tartarugas Ninja tamb\u00e9m viajam no tempo no intuito de salv\u00e1-la, mas Michelangelo se perde do grupo. Para reencontr\u00e1-lo e salvar April, Donatello, Raphael e Leonardo precisam ajudar uma vila a enfrentar o malvado Lorde Norinaga.",
+        "imdb": "tt0108308",
+        "imagem": "https://image.tmdb.org/t/p/w300//vQ4DQb617N4ipB7LPfUIfGR3X9P.jpg"
+    }
+    ,
+    {
+        "titulo": "Gladiador",
+        "descricao": "Nos dias finais do reinado de Marcus Aurelius, o imperador desperta a ira de seu filho Commodus ao tornar p\u00fablica sua predile\u00e7\u00e3o em deixar o trono para Maximus, o comandante do ex\u00e9rcito romano. Sedento pelo poder, Commodus mata seu pai, assume a coroa e ordena a morte de Maximus, que consegue fugir antes de ser pego e passa a se esconder sob a identidade de um escravo e gladiador do Imp\u00e9rio Romano.",
+        "imdb": "tt0172495",
+        "imagem": "https://image.tmdb.org/t/p/w300//R1ieKOdGHYL7BRpl0iRgNV1uXw.jpg"
+    }
+    ,
+    {
+        "titulo": "Top Gun - Ases Indom\u00e1veis",
+        "descricao": "A escola naval de pilotos \u00e9 onde o melhor dos melhores treinam para refinar suas habilidades de voo de elite. Quando o piloto Maverick \u00e9 enviado para a escola, sua atitude irrespons\u00e1vel e comportamento arrogante o colocam em desacordo com os outros pilotos, especialmente Iceman. Por\u00e9m Maverick n\u00e3o est\u00e1 apenas competindo para ser o piloto superior de ca\u00e7a, ele tamb\u00e9m est\u00e1 lutando pela aten\u00e7\u00e3o de sua bonita instrutora de voo, Charlotte Blackwood.",
+        "imdb": "tt0092099",
+        "imagem": "https://image.tmdb.org/t/p/w300//dDrMtnVgtDeecIgNchb9F8JcO5w.jpg"
+    }
+    ,
+    {
+        "titulo": "Elvira, a Rainha das Trevas",
+        "descricao": "Elvira (Cassandra Peterson) \u00e9 a anfitri\u00e3 de um programa de baixo or\u00e7amento sobre filmes de terror, mas tudo pode mudar quando ela herda da tia Morgana (Cassandra Peterson) uma velha mans\u00e3o em Fallwell, Massachusetts, uma pequena cidade com apenas 1313 habitantes. Ela sonha em vender a casa e ir para Las Vegas, mas encontra dois s\u00e9rios problemas: O primeiro s\u00e3o os habitantes da cidade, que ficam espantados com o modo de como ela se veste e se comporta. Liderados por Chastity Pariah (Edie McClurg), eles fazem forte oposi\u00e7\u00e3o \u00e0 presen\u00e7a de Elvira na cidade. O segundo problema \u00e9 Vincent Talbot (William Morgan Sheppard), um tio de Elvira que n\u00e3o herdou nada, mas deseja obter de qualquer maneira um \"livro de receitas\" que tamb\u00e9m foi herdado por Elvira, que dar\u00e1 a ele imensos poderes para fazer diversos tipos de bruxarias.",
+        "imdb": "tt0095088",
+        "imagem": "https://image.tmdb.org/t/p/w300//1qqnoUwNYv2cRkS1jZLZFVcRDIA.jpg"
+    }
+    ,
+    {
+        "titulo": "O Quinto Elemento",
+        "descricao": "No s\u00e9culo XXIII, um motorista de taxi de Nova York se envolve em uma aventura na qual tem de deter um ser demon\u00edaco que percorre a gal\u00e1xia a cada cinco mil anos. Se nada for feito, a Terra ser\u00e1 destru\u00edda. Mas para isto, ele precisa encontrar quatro pedras antigas que representam os elementos e coloc\u00e1-las em volta de uma bela mulher, que \u00e9 o quinto elemento.",
+        "imdb": "tt0119116",
+        "imagem": "https://image.tmdb.org/t/p/w300//t2fanPUgCGty1tmU9t3jtYEOEMS.jpg"
+    }
+    ,
+    {
+        "titulo": "O Guarda-Costas",
+        "descricao": "Frank Farmer (Kevin Costner), um guarda-costas altamente eficiente e caro, \u00e9 contratado para proteger Rachel Marron (Whitney Houston), uma grande cantora e atriz que est\u00e1 recebendo cartas an\u00f4nimas e amea\u00e7adoras. Frank \u00e9 um ex-agente do Servi\u00e7o Secreto que ainda n\u00e3o se perdoou do sentimento de culpa em rela\u00e7\u00e3o \u00e0 sua inabilidade de proteger o presidente Reagan, que quase foi assassinado por John Hinckley. Frank e Rachel se apaixonam, mas ele n\u00e3o deixa este amor evoluir, pois quando est\u00e3o juntos Rachel fica vulner\u00e1vel. Paralelamente, novos atentados acontecem.",
+        "imdb": "tt0103855",
+        "imagem": "https://image.tmdb.org/t/p/w300//z9sDwQcCBYjA5DvNqmd8m5rkBqh.jpg"
+    }
+    ,
+    {
+        "titulo": "Boi",
+        "descricao": "Um motorista particular com problemas na vida amorosa consegue dois clientes e acaba envolvido numa misteriosa aventura pelas ruas de Barcelona.",
+        "imdb": "tt9010900",
+        "imagem": "https://image.tmdb.org/t/p/w300//9MR7YBrBCZFtX3uAnKQIEWPM9f.jpg"
+    }
+    ,
+    {
+        "titulo": "Boneco do Mal",
+        "descricao": "Greta \u00e9 uma jovem americana que aceita um trabalho como bab\u00e1 em uma pequena vila inglesa. Por\u00e9m, o garoto de 8 anos de quem ela tem que cuidar \u00e9, na verdade, um boneco de quem o casal cuida como se fosse um menino de verdade, como uma forma de lidarem com a morte do filho, ocorrida 20 anos antes. Ap\u00f3s violar uma lista de regras do garoto, uma s\u00e9rie de eventos inexplic\u00e1veis transformam a vida dela em um pesadelo.",
+        "imdb": "tt3882082",
+        "imagem": "https://image.tmdb.org/t/p/w300//q4T7U5uhuNsHQBpFF2iSfKOuhgX.jpg"
+    }
+    ,
+    {
+        "titulo": "Born Racer",
+        "descricao": "A hist\u00f3ria do imperdo\u00e1vel do imperdo\u00e1vel mundo da corrida automobil\u00edstica profissional e os indiv\u00edduos \u00fanicos que o habitam, atrav\u00e9s dos olhos do tricampe\u00e3o Scott Dixon e da equipe Chip Ganassi Racing. Acompanhando a mais r\u00e1pida e mais diversa s\u00e9rie de corrida do mundo, a narrativa explora o porque de pessoas arriscarem suas vidas para ganhar.",
+        "imdb": "tt6936350",
+        "imagem": "https://image.tmdb.org/t/p/w300//qbhHJPs2BhrFcT2gwXo77d9UA6R.jpg"
+    }
+    ,
+    {
+        "titulo": "Brexit",
+        "descricao": "Dominic Cummings \u00e9 o estrategista pol\u00edtico que liderou a campanha para a sa\u00edda do Reino Unido da Uni\u00e3o Europeia durante o referendo de 2016. Usando novas t\u00e1ticas na era da informa\u00e7\u00e3o, Cummings e sua campanha conseguiram influenciar o eleitorado de uma forma que n\u00e3o s\u00f3 decidiria o resultado do referendo, mas tamb\u00e9m futuras elei\u00e7\u00f5es ao redor do mundo.",
+        "imdb": "tt8425058",
+        "imagem": "https://image.tmdb.org/t/p/w300//fKfYKQQMNARXOgyf5ieVeGWlNQU.jpg"
+    }
+    ,
+    {
+        "titulo": "Brincadeira Mortal",
+        "descricao": "Uma fam\u00edlia enfrenta uma for\u00e7a invis\u00edvel enquanto percebem que precisam se unir para lutar contra o terror que os perturba.",
+        "imdb": "tt7235038",
+        "imagem": "https://image.tmdb.org/t/p/w300//khC9ETKVjxWnH9MVO36lpBUbZ3s.jpg"
+    }
+    ,
+    {
+        "titulo": "Capit\u00e3o Am\u00e9rica: O Primeiro Vingador",
+        "descricao": "Durante a Segunda Guerra Mundial, Steve Rogers \u00e9 um homem doente, do Brooklyn, que se transforma no super soldado Capit\u00e3o Am\u00e9rica para ajudar nos esfor\u00e7os de guerra. Rogers deve parar o Caveira Vermelha, o implac\u00e1vel chefe de armas de Adolf Hitler e l\u00edder de uma organiza\u00e7\u00e3o que pretende usar um misterioso mecanismo de incalcul\u00e1veis poderes para dominar o mundo.",
+        "imdb": "tt0458339",
+        "imagem": "https://image.tmdb.org/t/p/w300//f976JQnjMhCTa1yLXz7UH1pV4DG.jpg"
+    }
+    ,
+    {
+        "titulo": "Casal Improv\u00e1vel",
+        "descricao": "O jornalista Fred Flarsky reencontra sua paix\u00e3o de inf\u00e2ncia, Charlotte Field, agora uma das mulheres mais influentes do mundo. Enquanto se prepara para tentar a presid\u00eancia, Charlotte contrata Fred como seu redator de discursos.",
+        "imdb": "tt2139881",
+        "imagem": "https://image.tmdb.org/t/p/w300//wt050OjvLsiP2pS39CvsKuNLwcp.jpg"
+    }
+    ,
+    {
+        "titulo": "Centro de Trauma",
+        "descricao": "Uma ex-param\u00e9dica fica ferida depois que testemunha um fogo cruzado envolvendo dois policiais corruptos. Levada para o hospital, ela deve sobreviver a noite enquanto homens a ca\u00e7am. Felizmente, um policial veterano \u00e9 designado para proteg\u00ea-la, e ele se torna seu protetor \u00e0 medida que a noite se torna mais perigosa.",
+        "imdb": "tt9625664",
+        "imagem": "https://image.tmdb.org/t/p/w300//p1WwFPliT9jG63YlEz8E5v3fsGQ.jpg"
+    }
+    ,
+    {
+        "titulo": "Christopher Robin: Um Reencontro Inesquec\u00edvel",
+        "descricao": "Christopher Robin j\u00e1 n\u00e3o \u00e9 mais aquele jovem garoto que adorava embarcar em aventuras ao lado de Ursinho Pooh e outros ador\u00e1veis animais no Bosque dos 100 Acres. Agora um homem de neg\u00f3cios, ele cresceu e perdeu o rumo de sua vida, mas seus amigos de inf\u00e2ncia decidem entrar no mundo real para ajud\u00e1-lo a se lembrar que aquele am\u00e1vel e divertido menino ainda existe em algum lugar.",
+        "imdb": "tt4575576",
+        "imagem": "https://image.tmdb.org/t/p/w300//zTlGXx2A1JwdaLvLQXmb0lYBdDt.jpg"
+    }
+    ,
+    {
+        "titulo": "Cinderela e o Pr\u00edncipe Secreto",
+        "descricao": "Com a ajuda da Fada Madrinha, Cinderela e seus amigos camundongos conseguem escapar do so\u0301ta\u0303o onde vivem para ir ao Baile Ma\u0301gico no pala\u0301cio real. Tudo parece perfeito, mas eles logo descobrem um segredo terri\u0301vel: o verdadeiro pri\u0301ncipe encantado foi transformado em um rato pela Bruxa Ma\u0301, aquele pri\u0301ncipe no baile na\u0303o passa de um impostor. Cinderela e seus leais amigos agora embarcam em uma perigosa aventura para derrotar as forc\u0327as do mal e ajudar o pri\u0301ncipe a voltar a sua verdadeira forma.",
+        "imdb": "tt6241270",
+        "imagem": "https://image.tmdb.org/t/p/w300//caMtietnPdDz8EHSgH3nzijhEws.jpg"
+    }
+    ,
+    {
+        "titulo": "Code 8: Renegados",
+        "descricao": "Num mundo onde pessoas com habilidades \u201cespeciais\u201d vivem na pobreza, Conner Reed \u00e9 um jovem poderoso que est\u00e1 a lutar para pagar pelo tratamento m\u00e9dico da sua m\u00e3e doente. Para ganhar dinheiro, ele entra num mundo criminoso e lucrativo, liderado por Garrett, que trabalha para um traficante de drogas.",
+        "imdb": "tt6259380",
+        "imagem": "https://image.tmdb.org/t/p/w300//yOj7bYYyMMqiqgh7Bu7qxLwtbsz.jpg"
+    }
+    ,
+    {
+        "titulo": "Com Quem Ser\u00e1?",
+        "descricao": "Frank (Keanu Reeves) e Lindsay (Winona Ryder) s\u00e3o duas pessoas que sofreram muito emocionalmente no passado. Eles se conhecem durante um casamento e contra todas as probabilidades, s\u00e3o atra\u00eddos um para o outro, mesmo tentanto com todas as for\u00e7as n\u00e3o se apaixonarem novamente.",
+        "imdb": "tt6987770",
+        "imagem": "https://image.tmdb.org/t/p/w300//bfWQzMsa9iBD5s8VKDwvDFdTSa3.jpg"
+    }
+    ,
+    {
+        "titulo": "Creed: Nascido para Lutar",
+        "descricao": "Adonis Johnson nunca conheceu o pai, Apollo Creed, que faleceu antes de seu nascimento. Ainda assim, a luta est\u00e1 em seu sangue e ele decide entrar no mundo das competi\u00e7\u00f5es profissionais de boxe. Ap\u00f3s muito insistir, Adonis consegue convencer Rocky Balboa a ser seu treinador e, enquanto um luta pela gl\u00f3ria, o outro luta pela vida.",
+        "imdb": "tt3076658",
+        "imagem": "https://image.tmdb.org/t/p/w300//53VTzu0nhbNYmIbqdDbFqobsLHt.jpg"
+    }
+    ,
+    {
+        "titulo": "Crimes Obscuros",
+        "descricao": "O policial Tadek investiga um caso de assassinato n\u00e3o resolvido e encontra semelhan\u00e7as do crime em um livro do artista polon\u00eas Krystov Kozlow. Ele come\u00e7a a investigar a vida do escritor e da sua namorada, uma mulher misteriosa que trabalha num sex club. Sua obsess\u00e3o aumenta e Tadek fica cada vez mais atormentado, adentrando num submundo de sexo, mentiras e corrup\u00e7\u00e3o.",
+        "imdb": "tt1901024",
+        "imagem": "https://image.tmdb.org/t/p/w300//xQ6L3pV1yKWqYPGv5WZkJE18s8.jpg"
+    }
+    ,
+    {
+        "titulo": "Cr\u00f4nicas de Natal",
+        "descricao": "Ap\u00f3s causar um acidente com o tren\u00f3 do Papai Noel, os irm\u00e3os Kate e Teddy embarcam em uma noite alucinante para tentar salvar o Natal.",
+        "imdb": "tt2990140",
+        "imagem": "https://image.tmdb.org/t/p/w300//yKnSdQ0hjc9e6LG1e9r5EvjLfwy.jpg"
+    }
+    ,
+    {
+        "titulo": "M\u00e1fia Digital",
+        "descricao": "Um jovem agente anti-lavagem de dinheiro \u00e9 encarregado de investigar uma densa rede de corrup\u00e7\u00e3o em Nova York. Uma enorme fraude envolvendo criptomoedas, negociantes e nomes poderosos da cidade.",
+        "imdb": "tt8563452",
+        "imagem": "https://image.tmdb.org/t/p/w300//dgjNKd3LueeMyMBci7WwzuyKIfV.jpg"
+    }
+    ,
+    {
+        "titulo": "Descendentes 2",
+        "descricao": "Mal, Jay, Carlos e Evie tentam encontrar seus lugares em Auradon, mas a press\u00e3o de se tornar um membro perfeito da realeza deixa Mal deslocada.",
+        "imdb": "tt5117876",
+        "imagem": "https://image.tmdb.org/t/p/w300//5jGEBYg13Sa1J3D6KOlQ2EH8Uxg.jpg"
+    }
+    ,
+    {
+        "titulo": "Dor e Gl\u00f3ria",
+        "descricao": "Salvador Mallo \u00e9 um melanc\u00f3lico cineasta em decl\u00ednio que se v\u00ea obrigado a pensar sobre as escolhas que fez na vida quando seu passado retorna. Entre lembran\u00e7as e reencontros, ele reflete sobre sua inf\u00e2ncia na d\u00e9cada de 1960, seu processo de imigra\u00e7\u00e3o para a Espanha, seu primeiro amor maduro e sua rela\u00e7\u00e3o com a escrita e com o cinema.",
+        "imdb": "tt8291806",
+        "imagem": "https://image.tmdb.org/t/p/w300//bScM0AHRktwfMxmt7lP6IjV7KPR.jpg"
+    }
+    ,
+    {
+        "titulo": "Doutor Estranho",
+        "descricao": "Ap\u00f3s sua carreira ser destru\u00edda, um brilhante, por\u00e9m arrogante, cirurgi\u00e3o ganha uma nova chance em sua vida quando um feiticeiro o treina para se tornar o Mago Supremo.",
+        "imdb": "tt1211837",
+        "imagem": "https://image.tmdb.org/t/p/w300//iM1hlVGZ5Qwn3gO6ewTszY7OrLY.jpg"
+    }
+    ,
+    {
+        "titulo": "Dragon Tiger Gate",
+        "descricao": "Dragon Tiger \u00e9 uma fac\u00e7\u00e3o das artes marciais fundada por Tiger Wong, Dragon Wong e Turbo Shek. Tr\u00eas jovens que acreditam piamente na justi\u00e7a e na verdade. Quando eles se apoderam, sem querer, de uma placa dourada, s\u00edmbolo de uma das maiores organiza\u00e7\u00f5es criminosas do Oriente, o \"Lousha Gate\", passam a ser alvo de um poder amaldi\u00e7oado, provocando uma verdadeira batalha entre o Bem e o Mal.",
+        "imdb": "tt0482930",
+        "imagem": "https://image.tmdb.org/t/p/w300//o3nwLMip8QEIa1zUjTdwZl6zJVq.jpg"
+    }
+    ,
+    {
+        "titulo": "Ela Dan\u00e7a, Eu Dan\u00e7o",
+        "descricao": "Tyler Gage \u00e9 um rapaz problem\u00e1tico que tem que fazer trabalhos comunit\u00e1rios em uma escola de arte. Ele chama a aten\u00e7\u00e3o de Nora, uma talentosa bailarina que est\u00e1 tentando misturar passos de hip-hop ao bal\u00e9 cl\u00e1ssico e que o convence a ajud\u00e1-la.",
+        "imdb": "tt0462590",
+        "imagem": "https://image.tmdb.org/t/p/w300//804VouNe00vTbyeMsWUD0dMNIH6.jpg"
+    }
+    ,
+    {
+        "titulo": "Ela Dan\u00e7a, Eu Dan\u00e7o 2",
+        "descricao": "Andie (Briana Evigan) \u00e9 uma dan\u00e7arina de rua rebelde, que entrou para a conceituada Maryland School of the Arts. O local \u00e9 frequentado pela elite da sociedade local, ou seja, o tipo de pessoa bem diferente das quais Andie costuma lidar. Precisando enfrentar barreiras para se ambientar com os novos colegas, ela inicia fora da escola um projeto ousado: formar um grupo de dan\u00e7a de rua. Para tanto conta com a ajuda de Chase (Robert Hoffman), o dono da escola de dan\u00e7a mais quente da regi\u00e3o.",
+        "imdb": "tt1023481",
+        "imagem": "https://image.tmdb.org/t/p/w300//A0IBQe9vPjd3CR14uYz9Lklxrfh.jpg"
+    }
+    ,
+    {
+        "titulo": "Ela Dan\u00e7a, Eu Dan\u00e7o 3",
+        "descricao": "Um unido grupo de dan\u00e7arinos de rua, que inclui Luke e Natalie, se une ao calouro da Universidade de Nova York Moose. Eles disputam contra os melhores dan\u00e7arinos de hip hop do mundo em uma competi\u00e7\u00e3o de alto risco, que mudar\u00e1 suas vidas para sempre.",
+        "imdb": "tt1193631",
+        "imagem": "https://image.tmdb.org/t/p/w300//y9eOOfBdSqjeqDLUeX35Q825AzF.jpg"
+    }
+    ,
+    {
+        "titulo": "Ela Dan\u00e7a, Eu Dan\u00e7o 4",
+        "descricao": "Emily \u00e9 a filha de uma ocupada empres\u00e1ria que chega a Miami com o sonho de se tornar dan\u00e7arina profissional. Logo ela se apaixona por Sean, o respons\u00e1vel por criar elaboradas dan\u00e7as para a realiza\u00e7\u00e3o de flash mobs, aglomera\u00e7\u00f5es instant\u00e2neas de pessoas em um lugar p\u00fablico para realizar uma a\u00e7\u00e3o previamente combinada. L\u00edder de um grupo chamado MOB, Sean resolve participar de uma disputa que pode render uma oportunidade de patroc\u00ednio.",
+        "imdb": "tt1800741",
+        "imagem": "https://image.tmdb.org/t/p/w300//pqTxJfMVYEtz3LpGjf1hCxqiZ7V.jpg"
+    }
+    ,
+    {
+        "titulo": "Ela Dan\u00e7a, Eu Dan\u00e7o 5: Tudo ou Nada",
+        "descricao": "Quinto filme da franquia Ela Dan\u00e7a, Eu Dan\u00e7o. Na nova trama, um grupo de dan\u00e7arinos deve participar de uma importante competi\u00e7\u00e3o de dan\u00e7a em Las Vegas. capaz de determinar o rumo de suas carreiras;",
+        "imdb": "tt2626350",
+        "imagem": "https://image.tmdb.org/t/p/w300//2eoioJdyQc51cHWYWRkLSXtfbr4.jpg"
+    }
+    ,
+    {
+        "titulo": "Esqueceram de Mim",
+        "descricao": "Uma fam\u00edlia de Chicago planeja passar o Natal em Paris. Por\u00e9m, em meio \u00e0s confus\u00f5es da viagem, um dos filhos, Kevin, acaba esquecido em casa. O garoto de apenas oito anos \u00e9 obrigado a se virar sozinho e defender a casa de dois insistentes ladr\u00f5es.",
+        "imdb": "tt0099785",
+        "imagem": "https://image.tmdb.org/t/p/w300//kpQNswMgSyp1kZ6Cwr9F15s4uaO.jpg"
+    }
+    ,
+    {
+        "titulo": "Exterminadores do Al\u00e9m Contra a Loira do Banheiro",
+        "descricao": "Um grupo de tr\u00eas youtubers que se dizem especialistas em seres sobrenaturais decidem conquistar o reconhecimento do p\u00fablico de uma vez por todas. Para isso eles tra\u00e7am um plano para capturar um ser conhecido por todos. Trata-se do esp\u00edrito de uma mulher de cabelos claros que morreu de modo desconhecido e que assombra os banheiros das escolas de todo o pa\u00eds: a loura do banheiro.",
+        "imdb": "tt8753660",
+        "imagem": "https://image.tmdb.org/t/p/w300//nLsVyAJuFZPlQQPaC3LFpK750k1.jpg"
+    }
+    ,
+    {
+        "titulo": "Filhas do Sol",
+        "descricao": "Bahar \u00e9 a comandante das Filhas do Sol, um batalh\u00e3o composto apenas por mulheres curdas que atua ofensivamente na guerra do pa\u00eds. Ela e as suas soldadas est\u00e3o prestes a entrar na cidade de Gordyene, local onde Bahar foi capturada uma vez no passado. Mathilde \u00e9 uma jornalista francesa que est\u00e1 acompanhando o batalh\u00e3o durante o ataque. O encontro entre as duas mulheres, dentro do cen\u00e1rio ca\u00f3tico que as cercam, ir\u00e1 mudar a vida de ambas permanentemente.",
+        "imdb": "tt6704880",
+        "imagem": "https://image.tmdb.org/t/p/w300//bR3yOXLuRiJUV4mGUM4CmkJC5JD.jpg"
+    }
+    ,
+    {
+        "titulo": "Fratura",
+        "descricao": "Sua mulher e a filha desapareceram de um pronto-socorro. Convencido de que o hospital est\u00e1 escondendo algo, ele parte numa busca desesperada para encontr\u00e1-las.",
+        "imdb": "tt4332232",
+        "imagem": "https://image.tmdb.org/t/p/w300//vsvmurub7aShF1PIFJS2l2D5ArS.jpg"
+    }
+    ,
+    {
+        "titulo": "Gloria Bell",
+        "descricao": "Uma mulher sozinha com 50 anos e esp\u00edrito livre (Julianne Moore) ocupa suas noites buscando amor em boates para adultos solteiros em Los Angeles. Sua fr\u00e1gil felicidade muda no dia em que conhece Arnold (John Turturro). Sua intensa paix\u00e3o deixa ela alternando entre esperan\u00e7a e desespero, at\u00e9 ela descobrir uma nova for\u00e7a e que agora, surpreendentemente, ela consegue brilhar mais do que nunca.",
+        "imdb": "tt6902696",
+        "imagem": "https://image.tmdb.org/t/p/w300//eiZYpUaxz1BVGnlQ4Ew7jtU8AO4.jpg"
+    }
+    ,
+    {
+        "titulo": "Halloween",
+        "descricao": "Quatro d\u00e9cada depois de escapar do ataque de Michael Myers em uma noite de Halloween, Laurie Strode precisa confrontar o assassino mascarado mais uma vez ap\u00f3s ele escapar de uma institui\u00e7\u00e3o. Mas, agora Laurie est\u00e1 preparada.",
+        "imdb": "tt1502407",
+        "imagem": "https://image.tmdb.org/t/p/w300//f7JAX5EGk4GgsEnus6OxyzwpFp7.jpg"
+    }
+    ,
+    {
+        "titulo": "Hancock",
+        "descricao": "Hancock, um super-her\u00f3i desajeitado, protege os cidad\u00e3os de Los Angeles mas causa danos colaterais a cada ato heroico que realiza. Hancock n\u00e3o se importa com o que as pessoas pensam. Entretanto, ap\u00f3s salvar a vida de um executivo, ele conhece a bela esposa dele e descobre que, apesar de tudo, \u00e9 um homem sens\u00edvel.",
+        "imdb": "tt0448157",
+        "imagem": "https://image.tmdb.org/t/p/w300//anUAnDorLJe0J2o9b0Wh3FTxJ7r.jpg"
+    }
+    ,
+    {
+        "titulo": "High Flying Bird",
+        "descricao": "Quando uma paralisa\u00e7\u00e3o da NBA deixa seu promissor jogador em apuros, o agente esportivo Ray Burke bola um plano ousado para salvar sua carreira \u2014 e desafiar o sistema.",
+        "imdb": "tt8128188",
+        "imagem": "https://image.tmdb.org/t/p/w300//ccE21xixa1zhkGtWDr4n8ReOp40.jpg"
+    }
+    ,
+    {
+        "titulo": "Hist\u00f3rias Assustadoras para Contar no Escuro",
+        "descricao": "A cidade de Mill Valley \u00e9 assombrada h\u00e1 d\u00e9cadas pelos mist\u00e9rios envolvendo o casar\u00e3o da fam\u00edlia Bellows. Em 1968, a jovem Sarah Bellows, uma garota problem\u00e1tica que mantinha um mau relacionamento com os pais, foi ao por\u00e3o para escrever um livro repleto de hist\u00f3rias macabras. D\u00e9cadas mais tarde, um grupo de adolescentes descobre o livro e come\u00e7a a investigar o passado de Sarah. No entanto, as hist\u00f3rias do livro come\u00e7am a se tornar reais.",
+        "imdb": "tt3387520",
+        "imagem": "https://image.tmdb.org/t/p/w300//g0xdEeQwpyMQNtGrGr0i1TlgpQ4.jpg"
+    }
+    ,
+    {
+        "titulo": "Iceman 2: O Viajante do Tempo",
+        "descricao": "A guarda imperial e seus tr\u00eas amigos de inf\u00e2ncia traidores ordenados a ca\u00e7\u00e1-lo s\u00e3o acidentalmente enterrados e mantidos congelados no tempo. 400 anos depois passam e s\u00e3o descongelados continuando a batalha que deixaram para tr\u00e1s.",
+        "imdb": "tt2993848",
+        "imagem": "https://image.tmdb.org/t/p/w300//jdHyaymN76DIZpmFDV6M6OCeCQT.jpg"
+    }
+    ,
+    {
+        "titulo": "Se a Rua Beale Falasse",
+        "descricao": "Tish est\u00e1 esperando um filho enquanto luta para livrar seu marido de uma acusa\u00e7\u00e3o criminal injusta e de subtextos racistas, a tempo de t\u00ea-lo em casa para o nascimento de seu beb\u00ea.",
+        "imdb": "tt7125860",
+        "imagem": "https://image.tmdb.org/t/p/w300//4gbiabIdvVv3iZcpdZEqHtbe0aU.jpg"
+    }
+    ,
+    {
+        "titulo": "Implac\u00e1vel",
+        "descricao": "Ao ser libertado temporariamente da pris\u00e3o, um criminoso de rua consegue enganar os guardas e, em busca de vingan\u00e7a, vai atr\u00e1s de sombras de seu passado, atr\u00e1s de quem o transformou em um assassino sem piedade. Em uma batalha \u00e9pica e sangrenta, ele busca de algu\u00e9m que ele perdeu anos atr\u00e1s, nas ruas de uma cidade que n\u00e3o perdoa.",
+        "imdb": "tt8836988",
+        "imagem": "https://image.tmdb.org/t/p/w300//kgbDomQPeLpgl6vB6Ehi8dYhQGQ.jpg"
+    }
+    ,
+    {
+        "titulo": "Irm\u00e3o Urso",
+        "descricao": "Em busca de vingan\u00e7a por seu pai ter sido morto por um urso, o \u00edndio Kenai acaba sendo amaldi\u00e7oado pelos esp\u00edritos da floresta e \u00e9 transformado em um urso. Obrigado a viver sob a nova pele, ele come\u00e7a a ver a realidade sob a \u00f3tica dos animais. Logo faz amizade com outro urso, Koda, mas se v\u00ea em apuros quando seu pr\u00f3prio irm\u00e3o come\u00e7a a ca\u00e7\u00e1-lo.",
+        "imdb": "tt0328880",
+        "imagem": "https://image.tmdb.org/t/p/w300//pFRQgHiZwHTX7LmHEI0hwocuBC3.jpg"
+    }
+    ,
+    {
+        "titulo": "A Dama e o Vagabundo",
+        "descricao": "Relan\u00e7amento do cl\u00e1ssico de 1955, que conta a hist\u00f3ria de amor entre a Dama, uma cocker spaniel mimada, e um vira-lata chamado Vagabundo, que salva a cadelinha do perigo de vagar sozinha perdida pelas ruas.",
+        "imdb": "tt8096832",
+        "imagem": "https://image.tmdb.org/t/p/w300//vnBl7huZPEPsxD2ZmqZqRBI3efr.jpg"
+    }
+    ,
+    {
+        "titulo": "Luccas Neto em: O Fim do Natal",
+        "descricao": "Luccas Neto e Gi viver\u00e3o uma inesquec\u00edvel aventura no Polo Norte. \u00c0s v\u00e9speras do Natal, os presentes come\u00e7am a sumir misteriosamente e o Papai Noel precisa de ajuda. Luccas e Gi v\u00e3o correr contra o tempo para descobrir o que aconteceu e salvar o Natal!",
+        "imdb": "tt14706924",
+        "imagem": "https://image.tmdb.org/t/p/w300//qvbG8HGZADCUBhZyy8f029KviKW.jpg"
+    }
+    ,
+    {
+        "titulo": "Matrix Revolutions",
+        "descricao": "Ap\u00f3s enfrentar os sentinelas no mundo real, Neo (Keanu Reeves) tem sua mente presa em um local que fica entre a Matrix e a realidade, do qual apenas poder\u00e1 sair com a ajuda de Trainman (Bruce Spence). Ap\u00f3s perceberem que as ondas cerebrais de Neo s\u00e3o id\u00eanticas as de uma pessoa conectada \u00e0 Matrix, Trinity (Carrie-Anne Moss) e Morpheus (Laurence Fishburne) buscam a ajuda da Or\u00e1culo (Mary Alice) e Seraph (Sing Ngai). Trinity, Morpheus e Seraph v\u00e3o em busca de Merovingian (Lambert Wilson), que possui controle sobre Trainman e pode libertar Neo. Ap\u00f3s obterem sucesso no resgate, o trio se divide em duas miss\u00f5es: Enquanto Morpheus e a tripula\u00e7\u00e3o de duas naves parte rumo a Zion, na tentativa de ajudar no combate contra as m\u00e1quinas, Neo e Trinity se dirigem \u00e0 Cidadela das M\u00e1quinas.",
+        "imdb": "tt0242653",
+        "imagem": "https://image.tmdb.org/t/p/w300//xPsnWYgtHPghlF2p8maWWuXoMQN.jpg"
+    }
+    ,
+    {
+        "titulo": "Matrix Reloaded",
+        "descricao": "Ap\u00f3s derrotar as m\u00e1quinas em seu combate inicial, Neo ainda vive na Nabucodonosor ao lado de Morpheus, Trinity e Link, o novo tripulante da nave. As m\u00e1quinas est\u00e3o realizando uma grande ofensiva contra Zion, onde 250 mil delas escavam rumo \u00e0 cidade e podem alcan\u00e7\u00e1-la em poucos dias. A Nabucodonosor \u00e9 convocada para retornar a Zion e participar da reuni\u00e3o que definir\u00e1 o contra-ataque para salvar a humanidade da extin\u00e7\u00e3o. Entretanto, um recado enviado pelo Or\u00e1culo faz com que Neo retorne \u00e0 Matrix.",
+        "imdb": "tt0234215",
+        "imagem": "https://image.tmdb.org/t/p/w300//e7DdXOXP6mH2y7Fv7ujrk5tlsh7.jpg"
+    }
+    ,
+    {
+        "titulo": "Medo Profundo",
+        "descricao": "De f\u00e9rias no M\u00e9xico, duas irm\u00e3s est\u00e3o prestes a passar pelos momentos de maior tens\u00e3o em sua vida: presas em uma gaiola de tubar\u00f5es a 47 metros de profundidade no oceano, eles ter\u00e3o que lutar contra o tempo para permanecerem vivas. Mas com apenas uma hora de oxig\u00eanio e com tubar\u00f5es brancos rondando o local, as chances se tornam cada vez menores.",
+        "imdb": "tt2932536",
+        "imagem": "https://image.tmdb.org/t/p/w300//8Wn3yjTkdqHvgxY6kdkTGmoBQnn.jpg"
+    }
+    ,
+    {
+        "titulo": "Meu Amigo Enzo",
+        "descricao": "Um cachorro muito inteligente passa os dias filosofando e aprendendo o que \u00e9 ser humano a partir das observa\u00e7\u00f5es que faz sobre a vida de seu dono, o piloto Denny Swift.",
+        "imdb": "tt1478839",
+        "imagem": "https://image.tmdb.org/t/p/w300//26lLdJ8IG5EfzJwusx2DpfsuwLf.jpg"
+    }
+    ,
+    {
+        "titulo": "Meu Nome \u00e9 Dolemite",
+        "descricao": "Decidido a ampliar seus horizontes, Rudy decide rodar por conta pr\u00f3pria um filme estrelado por seu alter-ego Dolamyte, um cafet\u00e3o bom de briga que sabe lutar kung fu. O que ele n\u00e3o imaginava era que fazer cinema fosse algo t\u00e3o complicado quanto conseguir que seu filme seja exibido em circuito comercial.",
+        "imdb": "tt8526872",
+        "imagem": "https://image.tmdb.org/t/p/w300//sZuQkwHEiXxWN3W2Z8cJelKWbRE.jpg"
+    }
+    ,
+    {
+        "titulo": "Miss\u00e3o Final",
+        "descricao": "Um traficante de \u00f3pio no sudeste da \u00c1sia procura por uma cura para sua sa\u00fade debilitada. Ao descobrir a localiza\u00e7\u00e3o de uma jovem misteriosa com poderes de cura, ele ordena que ela seja sequestrada, e um ex-capit\u00e3o de elite ser\u00e1 recrutado para salv\u00e1-la.",
+        "imdb": "tt5465970",
+        "imagem": "https://image.tmdb.org/t/p/w300//gxrpqPNp0kIelMYCVOdVAWPUfGD.jpg"
+    }
+    ,
+    {
+        "titulo": "Mogli: O Menino Lobo",
+        "descricao": "Mogli \u00e9 um menino criado por uma fam\u00edlia de lobos. Mas Mogli sente que n\u00e3o \u00e9 mais bem-vindo na floresta quando o temido tigre Shere Khan, que carrega cicatrizes causadas por ca\u00e7adores, promete eliminar o que ele considera uma amea\u00e7a. For\u00e7ado a abandonar o \u00fanico lar que conhece, Mogli embarca em uma cativante jornada de autoconhecimento, guiado pela pantera e mentora Bagheera e pelo alegre urso Baloo. Pelo caminho, Mogli encontra criaturas da selva que n\u00e3o s\u00e3o exatamente bondosas, incluindo Kaa, uma cobra cuja voz sedutora e olhar penetrante hipnotizam o menino-lobo, e Rei Loiue, o nobre de fala mansa que tenta convencer Mogli a contar o segredo da ilus\u00f3ria flor vermelha mortal: o fogo.",
+        "imdb": "tt3040964",
+        "imagem": "https://image.tmdb.org/t/p/w300//kNbTwTn0YLm03XrCMa2XUgcyKm8.jpg"
+    }
+    ,
+    {
+        "titulo": "Motoqueiro Fantasma: Esp\u00edrito de Vingan\u00e7a",
+        "descricao": "Depois de um per\u00edodo recluso na Europa, Johnny Blaze embarca em uma nova miss\u00e3o para se livrar da maldi\u00e7\u00e3o de ser um motoqueiro fantasma. Desta vez, ele precisa impedir que o pr\u00f3prio dem\u00f4nio encarnado sequestre um garoto de dez anos que pode ser a \u00fanica esperan\u00e7a da humanidade contra as trevas.",
+        "imdb": "tt1071875",
+        "imagem": "https://image.tmdb.org/t/p/w300//cxJHiuynVltsIUfGuKg9ZjvXC3r.jpg"
+    }
+    ,
+    {
+        "titulo": "Nos Caminhos de Deus",
+        "descricao": "Quando a vida n\u00e3o poderia estar melhor, Ryan v\u00ea a crise bater \u00e0 sua porta, abalando suas estruturas familiares e profissionais. Com a ajuda de seu pai, com o apoio incondicional de sua fam\u00edlia, ele embarca em uma jornada particular que mudar\u00e1 sua perspectiva sobre tudo ao seu redor.",
+        "imdb": "tt3378384",
+        "imagem": "https://image.tmdb.org/t/p/w300//amkdnEjoAVzvWW2xKKdw256n606.jpg"
+    }
+    ,
+    {
+        "titulo": "O Agente da U.N.C.L.E.",
+        "descricao": "Durante a Guerra Fria, um agente da CIA e um agente da KGB decidem unir for\u00e7as para se infiltrar em uma organiza\u00e7\u00e3o criminosa e perversa que planeja usar armas nucleares para acabar com o equil\u00edbrio do poder.",
+        "imdb": "tt1638355",
+        "imagem": "https://image.tmdb.org/t/p/w300//vwcO16PV78DLEcazIRVnSdbt3oD.jpg"
+    }
+    ,
+    {
+        "titulo": "O Despertar de Motti",
+        "descricao": "Sua m\u00e3e quer que ele se case com uma judia ortodoxa. O problema \u00e9 que Moti est\u00e1 apaixonado pela descolada Laura, a colega de classe que nunca ganharia o aval materno.",
+        "imdb": "tt4766630",
+        "imagem": "https://image.tmdb.org/t/p/w300//vKvDfh9NMdFgTWv7rVUJAEDMTEL.jpg"
+    }
+    ,
+    {
+        "titulo": "O Filho Protegido",
+        "descricao": "Nesse suspense psicol\u00f3gico, a vida do pintor Lorenzo sai do controle quando ele come\u00e7a a achar que sua esposa est\u00e1 tentando distanci\u00e1-lo de seu filho.",
+        "imdb": "tt8160262",
+        "imagem": "https://image.tmdb.org/t/p/w300//1YowNknm6XvRW72IyqPyGKeTCYu.jpg"
+    }
+    ,
+    {
+        "titulo": "O Homem Que Matou Dom Quixote",
+        "descricao": "O publicit\u00e1rio Toby (Adam Driver) viaja at\u00e9 a Espanha para uma filmagem e recebe um filme amador de um cigano desconhecido. Maravilhado com a obra, ele em busca da origem do filme e acaba saltando no tempo diretamente para o s\u00e9culo XVII, onde encontra o m\u00edtico cavaleiro de La Mancha, Dom Quixote (Jonathan Pryce) e acaba sendo confundido com Sancho Panza.",
+        "imdb": "tt1318517",
+        "imagem": "https://image.tmdb.org/t/p/w300//nZ93dEu9747rsSOTA82hKmtOrn5.jpg"
+    }
+    ,
+    {
+        "titulo": "Opera\u00e7\u00e3o Overlord",
+        "descricao": "Uma tropa de paraquedistas americanos \u00e9 lan\u00e7ada atr\u00e1s das linhas inimigas para uma miss\u00e3o crucial. Mas, quando se aproximam do alvo percebem que n\u00e3o \u00e9 s\u00f3 uma simples opera\u00e7\u00e3o militar e tem mais coisas acontecendo no lugar, que est\u00e1 ocupado por nazistas.",
+        "imdb": "tt4530422",
+        "imagem": "https://image.tmdb.org/t/p/w300//jnkxGuVgA9B9Hy9kbHdhS9VVK9g.jpg"
+    }
+    ,
+    {
+        "titulo": "O Pintassilgo",
+        "descricao": "Theodore Decker sobreviveu a um atentato terrorista em uma galeria de arte, mas perdeu sua m\u00e3e no local. Vivendo em Las Vegas, ele acaba ingressando em uma carreira perigosa e \u00e0 margem da lei: a falsifica\u00e7\u00e3o de obras.",
+        "imdb": "tt3864056",
+        "imagem": "https://image.tmdb.org/t/p/w300//sgT7tkMkqAMQZjm0hXTfJdRjb2u.jpg"
+    }
+    ,
+    {
+        "titulo": "O Predador",
+        "descricao": "O major Alan \"Dutch\" Schaefer lidera uma equipe de resgate em uma selva da Am\u00e9rica Central, para tentar encontrar um ministro estrangeiro e funcion\u00e1rios do governo que sa\u00edram da rota e se perderam. O ex\u00e9rcito acredita que eles estejam nas m\u00e3os de guerrilheiros, mas o que eles n\u00e3o imaginam \u00e9 que a floresta esconde uma amea\u00e7a mortal, um ser de outro planeta, fortemente armado, que sente enorme prazer em matar.",
+        "imdb": "tt0093773",
+        "imagem": "https://image.tmdb.org/t/p/w300//2B6yDvD0hre65fyRi9LC3UJ9uSq.jpg"
+    }
+    ,
+    {
+        "titulo": "A Chave M\u00e1gica",
+        "descricao": "Entre os diversos presentes que um garoto ganha ao fazer 9 anos estavam dois sem muita import\u00e2ncia: um pequeno arm\u00e1rio e um \u00edndio de pl\u00e1stico. Mas quando uma antiga chave \u00e9 usada para fechar o arm\u00e1rio o \u00edndio ganha vida, provocando situa\u00e7\u00f5es inimagin\u00e1veis.",
+        "imdb": "tt0113419",
+        "imagem": "https://image.tmdb.org/t/p/w300//eKIK4I3Kiocb8e2SG0McmPIf4bo.jpg"
+    }
+    ,
+    {
+        "titulo": "Cry-Baby",
+        "descricao": "L\u00e1 vive Wade \"Cry-Baby\" Walker, um bad boy que \u00e9 l\u00edder de um grupo. Ele \u00e9 conhecido como \"Cry-Baby\" em virtude de chorar apenas por um olho, mas agora est\u00e1 apaixonado por Allison Vernon-Williams, uma jovem rica que \u00e9 criada pela av\u00f3, Mrs. Vernon-Williams, que considera \"Cry-Baby\" um delinquente juvenil e n\u00e3o quer v\u00ea-lo junto da neta. Al\u00e9m disto, Baldwin, o namorado de Allison que \u00e9 l\u00edder dos \"quadrados\", est\u00e1 totalmente contra \"Cry-Baby\" e o resto dos delinquentes juvenis, assim lidera uma guerra santa contra eles. Isto gera pancadaria e vandalismo e os jovens delinquentes s\u00e3o considerados culpados pelo caos, mas s\u00e3o liberados pelo juiz, com exce\u00e7\u00e3o de \"Cry-Baby\", que \u00e9 mandado para um reformat\u00f3rio.",
+        "imdb": "tt0099329",
+        "imagem": "https://image.tmdb.org/t/p/w300//lsxnSIegDPkXH63nJK666ymg2c.jpg"
+    }
+    ,
+    {
+        "titulo": "Eu os Declaro Marido... e Larry",
+        "descricao": "Chuck Levine e Larry Valentine s\u00e3o o orgulho do Corpo de Bombeiros do Brooklyn, sendo tamb\u00e9m muito amigos e dispostos a ajudar um ao outro. Chuck \u00e9 agradecido a Larry por ter salvo sua vida no trabalho e s\u00f3 pensa em curtir a vida. J\u00e1 Larry \u00e9 preocupado com o futuro e, devido a problemas burocr\u00e1ticos, n\u00e3o consegue colocar seus dois filhos como benefici\u00e1rios de seu seguro de vida. Devido a isso Larry pede a Chuck que seja seu parceiro em alguns formul\u00e1rios, sendo que ningu\u00e9m mais saber\u00e1 disto. Entretanto uma burocrata zeloso desconfia do casal, o que faz com que eles tenham que se revelar para a cidade e improvisar como um apaixonado casal, que vive sob o mesmo teto.",
+        "imdb": "tt0762107",
+        "imagem": "https://image.tmdb.org/t/p/w300//aIlsFdoLkSixeqwqcSKi19xAT2w.jpg"
+    }
+    ,
+    {
+        "titulo": "Falc\u00e3o: O Campe\u00e3o dos Campe\u00f5es",
+        "descricao": "Quando descobre que sua ex-mulher sofre de uma doen\u00e7a incur\u00e1vel, Lincoln Hawk, caminhoneiro e ex-lutador, tenta reconquistar o amor do filho do casal, educado em um col\u00e9gio militar, e fortemente influenciado pelo av\u00f4 materno. Para poder ficar com a guarda do filho, ele participar\u00e1 de um campeonato mundial de queda de bra\u00e7o para ganhar dinheiro suficiente para cri\u00e1-lo.",
+        "imdb": "tt0093692",
+        "imagem": "https://image.tmdb.org/t/p/w300//uEf1CrF8sH3vSXbYIggoinf48ch.jpg"
+    }
+    ,
+    {
+        "titulo": "Golpe Baixo",
+        "descricao": "Paul Crewe \u00e9 um ex-astro do futebol americano preso por dirigir b\u00eabado uma noite. Ele \u00e9 enviado para a Penitenci\u00e1ria Allenville, uma das pris\u00f5es mais cru\u00e9is do pa\u00eds. Quando o diretor do pres\u00eddio pede para Crewe montar um time para jogar contra os guardas da pris\u00e3o, Crewe convoca Caretaker, um negociante malandro que pode conseguir para os prisioneiros o que eles quiserem. Os dois conseguem montar o Mean Machine, um dos times mais loucos j\u00e1 vistos para jogar!",
+        "imdb": "tt0398165",
+        "imagem": "https://image.tmdb.org/t/p/w300//9n7AN86mkPYNO8FcFMjkfbVuUSu.jpg"
+    }
+    ,
+    {
+        "titulo": "Inferno Vermelho",
+        "descricao": "Ivan Danko \u00e9 um policial russo dur\u00e3o que \u00e9 obrigado a trabalhar ao lado do extrovertido detetive Art Ridzik. A dupla investiga um importante criminoso internacional envolvido com tr\u00e1fico de drogas que fugiu da R\u00fassia para os Estados Unidos.",
+        "imdb": "tt0095963",
+        "imagem": "https://image.tmdb.org/t/p/w300//6cDFRPabBNYZBYx1BQKyuj38aMS.jpg"
+    }
+    ,
+    {
+        "titulo": "Juntos e Misturados",
+        "descricao": "Ap\u00f3s um encontro desastroso, os pais solteiros Lauren e Jim concordam apenas com uma coisa, eles nunca v\u00e3o querer se encontrar de novo. Mas quando ambos, separadamente, t\u00eam a oportunidade de viajar com suas fam\u00edlias para as f\u00e9rias dos seus sonhos, acabam tendo que dividir a mesma su\u00edte em um luxuoso resort safari africano por uma semana inteira...",
+        "imdb": "tt1086772",
+        "imagem": "https://image.tmdb.org/t/p/w300//tD0UJtt237FAST3rD1htrGLBKAH.jpg"
+    }
+    ,
+    {
+        "titulo": "Marcado para a Morte",
+        "descricao": "Ap\u00f3s se aposentar da Ag\u00eancia de Controle de Narc\u00f3ticos, John Hatcher (Seagal) volta a sua cidade natal e rapidamente descobre que as drogas se infiltraram em sua velha vizinhan\u00e7a. Determinado a expulsar os traficantes, Hatcher cruza o caminho de um contrabandista de drogas jamaicano que determina que Hatcher e sua fam\u00edlia agora est\u00e3o marcados para morrer.",
+        "imdb": "tt0100114",
+        "imagem": "https://image.tmdb.org/t/p/w300//v2wrIB18giAULOCuhkIBqipq2aB.jpg"
+    }
+    ,
+    {
+        "titulo": "A Heran\u00e7a de Mr. Deeds",
+        "descricao": "Deeds (Adam Sandler) vive na pequena cidade de Mandrake Falls, em New Hampshire, onde faz sucesso com sua pizzaria e leva uma vida tranquila. At\u00e9 que, repentinamente, surgem dois executivos que lhe trazem uma not\u00edcia surpreendente: um tio afastado acabara de falecer e lhe deixou uma fortuna de US$ 40 bilh\u00f5es, al\u00e9m do comando da maior empresa de comunica\u00e7\u00e3o do mundo e diversos outros neg\u00f3cios. Deeds parte ent\u00e3o para a cidade grande, onde come\u00e7a a implantar em seus novos neg\u00f3cios os valores de sua pequena cidade. \u00c9 quando Babe Bennett (Winona Ryder), rep\u00f3rter de um tabl\u00f3ide sensacionalista, \u00e9 enviada para observ\u00e1-lo de perto, mas acaba se apaixonando por ele.",
+        "imdb": "tt0280590",
+        "imagem": "https://image.tmdb.org/t/p/w300//9kv93ugqoB8SMCKkDgnt3zUSWlj.jpg"
+    }
+    ,
+    {
+        "titulo": "Legion\u00e1rio",
+        "descricao": "Na Marselha dos anos 20, lutador de boxe (Jean-Claude Van Damme) vence luta que deveria perder de prop\u00f3sito. Para fugir dos g\u00e2ngsters que buscam vingan\u00e7a, resolve se alistar na Legi\u00e3o Estrangeira, onde enfrenta os horrores da batalha no in\u00f3spito deserto do Marrocos.",
+        "imdb": "tt0126388",
+        "imagem": "https://image.tmdb.org/t/p/w300//jbvv5JzHuercp3PdfRCLl4iPOjI.jpg"
+    }
+    ,
+    {
+        "titulo": "Olhos Famintos",
+        "descricao": "Ao voltarem para casa por uma estrada sem movimento, os irm\u00e3os Trish e Darry veem um vulto atirando o que parece ser um corpo embrulhado. Parando para investigar, eles descobrem centenas de corpos mutilados, pendurados embaixo de uma antiga igreja.",
+        "imdb": "tt0263488",
+        "imagem": "https://image.tmdb.org/t/p/w300//4deKiUXWqyATIEKCBSjRxCOLvu0.jpg"
+    }
+    ,
+    {
+        "titulo": "Olhos Famintos 2",
+        "descricao": "Um \u00f4nibus escolar com uma equipe de basquete fica parado no meio de uma estrada deserta. L\u00e1, eles precisam confrontar um perigoso monstro, procurado tamb\u00e9m por um fazendeiro e seu filho, que pretendem destru\u00ed-lo de uma vez por todas.",
+        "imdb": "tt0301470",
+        "imagem": "https://image.tmdb.org/t/p/w300//aRK3qCe5FtTK6W3STgPihEhgpxA.jpg"
+    }
+    ,
+    {
+        "titulo": "O Paiz\u00e3o",
+        "descricao": "Sonny Koufax tem 32 anos de idade e passou toda a sua vida fugindo das responsabilidades. Mas quando sua namorada decide troc\u00e1-lo por um homem muito mais velho, ele resolve provar que est\u00e1 pronto para uma vida adulta com o objetivo de reconquistar o seu grande amor. Desesperado, Sonny adota um menino de cinco anos, Julian, para tentar impressionar a ex-namorada. Sem jeito para ser pai, aos poucos Sonny aprende a lidar com a nova situa\u00e7\u00e3o e passa a gostar da crian\u00e7a.",
+        "imdb": "tt0142342",
+        "imagem": "https://image.tmdb.org/t/p/w300//ci7KJRsHS1FfGAbF0BgIHEsnaTe.jpg"
+    }
+    ,
+    {
+        "titulo": "O Patriota",
+        "descricao": "Benjamin Martin \u00e9 um veterano de guerra que renunciou \u00e0s armas e decidiu viver em paz com sua fam\u00edlia. Mas, quando os ingleses trazerem a Guerra da Independ\u00eancia at\u00e9 o seu quintal, Benjamin n\u00e3o v\u00ea outra sa\u00edda a n\u00e3o ser pegar nas armas novamente, desta vez acompanhado de seu filho idealista, liderando uma rebeli\u00e3o contra o implac\u00e1vel e equipado ex\u00e9rcito brit\u00e2nico. No processo, ele descobre que s\u00f3 pode proteger sua fam\u00edlia lutando pela liberdade da jovem na\u00e7\u00e3o.",
+        "imdb": "tt0187393",
+        "imagem": "https://image.tmdb.org/t/p/w300//oe26GVJTIEFLW8WjGMj1K0MbWUJ.jpg"
+    }
+    ,
+    {
+        "titulo": "O \u00daltimo Drag\u00e3o",
+        "descricao": "O jovem lutador Leroy Green busca o n\u00edvel final das artes marciais. Durante o tortuoso caminho ele ter\u00e1 que combater o mal\u00e9fico Sho'nuff, tamb\u00e9m conhecido como Shogun do Harlem, e salvar a bela cantora Laura Charles de um obcecado empres\u00e1rio.",
+        "imdb": "tt0089461",
+        "imagem": "https://image.tmdb.org/t/p/w300//u3FrqvjAukv0GDmGmMnsEsddfCx.jpg"
+    }
+    ,
+    {
+        "titulo": "Rambo: Programado Para Matar",
+        "descricao": "John Rambo \u00e9 um veterano de guerra atormentado pelas lembran\u00e7as do Vietn\u00e3. Numa viagem \u00e0 procura de um colega do ex\u00e9rcito, passa por uma cidadezinha cujo xerife o toma por vagabundo, e acaba detido. Rambo foge para uma floresta vizinha, e d\u00e1 in\u00edcio a uma ca\u00e7ada explosiva, em que ser\u00e1 preciso toda uma for\u00e7a policial para combater um s\u00f3 homem.",
+        "imdb": "tt0083944",
+        "imagem": "https://image.tmdb.org/t/p/w300//dDJ4YOz7baCHH6ZJPut9NcCgNl1.jpg"
+    }
+    ,
+    {
+        "titulo": "Rambo II - A Miss\u00e3o",
+        "descricao": "Rambo est\u00e1 preso em uma penitenci\u00e1ria federal quando recebe uma proposta: ser\u00e1 perdoado e reintegrado ao Ex\u00e9rcito se participar de uma miss\u00e3o no Vietn\u00e3, onde ter\u00e1 que enfrentar todo tipo de inimigos, inclusive oficiais americanos corruptos.",
+        "imdb": "tt0089880",
+        "imagem": "https://image.tmdb.org/t/p/w300//442nYP16rpQ2bXduWponkvTXJRa.jpg"
+    }
+    ,
+    {
+        "titulo": "Rambo III",
+        "descricao": "O companheiro e superior de John Rambo no Vietn\u00e3, o Coronel Samuel Trautman, foi designado para liderar uma miss\u00e3o na qual ir\u00e1 ajudar os rebeldes de Mujahedeen contra os soldados sovi\u00e9ticos que invadiram o Afeganist\u00e3o. Durante a miss\u00e3o, Trautman \u00e9 capturado e torturado pelo comandante russo Zaysen. A tens\u00e3o e a adrenalina aumentam quando Rambo, ajudado por seus aliados rebeldes, botam em pr\u00e1tica um plano para resgatar o coronel das m\u00e3os do inimigo.",
+        "imdb": "tt0095956",
+        "imagem": "https://image.tmdb.org/t/p/w300//jxzoYPjVa9pKL3fOejP3fPJTPpl.jpg"
+    }
+    ,
+    {
+        "titulo": "Um Rob\u00f4 em Curto Circuito",
+        "descricao": "Atingido por um raio, o rob\u00f4 conhecido apenas como \"N\u00famero 5\" escapa de uma empresa de eletr\u00f4nica experimental. Newton Crosby (Steve Guttenberg) e seu assistente Ben Jabituya (Fisher Stevens) s\u00e3o convocados para tentar localiz\u00e1-lo. N\u00ba 5 encontra a ecologista Stephanie Speck (Ally Sheedy), esperando ensinar tudo para o \"alien\u00edgena\", ela preenche o banco de mem\u00f3ria de N\u00ba 5 com cultura pop e \u00e9 a\u00ed que come\u00e7a a confus\u00e3o. Filme tamb\u00e9m conhecido pelo t\u00edtulo, O Incr\u00edvel Rob\u00f4.",
+        "imdb": "tt0091949",
+        "imagem": "https://image.tmdb.org/t/p/w300//5IOdsnPPaDtE3paa04HlkMZGA7e.jpg"
+    }
+    ,
+    {
+        "titulo": "Um Rob\u00f4 em Curto Circuito 2",
+        "descricao": "\"N\u00famero 5\", tamb\u00e9m chamado \"Johnny 5\", o incr\u00edvel e ador\u00e1vel rob\u00f4 em curto circuito, est\u00e1 de volta nesta acelerada com\u00e9dia de a\u00e7\u00e3o que vai deixar a cidade de cabe\u00e7a para baixo. O curioso Johnny 5 sai para um reconhecimento da cidade, mas alguns vadios de rua, um banqueiro ganancioso e uma gangue de pilantras percebem sua inoc\u00eancia e v\u00eaem sua passagem de alta tecnologia para faturar. Ser\u00e1 que Johnny 5 vai sobreviver \u00e0 grande cidade e esses escroques? Fique conectado neste filme de alta voltagem para saber a resposta.",
+        "imdb": "tt0096101",
+        "imagem": "https://image.tmdb.org/t/p/w300//ezE46s5IESUpvg8wE39r9v66sBz.jpg"
+    }
+    ,
+    {
+        "titulo": "O Grande Desafio",
+        "descricao": "Uma jovem e inocente garota, segue sonhando em encontrar um grande amor na vila da pesca. Ent\u00e3o um dia recebe uma mensagem em uma garrafa que veio do mar mandando ela ir a Hong Kong e pula no primeiro plano \u00e0s luzes brilhantes da cidade. Infelizmente para Bu, descobre que o autor da mensagem era realmente Albert um homossexual que manda a garrafa ao mar sonhando retornar para seu namorado. Por\u00e9m nem tudo \u00e9 perdido, porque o Bu conhece o empres\u00e1rio C.N. quando participava de uma tomada de fotos em um barco, salvando-o de se afogar. Os capangas que perseguem Jackie s\u00e3o mandados pelo rival acion\u00e1rio.",
+        "imdb": "tt0184526",
+        "imagem": "https://image.tmdb.org/t/p/w300//8sSQVFmKhPq6wuArxY4u6yjNAqf.jpg"
+    }
+    ,
+    {
+        "titulo": "RoboCop - O Policial do Futuro",
+        "descricao": "Policial \u00e9 morto em combate e transformado por cientistas da empresa que dirige a for\u00e7a policial em um ciborgue ultrassofisticado a fim de ser usado na luta contra o crime na cidade de Detroit. Por\u00e9m, apesar de ter sua mem\u00f3ria apagada, lembran\u00e7as o assombram e o levam a buscar vingan\u00e7a.",
+        "imdb": "tt0093870",
+        "imagem": "https://image.tmdb.org/t/p/w300//uZ27cWusfoGFh7sOiUsIENxW48S.jpg"
+    }
+    ,
+    {
+        "titulo": "RoboCop 2",
+        "descricao": "Policial-andr\u00f3ide enfrenta gangue de traficantes de drogas. Ao mesmo tempo, o imp\u00e9rio corporativo que o criou est\u00e1 lan\u00e7ando um rob\u00f4 aperfei\u00e7oado que torna necess\u00e1ria a elimina\u00e7\u00e3o de Robocop.",
+        "imdb": "tt0100502",
+        "imagem": "https://image.tmdb.org/t/p/w300//dOemIQ8VlPfWJthykeBEXx5vMfv.jpg"
+    }
+    ,
+    {
+        "titulo": "RoboCop 3",
+        "descricao": "A corpora\u00e7\u00e3o OCP estuda desenvolver o projeto Delta City, que vai substituir a abandonada cidade de Detroit. Para atingir este fim, a OCP convoca as for\u00e7as armadas para intimidar os residentes de fora da cidade, sob o pretexto de que eles estar\u00e3o contribuindo sua parte para reduzir a criminalidade. Depois de Robocop se unir \u00e0 resist\u00eancia civil, ele sustenta v\u00e1rios ferimentos, mas se recupera para lutar contra os rob\u00f4s-ninja constru\u00eddos pela OCP.",
+        "imdb": "tt0107978",
+        "imagem": "https://image.tmdb.org/t/p/w300//ppLSSwCuC5ERRWbu9H3R8SPL9AM.jpg"
+    }
+    ,
+    {
+        "titulo": "Space Jam: O Jogo do S\u00e9culo",
+        "descricao": "Um poderoso vil\u00e3o intergal\u00e1tico decide que Pernalonga e sua turma s\u00e3o a atra\u00e7\u00e3o perfeita para seu novo parque de divers\u00f5es. Ele envia um grupo de pequenos alien\u00edgenas para captur\u00e1-los. Para evitar o seu pr\u00f3prio sequestro, Pernalonga prop\u00f5e um jogo de basquete em troca de sua liberdade. Mas os pequenos alien\u00edgenas t\u00eam uma arma secreta: Eles roubaram as habilidades dos melhores jogadores da NBA e formaram um time da pesada. Agora s\u00f3 existe uma chance de Pernalonga e seus amigos ganharem esta partida. Eles precisam da ajuda do mais famoso jogador de basquete de todos os tempos: Michael Jordan!",
+        "imdb": "tt0117705",
+        "imagem": "https://image.tmdb.org/t/p/w300//zgenqfTIvoEs6jcmokKfbi1ZURS.jpg"
+    }
+    ,
+    {
+        "titulo": "Striptease",
+        "descricao": "Erin perde o emprego de secret\u00e1ria no FBI por causa do marido, um pequeno golpista. Por n\u00e3o ter emprego, perde a cust\u00f3dia da filha. Come\u00e7a a trabalhar como stripper e se v\u00ea \u00e0s voltas com o ex-marido trapalh\u00e3o, um congressista tarado e um detetive que quer ajud\u00e1-la.",
+        "imdb": "tt0117765",
+        "imagem": "https://image.tmdb.org/t/p/w300//edkpT3vgjEjVrF461AbIwZgkvC7.jpg"
+    }
+    ,
+    {
+        "titulo": "Top Gang! Ases Muito Loucos",
+        "descricao": "Piloto talentoso e inst\u00e1vel precisa superar os fantasmas de seu pai e salvar uma miss\u00e3o sabotada por fabricantes de armas gananciosos em meio a uma s\u00e9rie de confus\u00f5es e um enorme mal-entendido.",
+        "imdb": "tt0102059",
+        "imagem": "https://image.tmdb.org/t/p/w300//pzdcjtJmK6lbCsfMD1sA6KnzKZm.jpg"
+    }
+    ,
+    {
+        "titulo": "Top Gang 2! A Miss\u00e3o",
+        "descricao": "Topper Harley (Charlie Sheen) est\u00e1 vivendo em um templo budista, seu incompetente ex-comandante (Lloyd Bridges) est\u00e1 na Casa Branca, e ref\u00e9ns americanos precisam ser resgatados no Oriente M\u00e9dio! Topper \u00e9 o \u00fanico homem para o servi\u00e7o, mas ele est\u00e1 obcecado demais por sua ex-namorada (Valeria Golino) para aceitar a tarefa - at\u00e9 que uma bela agente da CIA o coloca de volta na sela. \u00c9 uma miss\u00e3o hilariante que leva Harley e sua Top Gang por uma trilha repleta de a\u00e7\u00e3o, de s\u00e1tiras dos cl\u00e1ssicos do cinema e conta com a participa\u00e7\u00e3o de rostos famosos em cenas divertidas.",
+        "imdb": "tt0107144",
+        "imagem": "https://image.tmdb.org/t/p/w300//th9xB4OsGxUjrgcSYPB72z9vdWE.jpg"
+    }
+    ,
+    {
+        "titulo": "Little Nick: Um Diabo Diferente",
+        "descricao": "Ap\u00f3s dez mil anos de reinado, e j\u00e1 perto de aposentar-se, o Dem\u00f4nio decide no cargo. Revoltados, seus filhos Adrian e Cassius resolvem criar um inferno particular, e elegem Nova York para come\u00e7ar. Por\u00e9m, a sa\u00edda de Adrian e Cassius sela o portal do inferno, fazendo com que o Dem\u00f4nio v\u00e1 perdendo seus poderes. A solu\u00e7\u00e3o \u00e9 pedir ao filho ca\u00e7ula, o atrapalhado Nicky, que falante, Nicky come\u00e7a a experimentar sensa\u00e7\u00f5es humanas e acaba se apaixonado por Valerie. Enquanto isso, a Terra fica cada vez mais perto de tornar-se um verdadeiro Inferno.",
+        "imdb": "tt0185431",
+        "imagem": "https://image.tmdb.org/t/p/w300//uuO5wW534qkBPicTRilPaLumL0A.jpg"
+    }
+    ,
+    {
+        "titulo": "Um Maluco no Golfe",
+        "descricao": "Happy Gilmore quer ser um jogador profissional de h\u00f3quei, mas acaba descobrindo que tem um talento muito especial para jogar golfe. O sat\u00edrico e desbocado atleta acaba ganhando dinheiro suficiente para poder ajudar a sua av\u00f3, que est\u00e1 prestes a perder a casa por falta de pagamento de impostos. O problema \u00e9 que esse maluco se torna um her\u00f3i improv\u00e1vel para o esporte, o que desagrada bastante os golfistas, t\u00e3o educados e elegantes.",
+        "imdb": "tt0116483",
+        "imagem": "https://image.tmdb.org/t/p/w300//e4kAbPeDIT6DmDA8H0ymD5sOvk1.jpg"
+    }
+    ,
+    {
+        "titulo": "O Primeiro Passo",
+        "descricao": "Depois de discutir com o treinador do time de futebol americano da escola, Austin, o melhor jogador do time, \u00e9 posto de lado e n\u00e3o joga mais. Desiludido, ele muda de cidade numa tentativa de retomar sua carreira e recuperar sua grande chance na vida. S\u00f3 que as coisas come\u00e7am mal quando ele arruma problemas com seus novos colegas \u2013 Austin \u00e9 mal recebido pelas estrelas do time. Com o passar dos dias, a situa\u00e7\u00e3o piora violentamente. Obrigado a rever o modo como encara sua pr\u00f3pria vida, Austin conhece novos amigos, que o levam para conhecer o grupo de jovens da igreja local.",
+        "imdb": "tt4237208",
+        "imagem": "https://image.tmdb.org/t/p/w300//9PJTJNxpf9Z3yYCZBrOPOQCar3Y.jpg"
+    }
+    ,
+    {
+        "titulo": "O Quebra-Nozes e os Quatro Reinos",
+        "descricao": "Clara, jovem esperta e independente, perde a \u00fanica chave m\u00e1gica capaz de abrir um presente de valor incalcul\u00e1vel dado por seu padrinho. Safa na solu\u00e7\u00e3o de problemas, ela decide ent\u00e3o iniciar uma jornada de resgate que a leva pelo Reino dos Doces, o Reino das Neves, o Reino das Flores e o sinistro Quarto Reino.",
+        "imdb": "tt5523010",
+        "imagem": "https://image.tmdb.org/t/p/w300//qQziRQeYUIc9I3lVEcdwQJGy5dS.jpg"
+    }
+    ,
+    {
+        "titulo": "O Rei",
+        "descricao": "Ap\u00f3s a morte de seu pai, Henrique V \u00e9 coroado rei, obrigado a comandar a Inglaterra. O governante precisa amadurecer rapidamente para manter o pa\u00eds consideravelmente seguro durante a Guerra dos 100 Anos, contra a Fran\u00e7a.",
+        "imdb": "tt7984766",
+        "imagem": "https://image.tmdb.org/t/p/w300//7CB2XSUPKlBKjeJWyHOjgWhKacO.jpg"
+    }
+    ,
+    {
+        "titulo": "O Sexto Sentido",
+        "descricao": "Dr. Malcolm Crowe \u00e9 um conceituado psic\u00f3logo infantil, que vive atormentado pela terr\u00edvel lembran\u00e7a de um jovem paciente que ele n\u00e3o foi capaz de ajudar. Quando ele encontra Cole Sear, um garoto de 8 anos assustado e confuso, com um problema similar, Dr. Crowe procura redimir seu erro do passado, fazendo tudo que pode pelo menino. Apesar disso, Malcolm n\u00e3o est\u00e1 preparado para descobrir a verdade que aterroriza Cole.",
+        "imdb": "tt0167404",
+        "imagem": "https://image.tmdb.org/t/p/w300//ds7jw0WYCd6k7hBzMnzgFsTfg96.jpg"
+    }
+    ,
+    {
+        "titulo": "Os Mortos N\u00e3o Morrem",
+        "descricao": "Em uma cidadezinha pacata, uma s\u00e9rie de crimes come\u00e7am a chamar a aten\u00e7\u00e3o dos policiais Cliff (Bill Murray) e Ronald (Adam Driver). Depois de investigarem, descobrem que os seus piores medos se tornaram reais: o local est\u00e1 sendo tomado por zumbis, que voltaram para executar as atividades que faziam diariamente quando vivos.",
+        "imdb": "tt8695030",
+        "imagem": "https://image.tmdb.org/t/p/w300//uEab4dwlh1VZu8b4kCdXNs36qJZ.jpg"
+    }
+    ,
+    {
+        "titulo": "O Velho e a Arma",
+        "descricao": "Preciso, gentil e carism\u00e1tico, Forrest Trucker domina com maestria a arte de assaltar bancos. Aos 70 anos de idade, o senhor conseguiu a fa\u00e7anha de escapar da pris\u00e3o de San Quentin e de tantas outras, e agora segue conduzindo uma s\u00e9rie de roubos que intriga a pol\u00edcia e fascina os espectadores. No entanto, o detetive John Hunt est\u00e1 na sua cola, e Trucker precisar\u00e1 elaborar ainda mais suas artimanhas para ter sucesso no seu \u00faltimo grande ato.",
+        "imdb": "tt2837574",
+        "imagem": "https://image.tmdb.org/t/p/w300//24wx6tKWPQwum5DLXgvNicFgrf3.jpg"
+    }
+    ,
+    {
+        "titulo": "O Vingador da Iugosl\u00e1via",
+        "descricao": "Depois de um tiroteio, Philip (Jean-Claude Van Damme), um homem misterioso, chega a um hospital a beira da morte. Logo depois a gangue estrangeira vai at\u00e9 l\u00e1 para ca\u00e7\u00e1-lo, com o objetivo de acabar com sua vida. A \u00fanica testemunha \u00e9 a enfermeira, que vai encarar uma investiga\u00e7\u00e3o do FBI, abrindo assim muitos caminhos de intrigas e vingan\u00e7as internacionais.",
+        "imdb": "tt5767628",
+        "imagem": "https://image.tmdb.org/t/p/w300//k6UePQE4PStlu6TkcV1HCX1Rd4F.jpg"
+    }
+    ,
+    {
+        "titulo": "Paradise Beach",
+        "descricao": "Mehdi sai da pris\u00e3o planejando acertar algumas contas, mas antes disso precisa encontrar sua quadrilha em um resort paradis\u00edaco na Tail\u00e2ndia.",
+        "imdb": "tt7511008",
+        "imagem": "https://image.tmdb.org/t/p/w300//h0q0ATqmFWmh5MpIOvE2ZBc321n.jpg"
+    }
+    ,
+    {
+        "titulo": "Peixonauta - O Filme",
+        "descricao": "Uma aventura de Peixonauta e seus amigos, pela primeira vez na cidade grande e longe da seguran\u00e7a do Parque das \u00c1rvores Felizes. Peixonauta, Marina e Zico saem do Parque em busca do Dr. Jardim, e dos primos Pedro e Juca, mas ao chegarem \u00e0 cidade grande encontram tudo vazio. Ap\u00f3s investigarem melhor, percebem que as pessoas n\u00e3o sumiram, mas sim encolheram. Est\u00e3o min\u00fasculas e por isso a cidade parece deserta. Agora Peixonauta e seus amigos ter\u00e3o que descobrir a causa do encolhimento de todos e salvar a cidade.",
+        "imdb": "tt7804254",
+        "imagem": "https://image.tmdb.org/t/p/w300//dRprH1Us81KB2HqqV1ejL5zrhHL.jpg"
+    }
+    ,
+    {
+        "titulo": "Poderia Me Perdoar?",
+        "descricao": "Passando por problemas financeiros, a jornalista Lee Israel decide forjar e vender cartas de personalidades j\u00e1 falecidas, um neg\u00f3cio criminoso que d\u00e1 muito certo. Quando as primeiras suspeitas come\u00e7am, para n\u00e3o parar de lucrar, ela modifica o esquema e passa a roubar os textos originais de arquivos e bibliotecas. Baseado em uma hist\u00f3ria real.",
+        "imdb": "tt4595882",
+        "imagem": "https://image.tmdb.org/t/p/w300//5FcFLK1Cb4x3KDCjjpBPJuRWb7T.jpg"
+    }
+    ,
+    {
+        "titulo": "Polar",
+        "descricao": "Um assassino prestes a se aposentar precisa adiar a boa vida quando seu chefe ganancioso envia um bando de matadores jovens e cru\u00e9is para extermin\u00e1-lo.",
+        "imdb": "tt4139588",
+        "imagem": "https://image.tmdb.org/t/p/w300//2btxGF270fxOeNJInRNnFtZGkAA.jpg"
+    }
+    ,
+    {
+        "titulo": "O Predador 2: A Ca\u00e7ada Continua",
+        "descricao": "Um alien\u00edgena predador, invis\u00edvel e equipado com armas poderosas, desembarca em Los Angeles, devastada pelo conflito de gangues de traficantes rivais, para iniciar seu festival de matan\u00e7a, deixando um rastro de corpos mutilados em seu caminho.",
+        "imdb": "tt0100403",
+        "imagem": "https://image.tmdb.org/t/p/w300//sTaSUR11QJZKqQQ40dGahiWQWZw.jpg"
+    }
+    ,
+    {
+        "titulo": "Quebrando Regras 2",
+        "descricao": "Atr\u00e1s das portas fechadas de uma faculdade aparentemente normal, planeja-se o confronto secreto m\u00e1ximo de lutas de artes marciais mistas. O ex-astro de lutas Case Walker treina quatro lutadores da faculdade, cada um com seus pr\u00f3prios obst\u00e1culos individuais. Case os ensinar\u00e1 a dominar as mais surpreendentes t\u00e9cnicas de luta e a enfrentar a competi\u00e7\u00e3o mais exaustiva j\u00e1 criada \u2014 o Beatdown.",
+        "imdb": "tt1754264",
+        "imagem": "https://image.tmdb.org/t/p/w300//dCTsgWyQKmrMopvtMHtnGA2tghW.jpg"
+    }
+    ,
+    {
+        "titulo": "Quebrando Regras",
+        "descricao": "Jake Tyler nunca procura por confus\u00e3o \u2014 mas ela sempre parece encontr\u00e1-lo. Pouco depois de se mudar de uma cidade pacata para a agitada Fl\u00f3rida, Jake parece encontrar ainda mais problemas quando \u00e9 arrastado para uma liga de luta underground \u2014 um tipo de clube da luta para adolescentes. Agora, Jake contar\u00e1 com a ajuda de seus novos amigos \u2014 um s\u00e1bio treinador, uma namorada aventureira e um melhor amigo fr\u00e1gil e cativante \u2014 para superar o caos ao seu redor.",
+        "imdb": "tt1023111",
+        "imagem": "https://image.tmdb.org/t/p/w300//4xKCipkzg3xnGbkOUxU3xByRZAv.jpg"
+    }
+    ,
+    {
+        "titulo": "Rastros do Al\u00e9m",
+        "descricao": "Uma jovem desperta ap\u00f3s nove anos em coma. Durante este per\u00edodo, um evento apocal\u00edptico matou milh\u00f5es de pessoas e deixou o mundo habitado por pouqu\u00edssimas pessoas - um cen\u00e1rio de horror e escurid\u00e3o.",
+        "imdb": "tt2160105",
+        "imagem": "https://image.tmdb.org/t/p/w300//5ksGsTE5oarWjqpk4jM4RA1n1Ie.jpg"
+    }
+    ,
+    {
+        "titulo": "Rota de Fuga 2: Hades",
+        "descricao": "Anos depois de ter conseguido escapar de uma pris\u00e3o \u00e0 prova de fuga, Ray Breslin (Sylvester Stallone) organizou uma nova for\u00e7a de seguran\u00e7a de elite. Mas quando um dos seus elementos desaparece, Breslin v\u00ea-se obrigado a regressar ao inferno de onde j\u00e1 fugiu uma vez para salvar o amigo da brutal arena de combate conhecida como Hades.",
+        "imdb": "tt6513656",
+        "imagem": "https://image.tmdb.org/t/p/w300//7uYD4Ix66hOsvUVewoYQbuc51Hy.jpg"
+    }
+    ,
+    {
+        "titulo": "Scarface",
+        "descricao": "Ap\u00f3s receber resid\u00eancia permanente nos Estados Unidos em troca do assassinato de um oficial do governo cubano, Tony Montana se torna o chefe do tr\u00e1fico de drogas em Miami. Matando qualquer um que entre em seu caminho, Tony eventualmente se torna o maior traficante da Fl\u00f3rida, controlando quase toda a coca\u00edna que entra em Miami. Por\u00e9m, a press\u00e3o da pol\u00edcia, as guerras com cart\u00e9is colombianos e sua pr\u00f3pria paranoia servem para alimentar as chamas de sua eventual queda.",
+        "imdb": "tt0086250",
+        "imagem": "https://image.tmdb.org/t/p/w300//iQ5ztdjvteGeboxtmRdXEChJOHh.jpg"
+    }
+    ,
+    {
+        "titulo": "S\u00f3crates",
+        "descricao": "Depois da morte da m\u00e3e que o criou, o jovem S\u00f3crates precisa tentar sobreviver sozinho em S\u00e3o Paulo. A dura realidade coloca seus valores e ideais \u00e0 prova, e ele precisa enfrentar o luto, a mis\u00e9ria e o preconceito em rela\u00e7\u00e3o \u00e0 sua sexualidade.",
+        "imdb": "tt8026554",
+        "imagem": "https://image.tmdb.org/t/p/w300//omWPX3LbB3spgpbfQPaaJb4MpY8.jpg"
+    }
+    ,
+    {
+        "titulo": "Spirit: O Corcel Indom\u00e1vel",
+        "descricao": "No final do s\u00e9culo XVII em pleno Oeste norte-americano vive Spirit, um cavalo que resiste a ser domado pelo homem. Ele se apaixona por uma \u00e9gua local, chamada Chuva, e desenvolve uma grande amizade com um jovem \u00edndio Lakota chamado Pequeno Rio. Juntos eles acompanham a coloniza\u00e7\u00e3o do local onde vivem, percebendo as mudan\u00e7as que a chegada da civiliza\u00e7\u00e3o fazem em seu dia-a-dia.",
+        "imdb": "tt0166813",
+        "imagem": "https://image.tmdb.org/t/p/w300//qJ8fF5Uoy9WLrUvCXU26VJrfa5r.jpg"
+    }
+    ,
+    {
+        "titulo": "Stuber: A Corrida Maluca",
+        "descricao": "Quando Stu, um motorista da Uber, \u00e9 recrutado por um policial (Dave Bautista) para ajud\u00e1-lo a investigar o paradeiro de um brutal assassino, algumas regras precisam ser quebradas. Seguindo as poucas pistas que possuem para seguir o tra\u00e7o do criminoso, eles cada vez se complicam mais na persegui\u00e7\u00e3o desenfreada.",
+        "imdb": "tt7734218",
+        "imagem": "https://image.tmdb.org/t/p/w300//bopJPyP68dJEjO7i0gUrYMYC0Eh.jpg"
+    }
+    ,
+    {
+        "titulo": "R\u00e9deas da Reden\u00e7\u00e3o",
+        "descricao": "O filme gira em torno de um presidi\u00e1rio chamado Roman (Matthias Schoenaerts), que tem a chance de participar de um programa de terapia reabilitacional treinando Mustangs selvagens. Com pouca conex\u00e3o com seus colegas de pris\u00e3o, Roman luta para se comunicar com os animais. Trabalhando ao lado do jovem condenado Henry (Jason Mitchell), Roman inicia um forte v\u00ednculo com um Mustangs particularmente dif\u00edcil, o que o for\u00e7a a enfrentar seu dif\u00edcil passado e os seus dem\u00f4nios mais \u00edntimos.",
+        "imdb": "tt5952594",
+        "imagem": "https://image.tmdb.org/t/p/w300//wk4ci9iK4CaUW7uhzQxmFz1bU0T.jpg"
+    }
+    ,
+    {
+        "titulo": "The Refuge",
+        "descricao": "Um motorista / atirador de fuga (Markus Hunter, interpretado por Keith Sutliff) vive uma vida solit\u00e1ria em Los Angeles, Calif\u00f3rnia, fazendo trabalhos pela cidade e pelo mundo. Conhecido por sua excelente reputa\u00e7\u00e3o como motorista / pistoleiro, um ex-empregador dele, Frank, o contrata para um trabalho que envolve dinheiro de roubo de cassino de uma d\u00edvida que nunca lhe foi paga. Depois de fazer alguns contatos, Markus acaba recrutando ajuda de um colega pr\u00f3ximo (Watts), com quem j\u00e1 fez muitos trabalhos no passado. As coisas n\u00e3o correm de acordo com o plano de Markus, levando as pessoas a procur\u00e1-lo, seus associados conhecidos e a \u00fanica pessoa em quem ele confia na vida (Staci). \u00c0 medida que a hist\u00f3ria se desenrola, Markus tenta resolver o caos que leva a mais tumulto. Markus percebe que deve tomar a decis\u00e3o final mais importante para ele na vida.",
+        "imdb": "tt8098480",
+        "imagem": "https://image.tmdb.org/t/p/w300//hxrEwGFl38i0ItlBMFo9VpcFRKg.jpg"
+    }
+    ,
+    {
+        "titulo": "Titanic",
+        "descricao": "Um artista pobre e uma jovem rica se conhecem e se apaixonam na fat\u00eddica jornada do Titanic, em 1912. Embora esteja noiva do arrogante herdeiro de uma sider\u00fargica, a jovem desafia sua fam\u00edlia e amigos em busca do verdadeiro amor.",
+        "imdb": "tt0120338",
+        "imagem": "https://image.tmdb.org/t/p/w300//9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg"
+    }
+    ,
+    {
+        "titulo": "Caindo na Estrada 2: O Jogo da Cerveja",
+        "descricao": "Tr\u00eas colegas de quarto v\u00e3o na viagem das suas vidas quando largam tudo para participar na mais sexy das competi\u00e7\u00f5es esportivas, o \u201cNational Beer Pong Tournament\u201d. No caminho eles v\u00e3o encontrar as mais incriveis atra\u00e7\u00f5es,tais como, o esquadr\u00e3o de strip da av\u00f4-m\u00e3e-filha, as ador\u00e1veis virgens da puridade at\u00e9 ao casamente e muito mais. Com todos estes desvios ser\u00e1 que chegam a tempo da competi\u00e7\u00e3o e ganhar o t\u00edtulo?",
+        "imdb": "tt1319733",
+        "imagem": "https://image.tmdb.org/t/p/w300//gxFuJKUWpZlfDauSPjrDwxHleOB.jpg"
+    }
+    ,
+    {
+        "titulo": "007 Contra GoldenEye",
+        "descricao": "James Bond precisa impedir que o controle do poderoso sat\u00e9lite GoldenEye, capaz de causar pane em qualquer equipamento eletr\u00f4nico do mundo, caia em m\u00e3os erradas. Para isso, contar\u00e1 com a ajuda da bela especialista em computa\u00e7\u00e3o Natalya Siminova.",
+        "imdb": "tt0113189",
+        "imagem": "https://image.tmdb.org/t/p/w300//qc1Id3BLRoUk10uJGmvRqqAKvQL.jpg"
+    }
+    ,
+    {
+        "titulo": "A Balada do Pistoleiro",
+        "descricao": "El Mariachi (Antonio Banderas) \u00e9 um ex-m\u00fasico que chega a uma cidade carregando v\u00e1rias armas dentro da caixa de um viol\u00e3o. Ele est\u00e1 atr\u00e1s de Bucho (Joaquim de Almeida), que matou sua namorada e ainda atirou em sua m\u00e3o. Desejando vingan\u00e7a, ele conta com a ajuda de Carolina (Salma Hayek), uma bela mulher que \u00e9 dona da livraria local.",
+        "imdb": "tt0112851",
+        "imagem": "https://image.tmdb.org/t/p/w300//nKY2FQm7GYtGPkxSDkN9lh6Mogm.jpg"
+    }
+    ,
+    {
+        "titulo": "A Rainha dos Condenados",
+        "descricao": "O vampiro Lestat (Stuart Towsend) reinventou a si mesmo e agora \u00e9 uma grande estrela do rock contempor\u00e2neo nos Estados Unidos. Sua m\u00fasica acaba despertando Akasha (Aaliyah), a rainha de todos os vampiros, cujo poder \u00e9 t\u00e3o grande que para combat\u00ea-la todos os vampiros da face da Terra precisar\u00e3o se unir a fim de evitar sua pr\u00f3pria extin\u00e7\u00e3o. Mas assim como a m\u00fasica de Lestat inspira Akasha, que deseja fazer dele seu rei, ela tamb\u00e9m faz com que Jesse (Marguerite Moreau), uma jovem fascinada pelo lado negro da vida, se apaixone por Lestat.",
+        "imdb": "tt0238546",
+        "imagem": "https://image.tmdb.org/t/p/w300//jGkYV6Fk9GBWuccCitRatlXL3FC.jpg"
+    }
+    ,
+    {
+        "titulo": "O Pr\u00edncipe do Natal: O Beb\u00ea Real",
+        "descricao": "Neste Natal, Aldovia vai ganhar um presente de especial: um beb\u00ea real. Mas, antes, a rainha Amber precisa desvendar um mist\u00e9rio para proteger a fam\u00edlia e o reino.",
+        "imdb": "tt10006006",
+        "imagem": "https://image.tmdb.org/t/p/w300//3K0pmPNutVzuZ0gmy4din6kMKhw.jpg"
+    }
+    ,
+    {
+        "titulo": "A Origem dos Guardi\u00f5es",
+        "descricao": "As crian\u00e7as do mundo inteiro s\u00e3o protegidas por um seleto grupo de guardi\u00f5es: Papai Noel, Fada do Dente, Coelho da P\u00e1scoa e Sandman. S\u00e3o eles que garantem a inoc\u00eancia e as lendas infantis. Mas um esp\u00edrito maligno, o Breu, pretende transformar todos os sonhos em pesadelo, despertando medo em todas as crian\u00e7as. Para combater este advers\u00e1rio poderoso, a Lua designa um novo guardi\u00e3o para ajudar o grupo: Jack Frost, um garotinho invis\u00edvel que controla o inverno. Sem conhecer sua pr\u00f3pria voca\u00e7\u00e3o de guardi\u00e3o, ele embarca em uma aventura na qual vai descobrir tanto sobre as crian\u00e7as quanto sobre seu pr\u00f3prio passado.",
+        "imdb": "tt1446192",
+        "imagem": "https://image.tmdb.org/t/p/w300//yK0iCFtWKFnwbbTqMd3nD06cq9g.jpg"
+    }
+    ,
+    {
+        "titulo": "Animais Unidos Jamais Ser\u00e3o Vencidos",
+        "descricao": "Um grupo de animais \u00e9 for\u00e7ado a sair de seu habitat por causa da destrui\u00e7\u00e3o causada pelos humanos. Eles v\u00e3o para a \u00c1frica. Mas l\u00e1, um hotel de luxo est\u00e1 usando toda a \u00e1gua e n\u00e3o h\u00e1 mais nada para os animais. Agora, eles v\u00e3o se unir para salvar a natureza, travando uma guerra contra os humanos.",
+        "imdb": "tt1620449",
+        "imagem": "https://image.tmdb.org/t/p/w300//5SuOYTxp8fx2Wt4pVVp7R2qzzbM.jpg"
+    }
+    ,
+    {
+        "titulo": "Arranha-C\u00e9u: Coragem Sem Limite",
+        "descricao": "Will Sawyer, veterano de guerra e ex-l\u00edder da equipe de resgate do FBI, \u00e9 agora respons\u00e1vel pela seguran\u00e7a de arranha-c\u00e9us, trabalhando na China. Quando descobre que o mais alto e seguro edif\u00edcio do mundo est\u00e1 em chamas e ele est\u00e1 sendo acusado por isso, Will torna-se um foragido procurado e precisa encontrar os verdadeiros culpados, limpar seu nome e, de alguma forma, resgatar sua fam\u00edlia, que est\u00e1 no pr\u00e9dio, acima da linha de fogo.",
+        "imdb": "tt5758778",
+        "imagem": "https://image.tmdb.org/t/p/w300//6wmcfhS4xDXvyh1zmmi42ltBfzo.jpg"
+    }
+    ,
+    {
+        "titulo": "As Loucas Aventuras de James West",
+        "descricao": "Quando o presidente Ulysses S. Grant fica sabendo que o diab\u00f3lico inventor Arliss Loveless planeja assassin\u00e1-lo e conquistar os Estados Unidos com suas m\u00e1quinas modernas, ele encarrega James West, o her\u00f3i da Guerra Civil americana, e o militar Artemus Gordon de captur\u00e1-lo. A personalidade dos dois nem sempre combina, mas a dupla consegue trabalhar junto. Com a ajuda de uma mulher misteriosa, West e Gordon chegam a Loveless.",
+        "imdb": "tt0120891",
+        "imagem": "https://image.tmdb.org/t/p/w300//dQhm5OYC2e0iJcbVTf9QeDLeDD.jpg"
+    }
+    ,
+    {
+        "titulo": "Brinquedo Assassino",
+        "descricao": "Ap\u00f3s a bab\u00e1 do garotinho de seis anos, Andy Barclay, ser violentamente arremessada pela janela, ningu\u00e9m acredita nele quando diz que \"Chucky\", o boneco que ganhou de anivers\u00e1rio, foi o culpado! At\u00e9 que as coisas come\u00e7am a dar errado... mortalmente errado. E quando uma s\u00e9rie de terr\u00edveis assassinatos leva um detetive de volta ao mesmo brinquedo, ele descobre que o verdadeiro terror tinha apenas come\u00e7ado \u2013 o boneco perturbado planeja transferir seu esp\u00edrito mau para um ser vivo \u2013 o pequeno Andy.",
+        "imdb": "tt0094862",
+        "imagem": "https://image.tmdb.org/t/p/w300//pdnXDnuAWIc9pwobTQ5XknlcbbS.jpg"
+    }
+    ,
+    {
+        "titulo": "Brinquedo Assassino 2",
+        "descricao": "O famoso brinquedo assassino, com seu sorriso sat\u00e2nico, volta \u00e0 vida nesta nova hist\u00f3ria da assustadora luta entre o jovem Andy Baclay e o demon\u00edaco boneco que tenta se apoderar de sua alma. A despeito de ter sido queimado em sua \u00faltima fuga, Chucky renasce das cinzas depois de ser reconstru\u00eddo por um funcion\u00e1rio da fabrica de brinquedos, para atenuar a publicidade negativa a respeito do boneco. Ressuscitado, Chucky persegue sua presa para reiniciar a ca\u00e7ada nessa \u00f3tima sequ\u00eancia do enorme sucesso popular do primeiro filme.",
+        "imdb": "tt0099253",
+        "imagem": "https://image.tmdb.org/t/p/w300//cFAA6XeDXsSOTfztEOlXU25leen.jpg"
+    }
+    ,
+    {
+        "titulo": "Brinquedo Assassino 3",
+        "descricao": "Um dos mais famosos assassinos do cinema est\u00e1 de volta para causar mais mutila\u00e7\u00e3o, com Chuchy obcecado em sua busca para se apoderar do corpo de uma crian\u00e7a. Oito anos ap\u00f3s aparentemente destruir o boneco assassino, Andy Barclay faz 16 anos e entra para a escola militar. Enquanto isso, o ganancioso presidente da f\u00e1brica de brinquedos Good Guys, confiante de que toda a m\u00e1 publicidade caiu no esquecimento. Como a linha de montagem recria o primeiro boneco do pl\u00e1stico derretido, o esp\u00edrito de Chucky retorna para renovar sua sina de vingan\u00e7a contra Andy. Mais uma vez cabe a Andy fazer de tudo para acabar com o incans\u00e1vel brinquedo assassino, neste suspense assustador.",
+        "imdb": "tt0103956",
+        "imagem": "https://image.tmdb.org/t/p/w300//zA6DKHMHhCCKKAfR7oEiUwF10JR.jpg"
+    }
+    ,
+    {
+        "titulo": "City Hunter: O Ca\u00e7ador de Encrencas",
+        "descricao": "Ryu Saeba (Jackie Chan), detetive mulherengo, \u00e9 contratado para encontrar a bela filha de magnata japon\u00eas. Seguido por sua assistente ciumenta, acaba em um navio de cruzeiro onde tem que enfrentar uma gangue que planeja sequestrar o barco.",
+        "imdb": "tt0103950",
+        "imagem": "https://image.tmdb.org/t/p/w300//kiI6SZNweOy7R4l02RUwVu6hVfF.jpg"
+    }
+    ,
+    {
+        "titulo": "Caindo na Estrada",
+        "descricao": "Josh (Breckin Meyer) est\u00e1 em s\u00e9rios apuros. Uma fita de v\u00eddeo que mostra Josh traindo sua namorada foi enviada, por engano, para sua namorada. Agora Josh e mais tr\u00eas amigos precisam partir numa louca viagem, de Nova York at\u00e9 Austin, no Texas, a fim de recuperar a comprometedora fita de v\u00eddeo e salvar seu relacionamento.",
+        "imdb": "tt0215129",
+        "imagem": "https://image.tmdb.org/t/p/w300//2iMiXw4hUL0UqvfXLxPPLptz94X.jpg"
+    }
+    ,
+    {
+        "titulo": "Carros",
+        "descricao": "Ao viajar para a Calif\u00f3rnia, o famoso carro de corridas Rel\u00e2mpago McQueen se perde e vai parar em Radiator Springs, uma cidadezinha na Rota 66. Ele conhece novos amigos e aprende li\u00e7\u00f5es que mudam sua forma de encarar a vida.",
+        "imdb": "tt0317219",
+        "imagem": "https://image.tmdb.org/t/p/w300//2nM2NRV8wt3n3ffoHQ3KdMkY3vR.jpg"
+    }
+    ,
+    {
+        "titulo": "Cidade dos Anjos",
+        "descricao": "Seth \u00e9 um anjo que vaga pela Terra consolando aqueles que est\u00e3o com problemas. Maggie \u00e9 uma cirurgi\u00e3 pr\u00e1tica e racional que se abala ao perder um paciente, aparentemente, sem motivo algum. No fundo de seu cora\u00e7\u00e3o, ela sente a presen\u00e7a de algo divino, mas se recusa a acreditar em qualquer coisa que n\u00e3o pode explicar logicamente. At\u00e9 que a for\u00e7a do destino une Maggie e Seth em um amor poderoso e irresist\u00edvel. Um amor t\u00e3o forte que faz com que Seth abra m\u00e3o da sua imortalidade, enquanto Maggie abre seu cora\u00e7\u00e3o aos mist\u00e9rios da vida.",
+        "imdb": "tt0120632",
+        "imagem": "https://image.tmdb.org/t/p/w300//qSpPMt3DK9wylDaxd0kRdbo9JM2.jpg"
+    }
+    ,
+    {
+        "titulo": "Cora\u00e7\u00f5es de Ferro",
+        "descricao": "Durante o final da Segunda Guerra Mundial, um grupo de cinco soldados americanos \u00e9 encarregado de atacar os nazistas dentro da pr\u00f3pria Alemanha. Apesar de estarem em quantidade inferior e terem poucas armas, eles s\u00e3o liderados pelo enfurecido Wardaddy, sargento que pretende lev\u00e1-los \u00e0 vit\u00f3ria, enquanto ensina o novato Norman a lutar.",
+        "imdb": "tt2713180",
+        "imagem": "https://image.tmdb.org/t/p/w300//8WtUjpboPESZbabGbC4ryd81KcR.jpg"
+    }
+    ,
+    {
+        "titulo": "Esquadr\u00e3o Suicida",
+        "descricao": "Um time dos mais perigosos e encarcerados supervil\u00f5es s\u00e3o contratados por uma ag\u00eancia secreta do governo, para combater uma poderosa entidade. No entanto, quando eles percebem que n\u00e3o foram escolhidos apenas para ter sucesso, mas tamb\u00e9m por sua \u00f3bvia culpa quando inevitavelmente falharem, ter\u00e3o que decidir se vale a pena ou n\u00e3o continuar correndo risco de morte.",
+        "imdb": "tt1386697",
+        "imagem": "https://image.tmdb.org/t/p/w300//4UNw4Z105Eke1b4Eb1zldym9R6.jpg"
+    }
+    ,
+    {
+        "titulo": "O Protetor",
+        "descricao": "No noroeste do Pac\u00edfico, Lillian (Julia Stiles) retorna \u00e0 sua cidade natal, uma pequena comunidade quase abandonada. Ao chegar, ela come\u00e7a a ser assediada e perseguida por Blackway (Ray Liotta), um ex-policial que se tornou um criminoso violento agindo sem impunidade. Ao inv\u00e9s de seguir o conselho e sair da cidade, Lilian pede ajuda ao ex-lenhador Lester (Anthony Hopkins) e seu ajudante (Alexander Ludwig), os \u00fanicos homens bravos ou loucos o bastate para ficarem ao seu lado e lutar contra Blackway.",
+        "imdb": "tt4061010",
+        "imagem": "https://image.tmdb.org/t/p/w300//1FYo0H3VbNkPIkBaU2hq0tAQBii.jpg"
+    }
+    ,
+    {
+        "titulo": "O Protetor 2",
+        "descricao": "Criminosos assassinam Susan Plummer, a melhor amiga de Robert McCall e sua ex-colega de trabalho. Obcecado, Robert pensa apenas em eliminar o bando de assassinos profissionais que destruiu sua vida.",
+        "imdb": "tt3766354",
+        "imagem": "https://image.tmdb.org/t/p/w300//REWunAyKGCbxvg2UJGMEHuQd2c.jpg"
+    }
+    ,
+    {
+        "titulo": "O Protetor",
+        "descricao": "O ex-agente secreto Robert McCall acredita que seu passado ficou para tr\u00e1s e tenta viver uma nova vida. Por\u00e9m, quando ele conhece Teri, uma jovem que est\u00e1 em poder de uma quadrilha russa, ele simplesmente n\u00e3o consegue ignor\u00e1-la. Munido de suas extraordin\u00e1rias habilidades, ele ressurge como um verdadeiro anjo vingador. Fora da aposentadoria e com um novo desejo de fazer justi\u00e7a, McCall decide ajudar quem foi brutalizado e oprimido.",
+        "imdb": "tt0455944",
+        "imagem": "https://image.tmdb.org/t/p/w300//xTSOdJ0Ljs439lnKB7NsWlTibZN.jpg"
+    }
+    ,
+    {
+        "titulo": "Romeu + Julieta",
+        "descricao": "Nesta vers\u00e3o para os dias de hoje da pe\u00e7a de Shakespeare o cen\u00e1rio \u00e9 Verona Beach. Os Capuleto e os Mont\u00e9quio, duas fam\u00edlias que sempre se odiaram, t\u00eam rixas sem cessar, mas isto n\u00e3o impede que Romeu (Leonardo DiCaprio), um Mont\u00e9quio, se apaixone pela bela Julieta (Claire Danes), uma Capuleto. Entretanto, uma apresentadora de televis\u00e3o anuncia que este amor profundo acabar\u00e1 gerando tr\u00e1gicas conseq\u00fcenciais, em virtude desta insana rivalidade familiar.",
+        "imdb": "tt0117509",
+        "imagem": "https://image.tmdb.org/t/p/w300//anxOZzK9xStnzVdxQZxBA9E2ZGS.jpg"
+    }
+    ,
+    {
+        "titulo": "Os Garotos Perdidos",
+        "descricao": "Os irm\u00e3os adolescentes Michael e Sam se mudam com a sua m\u00e3e para uma pequena cidade no norte da Calif\u00f3rnia. Enquanto o jovem Sam encontra novos amigos com interesses semelhantes, o angustiado Michael acaba se apaixonando por Star, que est\u00e1 envolvida com David, o l\u00edder de uma gangue local de vampiros. Ao se dar conta do que est\u00e1 acontecendo, Sam e seus novos amigos embarcam na miss\u00e3o de salvar Michael e Star dos mortos-vivos.",
+        "imdb": "tt0093437",
+        "imagem": "https://image.tmdb.org/t/p/w300//xlzkIfReoFJbPkbV67NcsuMcu6T.jpg"
+    }
+    ,
+    {
+        "titulo": "Um Pr\u00edncipe em Nova York",
+        "descricao": "Akeem (Eddie Murphy), o pr\u00edncipe herdeiro de Zamunda, \u00c1frica, se rebela contra o casamento arranjando por seu pai, o rei Jaffe Joffer (James Earl Jones), que concorda que o filho viaje pelo mundo por 40 dias. Assim, Akeem vai para Nova York, se passando por um pobre estudante para encontrar uma noiva que o ame pelo o que ele \u00e9, n\u00e3o por sua posi\u00e7\u00e3o. Vai trabalhar em uma lanchonete e sente-se atra\u00eddo por Lisa (Shari Hadley), a filha do seu patr\u00e3o, Cleo McDowell (John Amos), que \u00e9 interesseiro e atrapalha o romance, pois quer um bom partido para a filha, sem imaginar quem \u00e9 na verdade seu funcion\u00e1rio. Akeem viajou com Semmi (Arsenio Hall), seu melhor amigo, que n\u00e3o gosta de se passar por pobre e faz gastos e toma atitudes que podem revelar a identidade de Akeem.",
+        "imdb": "tt0094898",
+        "imagem": "https://image.tmdb.org/t/p/w300//i4PD8EddMJK23gQbANYdCwQeJaE.jpg"
+    }
+    ,
+    {
+        "titulo": "Um Tira da Pesada",
+        "descricao": "Poucas horas depois de chegar em Detroit, Mikey Tandino foi morto. Axel Foley, policial e seu melhor amigo, viaja para Los Angeles, pois tinha sido o \u00faltimo lugar onde Mikey trabalhou. O emprego de Mikey tinha sido conseguido por Jenny Summers, amiga de ambos, que administra uma famosa galeria de arte em Beverly Hills. Por\u00e9m, Foley tem de fazer tudo informalmente, pois est\u00e1 fora do caso e pretende seguir a pista do poss\u00edvel mandante do crime, Victor Maitland, o chefe de Jenny e dono da galeria. Apesar de Maitland ser considerado um dos maiores marchands do pa\u00eds, Axel acredita que ele usa o mercado de arte como fachada e consegue que dois relutantes policiais locais, Billy Rosewood e John Taggart, se unam a ele nas investiga\u00e7\u00f5es.",
+        "imdb": "tt0086960",
+        "imagem": "https://image.tmdb.org/t/p/w300//wjcOukmiJKp4oMrIXOa3hlvODph.jpg"
+    }
+    ,
+    {
+        "titulo": "Um Tira da Pesada 2",
+        "descricao": "Detroit voltou a ser a \u00e1rea de atua\u00e7\u00e3o do detetive Axel Foley, que investiga um esquema de cart\u00f5es de cr\u00e9dito falsos. Ele interrompe esta miss\u00e3o ao saber pelo notici\u00e1rio da TV que Andrew Bogomil, um detetive que atua em Beverly Hills, foi baleado. Assim Axel ruma para l\u00e1, pois j\u00e1 tinham trabalhado juntos em um caso. L\u00e1 ele se reencontra com a filha de Andrew, Jan, e com os detetives William \"Billy\" Rosewood e John Taggart, que eram subordinados de Andrew. Novamente Axel investiga com John e Billy uma onda de assaltos bem planejados, que est\u00e1 sendo conhecida como \"crimes do alfabeto\".",
+        "imdb": "tt0092644",
+        "imagem": "https://image.tmdb.org/t/p/w300//6GNeRazaEV0TrfnIgaMOrLYrjfx.jpg"
+    }
+    ,
+    {
+        "titulo": "Um Tira da Pesada 3",
+        "descricao": "Numa noite em Detroit, Michigan, durante uma batida policial em uma oficina de desmanche de carros, o detetive Axel Foley v\u00ea seu chefe, o inspetor Douglas Todd, ser assassinado por um homem bem vestido. Em seu \u00faltimo suspiro, Todd pede a Axel que pegue o homem que atirou nele. Ap\u00f3s investigar, Axel acha o ve\u00edculo do assassino em WonderWorld, um parque tem\u00e1tico em Beverly Hills, Calif\u00f3rnia. J\u00e1 em Beverly Hills, Axel se encontra com o amigo Billy Rosewood, que agora ocupa um cargo importante e tem outro parceiro, Jon Flint, pois John Taggart se aposentou. Axel investiga o WonderWorld, cujo propriet\u00e1rio \u00e9 Dave Thornton, que sente que algo errado est\u00e1 acontecendo no lugar.",
+        "imdb": "tt0109254",
+        "imagem": "https://image.tmdb.org/t/p/w300//klHTsxwfKLSzqonMkimvZ4KfuH7.jpg"
+    }
+    ,
+    {
+        "titulo": "Namorada de Aluguel",
+        "descricao": "Ronald Miller \u00e9 um jovem que cansou de ser visto como perdedor na escola. Quando uma menina popular precisa comprar um vestido, ele v\u00ea a oportunidade de pagar a garota para que ela se passe por sua namorada. A partir de ent\u00e3o, Ronald passa por confus\u00f5es e dilemas tentando se enturmar com os populares.",
+        "imdb": "tt0092718",
+        "imagem": "https://image.tmdb.org/t/p/w300//cvC59NDRUAQrCdHnUASFSjePCDF.jpg"
+    }
+    ,
+    {
+        "titulo": "Patch Adams: O Amor \u00e9 Contagioso",
+        "descricao": "Conhe\u00e7a Patch Adams, um m\u00e9dico que n\u00e3o parece, age ou pensa como nenhum doutor que voc\u00ea conheceu antes. Para Patch, humor \u00e9 o melhor rem\u00e9dio, e ele est\u00e1 disposto a fazer de tudo para que seus pacientes sorriam \u2013 mesmo que isto signifique arriscar sua pr\u00f3pria carreira.",
+        "imdb": "tt0129290",
+        "imagem": "https://image.tmdb.org/t/p/w300//fiVEMx2cBdhpQu2WkSfk1l334Qe.jpg"
+    }
+    ,
+    {
+        "titulo": "O Shaolin do Sert\u00e3o",
+        "descricao": "Cear\u00e1, 1982. Alu\u00edzio Li \u2013 Lidu\u00edno - \u00e9 um aficionado por artes marciais que vive com a cabe\u00e7a no mundo das lutas de tanto sonhar e assistir a filmes chineses. Ele acredita ser um monge Shaolin, se vestindo e se comportando tal qual suas refer\u00eancias cinematogr\u00e1ficas. No entanto, \u00e9 o motivo maior de chacotas em sua cidade natal, Quixad\u00e1, no sert\u00e3o cearense. Seus dias de paz acabar\u00e3o quando o lutador aposentado de vale-tudo Toni Tora Pleura anuncia um \"tour\" de desafios aos valent\u00f5es de v\u00e1rias cidades do interior do Cear\u00e1, incluindo Quixad\u00e1.",
+        "imdb": "tt5786508",
+        "imagem": "https://image.tmdb.org/t/p/w300//hHmD5ziiVvOM1femGTazj4bfkGK.jpg"
+    }
+    ,
+    {
+        "titulo": "Cartas para Julieta",
+        "descricao": "Em visita \u00e0 cidade italiana de Verona com seu noivo ocupado, uma jovem chamada Sophie visita um muro onde os desiludidos deixam cartas para a tr\u00e1gica hero\u00edna de Shakespeare, Julieta Capuleto. Ao encontrar uma dessas cartas, de 1957, a jovem decide escrever \u00e0 autora, Claire. Inspirada pela atitude de Sophie, Claire decide procurar por seu antigo amor.",
+        "imdb": "tt0892318",
+        "imagem": "https://image.tmdb.org/t/p/w300//xcrkatLWdrI0662uKo7LTyLEY38.jpg"
+    }
+    ,
+    {
+        "titulo": "Sex Drive: Rumo ao Sexo",
+        "descricao": "Ian Lafferty \u00e9 um garoto de 18 anos que parte em uma viagem atravessando os Estados Unidos com seus amigos Lance e Felicia para perder a virgindade com uma garota sensacional que ele conheceu na Internet. Por\u00e9m, a jornada repleta de contratempos acaba se tornando uma experi\u00eancia que ir\u00e1 mudar o seu mundo e virar de ponta cabe\u00e7a tudo o que ele sabe sobre a vida.",
+        "imdb": "tt1135985",
+        "imagem": "https://image.tmdb.org/t/p/w300//6D5FuwuZR7BEAbiyNfLKuV5KGN.jpg"
+    }
+    ,
+    {
+        "titulo": "A Ca\u00e7a",
+        "descricao": "Lucas acaba de passar por um div\u00f3rcio complicado e \u00e9 professor em um jardim-de-inf\u00e2ncia de uma pequena cidade dinamarquesa. A filha de seu melhor amigo, Klara, uma garotinha de 6 anos, acusa Lucas de abuso sexual para vingar-se de um beijo que ele recusou; a menina usa como embasamento a foto de um p\u00eanis ereto mostrada pelo seu irm\u00e3o mais velho. A diretora da escola acredita inteiramente na menina e todos os adultos tentam evitar o seu relato, a fim de supostamente preserv\u00e1-la da lembran\u00e7a, enquanto come\u00e7am a hostilizar Lucas, tomando-lhe como culpado e man\u00edaco.",
+        "imdb": "tt2106476",
+        "imagem": "https://image.tmdb.org/t/p/w300//jksxm18n70boh0LSlXibjimGr9g.jpg"
+    }
+    ,
+    {
+        "titulo": "Os Sem-Floresta",
+        "descricao": "A primavera chegou, o que faz com que os animais da floresta despertem da hiberna\u00e7\u00e3o. Ao acordar eles logo t\u00eam uma surpresa: surgiu ao redor de seu habitat natural uma grande cerca verde. Inicialmente eles temem o que h\u00e1 por detr\u00e1s da cerca, at\u00e9 que RJ revela que foi constru\u00edda uma cidade ao redor da floresta em que vivem, que agora ocupa apenas um pequeno espa\u00e7o. RJ diz ainda que no mundo dos humanos h\u00e1 as mais diversas guloseimas, convencendo os demais a atravessar a cerca. Entretanto esta atitude desagrada o cauteloso Verne, que achava melhor permanecer onde estavam inicialmente.",
+        "imdb": "tt0327084",
+        "imagem": "https://image.tmdb.org/t/p/w300//cNPhs8Gkm1SJ4vuZDnytZnj1EsY.jpg"
+    }
+    ,
+    {
+        "titulo": "Marley & Eu",
+        "descricao": "John e Jennifer Grogan casaram-se recentemente e decidiram come\u00e7ar nova vida em West Palm Beach, na Fl\u00f3rida. L\u00e1, eles trabalham em jornais concorrentes, compram um im\u00f3vel e enfrentam os desafios de uma vida de casal. Indeciso sobre sua capacidade em ser pai, John busca o conselho de seu colega Sebastian, que sugere que compre um cachorro para a esposa. John aceita a sugest\u00e3o e adota Marley, um labrador de 5 kg que logo se transforma em um grande cachorro de 45 kg, o que torna a casa deles um caos.",
+        "imdb": "tt0822832",
+        "imagem": "https://image.tmdb.org/t/p/w300//4P9L5dFWz8q79YJ9mdAQ5BcQBTG.jpg"
+    }
+    ,
+    {
+        "titulo": "Interestelar",
+        "descricao": "As reservas naturais da Terra est\u00e3o chegando ao fim e um grupo de astronautas recebe a miss\u00e3o de verificar poss\u00edveis planetas para receberem a popula\u00e7\u00e3o mundial, possibilitando a continua\u00e7\u00e3o da esp\u00e9cie. Cooper \u00e9 chamado para liderar o grupo e aceita a miss\u00e3o sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguir\u00e1 em busca de um novo lar.",
+        "imdb": "tt0816692",
+        "imagem": "https://image.tmdb.org/t/p/w300//nCbkOyOMTEwlEV0LtCOvCnwEONA.jpg"
+    }
+    ,
+    {
+        "titulo": "Dracula: A Hist\u00f3ria Nunca Contada",
+        "descricao": "Os habitantes da Transilv\u00e2nia sempre foram inimigos dos turcos, com quem tiveram batalhas \u00e9picas. Para evitar que sua popula\u00e7\u00e3o fosse massacrada, o rei local aceitou entregar aos turcos centenas de crian\u00e7as. Entre elas estava seu pr\u00f3prio filho, Vlad Tepes (Luke Evans), que aprendeu com os turcos a arte de guerrear. Logo Vlad ganhou fama pela ferocidade nas batalhas e tamb\u00e9m por empalar os derrotados. De volta \u00e0 Transilv\u00e2nia, onde \u00e9 nomeado pr\u00edncipe, ele governa em paz por 10 anos. S\u00f3 que o rei Mehmed (Dominic Cooper) mais uma vez exige que 100 crian\u00e7as sejam entregues aos turcos. Vlad se recusa e, com isso, inicia uma nova guerra. Para venc\u00ea-la, ele recorre a um ser das trevas (Charles Dance) que vive pela regi\u00e3o. Ap\u00f3s beber o sangue dele, Vlad se torna um vampiro e ganha poderes sobrehumanos.",
+        "imdb": "tt0829150",
+        "imagem": "https://image.tmdb.org/t/p/w300//cCq6nnwIki2HGg6DjjtFSxxgCUY.jpg"
+    }
+    ,
+    {
+        "titulo": "Meu Malvado Favorito 2",
+        "descricao": "Gru mudou radicalmente sua vida e se dedica \u00e0s filhotas Agnes, Edith e Margo, deixando de lado os tempos de vil\u00e3o. Ele s\u00f3 n\u00e3o contava que seu passado fosse respons\u00e1vel pelo seu recrutamento pela Liga Antivil\u00f5es para salvar o mundo na companhia da agente Lucy. Juntos, eles precisam localizar o criminoso que roubou a f\u00f3rmula PX41 e Gru desconfia que seu antigo concorrente El Macho possa ser o respons\u00e1vel.",
+        "imdb": "tt1690953",
+        "imagem": "https://image.tmdb.org/t/p/w300//7mYMq6OQyum1wAiUI7i6w78YKEO.jpg"
+    }
+    ,
+    {
+        "titulo": "Meu Malvado Favorito",
+        "descricao": "Um homem que adora todas as coisas diab\u00f3licas, o supervil\u00e3o Gru tra\u00e7a um plano para roubar a lua. Rodeado de um ex\u00e9rcito de pequenos ajudantes e seu arsenal de armas e m\u00e1quinas de guerra, Gru se prepara para destruir quem atravessar seu caminho. Mas ele n\u00e3o esperava pelo seu maior desafio: tr\u00eas ador\u00e1veis \u00f3rf\u00e3s que querem ter Gru como pai.",
+        "imdb": "tt1323594",
+        "imagem": "https://image.tmdb.org/t/p/w300//dCAgchQ7VJNtwBhLuiLwiql3vSQ.jpg"
+    }
+    ,
+    {
+        "titulo": "Um Parto de Viagem",
+        "descricao": "Peter Highman \u00e9 um ansioso pai de primeira viagem cuja esposa est\u00e1 a cinco dias de dar \u00e0 luz. Peter corre contra o tempo para conseguir um voo de volta para Atlanta a tempo de chegar para o parto, mas seus planos s\u00e3o atrapalhados quando ele conhece o aspirante a ator Ethan Tremblay. O encontro for\u00e7a Peter a pegar carona com Ethan e atravessar o pa\u00eds.",
+        "imdb": "tt1231583",
+        "imagem": "https://image.tmdb.org/t/p/w300//9Pb6hBcidfhxpAAA6iwznQjCO7h.jpg"
+    }
+    ,
+    {
+        "titulo": "Ted 2",
+        "descricao": "O urso de pel\u00facia Ted casa-se com Tami-Lynn. O casal pretende ter um beb\u00ea, mas para terem direito \u00e0 insemina\u00e7\u00e3o artificial, Ted tem que provar na justi\u00e7a que \u00e9 um ser humano. Para alcan\u00e7ar o seu sonho, ele conta com a ajuda da advogada Samantha e do seu grande amigo John.",
+        "imdb": "tt2637276",
+        "imagem": "https://image.tmdb.org/t/p/w300//kblxjPVIXaIQ7iHo5b2LaBOEllD.jpg"
+    }
+    ,
+    {
+        "titulo": "Ted",
+        "descricao": "Quando crian\u00e7a, John desejou que seu ursinho Ted ganhasse vida e, surpreendentemente, foi atendido. Por\u00e9m, agora que \u00e9 adulto, ele precisa lidar com as consequ\u00eancias de seu pedido, j\u00e1 que Ted n\u00e3o vai parar de atormentar a sua vida.",
+        "imdb": "tt1637725",
+        "imagem": "https://image.tmdb.org/t/p/w300//patvtN6QlClCRZlswIPxDSYJRzW.jpg"
+    }
+    ,
+    {
+        "titulo": "Basquete Shaolin: \u00c1guias das Quadras",
+        "descricao": "O jovem \u00f3rf\u00e3o Shie-Jie cresceu aprendendo artes marciais, mas agora ele usar\u00e1 toda a sua t\u00e9cnica para tornar-se um astro do basquete.",
+        "imdb": "tt0848538",
+        "imagem": "https://image.tmdb.org/t/p/w300//76Uqr1eVcAxYeegi9JKVBzcIDyK.jpg"
+    }
+    ,
+    {
+        "titulo": "A S\u00e9rie Divergente: Insurgente",
+        "descricao": "Em fuga e sob a mira da impiedosa l\u00edder de fac\u00e7\u00e3o Jeanine, Tris luta para proteger as pessoas que ama, enfrentando um desafio imposs\u00edvel ap\u00f3s outro, enquanto ela e Quatro correm apra desvendar a verdade sobre o passado \u2013 e dessa forma, sobre o futuro \u2013 de seu mundo.",
+        "imdb": "tt2908446",
+        "imagem": "https://image.tmdb.org/t/p/w300//l0i7VfG5HAQT49ZKZNcef2booIq.jpg"
+    }
+    ,
+    {
+        "titulo": "m\u00e3e!",
+        "descricao": "Um casal vive em um imenso casar\u00e3o no campo. Enquanto a jovem esposa passa os dias restaurando o lugar, afetado por um inc\u00eandio no passado, o marido mais velho tenta desesperadamente recuperar a inspira\u00e7\u00e3o para voltar a escrever os poemas que o tornaram famoso. Os dias pac\u00edficos se transformam com a chegada de visitantes que se imp\u00f5em \u00e0 rotina do casal e escondem suas verdadeiras inten\u00e7\u00f5es.",
+        "imdb": "tt5109784",
+        "imagem": "https://image.tmdb.org/t/p/w300//pqLqxCcFqifgNIFTjDsPVLkfkdu.jpg"
+    }
+    ,
+    {
+        "titulo": "Super 8",
+        "descricao": "No ver\u00e3o de 1979, um grupo de seis garotos em uma cidade industrial de Ohio testemunha uma catastr\u00f3fica colis\u00e3o noturna de uma caminhonete com um trem de carga. Eles registram tudo com a c\u00e2mera Super-8 com a qual estavam tentando fazer um filme. N\u00e3o tarda para que eles comecem a desconfiar que aquilo n\u00e3o foi um acidente, quando misteriosos desaparecimentos come\u00e7am a acontecer e o ex\u00e9rcito tenta encobrir a verdade (algo muito mais terr\u00edvel do que eles poderiam imaginar).",
+        "imdb": "tt1650062",
+        "imagem": "https://image.tmdb.org/t/p/w300//mUTvk7qmjOiOjuLw6du2xitee7V.jpg"
+    }
+    ,
+    {
+        "titulo": "Ouija: Exorcismo",
+        "descricao": "Em 1985, um c\u00e9lebre exorcista aprisionou um dem\u00f4nio horroroso dentro de um tabuleiro Ouija. Pensando ser um jogo de tabuleiro, seu filho joga sem obedecer as regras, e o dem\u00f4nio acaba sendo solto. Para salvar seu filho, o exorcista o envia para longe at\u00e9 que o dem\u00f4nio pudesse ser destru\u00eddo. Trinta anos depois de sua morte, seu neto encontra o tabuleiro e acaba cometendo o mesmo erro que seu pai. Agora, o mal est\u00e1 de volta e vagando pela terra, para aterrorizar os respons\u00e1veis \u200b\u200bpela sua pris\u00e3o.",
+        "imdb": "tt4859032",
+        "imagem": "https://image.tmdb.org/t/p/w300//rpiD2QCKSNdJf2AxvpVK8dLuFKB.jpg"
+    }
+    ,
+    {
+        "titulo": "Errementari: O Ferreiro e o Diabo",
+        "descricao": "Pa\u00eds Basco, Espanha, 1843. Um policial chega a um pequeno vilarejo em \u00c1lava para investigar um misterioso ferreiro que vive sozinho nas profundezas da floresta.",
+        "imdb": "tt5592878",
+        "imagem": "https://image.tmdb.org/t/p/w300//bedYbbNKNbQFWWJ2lHTC1rSXFUy.jpg"
+    }
+    ,
+    {
+        "titulo": "Ouija 3: E o Jogo Continua",
+        "descricao": "O exc\u00eantrico propriet\u00e1rio de uma mans\u00e3o convida um grupo de jovens desavisados para jogar um famoso jogo popular, uma terr\u00edvel lenda urbana, invocar um esp\u00edrito atrav\u00e9s da brincadeira Charlie Charlie. Ao longo da noite, o anfitri\u00e3o promove uma s\u00e9rie divers\u00f5es dentro da casa. Enquanto os jovens encaram o jogo assustador como algo a mais na divers\u00e3o da festa, as coisas n\u00e3o ficam t\u00e3o engra\u00e7adas quando um verdadeiro pesadelo tem in\u00edcio. E o esp\u00edrito maligno que eles evocam passa a perseguir n\u00e3o s\u00f3 os adolescentes, como tamb\u00e9m o pr\u00f3prio dono da casa, que agora ter\u00e3o que lutar por suas vidas!",
+        "imdb": "tt5156910",
+        "imagem": "https://image.tmdb.org/t/p/w300//pPkjOgJAGMgN3mTPA6gVgaCihI7.jpg"
+    }
+    ,
+    {
+        "titulo": "O Segredo de Marrowbone",
+        "descricao": "Quatro irm\u00e3os, devastados com a morte tr\u00e1gica da m\u00e3e, decidem se refugiar em uma localidade rural, temendo ser separados pelo servi\u00e7o social. No entanto, o local esconde um obscuro e perigoso segredo que desafiar\u00e1 a uni\u00e3o e sobreviv\u00eancia dos quatro.",
+        "imdb": "tt5886440",
+        "imagem": "https://image.tmdb.org/t/p/w300//94Uo1TNBKzA5iBl5zOOrdTuWV9f.jpg"
+    }
+    ,
+    {
+        "titulo": "Um Casal Quase Perfeito 3",
+        "descricao": "O patinador Zack Conroy perde sua parceira Celeste quando ela se machuca durante um treino. Ele come\u00e7a a treinar com Alejandra, filha do dono de uma modesta lanchonete, mas o t\u00e9cnico Bryan n\u00e3o aprova a nova parceira e n\u00e3o aceita mais treinar Zack.",
+        "imdb": "tt1110626",
+        "imagem": "https://image.tmdb.org/t/p/w300//dDOrR5QoO29devdsZHosRbNr4Oh.jpg"
+    }
+    ,
+    {
+        "titulo": "Pequenos Espi\u00f5es 4",
+        "descricao": "Os irm\u00e3os Rebecca e Cecil descobrem que a sua madrasta Marissa \u00e9, na verdade, uma agente super secreta, que est\u00e1 em uma miss\u00e3o para derrotar \"Time Keeper\". Diante de uma miss\u00e3o t\u00e3o incr\u00edvel como esta, estes dois irm\u00e3os contar\u00e3o com as armas mais fant\u00e1sticas do mundo! Jatos supers\u00f4nicos, luvas mega poderosas e at\u00e9 um c\u00e3o-rob\u00f4!",
+        "imdb": "tt1517489",
+        "imagem": "https://image.tmdb.org/t/p/w300//wa1GASdOnQgVr1if3tQLIDMAtdz.jpg"
+    }
+    ,
+    {
+        "titulo": "Batman: O Mist\u00e9rio da Mulher-Morcego",
+        "descricao": "Uma misteriosa justiceira surge em Gotham City, se vestindo como Batman e se autodenominando Mulher Morcego. Quando ela \u00e9 sequestrada pelo vil\u00e3o Bane, Batman precisa resgat\u00e1-la, descobrir sua identidade e deter os planos malignos do Pinguim.",
+        "imdb": "tt0346578",
+        "imagem": "https://image.tmdb.org/t/p/w300//pJCDOMdjmy3yyClzJxGkJesyCiU.jpg"
+    }
+    ,
+    {
+        "titulo": "Batman: O Cavaleiro de Gotham",
+        "descricao": "Dos produtores de Batman Begins e de Batman \u2013 O Cavaleiro das Trevas, o grande lan\u00e7amento de cinema do ano, vem esta maravilhosa interpreta\u00e7\u00e3o da transi\u00e7\u00e3o do Homem-Morcego, de inciante \u00e0 Cavaleiro das Trevas. Seis hist\u00f3rias interrelacionadas revelam as primeiras aventuras de Bruce Wayne como Batman e os passos que ele tomou at\u00e9 se transformar no incans\u00e1vel vingador de Gotham City. Estas incr\u00edveis aventuras colocam Batman contra o amedrontador Espantalho e dois outros vil\u00f5es jamais encarados antes: o ensandecido Killer Croc e o pistoleiro que nunca erra conhecido como Deadshot",
+        "imdb": "tt1117563",
+        "imagem": "https://image.tmdb.org/t/p/w300//jbsN2F0V0QIts4XFlCRKXOF3bAX.jpg"
+    }
+    ,
+    {
+        "titulo": "Batman: Contra o Capuz Vermelho",
+        "descricao": "Batman enfrenta o maior de todos os seus desafios quando o misterioso Capuz Vermelho toma Gotham City  de assalto. Parte vigilante, parte criminoso, o Capuz Vermelho inicialmente limpa as ruas da cidade com a  mesma efici\u00eancia do Batman, mas sem seguir o mesmo c\u00f3digo de \u00e9tica do Cavaleiro das Trevas. Para ele,  matar \u00e9 sempre uma op\u00e7\u00e3o. E quando o Coringa fica dividido entre os dois, a dura verdade vem \u00e0 tona e  velhas feridas s\u00e3o reabertas.",
+        "imdb": "tt1569923",
+        "imagem": "https://image.tmdb.org/t/p/w300//1aZNSOI7yoCkx53RTSXat9WyRph.jpg"
+    }
+    ,
+    {
+        "titulo": "Sexta-Feira Muito Louca",
+        "descricao": "Tess e Anna s\u00e3o m\u00e3e e filha que vivem \u00e0s turras. Decididas a acabar com as brigas, elas repentinamente trocam de corpos. Agora cada uma precisa aprender a lidar com a vida da outra, com as confus\u00f5es crescendo ainda mais pelo fato de Tess estar de casamento marcado.",
+        "imdb": "tt0322330",
+        "imagem": "https://image.tmdb.org/t/p/w300//zcCZ7LaN6Ly20Tu6Hdw44RRiBEI.jpg"
+    }
+    ,
+    {
+        "titulo": "No Portal da Eternidade",
+        "descricao": "1888. Ap\u00f3s sofrer com o ostracismo e a rejei\u00e7\u00e3o de suas pinturas em galerias de arte, Vincent Van Gogh (Willem Dafoe) decide ouvir o conselho de seu mentor, Paul Gauguin (Oscar Isaac), e se mudar para Arles, no sul da Fran\u00e7a. L\u00e1, lutando contra os avan\u00e7os da loucura, da depress\u00e3o e as press\u00f5es sociais, o pintor holand\u00eas adentra uma das fases mais conturbadas e prol\u00edficas de sua curta, por\u00e9m mete\u00f3rica trajet\u00f3ria.",
+        "imdb": "tt6938828",
+        "imagem": "https://image.tmdb.org/t/p/w300//wblcMb6Vq0FkXPWBUIGyZrLhSiZ.jpg"
+    }
+    ,
+    {
+        "titulo": "A Batalha de Riddick",
+        "descricao": "Os Necromongers s\u00e3o guerreiros interplanet\u00e1rios que vivem de assolar novos mundos, oferecendo aos seus habitantes duas op\u00e7\u00f5es: se converter ou morrer. Os poucos que conseguem sobreviver a eles passam a acreditar em mitos e profecias, j\u00e1 que n\u00e3o v\u00eaem outra sa\u00edda de salva\u00e7\u00e3o. Quem pode ajud\u00e1-los \u00e9 Riddick (Vin Diesel), um homem solit\u00e1rio que vive exilado e fugindo de seus perseguidores.",
+        "imdb": "tt0296572",
+        "imagem": "https://image.tmdb.org/t/p/w300//dkl3u70N9aS16czdZyvKRlsbf6Y.jpg"
+    }
+    ,
+    {
+        "titulo": "Amizade Desfeita 2: Dark Web",
+        "descricao": "Um jovem de 20 anos encontra arquivos ocultos no armazenamento de mem\u00f3ria do seu novo laptop e sem perceber ele se v\u00ea preso na tela do computador e dentro da parte mais profunda e obscura da web.",
+        "imdb": "tt4761916",
+        "imagem": "https://image.tmdb.org/t/p/w300//gOgagKvS83RwWcNbz7UOFFbIgZn.jpg"
+    }
+    ,
+    {
+        "titulo": "Amizade Desfeita",
+        "descricao": "Quando um v\u00eddeo constrangedor de Laura Barns (Heather Sossaman) cai na internet, a menina tira a pr\u00f3pria vida no p\u00e1tio da escola. Um ano depois, um grupo de seis amigos (Courtney Halverson, Shelley Hennig, Renee Olstead, William Peltz, Moses Jacob Storm e Jacob Wysocki) conversam via Skype e percebem que h\u00e1 uma s\u00e9tima pessoa desconhecida na v\u00eddeoconfer\u00eancia, que revela ser sua ex-colega de classe, Laura, exigindo saber quem postou o v\u00eddeo que a levou \u00e0 morte. Eles pensam que \u00e9 uma brincadeira mas logo descobrem que h\u00e1 algo estranho, j\u00e1 que a menina come\u00e7a a revelar segredos dos amigos e os amea\u00e7a de morte.",
+        "imdb": "tt3713166",
+        "imagem": "https://image.tmdb.org/t/p/w300//ox2QVTInSFINXtPkD3zbpp2jwLE.jpg"
+    }
+    ,
+    {
+        "titulo": "A \u00daltima Resist\u00eancia",
+        "descricao": "Um grupo de volunt\u00e1rios militares chega ao aeroporto de Donetsk pela primeira vez, em setembro de 2014. O aeroporto foi ocupado pelos ucranianos por mais de quatro meses de guerra.",
+        "imdb": "tt7691572",
+        "imagem": "https://image.tmdb.org/t/p/w300//iSOmOm5PlJ3kEhkQJxtqMSeuWpQ.jpg"
+    }
+    ,
+    {
+        "titulo": "Apenas Duas Noites",
+        "descricao": "Desde que Megan terminou o seu noivado, ela passa a maior parte do seu tempo em casa, entendiada. Um dia, seus amigos a convencem a sair um pouco, e encontrar algu\u00e9m na Internet para uma noite de sexo sem compromisso. Assim ela encontra Alec, com quem passa uma noite desastrosa. No entanto, na hora de ir embora, uma grande nevasca bloqueia a porta, for\u00e7ando os dois a permanecerem juntos e a se conhecerem melhor.",
+        "imdb": "tt2140619",
+        "imagem": "https://image.tmdb.org/t/p/w300//zy3x1bUJx4YPRyHtBOQde8DzRru.jpg"
+    }
+    ,
+    {
+        "titulo": "O Pequeno Pr\u00edncipe",
+        "descricao": "A Pequena Garota encontra o exc\u00eantrico Aviador, que a introduz ao m\u00e1gico mundo do Pequeno Pr\u00edncipe. Neste mundo em que tudo \u00e9 poss\u00edvel, a Garota aprende a redescobrir sua inf\u00e2ncia.",
+        "imdb": "tt1754656",
+        "imagem": "https://image.tmdb.org/t/p/w300//rrFDY6juQJ1CvIByzRVqtMXvHoN.jpg"
+    }
+    ,
+    {
+        "titulo": "Aluna Exemplar e Estrela Porn\u00f4",
+        "descricao": "Miriam Weeks, tamb\u00e9m conhecida como Belle Knox, ganhou notoriedade por estrelar em filmes pornogr\u00e1ficos para pagar suas despesas na Duke University. Uma decis\u00e3o que mudou sua vida para sempre.",
+        "imdb": "tt6237208",
+        "imagem": "https://image.tmdb.org/t/p/w300//pv5n66n3J9DzNeEzGymhQ0q2FcS.jpg"
+    }
+    ,
+    {
+        "titulo": "Sai de Baixo: O Filme",
+        "descricao": "Caco Antibes sai da pris\u00e3o. De volta \u00e0 ativa, ele se une \u00e0 sua turma para tirar 100 milh\u00f5es de d\u00f3lares do pa\u00eds. Disfar\u00e7ados, eles organizam uma hil\u00e1ria excurs\u00e3o a Foz do Igua\u00e7u.",
+        "imdb": "tt8211942",
+        "imagem": "https://image.tmdb.org/t/p/w300//6ugyCJOhnaWRnUdVI8cxXzehay2.jpg"
+    }
+    ,
+    {
+        "titulo": "[REC]",
+        "descricao": "Ao longo de uma noite, uma rep\u00f3rter e seu cameraman acompanham um grupo de bombeiros chamados para resgatar uma mulher presa em um edif\u00edcio, com resultados apavorantes. Antes de se darem conta, moradores, ajudantes e equipe de resgate s\u00e3o trancados dentro do edif\u00edcio devido a um v\u00edrus desconhecido.",
+        "imdb": "tt1038988",
+        "imagem": "https://image.tmdb.org/t/p/w300//vIoBgFBJuqcIzudkFyagJuCxHZ7.jpg"
+    }
+    ,
+    {
+        "titulo": "Lembran\u00e7as",
+        "descricao": "Tyler tem uma rela\u00e7\u00e3o complicada com seu pai desde uma trag\u00e9dia em sua fam\u00edlia. Rebelde e problem\u00e1tico, ele acha que ningu\u00e9m entende seu sofrimento, at\u00e9 que conhece a simp\u00e1tica e carinhosa Ally. Mas justamente quando o jovem redescobre a felicidade, segredos come\u00e7am a surgir e amea\u00e7am o romance.",
+        "imdb": "tt1403981",
+        "imagem": "https://image.tmdb.org/t/p/w300//pnmG02dRGXKeHSbzeCZxSGzaIBX.jpg"
+    }
+    ,
+    {
+        "titulo": "Forrest Gump: O Contador de Hist\u00f3rias",
+        "descricao": "Quarenta anos da hist\u00f3ria dos Estados Unidos, vistos pelos olhos de Forrest Gump, um rapaz com QI abaixo da m\u00e9dia e com boas inten\u00e7\u00f5es. Por obra do acaso, ele consegue participar de momentos cruciais, como a Guerra do Vietn\u00e3 e o Caso Watergate, mas continua pensando no seu amor de inf\u00e2ncia, Jenny Curran.",
+        "imdb": "tt0109830",
+        "imagem": "https://image.tmdb.org/t/p/w300//d74WpIsH8379TIL4wUxDneRCYv2.jpg"
+    }
+    ,
+    {
+        "titulo": "Dr\u00e1cula: O Pr\u00edncipe das Trevas",
+        "descricao": "Dr\u00e1cula, o pr\u00edncipe da Val\u00e1quia, se volta para o lado das trevas ap\u00f3s o assassinato de sua amada esposa. Muitos anos depois ele conhece Alina, e a considera a reencarna\u00e7\u00e3o de seu amor perdido e a sequestra. Os companheiros de Alina, liderados pelo famoso ca\u00e7ador de vampiros Van Helsing, partem em sua persegui\u00e7\u00e3o. Sua emocionante viagem leva-os a um pa\u00eds selvagem onde eles devem lutar contra mortos-vivos, culminando em uma batalha \u00e9pica contra um poder assustador e mal\u00edcia do senhor dos vampiros.",
+        "imdb": "tt2287214",
+        "imagem": "https://image.tmdb.org/t/p/w300//xHhBLyMIwoy0B6EVsB7ms3gZGBJ.jpg"
+    }
+    ,
+    {
+        "titulo": "Taxi 3",
+        "descricao": "Mais uma seq\u00fc\u00eancia do filme produzido por Luc Besson e que se tornou um grande sucesso nas telas francesas, chegando a ter uma adpta\u00e7\u00e3o em Hollywood. Agora uma gangue chamada Santa Claus est\u00e1 espalhando o terror e a destrui\u00e7\u00e3o pela cidade. A pol\u00edcia se esfor\u00e7a para deter os criminosos, mas tudo est\u00e1 sendo em v\u00e3o j\u00e1 que nenhuma t\u00e1tica est\u00e1 dando resultado. \u00c9 quando entre em cena para resolver o problema o destemido Daniel (Samy Naceri) e seu potente carro. Agora as coisas pegam fogo e as movimentadas cenas de a\u00e7\u00e3o fazem jus aos dois primeiros filmes da s\u00e9rie.",
+        "imdb": "tt0295721",
+        "imagem": "https://image.tmdb.org/t/p/w300//7WFk7RUzVpOgd8v2SExD7XHjd1y.jpg"
+    }
+    ,
+    {
+        "titulo": "A Casa do Lago",
+        "descricao": "Kate Forster \u00e9 uma m\u00e9dica solit\u00e1ria, que morava em uma casa \u00e0 beira de um lago. Hoje esta casa \u00e9 ocupada por Alex Wyler, um arquiteto frustrado. Kate passa a trocar cartas com Alex, com quem mant\u00e9m um relacionamento \u00e0 dist\u00e2ncia por 2 anos. \u00c9 quando, ao se descobrirem apaixonados um pelo outro, eles buscam um meio de se encontrar.",
+        "imdb": "tt0410297",
+        "imagem": "https://image.tmdb.org/t/p/w300//n1zBa52Qmc7TH00JthRr5WnDJIT.jpg"
+    }
+    ,
+    {
+        "titulo": "Altamente Imperfeitos",
+        "descricao": "Os UglyDolls Moxy, Wage, Babo, Ice-Bat e Wedgehead rumam ao Instituto da Perfei\u00e7\u00e3o com o desejo de serem amados mesmo sendo diferentes. Subvertendo a ideia do feio como um adjetivo negativo, a anima\u00e7\u00e3o mostra que n\u00e3o \u00e9 preciso ser perfeito para ser incr\u00edvel.",
+        "imdb": "tt1946502",
+        "imagem": "https://image.tmdb.org/t/p/w300//ixSFQoVC3VU1ACjmRnfIyR631kX.jpg"
+    }
+    ,
+    {
+        "titulo": "A Entidade",
+        "descricao": "Ellison (Ethan Hawke) \u00e9 um escritor de romances policias que acaba de se mudar com a fam\u00edlia. No s\u00f3t\u00e3o da nova casa ele descobre antigos rolos de filme, que trazem imagens de pessoas sendo mortas. Intrigado com o que elas representam e com um estranho s\u00edmbolo presente nas imagens, ele e sua fam\u00edlia logo passam a correr s\u00e9rio risco de morte.",
+        "imdb": "tt1922777",
+        "imagem": "https://image.tmdb.org/t/p/w300//9FPx4MdIPsmbkXM0W1f23u1aoIC.jpg"
+    }
+    ,
+    {
+        "titulo": "Jogos Mortais VI",
+        "descricao": "O agente especial Strahm est\u00e1 morto, e o detetive Hoffman \u00e9 o \u00fanico que conhece o verdadeiro legado de Jigsaw. Por\u00e9m, quando o FBI se aproxima de Hoffman, ele \u00e9 for\u00e7ado a colocar o jogo em a\u00e7\u00e3o.",
+        "imdb": "tt1233227",
+        "imagem": "https://image.tmdb.org/t/p/w300//kZOFeOEEFFhMStILeQga6ok77TY.jpg"
+    }
+    ,
+    {
+        "titulo": "Jogos Mortais III",
+        "descricao": "Dr. Lynn Denlon se torna uma pe\u00e7a no \u00faltimo jogo sangrento do assassino Jigsaw. Raptada e levada para um armaz\u00e9m abandonado, ela encontra Jigsaw acamado e morrendo. Sua tarefa \u00e9 manter o man\u00edaco vivo, dando o tempo suficiente para Jeff, uma v\u00edtima, completar uma tarefa. Eles n\u00e3o sabem que Jigsaw, na verdade, tem um plano muito maior e mortal.",
+        "imdb": "tt0489270",
+        "imagem": "https://image.tmdb.org/t/p/w300//etFtvR08KtFuToRB5tWos5CzrKk.jpg"
+    }
+    ,
+    {
+        "titulo": "Jogos Mortais V",
+        "descricao": "Mark Hoffman \u00e9, aparentemente, a \u00faltima pessoa viva disposta a seguir o legado deixado por Jigsaw. Por\u00e9m, quando seu segredo \u00e9 amea\u00e7ado, usando uma s\u00e9rie de armadilhas, cada vez mais bizarras e terr\u00edveis, ele precisa iniciar uma ca\u00e7ada para eliminar todos os envolvidos.",
+        "imdb": "tt1132626",
+        "imagem": "https://image.tmdb.org/t/p/w300//nqaB9vOAhRz68slEbyoCB5MPrYV.jpg"
+    }
+    ,
+    {
+        "titulo": "Jogos Mortais IV",
+        "descricao": "Um oficial tem apenas noventa minutos para salvar seu amigo, um comandante da SWAT, de uma s\u00e9rie de armadilhas mortais.",
+        "imdb": "tt0890870",
+        "imagem": "https://image.tmdb.org/t/p/w300//eohF9EBt4ObVvN9uEOvebKVnr2q.jpg"
+    }
+    ,
+    {
+        "titulo": "Jogos Mortais II",
+        "descricao": "O detetive Eric Matthews consegue prender Jigsaw, o qual est\u00e1 morrendo. O que ele desconhece \u00e9 que isso faz parte de um plano ainda maior do assassino s\u00e1dico, que agora mant\u00e9m o filho do policial como ref\u00e9m e pretende torn\u00e1-lo uma de suas v\u00edtimas.",
+        "imdb": "tt0432348",
+        "imagem": "https://image.tmdb.org/t/p/w300//kkQWU1hjgkqbWqFo6Vfu2V4Qm9f.jpg"
+    }
+    ,
+    {
+        "titulo": "Jogos Mortais",
+        "descricao": "Dois homens acordam acorrentados em um banheiro como prisioneiros de um assassino em s\u00e9rie que leva suas v\u00edtimas a situa\u00e7\u00f5es lim\u00edtrofes em um jogo macabro. Para sobreviver, eles ter\u00e3o de desvendar juntos as pe\u00e7as desse quebra-cabe\u00e7as doentio.",
+        "imdb": "tt0387564",
+        "imagem": "https://image.tmdb.org/t/p/w300//xRdtEDpP2PWqU7K7jF51XRqVccX.jpg"
+    }
+    ,
+    {
+        "titulo": "Antes da Meia-Noite",
+        "descricao": "Jesse e Celine vivem em Paris com as filhas g\u00eameas nove anos depois de seu primeiro encontro. Ele tem um filho de seu primeiro casamento, que vive com a m\u00e3e em Chicago, e o convida para ir com eles para a Gr\u00e9cia, onde a fam\u00edlia tenta aparar arestas.",
+        "imdb": "tt2209418",
+        "imagem": "https://image.tmdb.org/t/p/w300//ruQKQNrenTD9k8kArmQbwermomf.jpg"
+    }
+    ,
+    {
+        "titulo": "Temporada de Ca\u00e7a",
+        "descricao": "O americano Benjamin Ford (Robert De Niro) \u00e9 um veterano da Guerra da B\u00f3snia, que decide morar em uma cabana isolada na floresta para esquecer os traumas dos anos de combate. Mas as lembran\u00e7as v\u00eam persegui-lo na figura de Emil Kovac (John Travolta), um militar b\u00f3snio que pretende acertar contas com Ford. Logo come\u00e7a um longo combate f\u00edsico e psicol\u00f3gico entre os dois.",
+        "imdb": "tt1480295",
+        "imagem": "https://image.tmdb.org/t/p/w300//o55HXx21PqRcOgAaOWFz4tGMrZh.jpg"
+    }
+    ,
+    {
+        "titulo": "Atividade Paranormal 2",
+        "descricao": "A fam\u00edlia Reys se muda para uma nova casa no sul da Calif\u00f3rnia sem saber que o novo lar j\u00e1 est\u00e1 ocupado. Ao chegar em casa um dia, encontram a resid\u00eancia toda vandalizada, mas sem sinais de invas\u00e3o ou roubo. Eles decidem instalar c\u00e2meras para pegar os respons\u00e1veis, mas nada os prepararia para o que vem a seguir.",
+        "imdb": "tt1536044",
+        "imagem": "https://image.tmdb.org/t/p/w300//f5HB4qTAXaJChd17gatZjx7RgzH.jpg"
+    }
+    ,
+    {
+        "titulo": "Luccas Neto em: Uma Aventura no Zool\u00f3gico",
+        "descricao": "Luccas compra um novo jogo de tabuleiro para experimentar com seus amigos. O que eles n\u00e3o esperavam \u00e9 que fossem viver uma aventura m\u00e1gica e repleta de perigos para salvar os animais do Zool\u00f3gico. Levados para dentro do game, todos precisam correr contra o tempo para derrotar players malvados que est\u00e3o presos no jogo h\u00e1 muitos anos, e que planejam destruir tudo para tentar escapar.",
+        "imdb": "tt29952387",
+        "imagem": "https://image.tmdb.org/t/p/w300//c13uqs7p5cNiuLBKKHsYYNcaZ1q.jpg"
+    }
+    ,
+    {
+        "titulo": "Atividade Paranormal: Dimens\u00e3o Fantasma",
+        "descricao": "Quando se muda para uma nova casa com a fam\u00edlia, Ryan Fleege (Chris J. Murray) descobre uma caixa com dezenas de fitas cassetes de d\u00e9cadas atr\u00e1s. Estranhamente, as imagens parecem se comunicar com os vivos. Procurando mais, Ryan encontra uma c\u00e2mera diferente, capaz de registrar atividades paranormais. Com a ajuda da esposa, do irm\u00e3o e da filha, ele passa a gravar fen\u00f4menos malignos que amea\u00e7am seus entes queridos.",
+        "imdb": "tt2473510",
+        "imagem": "https://image.tmdb.org/t/p/w300//iUV4um31NFMyZwwpm6dEmd3RVON.jpg"
+    }
+    ,
+    {
+        "titulo": "Velozes e Furiosos 4",
+        "descricao": "Dominic Toretto descobre que sua amada Letty foi assassinada e resolve procurar pelo autor do crime. Enquanto isso, o agente Brian O'Conner est\u00e1 em busca de um traficante de drogas. Eles percebem que talvez procurem a mesma pessoa.",
+        "imdb": "tt1013752",
+        "imagem": "https://image.tmdb.org/t/p/w300//zvjQPVttJWaCSbzMijyc2x2MLr4.jpg"
+    }
+    ,
+    {
+        "titulo": "Sucker Punch: Mundo Surreal",
+        "descricao": "Uma jovem \u00e9 internada em um hospital psiqui\u00e1trico pelo padrasto. L\u00e1, aventura-se em um mundo surreal para fugir de sua dura realidade.",
+        "imdb": "tt0978764",
+        "imagem": "https://image.tmdb.org/t/p/w300//uUDZWIOUxtVhU1YwlOxvNlnZM5h.jpg"
+    }
+    ,
+    {
+        "titulo": "Casamento Grego 2",
+        "descricao": "A fam\u00edlia Portokalos se re\u00fane novamente, s\u00f3 que agora o motivo \u00e9 o matrim\u00f4nio dos pais de Toula, que acabaram de descobrir que seu casamento de tantos anos nunca foi oficializado.",
+        "imdb": "tt3760922",
+        "imagem": "https://image.tmdb.org/t/p/w300//5s5e5xTzUcpnRmFnPT1zXFnaJ5z.jpg"
+    }
+    ,
+    {
+        "titulo": "A Pele Que Habito",
+        "descricao": "Um evento traum\u00e1tico arruina o estranho relacionamento entre um cirurgi\u00e3o pl\u00e1stico e a mulher que ele mant\u00e9m presa em sua luxuosa mans\u00e3o.",
+        "imdb": "tt1189073",
+        "imagem": "https://image.tmdb.org/t/p/w300//90hbSeBsev4hezgzkyW8tkio2dp.jpg"
+    }
+    ,
+    {
+        "titulo": "Guerra Mundial Z",
+        "descricao": "Um v\u00edrus letal se espalha rapidamente e transforma seres humanos em zumbis. O ex-agente da ONU Gerry Lane \u00e9 chamado para investigar a epidemia que est\u00e1 acabando com a humanidade, iniciando uma verdadeira corrida contra o tempo.",
+        "imdb": "tt0816711",
+        "imagem": "https://image.tmdb.org/t/p/w300//5HImW2XT2oN001IzZ4aw2IOLC4j.jpg"
+    }
+    ,
+    {
+        "titulo": "X-Men: Dias de um Futuro Esquecido",
+        "descricao": "O conjunto definitivo dos X-Men luta uma guerra pela sobreviv\u00eancia da esp\u00e9cie em dois per\u00edodos de tempo enquanto unem for\u00e7as com seus eus mais jovens em uma batalha \u00e9pica que deve mudar o passado \u2013 para salvar nosso futuro.",
+        "imdb": "tt1877832",
+        "imagem": "https://image.tmdb.org/t/p/w300//bUm0nSsTA6kfFfZHgNbNFisVe7M.jpg"
+    }
+    ,
+    {
+        "titulo": "Mal\u00e9vola: Dona do Mal",
+        "descricao": "Os anos foram gentis com Mal\u00e9vola e Aurora. Seu relacionamento, nascido pelo desgosto, vingan\u00e7a e finalmente amor, floresceu. No entanto, o \u00f3dio entre o homem e as fadas ainda existe. O iminente casamento de Aurora com o pr\u00edncipe Phillip \u00e9 motivo de comemora\u00e7\u00e3o no reino de Ulstead e no reino dos Moors, pois o casamento servir\u00e1 para unir os dois mundos. Quando um encontro inesperado introduz uma nova e poderosa alian\u00e7a, Mal\u00e9vola e Aurora s\u00e3o separadas para lados opostos em uma Grande Guerra, testando sua lealdade e fazendo com que elas questionem se podem ser verdadeiramente familiares.",
+        "imdb": "tt4777008",
+        "imagem": "https://image.tmdb.org/t/p/w300//llHTFUeUCWmkW5fR4J9kpa6Asep.jpg"
+    }
+    ,
+    {
+        "titulo": "Acusada",
+        "descricao": "Dolores Dreier vive a vida de uma jovem estudante, at\u00e9 que sua melhor amiga \u00e9 brutalmente assassinada. Dois anos depois, ela \u00e9 a \u00fanica acusada do crime, um caso de grande exposi\u00e7\u00e3o na m\u00eddia que a transformou no assunto mais quente: todo mundo tem uma opini\u00e3o sobre sua inoc\u00eancia ou culpa.  Dolores se prepara para o julgamento isolada em casa, enquanto a fam\u00edlia Dreier est\u00e1 disposta a fazer tudo para defender sua filha. Mas \u00e0 medida que o processo avan\u00e7a e a press\u00e3o aumenta, segredos e suspeitas aparecem dentro da fam\u00edlia. Encurralada pelas provas, Dolores ter\u00e1 que enfrentar suas pr\u00f3prias d\u00favidas sobre o que realmente aconteceu.",
+        "imdb": "tt7952000",
+        "imagem": "https://image.tmdb.org/t/p/w300//qXknhDC48eVkn5dtJYtCxT6CBJo.jpg"
+    }
+    ,
+    {
+        "titulo": "Rainhas do Crime",
+        "descricao": "Na d\u00e9cada de 1970, em Nova York, as esposas de mafiosos irlandeses ficam no controle dos neg\u00f3cios em Hell's Kitchen depois que agentes do FBI prendem seus maridos. O grupo \u00e9 liderado por tr\u00eas mulheres com temperamentos extremamente diferentes, mas que compartilham do mesmo objetivo: proteger a empresa de suas fam\u00edlias, custe o que custar.",
+        "imdb": "tt5822564",
+        "imagem": "https://image.tmdb.org/t/p/w300//bKzfFe8Mer5ZvSMGU7WBzg07TrY.jpg"
+    }
+    ,
+    {
+        "titulo": "Boruto: Naruto O Filme",
+        "descricao": "Boruto \u00e9 o filho do s\u00e9timo Hokage e o rejeita completamente como pai. Al\u00e9m disso, ele espera superar Naruto, que \u00e9 respeitado como um her\u00f3i. Ele acaba por encontrar o amigo do seu pai, Sasuke, e pede para se tornar seu\u2026 aprendiz?!?",
+        "imdb": "tt4618398",
+        "imagem": "https://image.tmdb.org/t/p/w300//sDiq2Y8wQNC5HsIAAamk27kxQiv.jpg"
+    }
+    ,
+    {
+        "titulo": "Oh, Ramona!",
+        "descricao": "Desajeitado, Andrei \u00e9 um adolescente de 16 anos apaixonado (e ignorado) por sua bela colega de escola Ramona \u2013 at\u00e9 sair de f\u00e9rias e conhecer a deslumbrante Anemona.",
+        "imdb": "tt7200946",
+        "imagem": "https://image.tmdb.org/t/p/w300//mscdZrk8k6VTVOgbVF5IpsaA8sK.jpg"
+    }
+    ,
+    {
+        "titulo": "Os Caub\u00f3is Do Apocalipse",
+        "descricao": "Tom \u00e9 um adolescente apaixonado por m\u00fasica, por um breve per\u00edodo na inf\u00e2ncia, ele montou a banda \u201cCaub\u00f3is do Apocalipse\u201d, com Nanda e Ded\u00e3o, seus dois melhores amigos da \u00e9poca que agora encontram-se afastados. Depois de anos sem tocar, o menino decide reunir os antigos integrantes do grupo para a filmagem de um clipe. O que prometia ser um final de semana divertido e produtivo no campo, acaba virando um grande desastre quando antigos desentendimentos ressurgem entre os tr\u00eas.",
+        "imdb": "tt6275798",
+        "imagem": "https://image.tmdb.org/t/p/w300//d3hUfBBfkdH91A1xxvpWO3j5Ur7.jpg"
+    }
+    ,
+    {
+        "titulo": "Paix\u00e3o Real",
+        "descricao": "Kelly e seu pai, Hank, descobrem que, simplesmente, herdaram os t\u00edtulos de rei e princesa de um pequeno pa\u00eds. Ao se mudarem para o local, os dois tentam se adaptar. Enquanto Hank se dedica ao cuidado das terras, Kelly vive a press\u00e3o de se portar de acordo com o novo meio social de realeza.",
+        "imdb": "tt8060978",
+        "imagem": "https://image.tmdb.org/t/p/w300//2AUho04SwSTPKrFAGeiVC9aC3LK.jpg"
+    }
+    ,
+    {
+        "titulo": "Papai Noel & Cia",
+        "descricao": "Nesta divertida com\u00e9dia natalina, os duendes do Papai Noel adoecem e ele sai em busca de um de rem\u00e9dio para ajud\u00e1-los. Caso contr\u00e1rio todos ficar\u00e3o sem presentes!",
+        "imdb": "tt7018010",
+        "imagem": "https://image.tmdb.org/t/p/w300//hI1RWLi2qdAhqXb7hDs1wUXMMxn.jpg"
+    }
+    ,
+    {
+        "titulo": "Papillon",
+        "descricao": "Henri Charri\u00e8re (Charlie Hunnam), chamado de Papillon, pequeno bandido das baixadas de Paris da d\u00e9cada de 30, \u00e9 condenado \u00e0 pris\u00e3o perp\u00e9tua por um crime que n\u00e3o cometeu. Enviado para a Ilha do Diabo, Guiana Francesa, ele conhece Louis Dega, um homem que  Papillon promete ajudar em troca de aux\u00edlio para escapar da pris\u00e3o.",
+        "imdb": "tt5093026",
+        "imagem": "https://image.tmdb.org/t/p/w300//ixMdCpwvpRgVlx9X7wQvIAAVjgC.jpg"
+    }
+    ,
+    {
+        "titulo": "Robin Hood: A Origem",
+        "descricao": "A origem da famosa lenda sobre o ladr\u00e3o que rouba dos ricos para dar aos pobres \u00e9 contada a partir de quando Robin Hood (Taron Egerton) volta das Cruzadas e surpreende-se ao encontrar a Floresta Sherwood infestada de criminosos. Ele n\u00e3o deixar\u00e1 que as coisas permane\u00e7am desse jeito e contar\u00e1 com a ajuda de John (Jamie Foxx) e Marian (Eve Hewson) para trazer justi\u00e7a \u00e0 cidade.",
+        "imdb": "tt4532826",
+        "imagem": "https://image.tmdb.org/t/p/w300//aGkgDTOfgiXUIWC52tjFUZnzrWZ.jpg"
+    }
+    ,
+    {
+        "titulo": "Big Pai, Big Filho",
+        "descricao": "Adam \u00e9 um adolescente que sai em uma miss\u00e3o \u00e9pica e ousada para tentar descobrir um mist\u00e9rio por tr\u00e1s de seu pai, que est\u00e1 sumido h\u00e1 muito tempo. At\u00e9 que ent\u00e3o ele descobre que seu pai n\u00e3o \u00e9 ningu\u00e9m mais, ningu\u00e9m menos do que o lend\u00e1rio P\u00e9 Grande. Ele tem se escondido na floresta h\u00e1 anos para proteger a si mesmo e sua fam\u00edlia de HairCo., uma grande corpora\u00e7\u00e3o que quer fazer experimentos cient\u00edficos com seu DNA especial. Enquanto pai e o filho come\u00e7am a passar um tempo juntos, Adam logo descobre que ele tamb\u00e9m tem super poderes, al\u00e9m de sua imagina\u00e7\u00e3o.",
+        "imdb": "tt5715410",
+        "imagem": "https://image.tmdb.org/t/p/w300//f3NYvraDC5yZrfUn9PvTE0TbRnm.jpg"
+    }
+    ,
+    {
+        "titulo": "Birdman ou (A Inesperada Virtude da Ignor\u00e2ncia)",
+        "descricao": "Esperando ser levado a s\u00e9rio, Riggan Thomson, uma estrela envelhecida conhecida por interpretar um super-her\u00f3i, tenta organizar uma pe\u00e7a da Broadway. Mas com as dificuldades da produ\u00e7\u00e3o e a aproxima\u00e7\u00e3o da noite de abertura, ele deve confrontar sua fam\u00edlia, sua carreira e seu ego.",
+        "imdb": "tt2562232",
+        "imagem": "https://image.tmdb.org/t/p/w300//7gwtDnEJ39QarOyzt9bSxEj3SkD.jpg"
+    }
+    ,
+    {
+        "titulo": "Django Livre",
+        "descricao": "Django \u00e9 um escravo, comprado pelo ca\u00e7ador de recompensas alem\u00e3o Dr. King Schultz para auxili\u00e1-lo em uma miss\u00e3o. A dupla acaba fazendo amizade e, ap\u00f3s resolver os problemas do ca\u00e7ador, parte em busca por Broomhilda, esposa de Django. Para isso, eles devem enfrentar o vil\u00e3o Calvin Candie, propriet\u00e1rio da escrava.",
+        "imdb": "tt1853728",
+        "imagem": "https://image.tmdb.org/t/p/w300//ar63Sx8jeqk0OOu2uchS477S2zE.jpg"
+    }
+    ,
+    {
+        "titulo": "Duas Rainhas",
+        "descricao": "Mary, ainda crian\u00e7a, foi prometida ao filho mais velho do rei Henrique II, Francis, e ent\u00e3o foi levada para Fran\u00e7a. Mas logo Francis morre e Mary volta para a Esc\u00f3cia, na tentativa de derrubar sua prima Elizabeth I, a Rainha da Inglaterra.",
+        "imdb": "tt2328900",
+        "imagem": "https://image.tmdb.org/t/p/w300//xFw9yOMb8M7tPmXXXY2xkInmSkA.jpg"
+    }
+    ,
+    {
+        "titulo": "Exorcistas do Vaticano",
+        "descricao": "Angela Holmes (Olivia Taylor Dudley), de 27 anos, acidentalmente corta seu dedo e vai parar na emerg\u00eancia, quando a infec\u00e7\u00e3o do ferimento faz com que ela comece a agir de forma estranha e assombrosamente come\u00e7a a causar ferimentos graves e at\u00e9 mortes nas pessoas ao seu redor. O Padre Lozano (Michael Pe\u00f1a) examina a mo\u00e7a e acredita que ela est\u00e1 possu\u00edda. Ao tentar exorcisar o dem\u00f4nio, o Vaticano descobre que a for\u00e7a sat\u00e2nica em Angela \u00e9 mais forte do que eles imaginavam.",
+        "imdb": "tt1524575",
+        "imagem": "https://image.tmdb.org/t/p/w300//1HNs8GkfjIWhyQgfck4eB1eekT3.jpg"
+    }
+    ,
+    {
+        "titulo": "Gravidade",
+        "descricao": "Matt Kowalski \u00e9 um astronauta experiente que est\u00e1 em miss\u00e3o de conserto ao telesc\u00f3pio Hubble juntamente com a doutora Ryan Stone. Ambos s\u00e3o surpreendidos por uma chuva de destro\u00e7os decorrente da destrui\u00e7\u00e3o de um sat\u00e9lite por um m\u00edssil russo, que faz com que sejam jogados no espa\u00e7o sideral. Sem qualquer apoio da base terrestre da NASA, eles precisam encontrar um meio de sobreviver em meio a um ambiente completamente in\u00f3spito para a vida humana.",
+        "imdb": "tt1454468",
+        "imagem": "https://image.tmdb.org/t/p/w300//eHLufJ1bHy4PtEBJdPSTu4jIhZ0.jpg"
+    }
+    ,
+    {
+        "titulo": "Inspetor Bugiganga",
+        "descricao": "Ap\u00f3s uma tentativa de resgate atrapalhada, o ing\u00eanuo seguran\u00e7a John Brown tem seu corpo dividido em mil peda\u00e7os pelo perigoso dr. Claw. Vendo a oportunidade como uma chance de demonstrar sua nova cria\u00e7\u00e3o, a dra. Brenda reconstitui o corpo de John, tornando-o agora um rob\u00f4. Nasce ent\u00e3o o inspetor Bugiganga, que logo se torna a mais importante ferramenta de combate ao crime na cidade.",
+        "imdb": "tt0141369",
+        "imagem": "https://image.tmdb.org/t/p/w300//qYPR9K2TUqdK7G1jYbKwIsx1JMB.jpg"
+    }
+    ,
+    {
+        "titulo": "Inspetor Bugiganga 2",
+        "descricao": "As coisas parecem tranquilas em Riverton, mas tudo come\u00e7a a dar errado para o Inspetor Bugiganga. Claw planeja uma fuga fant\u00e1stica da pris\u00e3o e um novo crime do s\u00e9culo. Enquanto isso, o prefeito da cidade revela um novo e melhorado G2, uma super-rob\u00f4 de alta tecnologia. Nesta aventura, o Inspetor Bugiganga e sua nova parceira G2 junto com outros amigos, se unem para salvar o mundo.",
+        "imdb": "tt0301454",
+        "imagem": "https://image.tmdb.org/t/p/w300//iIy2CIWZbclTSfHRV3fYmLnbpzA.jpg"
+    }
+    ,
+    {
+        "titulo": "Impacto Fulminante",
+        "descricao": "Detetive com fama de dur\u00e3o \u00e9 chamado para encontrar uma v\u00edtima de estupro que est\u00e1 sedenta por vingan\u00e7a e ca\u00e7a seus estupradores para mat\u00e1-los. Ele dever\u00e1 encontr\u00e1-la antes dos criminosos e convenc\u00ea-la a mudar de ideia.",
+        "imdb": "tt0086383",
+        "imagem": "https://image.tmdb.org/t/p/w300//9J8lyyHdZQQtiRGtabCwHVeLMLz.jpg"
+    }
+    ,
+    {
+        "titulo": "Ilha Dos Dinossauros",
+        "descricao": "Umas f\u00e9rias torna-se a aventura de uma vida para um menino de 13 anos, quando preso em um mundo cheio de navios fantasmas, criaturas pr\u00e9-hist\u00f3ricas e uma jovem que diz vir por \u00faltimo. Juntos, eles embarcam em uma jornada que ir\u00e1 mudar o futuro de ambos para sempre.",
+        "imdb": "tt3261302",
+        "imagem": "https://image.tmdb.org/t/p/w300//xOe4S3eGogWQk4H8NhVe6eNJZSO.jpg"
+    }
+    ,
+    {
+        "titulo": "Ilha do Medo",
+        "descricao": "Na d\u00e9cada de 50, a fuga de uma assassina leva o detetive Teddy Daniels e seu parceiro a investigarem o seu desaparecimento de um quarto trancado em um hospital psiqui\u00e1trico. L\u00e1, uma rebeli\u00e3o se inicia e o agente ter\u00e1 que enfrentar seus pr\u00f3prios medos.",
+        "imdb": "tt1130884",
+        "imagem": "https://image.tmdb.org/t/p/w300//erl801HYIodoIBGZeFk0GTwCUBh.jpg"
+    }
+    ,
+    {
+        "titulo": "De Volta para o Futuro II",
+        "descricao": "Uma despretensiosa visita de McFly e Doc ao ano de 2015 revela alguns problemas com a futura fam\u00edlia de McFly. Mas quando os dois voltam para casa, logo descobrem que algu\u00e9m alterou a linha temporal e criou uma terr\u00edvel Hill Valley em 1985. A \u00fanica esperan\u00e7a \u00e9 poder voltar de novo para o ano de 1995 e salvar o futuro.",
+        "imdb": "tt0096874",
+        "imagem": "https://image.tmdb.org/t/p/w300//g9xt4iL2DRzG6XHfYJtSEgzGFRC.jpg"
+    }
+    ,
+    {
+        "titulo": "Cocoon",
+        "descricao": "Extra-terrestres vem a Terra com a miss\u00e3o de recuperar casulos com seres de outro planeta sendo que, enquanto os casulos v\u00e3o sendo recuperados, eles s\u00e3o colocados em uma piscina, energizada pelos alien\u00edgenas. Mas os extraterrenos ignoram o fato desta piscina ser utilizada por tr\u00eas idosos moradores de um asilo, que logo passam a ter uma disposi\u00e7\u00e3o fant\u00e1stica. Por\u00e9m, quando descobrem a origem da sua juventude, um dilema surge na vida deles.",
+        "imdb": "tt0088933",
+        "imagem": "https://image.tmdb.org/t/p/w300//wqNNm36j3nkucAucHEGAW5pNZcd.jpg"
+    }
+    ,
+    {
+        "titulo": "Angry Birds 2: O Filme",
+        "descricao": "Red e seus amigos dedicam a vida a proteger a Ilha dos P\u00e1ssaros dos constantes ataques vindos da Ilha dos Porcos. Entretanto, quanto uma terceira ilha surge e come\u00e7a a atac\u00e1-los, Leonardo, o rei dos porcos, decide procurar seu arqui-inimigo em busca de uma tr\u00e9gua para que, juntos, possam enfrentar a amea\u00e7a em comum.",
+        "imdb": "tt6095472",
+        "imagem": "https://image.tmdb.org/t/p/w300//pMqAjEyj234escPleCthcmh84ka.jpg"
+    }
+    ,
+    {
+        "titulo": "Ford vs Ferrari",
+        "descricao": "O designer de carros americano Carroll Shelby e o destemido piloto brit\u00e2nico Ken Miles juntos combatem a interfer\u00eancia corporativa e as leis da f\u00edsica para construir um carro de corrida revolucion\u00e1rio e enfrentar Enzo Ferrari nas 24 horas de Le Mans na Fran\u00e7a em 1966.",
+        "imdb": "tt1950186",
+        "imagem": "https://image.tmdb.org/t/p/w300//t8L9dqNMclXJHP0TesPsPS2RvB1.jpg"
+    }
+    ,
+    {
+        "titulo": "Limbo: Entre o C\u00e9u e o Inferno",
+        "descricao": "Um assassino morre e \u00e9 julgado no meio do inferno. No tribunal, ele tem pela frente um promotor amargo que o acusa e, em sua defesa, um advogado sem a menor experi\u00eancia. O julgamento foge do controle quando o um dem\u00f4nio poderoso, L\u00facifer e as v\u00edtimas do assassino se envolvem no processo.",
+        "imdb": "tt7935392",
+        "imagem": "https://image.tmdb.org/t/p/w300//lj14p4nQZy4oU45nG4jPtGlPnxs.jpg"
+    }
+    ,
+    {
+        "titulo": "Clube da Luta",
+        "descricao": "Um homem deprimido que sofre de ins\u00f4nia conhece um estranho vendedor de sabonetes chamado Tyler Durden. Eles formam um clube clandestino com regras r\u00edgidas onde lutam com outros homens cansados de suas vidas mundanas. Mas sua parceria perfeita \u00e9 comprometida quando Marla chama a aten\u00e7\u00e3o de Tyler.",
+        "imdb": "tt0137523",
+        "imagem": "https://image.tmdb.org/t/p/w300//r3pPehX4ik8NLYPpbDRAh0YRtMb.jpg"
+    }
+    ,
+    {
+        "titulo": "As Panteras",
+        "descricao": "Elena, uma cientista brilhante, inventa Calisto, fonte de energia sustent\u00e1vel revolucion\u00e1ria. Quando sua cria\u00e7\u00e3o acaba nas m\u00e3o erradas, ela pede a ajuda das Panteras para evitar que o projeto seja usado como arma de destrui\u00e7\u00e3o em massa.",
+        "imdb": "tt5033998",
+        "imagem": "https://image.tmdb.org/t/p/w300//9jdMSIPbwK0wgjuOQz0AvkYQ4M3.jpg"
+    }
+    ,
+    {
+        "titulo": "O Rei Le\u00e3o",
+        "descricao": "Mufasa, o Rei Le\u00e3o, e a rainha Sarabi apresentam ao reino o herdeiro do trono, Simba. O rec\u00e9m-nascido recebe a b\u00ean\u00e7\u00e3o do s\u00e1bio babu\u00edno Rafiki, mas ao crescer \u00e9 envolvido nas artimanhas de seu tio Scar, o invejoso e maquiav\u00e9lico irm\u00e3o de Mufasa, que planeja livrar-se do sobrinho e herdar o trono.",
+        "imdb": "tt0110357",
+        "imagem": "https://image.tmdb.org/t/p/w300//8aIvm8OaJISOpVTt7rMIh7X35G5.jpg"
+    }
+    ,
+    {
+        "titulo": "Loucademia de Pol\u00edcia",
+        "descricao": "O prefeito resolve mudar a lei, afirmando que fatores como sexo, peso e intelig\u00eancia n\u00e3o devem influenciar nas aplica\u00e7\u00f5es para a for\u00e7a policial. Liderado por Carey Mahoney, um grupo de jovens incompetentes, mas de bom cora\u00e7\u00e3o, ingressa na Academia de Pol\u00edcia para o desespero dos instrutores, que buscar\u00e3o impedir de toda as formas as brincadeiras da turma.",
+        "imdb": "tt0087928",
+        "imagem": "https://image.tmdb.org/t/p/w300//vZUNkWNoqogFqhlgl8L517xeQSL.jpg"
+    }
+    ,
+    {
+        "titulo": "Loucademia de Pol\u00edcia 2: A Primeira Miss\u00e3o",
+        "descricao": "Mahoney (Steve Guttenberg) e os companheiros acabaram de se graduar na Academia de Pol\u00edcia, e como cadetes iniciantes t\u00eam que sair em uma miss\u00e3o. O grupo de desajustados vai ter que enfrentar uma gangue de v\u00e2ndalos que est\u00e3o trasnformando a cidade em um verdadeiro caos, e s\u00f3 assim conseguir\u00e3o baixar as taxas de criminalidade da cidade, mas n\u00e3o conseguir\u00e3o diminuir as confus\u00f5es.",
+        "imdb": "tt0089822",
+        "imagem": "https://image.tmdb.org/t/p/w300//jCLtgtj4Vr28ODC4Fr0H06HBDt9.jpg"
+    }
+    ,
+    {
+        "titulo": "Loucademia de Pol\u00edcia 3: De Volta ao Treinamento",
+        "descricao": "A cidade tem duas academias de pol\u00edcia, uma est\u00e1 sob o comando de Eric Lassard e a outra de Mauser. Este \u00faltimo soube que o estado, por falta de verbas, fechar\u00e1 uma das duas. Para se proteger, fala com Kyle Banks e Chad Copeland e os suborna, para que ter certeza que os cadetes de Lassard fracassar\u00e3o. Lassard, por sua vez, chama seus formandos prediletos: Mahoney, Hightower, Jones, Tackleberry e Hooks que, junto Callahan, tentam treinar os cadetes na esperan\u00e7a de salvar a Academia.",
+        "imdb": "tt0091777",
+        "imagem": "https://image.tmdb.org/t/p/w300//rw0w3a6Ql2kngXRdFNvdgAbfiql.jpg"
+    }
+    ,
+    {
+        "titulo": "Loucademia de Pol\u00edcia 4: O Cidad\u00e3o se Defende",
+        "descricao": "Um novo grupo de recrutas chega \u00e0 Academia de Pol\u00edcia e desta vez eles s\u00e3o volunt\u00e1rios civis, que aderiram ao plano \"O cidad\u00e3o se defende\", do Comandante Lassard. Mas apesar de ter apoio governamental, o Capit\u00e3o Harris est\u00e1 determinado em ver o plano fracassar, pois cr\u00ea que os policiais podem perder seus empregos depois de algum tempo.",
+        "imdb": "tt0093756",
+        "imagem": "https://image.tmdb.org/t/p/w300//lBkIktnJGKHIQLHRa8V7ByKJscA.jpg"
+    }
+    ,
+    {
+        "titulo": "Loucademia de Pol\u00edcia 5: Miss\u00e3o Miami Beach",
+        "descricao": "Os recrutas est\u00e3o em Miami para uma conven\u00e7\u00e3o de academias, na qual o comandante Lassard, que se aposentou recentemente, ser\u00e1 homenageado com o t\u00edtulo de policial da d\u00e9cada. Acidentalmente Lassard fica de posse de j\u00f3ias roubadas, o que faz com que seja sequestrado por uma quadrilha. Ao saber do ocorrido seus comandados mais uma vez se re\u00fanem, para resgat\u00e1-lo.",
+        "imdb": "tt0095882",
+        "imagem": "https://image.tmdb.org/t/p/w300//fITAJXdFohdmhSNHcg328DeLDQg.jpg"
+    }
+    ,
+    {
+        "titulo": "Loucademia de Pol\u00edcia 6: Cidade em Estado de S\u00edtio",
+        "descricao": "Esse louco grupo de policiais \u00e9 chamado para uma miss\u00e3o: Acabar com uma gangue que rouba bancos e joalherias. Usando o talento para trapalhadas de cada um deles, eles enfrentar\u00e3o o bando de criminosos. Sob a falsa suspeita de que algum espi\u00e3o esteja infiltrado em seu Distrito Policial, o capit\u00e3o Harris contribui para que a situa\u00e7\u00e3o se agrave ainda mais.",
+        "imdb": "tt0098105",
+        "imagem": "https://image.tmdb.org/t/p/w300//bjWmXHqEshFUCS2LwyPp9PI4XjO.jpg"
+    }
+    ,
+    {
+        "titulo": "Loucademia de Pol\u00edcia 7: Miss\u00e3o Moscou",
+        "descricao": "O Comandante Lassard tem um novo plano para acabar com a criminalidade nas ruas, permitir que volunt\u00e1rios participem de um treinamento especial na Academia, onde aprender\u00e3o t\u00e9cnicas de salvamento e combate ao crime. Com Steve Guttenberg e Sharon Stone.",
+        "imdb": "tt0110857",
+        "imagem": "https://image.tmdb.org/t/p/w300//mbb8zAQaSrvlorO2MmzNWJjuBsS.jpg"
+    }
+    ,
+    {
+        "titulo": "Edward M\u00e3os de Tesoura",
+        "descricao": "Peg Boggs \u00e9 uma vendedora que acidentalmente descobre Edward, jovem que mora sozinho em um castelo no topo de uma montanha, criado por um inventor que morreu antes de dar m\u00e3os ao estranho ser, que possui apenas enormes l\u00e2minas no lugar delas. Isto o impede de poder se aproximar dos humanos, a n\u00e3o ser para criar revolucion\u00e1rios cortes de cabelos. No entanto, Edward \u00e9 v\u00edtima da sua inoc\u00eancia e, se \u00e9 amado por uns, \u00e9 perseguido e usado por outros.",
+        "imdb": "tt0099487",
+        "imagem": "https://image.tmdb.org/t/p/w300//8vmYMcvWaqqhEWt9EnTPdXDdy2F.jpg"
+    }
+    ,
+    {
+        "titulo": "Rocketman",
+        "descricao": "A trajet\u00f3ria de como o t\u00edmido Reginald Dwight (Taron Egerton) se transformou em Elton John, \u00edcone da m\u00fasica pop. Desde a inf\u00e2ncia complicada, fruto do descaso do pai pela fam\u00edlia, sua hist\u00f3ria de vida \u00e9 contada atrav\u00e9s da releitura das m\u00fasicas do superstar, incluindo a rela\u00e7\u00e3o do cantor com o compositor e parceiro profissional Bernie Taupin (Jamie Bell) e o empres\u00e1rio e o ex-amante John Reid (Richard Madden).",
+        "imdb": "tt2066051",
+        "imagem": "https://image.tmdb.org/t/p/w300//zgDwy6RiCoIjqa6JuW0c4fxJ4cX.jpg"
+    }
+    ,
+    {
+        "titulo": "Cora\u00e7\u00e3o Valente",
+        "descricao": "No s\u00e9culo XIII, soldados ingleses matam a mulher do escoc\u00eas William Wallace, bem na sua noite de n\u00fapcias. Para vingar a amada, ele resolve liderar seu povo em uma luta contra o cruel Rei ingl\u00eas Edward I. Com a ajuda de Robert e Bruce, ele vai deflagrar uma violenta batalha com o objetivo de libertar a Esc\u00f3cia de uma vez por todas.",
+        "imdb": "tt0112573",
+        "imagem": "https://image.tmdb.org/t/p/w300//tWBbNikf5ng7BuNGA55MkvhLrag.jpg"
+    }
+    ,
+    {
+        "titulo": "Valente",
+        "descricao": "Determinada a seguir seu pr\u00f3prio caminho na vida, a princesa M\u00e9rida desafia um costume que traz caos ao seu reino. Concedido um desejo, Merida deve confiar em sua bravura e suas habilidades de arco e flecha para desfazer uma maldi\u00e7\u00e3o bestial.",
+        "imdb": "tt1217209",
+        "imagem": "https://image.tmdb.org/t/p/w300//jX9O3eyzfw937QOhRF4wz6nhxBM.jpg"
+    }
+    ,
+    {
+        "titulo": "Jamaica Abaixo de Zero",
+        "descricao": "Nas Olimp\u00edadas Irwin Flitzer (John Candy) desgra\u00e7ou a si mesmo quando colocou pesos extras no seu time de tren\u00f3, fazendo com que ele tivesse de devolver sua medalha de ouro. Alguns anos depois, Derice Bannock (Leon), um jamaicano filho de um antigo amigo de Irwin, fracassa para se classificar como velocista para a prova de 100 metros nas Olimp\u00edadas, por causa de um est\u00fapido acidente. Mas quando Derice descobre que Flitzer tamb\u00e9m vive na Jamaica, ele decide ir para as Olimp\u00edadas de qualquer jeito, n\u00e3o como um corredor mas liderando uma equipe de tren\u00f3.",
+        "imdb": "tt0106611",
+        "imagem": "https://image.tmdb.org/t/p/w300//ne9oWgdhb48kHRfZFfBuMW192nW.jpg"
+    }
+    ,
+    {
+        "titulo": "Turbo",
+        "descricao": "Theo (Ryan Reynolds) \u00e9 um caracol de jardim, que passa o dia com outros carac\u00f3is, colhendo tomates e torcendo para n\u00e3o ser capturado por aves predadoras. Apesar da vida pacata, este jovem animal sonha em se tornar extremamente veloz, como o seu \u00eddolo, o corredor campe\u00e3o de Indian\u00e1polis Guy Gagn\u00e9 (Bill Hader). A obsess\u00e3o pela velocidade faz que com Theo seja ridicularizado pelos colegas. Um dia, no entanto, ele cai acidentalmente dentro do motor de um grande carro de corrida, e um efeito inesperado acontece em seu corpo, fazendo com que ele se torne extremamente veloz. Rebatizado Turbo, o caracol encontra abrigo na casa de Tito (Michael Pe\u00f1a), um vendedor de comida mexicana conhecido pelos planos inusitados e que quase sempre d\u00e3o errado. Surpreso com a velocidade de Turbo, Tito decide lev\u00e1-lo \u00e0 corrida de Indian\u00e1polis, para competir com Guy Gagn\u00e9.",
+        "imdb": "tt1860353",
+        "imagem": "https://image.tmdb.org/t/p/w300//inTKQni4YW8syrfgnXHwzmNeSo4.jpg"
+    }
+    ,
+    {
+        "titulo": "Show de Vizinha",
+        "descricao": "O bom aluno e formando Matthew Kidman tem planos para se formar com louvor e evitar todos os problemas da adolesc\u00eancia. Mas Matthew n\u00e3o contava com a tenta\u00e7\u00e3o da casa ao lado... Por\u00e9m, quando ele descobre que sua deliciosa vizinha Danielle tem um passado no m\u00ednimo duvidoso \u2014 e um ex-namorado vingativo, Matthew v\u00ea seu futuro perigosamente amea\u00e7ado.",
+        "imdb": "tt0265208",
+        "imagem": "https://image.tmdb.org/t/p/w300//evKD0rjU8ULdzDmIYNE94BLCu9v.jpg"
+    }
+    ,
+    {
+        "titulo": "O Vingador do Futuro",
+        "descricao": "No ano de 2084, o oper\u00e1rio Doug Quaid recorre a um implante de mem\u00f3ria para poder simular uma viagem a Marte. Mas algo sai errado e ele come\u00e7a a se lembrar de quem realmente era e de fatos que, at\u00e9 ent\u00e3o, desconhecia. Agora, Quaid quer vingan\u00e7a contra aqueles que o enganaram.",
+        "imdb": "tt0100802",
+        "imagem": "https://image.tmdb.org/t/p/w300//sFk3iW5ZvkAV7ZrNPYitB0sSxbw.jpg"
+    }
+    ,
+    {
+        "titulo": "La Bamba",
+        "descricao": "Richard Stephen Valenzuela, mais conhecido como Ritchie Valens, marcou o final dos anos 50 com uma carreira mete\u00f3rica, recheada de sucessos e pontuada por uma das can\u00e7\u00f5es mais famosas de todos os tempos: \"La Bamba\".",
+        "imdb": "tt0093378",
+        "imagem": "https://image.tmdb.org/t/p/w300//6Znulqtc7cdqlUC69HGf26Ef5fi.jpg"
+    }
+    ,
+    {
+        "titulo": "Esporte Sangrento",
+        "descricao": "O ex-boina verde Beret Louis retorna para sua velha escola de artes marciais em Miami e recebe sua mais dif\u00edcil miss\u00e3o: deixar em forma, um grupo de adolescentes formado pelos delinquentes da regi\u00e3o.",
+        "imdb": "tt0107750",
+        "imagem": "https://image.tmdb.org/t/p/w300//uTQ42xQ0dWMtppI1AvvNLSFrHMD.jpg"
+    }
+    ,
+    {
+        "titulo": "Miss\u00e3o no Mar Vermelho",
+        "descricao": "Agentes disfar\u00e7ados abrem um hotel falso para turistas de verdade como fachada para salvar milhares de refugiados et\u00edopes. Inspirado em fatos reais.",
+        "imdb": "tt4995776",
+        "imagem": "https://image.tmdb.org/t/p/w300//j6M9BPXLIVvPNs0gZW4yNyGobuW.jpg"
+    }
+    ,
+    {
+        "titulo": "Os Jovens Tit\u00e3s em A\u00e7\u00e3o Vs. Os Jovens Tit\u00e3s",
+        "descricao": "A nova anima\u00e7\u00e3o mostra os her\u00f3is se enfrentando em uma arena apenas para descobrirem que est\u00e3o sendo manipulados por uma dupla de Trigons, o que faz com que eles tenham que se juntar para salvar o dia.",
+        "imdb": "tt10548944",
+        "imagem": "https://image.tmdb.org/t/p/w300//uJks6H03gpSv2kj8jfP4CSpAn6L.jpg"
+    }
+    ,
+    {
+        "titulo": "Homem-Aranha",
+        "descricao": "Peter Parker \u00e9 um jovem estudioso que vive com seus tios, Ben e May, desde que seus pais faleceram. Peter tem dificuldade em se relacionar com seus colegas, por ser t\u00edmido e por eles o considerarem um nerd. At\u00e9 que, em uma demonstra\u00e7\u00e3o cient\u00edfica, um acidente inesperado faz com que uma aranha modificada geneticamente pique Peter. A partir de ent\u00e3o seu corpo \u00e9 quimicamente alterado pela picada da aranha.",
+        "imdb": "tt0145487",
+        "imagem": "https://image.tmdb.org/t/p/w300//RbZQL5hXmydecu82UHw9ZGyytB.jpg"
+    }
+    ,
+    {
+        "titulo": "Homem-Aranha 3",
+        "descricao": "O relacionamento entre Peter Parker e Mary Jane parece estar dando certo, mas outros problemas come\u00e7am a surgir. A roupa de Homem-Aranha torna-se preta e acaba controlando Peter, que apesar de aumentar seus poderes, revela o lado obscuro de sua personalidade. Os vil\u00f5es Venon e Homem-Areia tentam destruir o super-her\u00f3i.",
+        "imdb": "tt0413300",
+        "imagem": "https://image.tmdb.org/t/p/w300//5831VrgpYNPEokBwxurLVpQ3twM.jpg"
+    }
+    ,
+    {
+        "titulo": "Battleship: A Batalha dos Mares",
+        "descricao": "A equipe comandada pelo almirante Shane est\u00e1 a bordo do navio USS John Paul Jones. Em alto mar, eles se deparam com uma ame\u00e7a alien\u00edgena. Para defender o planeta, eles precisam unir for\u00e7as com a tripula\u00e7\u00e3o de outro navio e tamb\u00e9m com os cientistas comandados por Cal Zapata.",
+        "imdb": "tt1440129",
+        "imagem": "https://image.tmdb.org/t/p/w300//vUTrHashD5jrUdQhwtpWzlmyyZf.jpg"
+    }
+    ,
+    {
+        "titulo": "\u00caxodo: Deuses e Reis",
+        "descricao": "Exodus \u00e9 uma adapta\u00e7\u00e3o da hist\u00f3ria b\u00edblica do \u00caxodo, segundo livro do Antigo Testamento. O filme narra a vida do profeta Mois\u00e9s (Christian Bale), nascido entre os hebreus na \u00e9poca em que o fara\u00f3 ordenava que todos os homens hebreus fossem afogados. Mois\u00e9s \u00e9 resgatado pela irm\u00e3 do fara\u00f3 e criado na fam\u00edlia real. Quando se torna adulto, Mois\u00e9s recebe ordens de Deus para ir ao Egito, na inten\u00e7\u00e3o de liberar os hebreus da opress\u00e3o. No caminho, ele deve enfrentar a travessia do deserto e passar pelo Mar Vermelho.",
+        "imdb": "tt1528100",
+        "imagem": "https://image.tmdb.org/t/p/w300//sNcYlxw4zOOgIQebsFegw3gQixB.jpg"
+    }
+    ,
+    {
+        "titulo": "Dezesseis Luas",
+        "descricao": "Ethan conhece a mulher dos seus sonhos quando Lena aparece em sua cidade, e os dois acabam se apaixonando. Mas, para salvar o romance, eles precisam descobrir os segredos obscuros de suas fam\u00edlias, guardados a sete chaves.",
+        "imdb": "tt1559547",
+        "imagem": "https://image.tmdb.org/t/p/w300//8BcxlJFLBk9DpDpcKYFExc4iubS.jpg"
+    }
+    ,
+    {
+        "titulo": "Godzilla",
+        "descricao": "Joe Brody criou o filho sozinho ap\u00f3s a morte da esposa em um acidente na usina nuclear em que ambos trabalhavam, no Jap\u00e3o. Ele nunca aceitou a cat\u00e1strofe e quinze anos depois continua remoendo o acontecido, tentando encontrar alguma explica\u00e7\u00e3o. Ford Brody, agora adulto, \u00e9 soldado do ex\u00e9rcito americano e precisa lutar desesperadamente para salvar a popula\u00e7\u00e3o mundial e em especial sua fam\u00edlia do gigantesco, inabal\u00e1vel e incrivelmente assustador monstro Godzilla.",
+        "imdb": "tt0831387",
+        "imagem": "https://image.tmdb.org/t/p/w300//9dyFXQwmFHI1gMn2JEczgKD1hwO.jpg"
+    }
+    ,
+    {
+        "titulo": "A Hora do Rush 3",
+        "descricao": "O leste encontra o oeste novamente. Depois de um atentado contra o Embaixador Han, Lee e Carter v\u00e3o para Paris para proteger uma francesa que sabe demais sobre os secretos l\u00edderes do Triad. Enquanto isso, eles tamb\u00e9m precisam lutar contra a m\u00e1fia chinesa de Paris e um amigo de inf\u00e2ncia de Lee conforme eles procuram por um envelope que contem a identidade de um poderoso chef\u00e3o do crime.",
+        "imdb": "tt0293564",
+        "imagem": "https://image.tmdb.org/t/p/w300//7sqXl2yNWv1roe3LN3hNrhozJvn.jpg"
+    }
+    ,
+    {
+        "titulo": "Piratas do Caribe: A Maldi\u00e7\u00e3o do P\u00e9rola Negra",
+        "descricao": "O pirata Jack Sparrow tem seu navio saqueado e roubado pelo capit\u00e3o Barbossa e sua tripula\u00e7\u00e3o. Com o navio de Sparrow, Barbossa invade a cidade de Port Royal, levando consigo Elizabeth Swann, filha do governador. Para recuperar sua embarca\u00e7\u00e3o, Sparrow recebe a ajuda de Will Turner, um grande amigo de Elizabeth. Eles desbravam os mares em dire\u00e7\u00e3o \u00e0 misteriosa Ilha da Morte, tentando impedir que os piratas-esqueleto derramem o sangue de Elizabeth para desfazer a maldi\u00e7\u00e3o que os assola.",
+        "imdb": "tt0325980",
+        "imagem": "https://image.tmdb.org/t/p/w300//xsAlxvMCRzyreLxdZL1dOUSbonV.jpg"
+    }
+    ,
+    {
+        "titulo": "Piratas do Caribe: O Ba\u00fa da Morte",
+        "descricao": "Will e Elizabeth est\u00e3o prestes a se casar quando o lend\u00e1rio pirata Davy Jones, comandante do invenc\u00edvel navio assombrado, aparece para cobrar uma d\u00edvida do capit\u00e3o Jack Sparrow, amigo do casal. A \u00fanica chance de Sparrow se livrar de uma maldi\u00e7\u00e3o de Jones \u00e9 encontrando o ba\u00fa da morte.",
+        "imdb": "tt0383574",
+        "imagem": "https://image.tmdb.org/t/p/w300//dCXOveWolVMMbJZQ0cNslpqohPM.jpg"
+    }
+    ,
+    {
+        "titulo": "Piratas do Caribe: No Fim do Mundo",
+        "descricao": "Will Turner e Elizabeth Swann unem for\u00e7as com o Capit\u00e3o Barbossa para libertarem Jack Sparrow da pris\u00e3o de Davy Jones. Enquanto isso, a tripula\u00e7\u00e3o do barco fantasma O Holand\u00eas Voador causa estragos nos Sete Mares. Os amigos devem navegar atrav\u00e9s de \u00e1guas perigosas para enfrentarem o pirata chin\u00eas S\u00e3o Feng e, finalmente, eles devem escolher em que lado ficar na batalha, pois a vida do pirata est\u00e1 em jogo.",
+        "imdb": "tt0449088",
+        "imagem": "https://image.tmdb.org/t/p/w300//2vgdFnsThB3acNVSUN9TzpUwLg5.jpg"
+    }
+    ,
+    {
+        "titulo": "Os Especialistas",
+        "descricao": "O agente especial Danny (Jason Statham), embora quisesse desistir de seu profissionalismo na arte de matar, foi for\u00e7ado a fazer um \u00faltimo servi\u00e7o para garantir a sobreviv\u00eancia de seu antigo parceiro de miss\u00f5es secretas Hunter (Robet De Niro). Para isso, ele dever\u00e1 vingar um poderoso xeque do petr\u00f3leo que teve seu tr\u00eas filhos assassinados por tr\u00eas agentes das for\u00e7as especiais brit\u00e2nicas SAS. Contudo, Spike (Clive Owen), um poderoso ex-membro do grupo, est\u00e1 disposto a defender seus antigos parceiros e n\u00e3o medir\u00e1 esfor\u00e7os para eliminar seu novo oponente.",
+        "imdb": "tt1448755",
+        "imagem": "https://image.tmdb.org/t/p/w300//60q5ai3Zjc9ujFcCMOvgmp4EWhC.jpg"
+    }
+    ,
+    {
+        "titulo": "Jo\u00e3o e Maria: Ca\u00e7adores de Bruxas",
+        "descricao": "Jo\u00e3o e Maria foram abandonados pelos pais na sombria floresta e acabam indo parar na casa de uma malvada bruxa. Eliminaram a malvada e viraram verdadeiros exterminadores de criaturas do mal. Ap\u00f3s o desaparecimento de v\u00e1rias crian\u00e7as, os dois j\u00e1 adultos s\u00e3o contratados pelas autoridades locais para desvendar o mist\u00e9rio. S\u00f3 que eles n\u00e3o imaginavam que essa nova miss\u00e3o iria coloc\u00e1-los diante da terr\u00edvel Bruxa Negra.",
+        "imdb": "tt1428538",
+        "imagem": "https://image.tmdb.org/t/p/w300//pNAOG8mvstBhUE1jhbGkB87G2VV.jpg"
+    }
+    ,
+    {
+        "titulo": "Jurassic Park: O Parque dos Dinossauros",
+        "descricao": "Um parque constru\u00eddo por um milion\u00e1rio tem dinossauros diversos como habitantes, extintos a sessenta e cinco milh\u00f5es de anos. Isto \u00e9 poss\u00edvel por ter sido encontrado um inseto fossilizado, que tinha sugado sangue destes dinossauros, de onde p\u00f4de-se isolar o DNA, o c\u00f3digo qu\u00edmico da vida e, a partir deste ponto, recri\u00e1-los em laborat\u00f3rio. Mas, o que parecia ser um sonho se torna um pesadelo, quando a experi\u00eancia sai do controle de seus criadores.",
+        "imdb": "tt0107290",
+        "imagem": "https://image.tmdb.org/t/p/w300//cV3JgTAq5mX6Zjy8GVSqXHncUHH.jpg"
+    }
+    ,
+    {
+        "titulo": "O Mundo Perdido: Jurassic Park",
+        "descricao": "John Hammond chama o te\u00f3rico do caos Ian Malcolm \u00e0 sua casa para dar algumas not\u00edcias aterradoras: Enquanto quase tudo em Jurassic Park foi destru\u00eddo, seus engenheiros parecem ter um segundo local, onde outros dinossauros est\u00e3o escondidos. Aparentemente, os dinossauros na segunda ilha est\u00e3o vivos e bem e at\u00e9 se acasalando. Hammond quer que Malcolm observe e documente as criaturas antes que mercen\u00e1rios cheguem at\u00e9 eles.",
+        "imdb": "tt0119567",
+        "imagem": "https://image.tmdb.org/t/p/w300//z6kJSvM2tT542uKcNeRN0TJYsXc.jpg"
+    }
+    ,
+    {
+        "titulo": "Jurassic Park 3",
+        "descricao": "Precisando de fundos para pesquisas, o Dr. Alan Grant aceita uma grande quantia em dinheiro para acompanhar Paul e Amanda Kirby em um passeio a\u00e9reo pela infame Isla Sorna. N\u00e3o demora muito para que o inferno comece e os viajantes encalhados tenham que lutar pela sobreviv\u00eancia enquanto uma s\u00e9rie de novos - e ainda mais mortais - dinossauros tentam fazer lanches com eles.",
+        "imdb": "tt0163025",
+        "imagem": "https://image.tmdb.org/t/p/w300//1dObEUGvS4cTbVNi8ewvd6gLIv4.jpg"
+    }
+    ,
+    {
+        "titulo": "Kill Bill: Volume 1",
+        "descricao": "A ex-assassina conhecida apenas como \"A Noiva\" acorda de um coma de quatro anos decidida a se vingar de Bill, seu ex-amante e chefe, que tentou mat\u00e1-la no dia do casamento. Ela est\u00e1 motivada a acertar as contas com cada uma das pessoas envolvidas com a perda da filha, da festa de casamento e dos quatro anos da sua vida. Na jornada, \"A Noiva\" \u00e9 submetida a dores f\u00edsicas agoniantes ao enfrentar a inescrupulosa gangue de Bill, o Esquadr\u00e3o Assassino de V\u00edboras Mortais.",
+        "imdb": "tt0266697",
+        "imagem": "https://image.tmdb.org/t/p/w300//v7TaX8kXMXs5yFFGR41guUDNcnB.jpg"
+    }
+    ,
+    {
+        "titulo": "Kill Bill: Volume 2",
+        "descricao": "Ap\u00f3s ser tra\u00edda por Bill e seu antigo grupo, a Noiva assassina fica \u00e0 beira da morte por 4 anos. Ap\u00f3s despertar do coma, ela vai atr\u00e1s de cada um dos seus antigos companheiros para mat\u00e1-los. Na segunda parte dessa busca por vingan\u00e7a, a noiva vai continuar sua procura por Bill, atacando os \u00faltimos dois sobreviventes do grupo: Budd e Elle Driver . O confronto com seu antigo mestre, e mandante da sua morte, vai revelar novas surpresas para a assassina.",
+        "imdb": "tt0378194",
+        "imagem": "https://image.tmdb.org/t/p/w300//4niMDDzBOR1jf4jRshLRaG0Cuaz.jpg"
+    }
+    ,
+    {
+        "titulo": "Avatar",
+        "descricao": "Apesar de n\u00e3o ter mais os movimentos da perna, o ex-fuzileiro naval Jake Sully ainda sente que pode ser um guerreiro. Sua intui\u00e7\u00e3o come\u00e7a a se tornar realidade quando ele viaja anos-luz at\u00e9 a esta\u00e7\u00e3o espacial montada no Planeta Pandora. Habitado por grandes seres azuis, os Na\u00b4vi, o local tem uma atmosfera fatal para qualquer terrestre. Por isso, oficiais criaram o programa Avatar, em que um corpo biol\u00f3gico, h\u00edbrido de humano e Na\u00b4vi, pode ser comandado a dist\u00e2ncia.",
+        "imdb": "tt0499549",
+        "imagem": "https://image.tmdb.org/t/p/w300//yuBGGfHaQcfb6b9bEYtE0PgbZFl.jpg"
+    }
+    ,
+    {
+        "titulo": "Frozen: Uma Aventura Congelante",
+        "descricao": "A destemida e otimista Anna sai em uma jornada \u00e9pica, ao lado de Kristoff e sua leal rena Sven, para encontrar sua irm\u00e3 Elsa, cujos poderes congelantes aprisionaram o reino de Arendelle em um inverno eterno. Encontrando condi\u00e7\u00f5es de Everest, trolls m\u00edsticos e um hil\u00e1rio boneco de neve chamado Olaf, Anna e Kristoff enfrentam obst\u00e1culos em uma corrida para salvar o reino.",
+        "imdb": "tt2294629",
+        "imagem": "https://image.tmdb.org/t/p/w300//hOZKUJGN0m717LRSQDxhgABqWrf.jpg"
+    }
+    ,
+    {
+        "titulo": "MIB - Homens de Preto II",
+        "descricao": "Quando um alienigena renegado de Kylothian, disfar\u00e7ado como modelo de lingerie, amea\u00e7a e sobreviv\u00eancia da ra\u00e7a humana, os agentes come\u00e7am a ca\u00e7ada. Com suas identidades sob sigilo e pouqu\u00edssimo tempo para evitar o desastre, os agentes K e J contam com a ajuda do cachorro Frank e outros alien\u00edgenas para ajudar-lhes na ca\u00e7ada do mais sexy invasor do planeta.",
+        "imdb": "tt0120912",
+        "imagem": "https://image.tmdb.org/t/p/w300//rJ7k5dLP4hW5ybQZVXDazLRsy97.jpg"
+    }
+    ,
+    {
+        "titulo": "MIB - Homens de Preto III",
+        "descricao": "J j\u00e1 viu coisas inexplic\u00e1veis em seus quinze anos com os Homens de Preto, por\u00e9m, nada, nem mesmo alien\u00edgenas o deixam mais perplexo que seu parceiro ir\u00f4nico e reticente. Mas quando a vida de K e o destino do planeta est\u00e3o em jogo, o agente J ter\u00e1 de viajar no tempo, no passado, para acertar as coisas. J descobre que o universo tem segredos que K nunca contou a ele \u2013 segredos que acabar\u00e3o se revelando quando ele se unir ao jovem agente K para salvar seu parceiro, a ag\u00eancia e o futuro da humanidade.",
+        "imdb": "tt1409024",
+        "imagem": "https://image.tmdb.org/t/p/w300//4tHxYSppbpdZMjEsL3a71Y47vNx.jpg"
+    }
+    ,
+    {
+        "titulo": "O Irland\u00eas",
+        "descricao": "Frank Sheeran \u00e9 um veterano de guerra cheio de condecora\u00e7\u00f5es que concilia a vida de caminhoneiro com a de assassino de aluguel n\u00famero um da m\u00e1fia. Promovido a l\u00edder sindical, ele torna-se o principal suspeito quando o mais famoso ex-presidente da associa\u00e7\u00e3o desaparece misteriosamente.",
+        "imdb": "tt1302006",
+        "imagem": "https://image.tmdb.org/t/p/w300//3GPn2W2UdzUE1bp1KtCrYvXiZFt.jpg"
+    }
+    ,
+    {
+        "titulo": "O Incr\u00edvel Hulk",
+        "descricao": "Vivendo escondido e longe de Betty Ross, a mulher que ama, o cientista Bruce Banner busca um meio de retirar a radia\u00e7\u00e3o gama que est\u00e1 em seu sangue. Ao mesmo tempo ele precisa fugir da persegui\u00e7\u00e3o do general Ross, seu grande inimigo, e da m\u00e1quina militar que tenta captur\u00e1-lo, na inten\u00e7\u00e3o de explorar o poder que faz com que Banner se transforme no Hulk.",
+        "imdb": "tt0800080",
+        "imagem": "https://image.tmdb.org/t/p/w300//h2vB6OlhTA1jAazDXrr7PEgFPnV.jpg"
+    }
+    ,
+    {
+        "titulo": "Homem de Ferro 3",
+        "descricao": "Depois de um inimigo reduzir o mundo de Tony Stark a destro\u00e7os, o Homem de Ferro precisa aprender a confiar em seus instintos para proteger aqueles que ama, especialmente sua namorada, e lutar contra seu maior medo: o fracasso.",
+        "imdb": "tt1300854",
+        "imagem": "https://image.tmdb.org/t/p/w300//C7MZwRTjvEy7gkWcLJeBGZFE1w.jpg"
+    }
+    ,
+    {
+        "titulo": "Ad Astra - Rumo \u00e0s Estrelas",
+        "descricao": "Roy McBride \u00e9 um engenheiro espacial, portador de um leve grau de autismo, que decide empreender a maior jornada de sua vida: viajar para o espa\u00e7o, cruzar a gal\u00e1xia e tentar descobrir o que aconteceu com seu pai, um astronauta que se perdeu h\u00e1 vinte anos atr\u00e1s no caminho para Netuno.",
+        "imdb": "tt2935510",
+        "imagem": "https://image.tmdb.org/t/p/w300//wigZBAmNrIhxp2FNGOROUAeHvdh.jpg"
+    }
+    ,
+    {
+        "titulo": "P\u00e2nico nas Alturas",
+        "descricao": "Cinco jovens que querem celebrar a v\u00e9spera de ano novo no topo de uma montanha, ficam presos em um telef\u00e9rico. O que come\u00e7ou como uma festa de aventura, logo se torna uma luta pela sobreviv\u00eancia.",
+        "imdb": "tt9805504",
+        "imagem": "https://image.tmdb.org/t/p/w300//hbo1N9W5gwPjQ4wF2aghUrMuhb6.jpg"
+    }
+    ,
+    {
+        "titulo": "Yu Yu Hakusho: Invasores do Inferno",
+        "descricao": "O Mundo Espiritual \u00e9 atacado por uma forte enchente, arrasando com o lugar, causada por Yakumo, o rei de Meikai, um mundo paralelo ao Mundo Espiritual, que deixou de existir gra\u00e7as ao poder do Rei Enma. Botan ent\u00e3o foge ferida para o mundo dos humanos com o objeto que \u00e9 preciso para Meikai retornar. Yakumo consegue sequestrar Botan, ent\u00e3o Yusuke, Kuwabara, Hiei e Kurama v\u00e3o a luta, para salvar Botan e a Terra.",
+        "imdb": "tt0203237",
+        "imagem": "https://image.tmdb.org/t/p/w300//nR45zZ56r7tDA3Mb1DlxMQO9xug.jpg"
+    }
+    ,
+    {
+        "titulo": "Cinquenta Tons de Cinza",
+        "descricao": "Anastasia Steele (Dakota Johnson) \u00e9 uma estudante de literatura de 21 anos, recatada e virgem. Uma dia ela deve entrevistar para o jornal da faculdade o poderoso magnata Christian Grey (Jamie Dornan). Nasce uma complexa rela\u00e7\u00e3o entre ambos: com a descoberta amorosa e sexual, Anastasia conhece os prazeres do sadomasoquismo, tornando-se o objeto de submiss\u00e3o do s\u00e1dico Grey.",
+        "imdb": "tt2322441",
+        "imagem": "https://image.tmdb.org/t/p/w300//t4kR6H71anOV85qzjOLlr9uVdFJ.jpg"
+    }
+    ,
+    {
+        "titulo": "Minha M\u00e3e \u00e9 uma Pe\u00e7a: O Filme",
+        "descricao": "Dona Herm\u00ednia, uma mulher de meia idade, aposentada e sozinha, tem como preocupa\u00e7\u00e3o maior cuidar dos filhos. Mas agora que eles cresceram e n\u00e3o param de confront\u00e1-la, a solu\u00e7\u00e3o ser\u00e1 dar um gelo e sair de casa. Sem um trabalho ou um companheiro, a dona de casa resolve desabafar com a tia idosa.",
+        "imdb": "tt2464018",
+        "imagem": "https://image.tmdb.org/t/p/w300//2kj8VJEcqcxPmbuIjh5wf6FjMBH.jpg"
+    }
+    ,
+    {
+        "titulo": "Minha M\u00e3e \u00e9 uma Pe\u00e7a 3: O Filme",
+        "descricao": "Dona Herm\u00ednia vai ter que se redescobrir e se reinventar porque seus filhos est\u00e3o formando novas fam\u00edlias. Essa superm\u00e3e vai ter que segurar a emo\u00e7\u00e3o para lidar com um novo cen\u00e1rio de vida: Marcelina est\u00e1 gr\u00e1vida e Juliano vai casar. Dona Herm\u00ednia est\u00e1 mais ansiosa do que nunca! Para completar as confus\u00f5es, Carlos Alberto, seu ex-marido, que esteve sempre por perto, agora resolve ficar ainda mais pr\u00f3ximo.",
+        "imdb": "tt10611372",
+        "imagem": "https://image.tmdb.org/t/p/w300//zw77BFPGJ73Lig8GwRzYj1XHq53.jpg"
+    }
+    ,
+    {
+        "titulo": "300",
+        "descricao": "Em 480 a.C., Le\u00f4nidas, o rei de Esparta, comanda seu pequeno batalh\u00e3o de 300 soldados contra um ex\u00e9rcito de mais de 1 milh\u00e3o na Batalha das Term\u00f3pilas.",
+        "imdb": "tt0416449",
+        "imagem": "https://image.tmdb.org/t/p/w300//h7Lcio0c9ohxPhSZg42eTlKIVVY.jpg"
+    }
+    ,
+    {
+        "titulo": "20 Anos + Jovem",
+        "descricao": "Alice Lantins (Virginie Efira) tem 38 anos e \u00e9 editora de moda. Em uma distra\u00e7\u00e3o, perde um importante cart\u00e3o de mem\u00f3ria ap\u00f3s uma viagem, mas por sorte o estudante Balthazar Apfel (Pierre Niney) o encontra. Os dois se conhecem e uma foto comprometedora do casal vaza na imprensa. Nada aconteceu, mas o burburinho e a fama de \"ousada\" agradam Alice, que decide investir no relacionamento com o rapaz mais jovem para subir na carreira.",
+        "imdb": "tt2186812",
+        "imagem": "https://image.tmdb.org/t/p/w300//w7oWSyxPL5LeeB5tgNNWefOOENT.jpg"
+    }
+    ,
+    {
+        "titulo": "300: A Ascens\u00e3o do Imp\u00e9rio",
+        "descricao": "Ap\u00f3s a morte do pai, Xerxes (Rodrigo Santoro) d\u00e1 in\u00edcio a uma jornada de vingan\u00e7a e ruma em dire\u00e7\u00e3o \u00e0 Gr\u00e9cia, com seu ex\u00e9rcito sendo liderado por Artemisia (Eva Green). Enquanto os 300 espartanos liderados por Leonidas tantam combater o Deus-Rei, os ex\u00e9rcitos do resto da Gr\u00e9cia se unem para uma batalha com as tropas de Artemisia no mar. Themistocles (Sullivan Stapleton) \u00e9 o respons\u00e1vel por liderar os gregos.",
+        "imdb": "tt1253863",
+        "imagem": "https://image.tmdb.org/t/p/w300//l9T9hsVca2mh0S29olWRUE3uBpz.jpg"
+    }
+    ,
+    {
+        "titulo": "Dois Papas",
+        "descricao": "A rela\u00e7\u00e3o e as diferentes vis\u00f5es dos dois l\u00edderes mais importantes e poderosos da Igreja Cat\u00f3lica na \u00e9poca, o Papa Bento XVI (Anthony Hopkins) e o Cardeal Jorge Mario Bergoglio (Jonathan Pryce), que depois veio a ser o Papa Francisco.",
+        "imdb": "tt8404614",
+        "imagem": "https://image.tmdb.org/t/p/w300//lZmD4lMCgZydh8vAkx7JsykfqcW.jpg"
+    }
+    ,
+    {
+        "titulo": "Corgi: Top Dog",
+        "descricao": "Rex \u00e9 um querido c\u00e3ozinho de estima\u00e7\u00e3o que est\u00e1 sob os cuidados da monarquia brit\u00e2nica. Ele precisa realizar uma longa viagem para voltar at\u00e9 a rainha, mas, no meio do caminho, Rex inesperadamente se apaixona e inicia uma jornada de autodescoberta para encontrar sua verdadeira ess\u00eancia e descobrir quem ele \u00e9 de verdade.",
+        "imdb": "tt6563576",
+        "imagem": "https://image.tmdb.org/t/p/w300//bADPrYHUtPv6tTUaEiU03JuYEJc.jpg"
+    }
+    ,
+    {
+        "titulo": "Hotel Transilv\u00e2nia",
+        "descricao": "O Hotel Transilv\u00e2nia \u00e9 um resort cinco estrelas que serve de ref\u00fagio para que os monstros possam descansar do \u00e1rduo trabalho de perseguir e assustar os humanos. O local \u00e9 comandado pelo Conde Dr\u00e1cula, que resolve convidar os amigos para comemorar o 118\u00ba anivers\u00e1rio de sua filha, Mavis. O que ele n\u00e3o esperava era que Jonathan, um humano sem no\u00e7\u00e3o, fosse aparecer no local justo quando o hotel est\u00e1 repleto de convidados e, ainda por cima, se apaixonasse por Mavis.",
+        "imdb": "tt0837562",
+        "imagem": "https://image.tmdb.org/t/p/w300//i9kAWShk7qrqril2dLboP0hi8I2.jpg"
+    }
+    ,
+    {
+        "titulo": "As Aventuras de Peabody e Sherman",
+        "descricao": "Sr. Peabody \u00e9 um magnata de neg\u00f3cios, inventor, cientista, ganhador do pr\u00eamio Nobel, chef, duas vezes medalhista ol\u00edmpico e g\u00eanio... Que tamb\u00e9m \u00e9 um cachorro. Usando a sua engenhosa inven\u00e7\u00e3o, a m\u00e1quina WABAC, o Sr. Peabody e seu filho adotivo, Sherman, viajam no tempo para vivenciar eventos que mudaram o mundo em primeira m\u00e3o e interagir com as maiores personalidades da hist\u00f3ria. Mas quando Sherman quebra as regras da viagem no tempo, nossos dois her\u00f3is entrar\u00e3o em uma corrida para reparar a hist\u00f3ria e salvar o futuro, enquanto Sr. Peabody enfrenta o maior desafio de sua vida - ser pai.",
+        "imdb": "tt0864835",
+        "imagem": "https://image.tmdb.org/t/p/w300//ndGl3yPRbHlem0PuDJuUvUuY9dQ.jpg"
+    }
+    ,
+    {
+        "titulo": "Tr\u00f3ia",
+        "descricao": "Quando P\u00e1ris, o pr\u00edncipe de Troia, se apaixona por Helena, rainha de Esparta, o rei inicia uma guerra de anos entre os dois reinos. Para vencer, Esparta conta com Aquiles, um guerreiro lend\u00e1rio que comanda um ex\u00e9rcito pr\u00f3prio.",
+        "imdb": "tt0332452",
+        "imagem": "https://image.tmdb.org/t/p/w300//2DCOh2hPdDtWxBSaanq80GFa2HN.jpg"
+    }
+    ,
+    {
+        "titulo": "A M\u00famia",
+        "descricao": "Em 1926, um grupo de arque\u00f3logos descobre uma tumba na cidade perdida de Hamunaptra. Dentro da tumba \u00e9 encontrado o corpo de Imhotep (Arnold Vosloo), o sacerdote do Fara\u00f3 Seti (Aharon Ipal\u00e9), que foi mumificado vivo al\u00e9m de ter recebido a mais terr\u00edvel das maldi\u00e7\u00f5es por ter dormido com a amante do fara\u00f3 e, movido por ci\u00fame doentio e amor, ter matado o Fara\u00f3. No entanto, quando um dos membros da expedi\u00e7\u00e3o l\u00ea um manuscrito que foi encontrado pelo grupo e traz Imhotep de volta vida, ele ressurge cheio de \u00f3dio e s\u00f3 pensa em reencontrar sua amada e destruir todos que cruzem o seu caminho, trazendo consigo as dez pragas do Egito.",
+        "imdb": "tt0120616",
+        "imagem": "https://image.tmdb.org/t/p/w300//x9WtRo3zf7p3K7ERdlpqlRgtYU6.jpg"
+    }
+    ,
+    {
+        "titulo": "O Retorno da M\u00famia",
+        "descricao": "Rick e Evelyn O'Connell est\u00e3o morando na Londres de 1935, onde criam o filho. Quando uma s\u00e9rie de eventos revela o corpo de Imhotep ressuscitado, os O'Connell iniciam uma corrida desesperada para salvar o mundo do mal e resgatar o filho antes que seja tarde demais.",
+        "imdb": "tt0209163",
+        "imagem": "https://image.tmdb.org/t/p/w300//trLVOBJxgq4K4Ei2OJFZgIeaPzB.jpg"
+    }
+    ,
+    {
+        "titulo": "Abomin\u00e1vel",
+        "descricao": "Shanghai, China. Yi \u00e9 uma adolescente que, certo dia, descobre que um yeti est\u00e1 no telhado do pr\u00e9dio em que ela mora. A partir disso, ela e seus colegas passam a chamar a criatura m\u00edstica de \"Everest\" e, ao criarem la\u00e7os com o animal, decidem lev\u00e1-lo at\u00e9 sua fam\u00edlia, que est\u00e1 no topo do planeta. Por\u00e9m, os tr\u00eas amigos ter\u00e3o que conseguir despistar o ganancioso Burnish e a zo\u00f3loga Dra. Zara, que querem pegar o yeti a qualquer custo.",
+        "imdb": "tt6324278",
+        "imagem": "https://image.tmdb.org/t/p/w300//oC89hsRFoF4OcrgYIKysDD7M6XO.jpg"
+    }
+    ,
+    {
+        "titulo": "Casamento Sangrento",
+        "descricao": "Grace acaba de se casar com o herdeiro milion\u00e1rio de uma fam\u00edlia especializada em jogos de tabuleiro. Antes de realmente integrar a fam\u00edlia, no entanto, ela \u00e9 obrigada a participar de uma tradi\u00e7\u00e3o familiar: um jogo de esconde-esconde pela mans\u00e3o dos Le Domas. Aos poucos, Grace percebe que a brincadeira inocente \u00e9 na verdade uma ca\u00e7ada sangrenta contra a rec\u00e9m-casada, em que todas as armas e golpes s\u00e3o permitidos para assassin\u00e1-la. A jovem ter\u00e1 a dif\u00edcil miss\u00e3o de sobreviver aos ataques at\u00e9 o amanhecer.",
+        "imdb": "tt7798634",
+        "imagem": "https://image.tmdb.org/t/p/w300//vWMXRFvpxxs5p0IKZdqWph10jIn.jpg"
+    }
+    ,
+    {
+        "titulo": "Os Aeronautas",
+        "descricao": "Londres, 1862. O cientista James Glaisher (Eddie Redmayne) est\u00e1 prestes a realizar o grande sonho de sua vida, ao iniciar uma viagem de bal\u00e3o de forma a pesquisar formas de se prever a meteorologia. Sua companheira de viagem \u00e9 Amelia Rennes (Felicity Jones), veterana do balonismo que topou o desafio ap\u00f3s um grande trauma em sua viagem anterior, quando seu marido faleceu. Juntos, eles enfrentam uma aventura rumo ao c\u00e9us na tentativa de chegar a uma altitude in\u00e9dita at\u00e9 ent\u00e3o a qualquer ser humano.",
+        "imdb": "tt6141246",
+        "imagem": "https://image.tmdb.org/t/p/w300//g4tPgPn0sGZEMvoJWYWnxlgTTWG.jpg"
+    }
+    ,
+    {
+        "titulo": "Depois da Escurid\u00e3o",
+        "descricao": "\u00c0 medida que o sol se apaga, uma fam\u00edlia americana se re\u00fane no fim do mundo, suas esperan\u00e7as de resgate se desintegram lentamente \u00e0 medida que tamb\u00e9m enfrentam divis\u00f5es duradouras entre si.",
+        "imdb": "tt2728784",
+        "imagem": "https://image.tmdb.org/t/p/w300//v5pZrA9q4RM9KpLMen4WiM9MmKG.jpg"
+    }
+    ,
+    {
+        "titulo": "Linha Reta",
+        "descricao": "Dois primos metidos a malandros, Anton (Alexander Skarsg\u00e5rd) e Vincent (Jesse Eisenberg), vivem de perigosas transa\u00e7\u00f5es da bolsa de valores. Seu sonho \u00e9 construir um cabo de fibra \u00f3ptica entre o Kansas e Nova Jersey, que os daria vantagem em suas transa\u00e7\u00f5es, os fazendo milion\u00e1rios. Mas sua jornada para a riqueza n\u00e3o ser\u00e1 t\u00e3o f\u00e1cil assim, especialmente se depender de sua antiga chefe, Eva (Salma Hayek).",
+        "imdb": "tt6866224",
+        "imagem": "https://image.tmdb.org/t/p/w300//co43RxflrWS5OqdhdxYPaCPWiWk.jpg"
+    }
+    ,
+    {
+        "titulo": "Hist\u00f3ria de um Casamento",
+        "descricao": "Nicole (Scarlett Johansson) e seu marido Charlie (Adam Driver) est\u00e3o passando por muitos problemas e decidem se divorciar. Os dois concordam em n\u00e3o contratar advogados para tratar do div\u00f3rcio, mas Nicole muda de ideia ap\u00f3s receber a indica\u00e7\u00e3o de Nora Fanshaw (Laura Dern), especialista no assunto. Surpreso com a decis\u00e3o da agora ex-esposa, Charlie precisa encontrar um advogado para tratar da cust\u00f3dia do filho deles, o pequeno Henry (Azhy Robertson).",
+        "imdb": "tt7653254",
+        "imagem": "https://image.tmdb.org/t/p/w300//LaZ5rwaMvVH20J8O2Nu9uuXGI5.jpg"
+    }
+    ,
+    {
+        "titulo": "Klaus",
+        "descricao": "Em Smeerensburg, remota ilha localizada acima do C\u00edrculo \u00c1rtico, Jesper \u00e9 um estudante da Academia Postal que enfrenta um s\u00e9rio problema: os habitantes da cidade brigam o tempo todo, sem demonstrar o menor interesse por cartas. Prestes a desistir da profiss\u00e3o, ele encontra apoio na professora Alva e no misterioso carpinteiro Klaus, que vive sozinho em sua casa repleta de brinquedos feitos a m\u00e3o.",
+        "imdb": "tt4729430",
+        "imagem": "https://image.tmdb.org/t/p/w300//guyZW9AQdTMp2F4esttjyIMMK1k.jpg"
+    }
+    ,
+    {
+        "titulo": "Nada a Perder 2: N\u00e3o Se Pode Esconder a Verdade",
+        "descricao": "O longa revelar\u00e1 bastidores e fatos graves da hist\u00f3ria recente do Brasil, trazendo \u00e0 tona os esc\u00e2ndalos mais conhecidos envolvendo o nome de Edir Macedo, mostrando as reportagens bomb\u00e1sticas produzidas pela imprensa nos \u00faltimos 25 anos, que at\u00e9 hoje circulam na internet.",
+        "imdb": "tt10738914",
+        "imagem": "https://image.tmdb.org/t/p/w300//2UESbGhUBez8iu4CqVhhmpIueJh.jpg"
+    }
+    ,
+    {
+        "titulo": "Nada a Perder",
+        "descricao": "Cinebiografia autorizada do bispo evang\u00e9lico Edir Macedo (Petr\u00f4nio Gontijo), empres\u00e1rio fundador e l\u00edder espiritual da Igreja Universal do Reino de Deus e propriet\u00e1rio da Record TV. Baseado nos livros da trilogia hom\u00f4nica, conta a hist\u00f3ria do self made man que enfrentou diversos momentos de turbul\u00eancia enquanto perseguia sua convic\u00e7\u00e3o.",
+        "imdb": "tt6910020",
+        "imagem": "https://image.tmdb.org/t/p/w300//l1XGiS2tXIR4IP4bdqdmlG6Hhbd.jpg"
+    }
+    ,
+    {
+        "titulo": "O Feiti\u00e7o do Natal",
+        "descricao": "Desencantada com a vida, uma talentosa fot\u00f3grafa herda um calend\u00e1rio m\u00e1gico que parece estar prevendo o futuro... e a ajudando a encontrar o amor!",
+        "imdb": "tt8262802",
+        "imagem": "https://image.tmdb.org/t/p/w300//nK1HlQmh7876NPFXzHqVZQJgYFp.jpg"
+    }
+    ,
+    {
+        "titulo": "A-X-L: O C\u00e3o Rob\u00f4",
+        "descricao": "Desenvolvido exclusivamente pelo governo para fins secretos, A.X.L \u00e9 um c\u00e3o rob\u00f3tico dotado de extrema rapidez e for\u00e7a acima da m\u00e9dia. Por\u00e9m, quando ele conhece o jovem Miles, surge um inesperado sentimento rec\u00edproco de amor e carinho que faz com o rob\u00f4 fa\u00e7a qualquer coisa para proteger seu novo dono, que agora se torna foragido por roubar um prot\u00f3tipo governamental.",
+        "imdb": "tt5709188",
+        "imagem": "https://image.tmdb.org/t/p/w300//sigvpZ41dHQlY7QWAXLVyhK5Ymj.jpg"
+    }
+    ,
+    {
+        "titulo": "Lutando Pela Fam\u00edlia",
+        "descricao": "Uma jovem (Florence Pugh) deseja lutar na WWE, a associa\u00e7\u00e3o estadunidense de wrestling, mas, para concretizar o seu sonho, precisar\u00e1 convencer seus pais e suportar uma dura rotina de treinamentos.",
+        "imdb": "tt6513120",
+        "imagem": "https://image.tmdb.org/t/p/w300//8w8LcQAG2Yo8EQUjNyNPiBZ442B.jpg"
+    }
+    ,
+    {
+        "titulo": "C.S.A.: The Confederate States of America",
+        "descricao": "",
+        "imdb": "tt0389828",
+        "imagem": "https://image.tmdb.org/t/p/w300//6tf2eXhIbG27hb1D52xDvNK7GdR.jpg"
+    }
+    ,
+    {
+        "titulo": "Dragon Ball Z: O Renascimento de Freeza",
+        "descricao": "Sorbet e Tagoma, dois remanescentes do ex\u00e9rcito de Freeza, chegam \u00e0 Terra em busca das Esferas do Drag\u00e3o. A ideia \u00e9 reun\u00ed-las para ressuscitar seu antigo l\u00edder que foi vencido ap\u00f3s uma batalha contra Goku. O plano \u00e9 bem-sucedido e, com isso, Freeza retorna disposto a se vingar. Para tanto, ele se prepara durante meses, de forma que possa reencontrar Goku no auge do seu poder.",
+        "imdb": "tt3819668",
+        "imagem": "https://image.tmdb.org/t/p/w300//oth0VBziwe25mDzkJ6XzwmUCCDC.jpg"
+    }
+    ,
+    {
+        "titulo": "A Vigilante",
+        "descricao": "Sadie (Olivia Wilde) \u00e9 uma mulher que sofreu viol\u00eancia dom\u00e9stica e enquanto ajuda outras v\u00edtimas a se livrarem de seus agressores, tenta matar o pr\u00f3prio marido ( Morgan Spector) para que seja realmente livre. A Vigilante \u00e9 um thriller inspirado na for\u00e7a e bravura de sobreviventes de abuso dom\u00e9stico e os obst\u00e1culos que enfrentam para ficarem seguras.",
+        "imdb": "tt6211976",
+        "imagem": "https://image.tmdb.org/t/p/w300//xqupjV77h9Zno2YPwsUJuGqN8MZ.jpg"
+    }
+    ,
+    {
+        "titulo": "Atentado em Paris",
+        "descricao": "Michael Mason \u00e9 um norte-americano que vive em Paris e se encontra nas m\u00e3os da CIA quando ele rouba uma bolsa que cont\u00e9m mais do que uma carteira. Sean Briar, o agente de campo no caso, rapidamente percebe que Michael \u00e9 apenas um pe\u00e3o de um jogo muito maior e tamb\u00e9m \u00e9 o seu melhor trunfo para descobrir uma conspira\u00e7\u00e3o criminosa em grande escala no cora\u00e7\u00e3o da for\u00e7a policial.",
+        "imdb": "tt2368619",
+        "imagem": "https://image.tmdb.org/t/p/w300//qIDP5eT4azlanpUJFQJq2ZYWw4Y.jpg"
+    }
+    ,
+    {
+        "titulo": "Vingadores: Ultimato",
+        "descricao": "Ap\u00f3s os eventos devastadores de \"Vingadores: Guerra Infinita\", o universo est\u00e1 em ru\u00ednas devido aos esfor\u00e7os do Tit\u00e3 Louco, Thanos. Com a ajuda de aliados remanescentes, os Vingadores devem se reunir mais uma vez a fim de desfazer as a\u00e7\u00f5es de Thanos e restaurar a ordem no universo de uma vez por todas, n\u00e3o importando as consequ\u00eancias.",
+        "imdb": "tt4154796",
+        "imagem": "https://image.tmdb.org/t/p/w300//q6725aR8Zs4IwGMXzZT8aC8lh41.jpg"
+    }
+    ,
+    {
+        "titulo": "Batman: Sil\u00eancio",
+        "descricao": "O passado de Batman come\u00e7a a se desenrolar, d\u00e1-se in\u00edcio a uma corrida para o Cavaleiro das Trevas solucionar os jogos mortais do Sil\u00eancio. O misterioso vil\u00e3o conhecido como Sil\u00eancio est\u00e1 determinado a destruir tanto a carreira de combatente ao crime de Batman, quanto a vida pessoal de Bruce Wayne",
+        "imdb": "tt8752440",
+        "imagem": "https://image.tmdb.org/t/p/w300//5fepR3N7FtTaZp5aiLrrYiQUH0A.jpg"
+    }
+    ,
+    {
+        "titulo": "Paralisia",
+        "descricao": "Ava ingere p\u00edlulas e \u00e1lcool em uma noite de festa, vindo a passar mal e desmaiar. Desperta solitariamente e se dirige para casa. Por\u00e9m ao deparar consigo deitada em sua cama, descobre que algu\u00e9m apossou-se de seu corpo. Um viajante temporal est\u00e1 usurpando sua identidade e sua vida. Al\u00e9m disso n\u00e3o est\u00e1 sozinho, pois existem outros vivendo no presente para alterar o futuro. Sem o pr\u00f3prio corpo, Ava \u00e9 um fantasma virtual, silencioso e invis\u00edvel para o mundo. E diante das barreiras do imposs\u00edvel, ela sabe que \u00e9 a \u00fanica que pode conter os viajantes e colocar a linha temporal em seu curso.",
+        "imdb": "tt5702566",
+        "imagem": "https://image.tmdb.org/t/p/w300//g0AgiPF1qBObVDLK7pwncujVpuo.jpg"
+    }
+    ,
+    {
+        "titulo": "Vale da Luta",
+        "descricao": "Aos 22 anos, Tori Coro (Chelsea Durkalec) se envolve em uma luta clandestina. Quando seu corpo \u00e9 encontrado machucado e abandonado em uma floresta, rumores come\u00e7am a circular que ela morreu no Vale da Luta, vizinhan\u00e7a onde os lutadores v\u00e3o para conseguir dinheiro. Windsor (Susie Celek), irm\u00e3 de Tori, se muda para a cidade para investigar. Ela come\u00e7a a treinar a lutar para poder enfrentar a pessoa que matou sua irm\u00e3.",
+        "imdb": "tt4280822",
+        "imagem": "https://image.tmdb.org/t/p/w300//13SoebAdscoGQYQvqoygOcNbjP9.jpg"
+    }
+    ,
+    {
+        "titulo": "Ben-Hur",
+        "descricao": "A hist\u00f3ria \u00e9pica de Judah Ben-Hur, um pr\u00edncipe falsamente acusado de trai\u00e7\u00e3o por seu irm\u00e3o adotivo Messala, um oficial do ex\u00e9rcito romano. Destitu\u00eddo de seu t\u00edtulo, afastado de sua fam\u00edlia e da mulher amada, Judah \u00e9 for\u00e7ado \u00e0 escravid\u00e3o. Depois de muitos anos no mar, Judah retorna \u00e0 sua p\u00e1tria em busca de vingan\u00e7a, mas encontra a reden\u00e7\u00e3o.",
+        "imdb": "tt2638144",
+        "imagem": "https://image.tmdb.org/t/p/w300//c9CoGrBA5yw8A7YBMz0hGzfzpNq.jpg"
+    }
+    ,
+    {
+        "titulo": "Gato de Botas",
+        "descricao": "Muito antes de conhecer o ogro Shrek e sua turma, Gato de Botas vai viver uma grande aventura ao lado de Humpty Dumpty e Kitty Pata Mansa. Dipostos a roubar os feij\u00f5es m\u00e1gicos do casal fora da lei Jack e Jill, o trio quer mesmo \u00e9 botar as m\u00e3os na famosa gansa que bota ovos de ouro. Mas algumas coisas n\u00e3o estavam nos planos e Gato vai descobrir, meio atrasado, que tem um grande problema pela frente para conseguir limpar o que ficou para tr\u00e1s: a sua honra.",
+        "imdb": "tt0448694",
+        "imagem": "https://image.tmdb.org/t/p/w300//ehBNf4ZO2xITFRC4KXr2v7rNeY3.jpg"
+    }
+    ,
+    {
+        "titulo": "Obsess\u00e3o Secreta",
+        "descricao": "Quando Jennifer acorda com amn\u00e9sia ap\u00f3s um ataque traum\u00e1tico, \u00e9 seu marido que cuida dela. Mas logo ela percebe que o perigo n\u00e3o acabou.",
+        "imdb": "tt9419834",
+        "imagem": "https://image.tmdb.org/t/p/w300//uQRwtMCDKVqNm88A1CMg0Tj7dpq.jpg"
+    }
+    ,
+    {
+        "titulo": "O Date Perfeito",
+        "descricao": "Para juntar dinheiro para a faculdade, Brooks criou um app oferecendo seus servi\u00e7os de falso namorado. Mas tudo se complica quando as coisas se tornam reais.",
+        "imdb": "tt8201170",
+        "imagem": "https://image.tmdb.org/t/p/w300//thJQ8l4G7SipYicKtK8zinuyxQO.jpg"
+    }
+    ,
+    {
+        "titulo": "Mist\u00e9rio no Mediterr\u00e2neo",
+        "descricao": "Numa aguardada viagem \u00e0 Europa, um policial de Nova York e sua esposa cabeleireira tentam solucionar um caso de assassinato a bordo do iate de um bilion\u00e1rio.",
+        "imdb": "tt1618434",
+        "imagem": "https://image.tmdb.org/t/p/w300//etbe0OUfPmW1eXDB5rPXrOsKQ4S.jpg"
+    }
+    ,
+    {
+        "titulo": "Kursk: A \u00daltima Miss\u00e3o",
+        "descricao": "Baseado em fatos reais, o filme narra a explos\u00e3o e o naufr\u00e1gio do submarino russo Kursk no ano de 2000. Os tripulantes precisam sobreviver \u00e0s \u00e1guas geladas do Mar de Barents enquanto esperam por um resgate que pode n\u00e3o chegar por causa do descaso das autoridades.",
+        "imdb": "tt4951982",
+        "imagem": "https://image.tmdb.org/t/p/w300//e2IfN9oSfu7n1raLplXx4hjRdUc.jpg"
+    }
+    ,
+    {
+        "titulo": "Jurassic World: Reino Amea\u00e7ado",
+        "descricao": "Quatro anos ap\u00f3s o fechamento do Jurassic World, um vulc\u00e3o prestes a entrar em erup\u00e7\u00e3o p\u00f5e em risco a vida na ilha Nublar. No local n\u00e3o h\u00e1 mais qualquer presen\u00e7a humana, com os dinossauros vivendo livremente. Diante da situa\u00e7\u00e3o, \u00e9 preciso tomar uma decis\u00e3o: deve-se retornar \u00e0 ilha para salvar os animais ou abandon\u00e1-los para uma nova extin\u00e7\u00e3o? Decidida a resgat\u00e1-los, Claire convoca Owen a retornar \u00e0 ilha com ela.",
+        "imdb": "tt4881806",
+        "imagem": "https://image.tmdb.org/t/p/w300//b3CuByY3v7qz9aq4rayIMeAMemy.jpg"
+    }
+    ,
+    {
+        "titulo": "Um Lobo em Pele de Cordeiro",
+        "descricao": "Um lobo entre as ovelhas \"nos leva a uma terra m\u00e1gica agora, em um prado calmo onde ovelhas podem viver sem preocupa\u00e7\u00f5es\". Mas os problemas come\u00e7am a aparecer quando um bloco de lobo est\u00e1 instalado nas proximidades.",
+        "imdb": "tt3746824",
+        "imagem": "https://image.tmdb.org/t/p/w300//fCy1aWSMUm5dQpEzPfGJ4lPDNVe.jpg"
+    }
+    ,
+    {
+        "titulo": "Lego Scooby-Doo! O Golpe da Praia",
+        "descricao": "Scooby-Doo e seus amigos est\u00e3o a caminho de Blowout Beach para uma festa na praia, mas piratas fantasmas amea\u00e7am arruinar as boas vibra\u00e7\u00f5es da turma.",
+        "imdb": "tt6946580",
+        "imagem": "https://image.tmdb.org/t/p/w300//A3LL3XqTqqucEIUa8kAGAHpU9Gm.jpg"
+    }
+    ,
+    {
+        "titulo": "Lego Scooby-Doo! Hollywood Assombrada",
+        "descricao": "Durante uma viagem a Hollywood, a turma decide visitar o lend\u00e1rio e hist\u00f3rico est\u00fadio Brickton. Ao chegar l\u00e1, a Mist\u00e9rio S/A descobre que o est\u00fadio est\u00e1 prestes a ser fechado e vendido para empres\u00e1rios que querem demoli-lo. Para piorar ainda mais a situa\u00e7\u00e3o, o local est\u00e1 sendo assombrado pelo fantasma de Boris Karnak, um famoso ator de filmes antigos, que aterroriza o est\u00fadio utilizando de personagens que marcaram sua carreira, como: a M\u00famia, o Zumbi e o Cavaleiro Sem-Cabe\u00e7a. O fantasma espantou todo o elenco e equipe do filme que poderia salvar o est\u00fadio, agora, resta a turma descobrir o que est\u00e1 realmente acontecendo e impedir que o est\u00fadio seja fechado.",
+        "imdb": "tt5548284",
+        "imagem": "https://image.tmdb.org/t/p/w300//6pv0ULiQ1gT0b8V95RvWg6uC9xY.jpg"
+    }
+    ,
+    {
+        "titulo": "Space Dogs: Aventura na Lua",
+        "descricao": "Preparem-se para decolar numa aventura fora deste mundo com o astronauta adolescente canino, Pushok, que est\u00e1 determinado a encontrar o seu pai astronauta desaparecido. Contra todas as probabilidades, Pushok parte em um foguete norte-americano para a lua, mas logo descobre que n\u00e3o est\u00e1 sozinho, quando se reencontra com sua m\u00e3e e encontra um macaco e uma alien\u00edgena beb\u00ea. Juntos, os her\u00f3is peludos aprendem o verdadeiro significado do trabalho em equipe ao se unirem na busca pelo pai de Pushok.",
+        "imdb": "tt3600950",
+        "imagem": "https://image.tmdb.org/t/p/w300//nKW9UNVUHErUycbCApoylwx3XM4.jpg"
+    }
+    ,
+    {
+        "titulo": "Snoopy & Charlie Brown: Peanuts, o Filme",
+        "descricao": "Enquanto Charlie Brown embarca em uma jornada \u00e9pica, seu amigo beagle Snoopy vai at\u00e9 o c\u00e9u atr\u00e1s de seu arqui-inimigo, o Bar\u00e3o Vermelho.",
+        "imdb": "tt2452042",
+        "imagem": "https://image.tmdb.org/t/p/w300//lnBbIL2gYex4aVomvZOg5ZGtOOa.jpg"
+    }
+    ,
+    {
+        "titulo": "Shaun, o Carneiro: O Filme",
+        "descricao": "Shaun \u00e9 um carneiro que, um belo dia, resolve tirar um dia de folga com os outros animais, para sair da rotina da fazenda. S\u00f3 que, acidentalmente, ele acaba mandando o carinhoso fazendeiro para a cidade grande, onde o homem perde a mem\u00f3ria. Os animais, ent\u00e3o, comandados por shaun, v\u00e3o aprontar altas confus\u00f5es no caos urbano para trazer o dono de volta para casa.",
+        "imdb": "tt2872750",
+        "imagem": "https://image.tmdb.org/t/p/w300//I7LCUjD6X7ijWwIsIOjgdIMtoF.jpg"
+    }
+    ,
+    {
+        "titulo": "Saara",
+        "descricao": "Ao ver seu novo amor capturado, uma jovem serpente e seu amigo escorpi\u00e3o cruzam o deserto em uma perigosa miss\u00e3o de resgate.",
+        "imdb": "tt4466894",
+        "imagem": "https://image.tmdb.org/t/p/w300//lhrdcA2Grmsqorp2iOm2rfoWHE5.jpg"
+    }
+    ,
+    {
+        "titulo": "Real: O Plano por Tr\u00e1s da Hist\u00f3ria",
+        "descricao": "Bras\u00edlia, maio de 1993. Ap\u00f3s uma sequ\u00eancia de planos econ\u00f4micos que n\u00e3o surtiram efeito, o pa\u00eds \u00e9 levado \u00e0 hiperinfla\u00e7\u00e3o. Uma seleta equipe econ\u00f4mica, protegida em um bunker contra press\u00f5es pol\u00edticas, mergulha na miss\u00e3o de reformar o Estado e criar o Plano Real.",
+        "imdb": "tt5797820",
+        "imagem": "https://image.tmdb.org/t/p/w300//kwLgfy6cfEyyuUImk8j03INLnCB.jpg"
+    }
+    ,
+    {
+        "titulo": "O Rapaz e o Monstro",
+        "descricao": "Uma hist\u00f3ria de amizade entre Kyuta, um menino solit\u00e1rio que vive em Shibuya e Kumatetsu, uma sobrenatural fera de Jutengai, que vive isolado um mundo imagin\u00e1rio. Um dia, Kyauta foge para o mundo imagin\u00e1rio e quando ele procura por um caminho de volta conhece Kumatetsu, que se torna o seu guia espiritual. O encontro deles lidera uma grande aventura que est\u00e1 por vir.",
+        "imdb": "tt4272866",
+        "imagem": "https://image.tmdb.org/t/p/w300//o3KuY5C8RWQ8BpAqqTbwi7hRtPZ.jpg"
+    }
+    ,
+    {
+        "titulo": "O Mago das Mentiras",
+        "descricao": "O enredo gira em torno de Bernard Madoff, um ex-consultor financeiro norte-americano que criou uma das maiores empresas de investimentos de Wall Street. Condenado por fraude, ele foi respons\u00e1vel por uma sofisticada opera\u00e7\u00e3o, baseada no Esquema Ponzi, e \u00e9 considerada a maior fraude financeira da hist\u00f3ria dos EUA.",
+        "imdb": "tt1933667",
+        "imagem": "https://image.tmdb.org/t/p/w300//yMBt2IsCoPfOheOTbQH9UtRdXlg.jpg"
+    }
+    ,
+    {
+        "titulo": "O Bar",
+        "descricao": "Em um caf\u00e9 no centro de Madrid, pessoas tomam o seu caf\u00e9 da manh\u00e3 tranquilamente, como de costume. Mas, quando um dos clientes leva um tiro na cabe\u00e7a ao colocar os p\u00e9s fora da loja, o clima de tens\u00e3o invade o local. Agora, eles est\u00e3o presos, e temem sair do local e acabar terminando com o mesmo destino do homem. O problema \u00e9 que a conviv\u00eancia com estranhos pode ser t\u00e3o perigosa quanto sair dali.",
+        "imdb": "tt5121816",
+        "imagem": "https://image.tmdb.org/t/p/w300//fTQrMo36JzbxNdXztHIvxoheuZp.jpg"
+    }
+    ,
+    {
+        "titulo": "O Homem de A\u00e7o",
+        "descricao": "Um garoto descobre que n\u00e3o \u00e9 deste planeta e que tem poderes extraordin\u00e1rios. Quando se torna adolescente, viaja para descobrir de onde veio e para o qu\u00ea foi enviado a fazer. Mas o her\u00f3i nele deve emergir se quiser salvar o mundo da aniquila\u00e7\u00e3o e se tornar o s\u00edmbolo de esperan\u00e7a para toda a humanidade.",
+        "imdb": "tt0770828",
+        "imagem": "https://image.tmdb.org/t/p/w300//nLdGhMTqdvWgMuxmSroaV2JX8sX.jpg"
+    }
+    ,
+    {
+        "titulo": "O Tigre e o Drag\u00e3o: A Espada do Destino",
+        "descricao": "Ambientado 20 anos ap\u00f3s os acontecimentos de O Tigre e o Drag\u00e3o, O Tigre e o Drag\u00e3o: A Espada do Destino traz os mestres Yu Shu-Lien (Michelle Yeoh), Tie-Fang (Harry Shum Jr.), Meng Sizhao (Donnie Yen) e Snow Vase (Natasha Liu Bordizzo) de volta. Juntos, eles ter\u00e3o que unir for\u00e7as para defender a lend\u00e1ria espada Destino Verde das m\u00e3os do temido Hades Dai (Jason Scott Lee).",
+        "imdb": "tt2652118",
+        "imagem": "https://image.tmdb.org/t/p/w300//zqM3ZxFcUoreBfaFpztL197SLCI.jpg"
+    }
+    ,
+    {
+        "titulo": "Os Penetras 2: Quem D\u00e1 Mais?",
+        "descricao": "Beto est\u00e1 desolado por ter sido enganado por Marco, o malandro profissional. Ele, que est\u00e1 internado em uma cl\u00ednica psiqui\u00e1trica, \u00e9 ent\u00e3o surpreendido por uma not\u00f3cia que muda os rumos de sua vida e de Laura e Nelson que s\u00e3o seus parceiros. Os tr\u00eas, em seguida, conhecem o mili\u00e1rio sedutor Santiago e Oleg, um mafioso russo. De  golpe em  golpe, eles vivem uma das maiores confus\u00f5es de suas vidas.",
+        "imdb": "tt5259790",
+        "imagem": "https://image.tmdb.org/t/p/w300//vDUCug8zOh8IKEZSk5xDZUdf8wR.jpg"
+    }
+    ,
+    {
+        "titulo": "O Livro de G\u00eanesis",
+        "descricao": "Baseado no primeiro livro da B\u00edblia, G\u00eanesis \u00e9 uma vis\u00e3o ampla e po\u00e9tica do in\u00edcio do relacionamento do homem com Deus. Enquanto Jochebed (Venus Monique) se esconde em um abrigo para proteger seu filho de ser assassinado, ela conta a hist\u00f3ria de seu povo ao longo de uma noite perigosa. Este filme explora a id\u00e9ia de que a humanidade um dia retornar\u00e1 ao lugar onde come\u00e7amos, mas que a jornada ser\u00e1 cheia de dificuldades, beleza e uma necessidade desesperada de confiar no Criador.",
+        "imdb": "tt3750976",
+        "imagem": "https://image.tmdb.org/t/p/w300//bMq5QpK7erEKtDIMAcTshYKQyG4.jpg"
+    }
+    ,
+    {
+        "titulo": "O Grande Mentiroso 2",
+        "descricao": "Kevin Shepard \u00e9 um g\u00eanio viciado em tecnologia que utiliza da sua intelig\u00eancia para se safar!  Quando o executivo Alan Wolf pega uma de suas ideias para um video game, Kevin e sua melhor amiga Becca v\u00e3o \u00e0 Seattle para atrapalhar o empres\u00e1rio atrav\u00e9s de muitas pe\u00e7as!",
+        "imdb": "tt5846744",
+        "imagem": "https://image.tmdb.org/t/p/w300//nLpIyk2JY4HrBOrPhwrqftn6xxq.jpg"
+    }
+    ,
+    {
+        "titulo": "O Exorcismo de Anna Ecklund",
+        "descricao": "Nesta hist\u00f3ria real terr\u00edvel, algo al\u00e9m da compreens\u00e3o est\u00e1 acontecendo com a esposa e m\u00e3e Anna Ecklund. Uma vez uma paroquiana calma e educada, ela agora est\u00e1 propensa a ataques de raiva, com um \u00f3dio particularmente violento contra imagens religiosas. Desesperado para encontrar uma cura para o comportamento perturbador de Anna, sua fam\u00edlia convida m\u00e9dicos e psiquiatras para fornecer um diagn\u00f3stico. Mas quando nenhuma explica\u00e7\u00e3o racional pode ser encontrada, o sacerdote local Padre Riesinger se une ao investigador do Vaticano Padre Lamont para avaliar o caso. Percebendo que Anna est\u00e1 possu\u00edda por uma entidade mal\u00e9vola, os sacerdotes a levam para um convento nas proximidades para realizar um exorcismo. Mas todo o inferno \u00e9 libertado e uma batalha brutal come\u00e7a entre o bem e o mal.",
+        "imdb": "tt3564860",
+        "imagem": "https://image.tmdb.org/t/p/w300//wJ8thYCnYnDefYirsYaS2ge5vuq.jpg"
+    }
+    ,
+    {
+        "titulo": "O Di\u00e1rio de Anne Frank",
+        "descricao": "Anne Frank (Lea van Acken) foi uma jovem alem\u00e3 de origem judia que com 13 anos foi morar com a fam\u00edlia em um esconderijo, chamado por ela como Anexo Secreto, em Amsterdam, devido a persegui\u00e7\u00e3o dos nazistas. Por mais de dois anos no esconderijo, ela escreve seus pensamentos cotidianos. Uma jovem no limiar da vida adulta que, apesar das circunst\u00e2ncias, \u00e9 otimista expressando os seus sentimentos \u00e0 flor da pele.",
+        "imdb": "tt5277952",
+        "imagem": "https://image.tmdb.org/t/p/w300//6ziXQHtJPKZcsLLXlfidrE3p8cW.jpg"
+    }
+    ,
+    {
+        "titulo": "O Corpo",
+        "descricao": "Holly, Cali e Mel, se re\u00fanem na v\u00e9spera de Natal, na casa de Mel para comemorarem a data. Entediadas, Cali convence as amigas que devem ir \u00e0 casa do seu tio, onde podem festejar. Na casa, no entanto, Holly encontra provas que a levam a acreditar que Cali n\u00e3o est\u00e1 relacionada aos propriet\u00e1rios. Quando elas confrontam Cali, ela admite que entrassem em uma casa de propriedade de um casal para quem ela costumava trabalhar de bab\u00e1. Holly e Mel insistem para sa\u00edrem de l\u00e1, mas acabam sendo surpreendido por Arthur, o jardineiro. Depois de uma breve briga, Arthur cai por uma escada, aparentemente morto. Em p\u00e2nico, elas decidem encobrir o acidente.",
+        "imdb": "tt3732950",
+        "imagem": "https://image.tmdb.org/t/p/w300//jm0slUDSMgFQN3cO2a8U9LItjgk.jpg"
+    }
+    ,
+    {
+        "titulo": "O Guardi\u00e3o Invis\u00edvel",
+        "descricao": "A Inspetora Amaia Salazar lidera uma investiga\u00e7\u00e3o que vai lev\u00e1-la de volta para Elizondo, a aldeia das chuvas no cora\u00e7\u00e3o do Pa\u00eds Basco, onde ela nasceu e para a qual ela esperava nunca mais voltar.",
+        "imdb": "tt4924942",
+        "imagem": "https://image.tmdb.org/t/p/w300//vVCfUZKJaCDOOLegcrCIqVxzhH4.jpg"
+    }
+    ,
+    {
+        "titulo": "O Filho Eterno",
+        "descricao": "Um escritor embarca em uma jornada comovente e desafiadora para criar o filho com s\u00edndrome de Down.",
+        "imdb": "tt5341098",
+        "imagem": "https://image.tmdb.org/t/p/w300//cUQoV5uFIllGJyetFGrJE2xZ5ZE.jpg"
+    }
+    ,
+    {
+        "titulo": "O Espa\u00e7o Entre N\u00f3s",
+        "descricao": "O adolescente Gardner Elliot \u00e9 o primeiro humano nascido em solo marciano. Mas ele deseja fazer uma viagem \u00e0 Terra para conhecer a verdade sobre seu pai biol\u00f3gico, e sobre seu nascimento. Nesta jornada, ele tem o apoio de Tulsa.",
+        "imdb": "tt3922818",
+        "imagem": "https://image.tmdb.org/t/p/w300//ks84JvfZhjZZkmd7uVTYHUi81ge.jpg"
+    }
+    ,
+    {
+        "titulo": "O Despertar do Psicopata",
+        "descricao": "Um jovem casal que passa por um mau momento descobre uma s\u00e9rie de materiais de filme que pertencem a um sanguin\u00e1rio assassino em s\u00e9rie. Dispostos a lucrar com os v\u00eddeos elaboram um plano.",
+        "imdb": "tt6294892",
+        "imagem": "https://image.tmdb.org/t/p/w300//azPPkBlwvZVbqeeJuaROJEIXUZf.jpg"
+    }
+    ,
+    {
+        "titulo": "O Dem\u00f4nio da Rua Willow",
+        "descricao": "Depois que a filha de um rico distribuidor de diamantes \u00e9 sequestrada, os sequestradores logo percebem que a jovem foi possu\u00edda por um dem\u00f4nio sinistro e que podem estar em perigo.",
+        "imdb": "tt4961380",
+        "imagem": "https://image.tmdb.org/t/p/w300//6X8GHydjtKAVntS4hzrKMDGCPgR.jpg"
+    }
+    ,
+    {
+        "titulo": "O Dia do Atentado",
+        "descricao": "O sargento de pol\u00edcia Tommy Saunders, o agente especial do FBI Richard DesLauriers e o comiss\u00e1rio Ed Davis buscam os respons\u00e1veis pelo atentado da Maratona de Boston, em 2013.",
+        "imdb": "tt4572514",
+        "imagem": "https://image.tmdb.org/t/p/w300//8gWuVoGaMQFFp9Cu0AMRJ5GsoVg.jpg"
+    }
+    ,
+    {
+        "titulo": "O Caseiro",
+        "descricao": "Davi, um c\u00e9tico professor de psicologia que ficou famoso por escrever um livro que explica apari\u00e7\u00f5es sobrenaturais atrav\u00e9s da psican\u00e1lise. Ap\u00f3s anos sem atender pacientes, ele, com o intuito de escrever um novo livro, viaja pro interior para investigar a hist\u00f3ria de um homem que acredita que sua filha est\u00e1 sendo assombrada pelo fantasma do antigo caseiro de sua propriedade, que se suicidou.",
+        "imdb": "tt4302788",
+        "imagem": "https://image.tmdb.org/t/p/w300//ipvXYpxxyUOypQkN3GHplDr3AEM.jpg"
+    }
+    ,
+    {
+        "titulo": "A Morte Te D\u00e1 Parab\u00e9ns 2",
+        "descricao": "A Colegial Tree Gelbman acorda horrorizada ao saber que est\u00e1 presa em um universo paralelo. Seu namorado Carter est\u00e1 agora com outra pessoa, e seus amigos e colegas parecem ser vers\u00f5es completamente diferentes de si mesmos. Quando Tree descobre que o colega de quarto de Carter est\u00e1 alterando o tempo, ela se v\u00ea mais uma vez como alvo de um matador mascarado. Quando o psicopata come\u00e7a a ir atr\u00e1s de seu c\u00edrculo \u00edntimo, Tree logo percebe que ela deve morrer repetidamente para salvar a todos.",
+        "imdb": "tt8155288",
+        "imagem": "https://image.tmdb.org/t/p/w300//zvcFFL2B6zcn3cM6ZMshV6w2bev.jpg"
+    }
+    ,
+    {
+        "titulo": "Era Uma Vez em\u2026 Hollywood",
+        "descricao": "Los Angeles, 1969. Rick Dalton \u00e9 um ator de TV que, juntamente com seu dubl\u00ea, est\u00e1 decidido a fazer o nome em Hollywood. Para tanto, ele conhece muitas pessoas influentes na ind\u00fastria cinematogr\u00e1fica, o que os acaba levando aos assassinatos realizados por Charles Manson na \u00e9poca, entre eles o da atriz Sharon Tate, que na \u00e9poca estava gr\u00e1vida do diretor Roman Polanski.",
+        "imdb": "tt7131622",
+        "imagem": "https://image.tmdb.org/t/p/w300//h30FdikGNkrT6loajaO9G1HHjz0.jpg"
+    }
+    ,
+    {
+        "titulo": "O Holofote N\u00e3o \u00e9 para Todos",
+        "descricao": "Quando um membro de uma popular trupe de improviso de Nova York obt\u00e9m uma grande conquista, o resto do grupo - todos melhores amigos - come\u00e7a a dar-se conta que nem todos eles v\u00e3o chegar ao sucesso, afinal de contas.",
+        "imdb": "tt4972062",
+        "imagem": "https://image.tmdb.org/t/p/w300//osMcPoonEb0EQrQ5YBu8yozi8ZN.jpg"
+    }
+    ,
+    {
+        "titulo": "Predadores Assassinos",
+        "descricao": "Quando a Fl\u00f3rida \u00e9 v\u00edtima de um imenso furac\u00e3o, os tsnunamis levam todos os habitantes a evacuarem o local. Mesmo assim, a jovem Haley se recusa a sair de casa enquanto n\u00e3o conseguir resgatar o pai, gravemente ferido. Aos poucos, o n\u00edvel da \u00e1gua come\u00e7a a subir, Haley tamb\u00e9m se fere e tanto ela quanto o pai precisam enfrentar inimigos inesperados: gigantescos crocodilos que chegam com as \u00e1guas.",
+        "imdb": "tt8364368",
+        "imagem": "https://image.tmdb.org/t/p/w300//zjy40Ia8RusC6tKxOSkx32071oi.jpg"
+    }
+    ,
+    {
+        "titulo": "Cortina de Fogo 2",
+        "descricao": "O investigador de inc\u00eandios, Sean McCaffrey (Joe Anderson), agora trabalha no Departamento de Inc\u00eandios de Chicago, junto com o seu tio. Quando Sean recebe ordem para liderar as investiga\u00e7\u00f5es de um inc\u00eandio que matou muitas pessoas, ele se depara com algo muito maior do que um acidente normal. Sean precisa dar seu melhor para desvendar esse crime e impedir que o autor dos inc\u00eandios consiga realizar seus planos malignos.",
+        "imdb": "tt8172466",
+        "imagem": "https://image.tmdb.org/t/p/w300//vf3GHorBRTCLie2umkAtVkPKlkJ.jpg"
+    }
+    ,
+    {
+        "titulo": "Vingan\u00e7a a Sangue Frio",
+        "descricao": "Nels \u00e9 um tranquilo homem de fam\u00edlia que trabalha como motorista de um removedor de neve e v\u00ea seu mundo virado de cabe\u00e7a para baixo quando seu filho \u00e9 morto por um poderoso traficante de drogas. Impulsionado pelo desejo de vingan\u00e7a e sem nada para perder, ele faz tudo o que for preciso para destruir o cartel.",
+        "imdb": "tt5719748",
+        "imagem": "https://image.tmdb.org/t/p/w300//rM93VoRIdlgRKOzh5t0zYNRmNv.jpg"
+    }
+    ,
+    {
+        "titulo": "Morgan: A Evolu\u00e7\u00e3o",
+        "descricao": "Uma consultora coorporativa de gest\u00e3o de risco (Kate Mara) \u00e9 convocada para investigar um acidente que provocou v\u00e1rios danos em uma instala\u00e7\u00e3o remota. Chegando l\u00e1 ela se depara com uma jovem (Anya Taylor-Joy) de apar\u00eancia fr\u00e1gil e inofensiva e precisa decidir se ela deve ou n\u00e3o ser sacrificada.",
+        "imdb": "tt4520364",
+        "imagem": "https://image.tmdb.org/t/p/w300//ilNXSi7ENjoiZh9hNIpUbjlZE6J.jpg"
+    }
+    ,
+    {
+        "titulo": "Manchester \u00e0 Beira-Mar",
+        "descricao": "Lee Chandler, zelador de pr\u00e9dios em Boston, Massachusetts, \u00e9 for\u00e7ado a retornar a sua cidade natal, Manchester na Inglaterra, para assumir a guarda de seu sobrinho adolescente Patrick ap\u00f3s o pai do rapaz, seu irm\u00e3o Joe, falecer precocemente. Este retorno ficar\u00e1 ainda mais complicado quando Lee precisar enfrentar as raz\u00f5es que o fizeram ir embora e deixar sua fam\u00edlia para tr\u00e1s, anos antes.",
+        "imdb": "tt4034228",
+        "imagem": "https://image.tmdb.org/t/p/w300//cy7fOIXX0MO2HXnTE3Lf0NwjQfN.jpg"
+    }
+    ,
+    {
+        "titulo": "Minions",
+        "descricao": "Seres amarelos milenares, os minions t\u00eam uma miss\u00e3o: servir os maiores vil\u00f5es. Em depress\u00e3o desde a morte de seu antigo mestre, eles tentam encontrar um novo chefe. Tr\u00eas volunt\u00e1rios, Kevin, Stuart e Bob, v\u00e3o at\u00e9 uma conven\u00e7\u00e3o de vil\u00f5es nos Estados Unidos e l\u00e1 se encantam com Scarlet Overkill, que ambiciona ser a primeira mulher a dominar o mundo.",
+        "imdb": "tt2293640",
+        "imagem": "https://image.tmdb.org/t/p/w300//caq9Xi6b1sZNREfzFBO2tRIBzWn.jpg"
+    }
+    ,
+    {
+        "titulo": "Monster High: Eletrizante",
+        "descricao": "Quando Clawdeen sonha em abrir um sal\u00e3o para monstros e normais, Frankie tem o lugar perfeito: uma esta\u00e7\u00e3o el\u00e9trica abandonada, fora da cidade. Mas a ideia leva uma voltagem negativa, quando Moanica planeja arruinar tudo e mudar a festa para algo um pouco mais\u2026 chocante! Por sorte, as monstrinhas t\u00eam uma arma secreta a seu favor: Twyla, a filha do Bicho-Pap\u00e3o, e o monstro perfeito para desenterrar qualquer mist\u00e9rio. Juntas, as amigas monstrinhas precisam apagar o plano de Moanica, acender suas roupas, salvar a cidade dos normais da escurid\u00e3o\u2026 e abrir o sal\u00e3o mais eletrizante de todos! Ent\u00e3o fiquem atentos a todas as idas, vindas, voltas e reviravoltas\u2026porque as monstrinhas de Monster High est\u00e3o ficando el\u00e9tricas!",
+        "imdb": "tt6536944",
+        "imagem": "https://image.tmdb.org/t/p/w300//cVzwB2zJk6PI1oA5evN9egmtreU.jpg"
+    }
+    ,
+    {
+        "titulo": "Melanie: A \u00daltima Esperan\u00e7a",
+        "descricao": "Em um futuro pr\u00f3ximo, algumas crian\u00e7as s\u00e3o mantidas como ref\u00e9ns por um cientista em busca da cura para uma doen\u00e7a que infestou todo o planeta. Melanie, uma garotinha com dons muito especiais, chama a aten\u00e7\u00e3o de Helen Justineau e da Dr. Caroline Caldwell, que decidem embarcar em uma jornada com a menina.",
+        "imdb": "tt4547056",
+        "imagem": "https://image.tmdb.org/t/p/w300//poEJtp7riNN7skIMY9e2DBiaYnN.jpg"
+    }
+    ,
+    {
+        "titulo": "Lucy",
+        "descricao": "Quando a inocente jovem Lucy (Scarlett Johansson) aceita transportar drogas dentro do seu est\u00f4mago, ela n\u00e3o conhece muito bem os riscos que corre. Por acaso, ela acaba absorvendo as drogas, e um efeito inesperado acontece: Lucy ganha poderes sobre-humanos, incluindo a telecinesia, a aus\u00eancia de dor e a capacidade de adquirir conhecimento instantaneamente.",
+        "imdb": "tt2872732",
+        "imagem": "https://image.tmdb.org/t/p/w300//6f10Yn1vooCMhb6DrY6AvsK19Yh.jpg"
+    }
+    ,
+    {
+        "titulo": "O Lorax: Em Busca da Tr\u00fafula Perdida",
+        "descricao": "O menino Ted (Zac Efron) descobriu que o sonho de sua paix\u00e3o, a bela Audrey (Taylor Swift), \u00e9 ver uma \u00e1rvore de verdade, algo em extin\u00e7\u00e3o. Disposto a realizar este desejo, ele embarca numa aventura por uma terra desconhecida, cheia de cor, natureza e \u00e1rvores. \u00c9 l\u00e1 que conhece tamb\u00e9m o simp\u00e1tico e ao mesmo tempo rabugento Lorax (Danny DeVito), uma criatura curiosa preocupada com o futuro de seu pr\u00f3prio mundo.",
+        "imdb": "tt1482459",
+        "imagem": "https://image.tmdb.org/t/p/w300//3rfClKuMmhFawkdCJXMEV3OGOJ3.jpg"
+    }
+    ,
+    {
+        "titulo": "Looney Tunes: Fuga dos Coelhos",
+        "descricao": "Looney Tunes est\u00e3o de volta nesta nova aventura animada! A persegui\u00e7\u00e3o come\u00e7a com uma flor muito rara que pode transformar qualquer coisa invis\u00edvel! Quando bonito, trapalh\u00e3o perfume vendedora Lola Bunny recebe a flor como um presente (inconscientes de seu poder), acrescenta o ingrediente m\u00e1gico para o seu mais recente cria\u00e7\u00e3o perfume.",
+        "imdb": "tt4840666",
+        "imagem": "https://image.tmdb.org/t/p/w300//79qeSuKLCsveYejIeSDsNPEI5Ah.jpg"
+    }
+    ,
+    {
+        "titulo": "LEGO Super Heroes: DC Liga da Justi\u00e7a - Revolta em Gotham",
+        "descricao": "O combate ao crime \u00e9 um trabalho em tempo integral e Batman nunca tira f\u00e9rias. Isso at\u00e9 quando ele finalmente concorda em deixar Batgirl e Asa Noturna lev\u00e1-lo para uma merecida viagem \u2013 deixando a cidade de Gotham sob os olhares atentos da Liga da Justi\u00e7a. Mas Batman est\u00e1 longe de tirar um descanso quando o trio encontra um velho inimigo em sua aventura, e a Liga da Justi\u00e7a descobre o qu\u00e3o ocupado Batman fica no dia a dia.",
+        "imdb": "tt5612702",
+        "imagem": "https://image.tmdb.org/t/p/w300//oqw58OeHHqqn9N1vsh52GP7LZIH.jpg"
+    }
+    ,
+    {
+        "titulo": "Lion: Uma Jornada para Casa",
+        "descricao": "Quando tinha apenas cinco anos, o indiano Saroo se perdeu do irm\u00e3o numa esta\u00e7\u00e3o de trem de Calcut\u00e1 e enfrentou grandes desafios para sobreviver sozinho at\u00e9 de ser adotado por uma fam\u00edlia australiana. Incapaz de superar o que aconteceu, aos 25 anos ele decide buscar uma forma de reencontrar sua fam\u00edlia biol\u00f3gica.",
+        "imdb": "tt3741834",
+        "imagem": "https://image.tmdb.org/t/p/w300//78Jj9BjEnycYsvurXQCMo3dafIx.jpg"
+    }
+    ,
+    {
+        "titulo": "Sonhos L\u00facidos",
+        "descricao": "Um homem (Ko Soo) que perdeu seu filho h\u00e1 3 anos atr\u00e1s. Descobre atrav\u00e9s de um sonho l\u00facido uma pista sobre o desaparecimento de seu filho.",
+        "imdb": "tt6830780",
+        "imagem": "https://image.tmdb.org/t/p/w300//vmPnhMczqacfGCHHqHHWUTJfk33.jpg"
+    }
+    ,
+    {
+        "titulo": "Lady Macbeth",
+        "descricao": "Katherine (Florence Pugh) est\u00e1 presa a um casamento de conveni\u00eancia. Casada com Boris Macbeth (Christopher Fairbank), a jovem agora se v\u00ea integrante de uma fam\u00edlia sem amor. \u00c9 s\u00f3 quando ela embarca em um caso extraconjugal com um trabalhador da propriedade do marido que as coisas come\u00e7am a mudar. Ela s\u00f3 n\u00e3o contava que isso iria desencadear v\u00e1rios assassinatos.",
+        "imdb": "tt4291600",
+        "imagem": "https://image.tmdb.org/t/p/w300//xWTJbhTwSTJmhLlX5xAOxPhdnXc.jpg"
+    }
+    ,
+    {
+        "titulo": "A Rebeli\u00e3o",
+        "descricao": "Em um bairro de Chicago, quase uma d\u00e9cada ap\u00f3s uma invas\u00e3o alien\u00edgena no planeta Terra, acompanhamos como \u00e9 a vida das pessoas nos dois lados do conflito, o dos colaboradores e o dos dissidentes.",
+        "imdb": "tt5968394",
+        "imagem": "https://image.tmdb.org/t/p/w300//yMicD9GcQWFbOTxjTQHPygxbmdO.jpg"
+    }
+    ,
+    {
+        "titulo": "Nas Trevas",
+        "descricao": "Mina seria uma adolescente como qualquer outra se n\u00e3o tivesse sido amaldi\u00e7oada e transformada em uma vampira morta-viva. Ela \u00e9 obrigada a assombrar a casa onde cresceu: ningu\u00e9m entra ou sai vivo de l\u00e1. Mas a chegada de Alex, um menino cego da mesma idade de Mina, pode faz\u00ea-la reviver sentimentos adormecidos, como empatia e amor.",
+        "imdb": "tt6832388",
+        "imagem": "https://image.tmdb.org/t/p/w300//2N6fkTKTKzkb8ywF9A4OoyuAVTM.jpg"
+    }
+    ,
+    {
+        "titulo": "C\u00f3pias: De Volta \u00e0 Vida",
+        "descricao": "Um neurocientista e sua fam\u00edlia sofrem um acidente de carro e s\u00f3 ele sobrevive. Inconformado, o homem come\u00e7a uma luta incessante para traz\u00ea-los de volta por meio de um experimento que desafia as leis f\u00edsicas da ci\u00eancia.",
+        "imdb": "tt4154916",
+        "imagem": "https://image.tmdb.org/t/p/w300//s2R1xCxt6b1lkeEk33u86hqQDe6.jpg"
+    }
+    ,
+    {
+        "titulo": "Cinderela Pop",
+        "descricao": "Cintia \u00e9 uma princesa dos dias atuais: antenada, com opini\u00f5es pr\u00f3prias, decidida e adora m\u00fasica. Essa princesa pop morava com os pais em um castelo enorme de onde via toda a cidade. Todas as noites, ela olhava pela janela, de onde ficava admirando a vista e sonhando com um pr\u00edncipe que ainda n\u00e3o conhecia. Por\u00e9m, um dia, o castelo de Cintia desmoronou e com ele tudo \u00e0 sua volta. Com a separa\u00e7\u00e3o dos pais, ela vai morar com a tia, se afasta do pai e, principalmente, deixa de acreditar no amor. Ela s\u00f3 n\u00e3o contava com um detalhe... Havia mesmo um belo pr\u00edncipe encantando em sua hist\u00f3ria. E tudo o que ele mais queria era descongelar o cora\u00e7\u00e3o da nossa gata (nada) borralheira!",
+        "imdb": "tt8716800",
+        "imagem": "https://image.tmdb.org/t/p/w300//uL0TrrV5MHQFkwRxlho0dDKTwvm.jpg"
+    }
+    ,
+    {
+        "titulo": "O Parque dos Sonhos",
+        "descricao": "A jovem otimista e sonhadora June encontra escondido na floresta um parque de divers\u00f5es chamado Wonderland, que \u00e9 cheio de passeios e animais que falam. O \u00fanico problema \u00e9 que o parque est\u00e1 confuso e desorganizado. June logo descobre que o parque veio de sua imagina\u00e7\u00e3o e que ela \u00e9 a \u00fanica que pode deixar o lugar m\u00e1gico de novo.",
+        "imdb": "tt6428676",
+        "imagem": "https://image.tmdb.org/t/p/w300//3XXhij7cIyXeHKSZjZzCFKh58dg.jpg"
+    }
+    ,
+    {
+        "titulo": "M\u00e1quinas Mortais",
+        "descricao": "Anos depois da \"Guerra dos Sessenta Minutos\", a Terra est\u00e1 destru\u00edda e para sobreviver as cidades se movem em rodas gigantes, conhecidas como Cidades Tra\u00e7\u00e3o, e lutam com outras para conseguir mais recursos naturais. Quando Londres se envolve em um ataque, Tom \u00e9 lan\u00e7ado para fora da cidade junto com uma fora-da-lei e os dois juntos precisam lutar para sobreviver e ainda enfrentar uma amea\u00e7a que coloca a vida no planeta em risco.",
+        "imdb": "tt1571234",
+        "imagem": "https://image.tmdb.org/t/p/w300//sBdtAsZNVPMOOYcq8zh0XULqU9T.jpg"
+    }
+    ,
+    {
+        "titulo": "Circus Kane - O Circo dos Horrores",
+        "descricao": "Um mestre de circo recluso convida um grupo de celebridades de redes sociais para sua casa dos horrores. A noite \u00e9 um desafio em que os competidores poder\u00e3o ganhar cerca de $250,000, mas logo eles percebem que n\u00e3o est\u00e3o s\u00f3 competindo pelo dinheiro mas tamb\u00e9m por sua vida.",
+        "imdb": "tt6164014",
+        "imagem": "https://image.tmdb.org/t/p/w300//eHVWf5A4vsSG7gbCh0LGkayWYOM.jpg"
+    }
+    ,
+    {
+        "titulo": "O Grande Circo M\u00edstico",
+        "descricao": "Em meio ao universo de uma tradicional fam\u00edlia austr\u00edaca, que \u00e9 dona do Grande Circo Knieps, nasceu um improv\u00e1vel romance entre um aristocrata e uma acrobata. Este \u00e9 o retrato dos 100 anos de exist\u00eancia do Grande Circo e das cinco gera\u00e7\u00f5es do cl\u00e3 \u00e0 frente do espet\u00e1culo e suas hist\u00f3rias fant\u00e1sticas.",
+        "imdb": "tt3096782",
+        "imagem": "https://image.tmdb.org/t/p/w300//mGb7dmGFIWSigLou8FYq8zlqF45.jpg"
+    }
+    ,
+    {
+        "titulo": "O Grinch",
+        "descricao": "O Grinch \u00e9 um ser verde que n\u00e3o suporta o Natal e, todo ano, precisa impedir que os habitantes da cidade vizinha de Queml\u00e2ndia comemorem a data. Decidido a acabar com a festa, ele resolve invadir os lares dos vizinhos e roubar tudo o que est\u00e1 relacionado ao Natal.",
+        "imdb": "tt2709692",
+        "imagem": "https://image.tmdb.org/t/p/w300//hGnQmQARgtXtoesIGAsmmTbMKfH.jpg"
+    }
+    ,
+    {
+        "titulo": "A Morte do Superman",
+        "descricao": "Um monstro gigantesco batizado de Doomsday surge do mundo subterr\u00e2neo para come\u00e7ar uma destrui\u00e7\u00e3o em massa na cidade de Metropolis. A Liga da Justi\u00e7a precisa intervir imediatamente, mas parece que s\u00f3 os poderes do Superman s\u00e3o compat\u00edveis com o do terr\u00edvel monstro. Em uma luta mortal, o destino do super-her\u00f3i torna-se incerto.",
+        "imdb": "tt7167658",
+        "imagem": "https://image.tmdb.org/t/p/w300//ecPlsaYUnBfFt01cTqhpPFtcxem.jpg"
+    }
+    ,
+    {
+        "titulo": "O Resgate da Princesa",
+        "descricao": "Na \u00e9poca de valentes cavaleiros, um jovem se apaixona, sem saber, pela filha do Rei. Quando a princesa \u00e9 raptada por um feiticeiro, ele far\u00e1 de tudo para resgat\u00e1-la e provar que o verdadeiro amor \u00e9 mais forte que qualquer m\u00e1gica.",
+        "imdb": "tt5378092",
+        "imagem": "https://image.tmdb.org/t/p/w300//2QHdfLNPsIZrQJsOpIi6RY8kGLC.jpg"
+    }
+    ,
+    {
+        "titulo": "Talvez uma Hist\u00f3ria de Amor",
+        "descricao": "Esta com\u00e9dia rom\u00e2ntica conta a hist\u00f3ria de Virg\u00edlio, um anti-her\u00f3i distra\u00eddo, contradit\u00f3rio e solit\u00e1rio. Depois de um dia comum de trabalho na ag\u00eancia de publicidade, Virg\u00edlio chega em casa e fica surpreso ao ouvir um recado perturbador na secret\u00e1ria eletr\u00f4nica. Clara est\u00e1 terminando com ele. A surpresa n\u00e3o era pelo t\u00e9rmino: solteiro, Virg\u00edlio n\u00e3o tinha ideia de quem fosse Clara. Virg\u00edlio, ent\u00e3o, \u00e9 tomado pelo p\u00e2nico diante de evid\u00eancias que o aproximam de uma suposta ex-namorada. Quem, afinal, era Clara? Com a ajuda de seus colegas de trabalho, de uma nova vizinha e das antigas mulheres que passaram por sua vida, Virg\u00edlio tentar\u00e1 descobrir.",
+        "imdb": "tt5228710",
+        "imagem": "https://image.tmdb.org/t/p/w300//bflYSyIxPCL1DJJ4bp3t6VBJ1Dj.jpg"
+    }
+    ,
+    {
+        "titulo": "O Candidato Honesto 2",
+        "descricao": "Depois de ter confessado todos os crimes, Jo\u00e3o foi condenado a 400 anos de cadeia, mas cumpriu apenas quatro. Apesar de n\u00e3o querer mais saber de pol\u00edtica, ele \u00e9 convencido a se candidatar mais uma vez \u00e0 presid\u00eancia da Rep\u00fablica. O povo o adora! Afinal, \u00e9 um pol\u00edtico que n\u00e3o mente. Um ano se passa, o Brasil est\u00e1 em meio a uma grande crise, o governo de Jo\u00e3o Ernesto \u00e9 uma l\u00e1stima e o pa\u00eds est\u00e1 quebrado. Sob influ\u00eancia do vice, Jo\u00e3o vai se meter em confus\u00f5es que podem lhe custar um impeachment. Ou seria um golpe? S\u00f3 o futuro dir\u00e1.",
+        "imdb": "tt8837044",
+        "imagem": "https://image.tmdb.org/t/p/w300//nies8ZuM673DAtSufh4Ww3dJJyd.jpg"
+    }
+    ,
+    {
+        "titulo": "P\u00e9 Pequeno",
+        "descricao": "Um Yeti, criatura conhecida como o Abomin\u00e1vel Homem das Neves, est\u00e1 indo na contram\u00e3o do que todos os seus semelhantes acreditam: ele tem a certeza que os seres humanos, para eles at\u00e9 ent\u00e3o um mito, realmente existem, mesmo que todos da sua esp\u00e9cie neguem com veem\u00eancia. Mas ele n\u00e3o ir\u00e1 desistir t\u00e3o f\u00e1cil de provar sua tese.",
+        "imdb": "tt6182908",
+        "imagem": "https://image.tmdb.org/t/p/w300//c0K6BijP7r3ee9SfBixZPxdfhZg.jpg"
+    }
+    ,
+    {
+        "titulo": "Venom",
+        "descricao": "O jornalista Eddie Brock desenvolve for\u00e7a e poder sobre-humanos quando seu corpo se funde com o alien\u00edgena Venom. Dominado pela raiva, Venom tenta controlar as novas e perigosas habilidades de Eddie.",
+        "imdb": "tt1270797",
+        "imagem": "https://image.tmdb.org/t/p/w300//2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg"
+    }
+    ,
+    {
+        "titulo": "Meu Ex \u00e9 um Espi\u00e3o",
+        "descricao": "Audrey e Morgan, duas melhores amigas de trinta anos que vivem em Los Angeles s\u00e3o empurradas inesperadamente para uma conspira\u00e7\u00e3o internacional quando o ex-namorado de Audrey aparece em seu apartamento com uma equipe de assassinos. Surpreendendo a si pr\u00f3prias, a dupla entra em a\u00e7\u00e3o e percorre toda a Europa fugindo de assassinos e um agente brit\u00e2nico suspeito, mas charmoso, enquanto tra\u00e7am um plano para salvar o mundo.",
+        "imdb": "tt6663582",
+        "imagem": "https://image.tmdb.org/t/p/w300//fp8eQQk9T5GLbK00fFjaBjzviyh.jpg"
+    }
+    ,
+    {
+        "titulo": "Para Todos os Garotos que J\u00e1 Amei",
+        "descricao": "Lara Jean adora escrever cartas de amor secretas para seus paqueras. S\u00f3 n\u00e3o contava que um dia elas seriam misteriosamente enviadas!",
+        "imdb": "tt3846674",
+        "imagem": "https://image.tmdb.org/t/p/w300//ghcDEzN43GGUxduTJgNhKDn6a3I.jpg"
+    }
+    ,
+    {
+        "titulo": "A Freira",
+        "descricao": "Presa em um convento na Rom\u00eania, uma freira comete suic\u00eddio. Para investigar o caso, o Vaticano envia um padre assombrado e uma novi\u00e7a prestes a se tornar freira. Arriscando suas vidas, a f\u00e9 e at\u00e9 suas almas, os dois descobrem um segredo profano e se confrontam com uma for\u00e7a do mal que toma a forma de uma freira demon\u00edaca e transforma o convento em um campo de batalha.",
+        "imdb": "tt5814060",
+        "imagem": "https://image.tmdb.org/t/p/w300//28vxo5DvV0nHWTbYQL8gN3hmuli.jpg"
+    }
+    ,
+    {
+        "titulo": "Para Sempre Minha Garota",
+        "descricao": "Astro do futebol americano, o quarterback Liam (Alex Roe) estava pronto para se casar com Josie (Jessica Rothe), sua namorada da escola, mas acabou deixando-a no altar para seguir carreira de cantor country. Depois de muitos anos, ele retorna \u00e0 cidade como um cantor famoso.",
+        "imdb": "tt4103724",
+        "imagem": "https://image.tmdb.org/t/p/w300//uNOYr7OGdlzja4a4nCSZsaCtA1V.jpg"
+    }
+    ,
+    {
+        "titulo": "Os Incr\u00edveis 2",
+        "descricao": "Helena \u00e9 chamada para liderar uma campanha para trazer os superher\u00f3is de volta. Enquanto Roberto deve enfrentar os desafios heroicos do dia a dia da vida dom\u00e9stica. Mas quando um novo vil\u00e3o aparece com um plano brilhante e perigoso, a fam\u00edlia P\u00eara enfrenta o desafio juntos  com Gelado do lado deles.",
+        "imdb": "tt3606756",
+        "imagem": "https://image.tmdb.org/t/p/w300//y3EEb7o6NxK0pl0WsOswCos663y.jpg"
+    }
+    ,
+    {
+        "titulo": "Slender Man: Pesadelo Sem Rosto",
+        "descricao": "As amigas Wren, Hallie, Chloe e Katie levam uma vida entediante no col\u00e9gio. Quando ouvem falar num monstro chamado Slender Man, decidem invoc\u00e1-lo atrav\u00e9s de um v\u00eddeo na Internet. A brincadeira se transforma num perigo real quando todas come\u00e7am a ter pesadelos e vis\u00f5es do homem se rosto, com v\u00e1rios bra\u00e7os, capaz de fazer as suas v\u00edtimas alucinarem. Um dia, Katie desaparece. Como a pol\u00edcia n\u00e3o disp\u00f5e de nenhuma prova para a investiga\u00e7\u00e3o, cabe \u00e0s tr\u00eas amigas fazerem a sua pr\u00f3pria busca, enfrentando a criatura.",
+        "imdb": "tt5690360",
+        "imagem": "https://image.tmdb.org/t/p/w300//wrb3riGsU0f9z9PWca9CIMCZLfZ.jpg"
+    }
+    ,
+    {
+        "titulo": "Ap\u00f3stolo",
+        "descricao": "Em 1905, durante a perigosa miss\u00e3o de resgate da irm\u00e3 raptada, um homem se envolve com o sinistro culto religioso de uma ilha isolada.",
+        "imdb": "tt6217306",
+        "imagem": "https://image.tmdb.org/t/p/w300//p7KGpuO13YUsRxFSPcANFs1MAx1.jpg"
+    }
+    ,
+    {
+        "titulo": "Constantine: Cidade de Dem\u00f4nios",
+        "descricao": "Uma d\u00e9cada depois de um tr\u00e1gico acidente, o homem de fam\u00edlia Chas e o m\u00edstico detetive John Constantine pretendem curar Trish, a filha de Chas, de um misterioso coma sobrenatural. Com a ajuda de s\u00f3cios poderosos, eles buscam a salva\u00e7\u00e3o.",
+        "imdb": "tt9177882",
+        "imagem": "https://image.tmdb.org/t/p/w300//el92WyplBfo6yFtOTmkoYeauLrf.jpg"
+    }
+    ,
+    {
+        "titulo": "Deus N\u00e3o Est\u00e1 Morto: Uma Luz na Escurid\u00e3o",
+        "descricao": "Quando um inc\u00eandio terr\u00edvel atinge a Igreja de Saint James, devastando a congrega\u00e7\u00e3o e o Pastor Dave, a universidade vizinha, a Hadleigh University, usa a trag\u00e9dia para tentar despejar a congrega\u00e7\u00e3o de seu campus. Uma batalha legal se instaura entre a igreja e a comunidade, e o Pastor Dave precisa enfrentar seu amigo de longa data Thomas Ellsworth, o presidente da universidade. Dave recorre a seu irm\u00e3o, um advogado ateu, para tentar reerguer a igreja.",
+        "imdb": "tt6652708",
+        "imagem": "https://image.tmdb.org/t/p/w300//dSV0a3TxdJCiniddhETG8EGVTeb.jpg"
+    }
+    ,
+    {
+        "titulo": "Hotel Transilv\u00e2nia 3: F\u00e9rias Monstruosas",
+        "descricao": "Solit\u00e1rio e infeliz, buscando um novo amor na internet, Dr\u00e1cula \u00e9 surpreendido com um presente da querida filha: f\u00e9rias em um cruzeiro. Inicialmente resistente \u00e0 ideia, ele acaba engajado no passeio ao se encantar pela comandante, que, no entanto, esconde um segredo nada amig\u00e1vel.",
+        "imdb": "tt5220122",
+        "imagem": "https://image.tmdb.org/t/p/w300//3ji1aJB052iPLnnzL082It683Nr.jpg"
+    }
+    ,
+    {
+        "titulo": "Todo Dia",
+        "descricao": "Rhiannon, uma garota de 16 anos, se apaixona por uma alma misteriosa chamada A, que habita um corpo diferente a cada dia. Sentindo uma conex\u00e3o incompar\u00e1vel, Rhiannon e A trabalham todos os dias para encontrar um ao outro, sem saber o que ou quem o pr\u00f3ximo dia ir\u00e1 reservar. Quanto mais os dois se apaixonam, mais o fato de amar algu\u00e9m que \u00e9 uma pessoa diferente a cada 24 horas afeta eles, levando o casal a enfrentar a decis\u00e3o mais dif\u00edcil que eles j\u00e1 tiveram que tomar.",
+        "imdb": "tt7026672",
+        "imagem": "https://image.tmdb.org/t/p/w300//4oGwEZS1QkZTxn2eyjH49rcHs6y.jpg"
+    }
+    ,
+    {
+        "titulo": "DC Super Hero Girls: Lendas de Atl\u00e2ntida",
+        "descricao": "Mergulhe nesta aventura com as Super-hero\u00ednas da DC neste \u00e9pico submarino. Irm\u00e3s do mar, Siren e Mera pegam os alunos do Super Hero High desprevenidos em um ataque surpresa para roubar uma rel\u00edquia extremamente poderosa - o Book of Legends. Com o livro em sua posse e fortalecendo mais poder do que nunca, Siren pretende levantar um ex\u00e9rcito das profundezas dos abismos oce\u00e2nicos. Wonder Woman, Batgirl e Supergirl est\u00e3o prontas para ajudar o Aquaman a defender Atlantis e parar a sinistra Siren! Apronte-se para uma aventura eletrizante estrelada pelas Super-hero\u00ednas da DC!",
+        "imdb": "tt8634256",
+        "imagem": "https://image.tmdb.org/t/p/w300//q5OiQziD9gBag6xazrnm4Ogcj8C.jpg"
+    }
+    ,
+    {
+        "titulo": "Tem Alien\u00edgenas no meu Quarto",
+        "descricao": "Baseado no livro de Bruce Coville, \u201cTem alien\u00edgenas no meu quarto\u201d, conta a vida de Rod Allbright, obrigado a viver uma aventura incomum depois que uma nave alien\u00edgena aterrisa em seu quarto. Rod tem que ajudar o visitante alien\u00edgena a salvar o planeta de um vil\u00e3o extraterrestre, que se faz passar por valent\u00e3o na escola de Rod.",
+        "imdb": "tt6624126",
+        "imagem": "https://image.tmdb.org/t/p/w300//25KcoQPWwftvPzRRGGFB3I8Cnx8.jpg"
+    }
+    ,
+    {
+        "titulo": "Bleach",
+        "descricao": "Kurosaki Ichigo \u00e9 um garoto de 15 anos que pode ver, tocar e falar com esp\u00edritos de pessoas mortas. At\u00e9 que um dia ele encontra Kuchiki Rukia, uma Shinigami (deusa da morte) e descobre posteriormente que tamb\u00e9m \u00e9 um Shinigami. Agora, com seus poderes, ele ter\u00e1 que proteger sua cidade de for\u00e7as do mal.",
+        "imdb": "tt5979872",
+        "imagem": "https://image.tmdb.org/t/p/w300//8POGKMj4wbrBJPit6BofggbQMeh.jpg"
+    }
+    ,
+    {
+        "titulo": "Homem-Formiga e a Vespa",
+        "descricao": "Scott Lang lida com as consequ\u00eancias de suas escolhas tanto como super-her\u00f3i quanto como pai. Enquanto tenta reequilibrar sua vida com suas responsabilidades como o Homem-Formiga, ele \u00e9 confrontado por Hope van Dyne e Dr. Hank Pym com uma nova miss\u00e3o urgente. Scott deve mais uma vez vestir o uniforme e aprender a lutar ao lado da Vespa, trabalhando em conjunto para descobrir segredos do passado.",
+        "imdb": "tt5095030",
+        "imagem": "https://image.tmdb.org/t/p/w300//smRrzh8W4PfIYiqAEqc6U1D6Ekl.jpg"
+    }
+    ,
+    {
+        "titulo": "Falcons em Jogo",
+        "descricao": "Todas as garotas do time de v\u00f4lei Os Falc\u00f5es acabam encalhados no meio do nada depois que sua mini-van quebra. Mal sabem eles que desembarcaram em territ\u00f3rio de ca\u00e7adores degenerados e a ca\u00e7a continua. Assim come\u00e7a uma noite muito longa, onde eles devem correr por suas vidas e testar seu esp\u00edrito de equipe. Mas as meninas s\u00e3o mais engenhosas do que parecem. No cora\u00e7\u00e3o da floresta, as mesas est\u00e3o prestes a se alternar entre ca\u00e7adores e ca\u00e7adores...",
+        "imdb": "tt4725842",
+        "imagem": "https://image.tmdb.org/t/p/w300//2kaR8kqA0R9JAWkk8wMpIDWkiAi.jpg"
+    }
+    ,
+    {
+        "titulo": "Descendentes 3",
+        "descricao": "Mal, Evie, Carlos e Jay voltam \u00e0 Ilha Proibida com o intuito de convidar novos descendentes para viverem em Auradon. Quando a barreira m\u00e1gica que protege a ilha \u00e9 rompida, eles devem impedir que o local seja destru\u00eddo.",
+        "imdb": "tt8022928",
+        "imagem": "https://image.tmdb.org/t/p/w300//moyDQs4U4D4b0kG7vfqt8DKskkI.jpg"
+    }
+    ,
+    {
+        "titulo": "A Maldi\u00e7\u00e3o da Bela Adormecida",
+        "descricao": "Thomas Kaiser (Ethan Peck) finalmente herda a grande mans\u00e3o de sua fam\u00edlia, pertencente aos Kaiser h\u00e1 muitas e muitas gera\u00e7\u00f5es. No entanto, Thomas logo percebe que existe algo errado com a propriedade e as respostas para suas quest\u00f5es vem na forma de uma maldi\u00e7\u00e3o milenar da qual Thomas n\u00e3o poder\u00e1 fugir.",
+        "imdb": "tt4118606",
+        "imagem": "https://image.tmdb.org/t/p/w300//i8M9qjL1j47MYjxKjnLKEBHtg8j.jpg"
+    }
+    ,
+    {
+        "titulo": "Turma da M\u00f4nica: La\u00e7os",
+        "descricao": "Floquinho, o cachorro do Cebolinha, desapareceu. O menino desenvolve ent\u00e3o um plano infal\u00edvel para resgatar o c\u00e3ozinho, mas para isso vai precisar da ajuda de seus fi\u00e9is amigos M\u00f4nica, Magali e Casc\u00e3o. Juntos, eles ir\u00e3o enfrentar grandes desafios e viver grandes aventuras para levar o c\u00e3o de volta para casa. Adapta\u00e7\u00e3o em live action da graphic novel da Turma da M\u00f4nica lan\u00e7ada pelo selo MSP Graphic.",
+        "imdb": "tt8169552",
+        "imagem": "https://image.tmdb.org/t/p/w300//1ksQfIiWmyu9x4FbNBW5aNclVqu.jpg"
+    }
+    ,
+    {
+        "titulo": "Brinquedo Assassino",
+        "descricao": "Andy e sua m\u00e3e se mudam para uma nova cidade em busca de um recome\u00e7o. Preocupada com o desinteresse do filho em fazer novos amigos, Karen decide dar a ele de presente de anivers\u00e1rio um boneco tecnol\u00f3gico que, al\u00e9m de ser o companheiro ideal para crian\u00e7as e propor diversas atividades l\u00fadicas, executa fun\u00e7\u00f5es da casa sob comandos de voz. Os problemas come\u00e7am a surgir quando o boneco Chuck se torna extremamente possessivo em rela\u00e7\u00e3o a Andy e est\u00e1 disposto a fazer qualquer coisa para afastar o garoto das pessoas que o amam.",
+        "imdb": "tt8663516",
+        "imagem": "https://image.tmdb.org/t/p/w300//lWyPivHZD7M3itErgedllY2Vfu8.jpg"
+    }
+    ,
+    {
+        "titulo": "Ma",
+        "descricao": "Maggie e seus amigos, todos menores de idade, est\u00e3o tentando descolar bebidas alc\u00f3olicas em um super mercado quando conhecem Sue Ann, uma mulher adulta que usa sua identidade para ajud\u00e1-los. Al\u00e9m de fornecer as bebidas, ela decide oferecer sua casa para que eles organizem uma festa com o pessoal do col\u00e9gio. Os eventos acabam se tornando uma rotina do grupo, at\u00e9 que os jovens come\u00e7am a identificar um comportamento estranho da dona da casa, que se torna cada vez mais controladora e obsessiva.",
+        "imdb": "tt7958736",
+        "imagem": "https://image.tmdb.org/t/p/w300//cUm0ziqfmWXn60lv5JqM06GLn9O.jpg"
+    }
+    ,
+    {
+        "titulo": "Juntos para Sempre",
+        "descricao": "Depois de muitas vidas e aprendizados, Bailey vive tranquilamente com Hanna. Um dia, Gloria, uma aspirante a cantora, aparece sem avisar na vida dos dois com uma not\u00edcia surpreendente: Hanna tem uma neta, chamada Clarity. Com o tempo, o c\u00e3ozinho percebe como a menina e negligenciada pela m\u00e3e e decide que seu objetivo nesta vida \u00e9 cuidar dela e proteg\u00ea-la incondicionalmente.",
+        "imdb": "tt8385474",
+        "imagem": "https://image.tmdb.org/t/p/w300//1cQQY3UzpQOodoa71yej3elNkqF.jpg"
+    }
+    ,
+    {
+        "titulo": "Steve Jobs",
+        "descricao": "Tr\u00eas momentos importantes da vida do inventor, empres\u00e1rio e magnata Steve Jobs: os bastidores do lan\u00e7amento do computador Macintosh, em 1984; da empresa NeXT, doze anos depois e do iPod, no ano de 2001.",
+        "imdb": "tt2080374",
+        "imagem": "https://image.tmdb.org/t/p/w300//d7a6v7LduguBKAnVrGHt9lFH3mQ.jpg"
+    }
+    ,
+    {
+        "titulo": "Rocky Balboa",
+        "descricao": "Rocky, aposentado h\u00e1 muito tempo, trabalha em um restaurante na Filad\u00e9lfia e lamenta a perda de sua amada mulher, Adrian. Com saudade de seus dias de gl\u00f3ria, ele pretende voltar ao ringue e aceita o desafio de lutar contra o atual campe\u00e3o mundial dos pesos pesados, Mason \"the Line\" Dixon.",
+        "imdb": "tt0479143",
+        "imagem": "https://image.tmdb.org/t/p/w300//74fsV2oCO5fpv4kXgxXQCiRzyAU.jpg"
+    }
+    ,
+    {
+        "titulo": "Rocky V",
+        "descricao": "Na luta com Drago, o lutador russo, Rocky (Sylvester Stallone) acabou recebendo uma les\u00e3o permanente. Assim \u00e9 for\u00e7ado a se retirar do boxe e, para piorar as coisas, descobre que seu contador roubou sua fortuna. Sem dinheiro e n\u00e3o podendo voltar a lutar, ele come\u00e7a a treinar um jovem (Tommy Morrison) que promete ser um grande lutador. Mas seu trabalhado n\u00e3o \u00e9 terminado, pois um empres\u00e1rio atrai o jovem pugilista com um alto sal\u00e1rio, mas mestre e aluno ainda v\u00e3o se reencontrar como rivais.",
+        "imdb": "tt0100507",
+        "imagem": "https://image.tmdb.org/t/p/w300//hMAdgsZd50sARk7EpSRaL34hoMc.jpg"
+    }
+    ,
+    {
+        "titulo": "Rocky IV",
+        "descricao": "Apollo (Carl Weathers) morre em uma luta com Drago (Dolph Lundgren), um invenc\u00edvel lutador russo. Assim, Rocky (Sylvester Stallone) decide ir at\u00e9 a Uni\u00e3o Sovi\u00e9tica para enfrent\u00e1-lo e vingar o amigo.",
+        "imdb": "tt0089927",
+        "imagem": "https://image.tmdb.org/t/p/w300//wcjJ4SBzdDQcWRPkqkEyYU0Ic1k.jpg"
+    }
+    ,
+    {
+        "titulo": "Rocky III: O Desafio Supremo",
+        "descricao": "Depois de ter sido derrotado pelo arrogante Clubber Lang, Rocky Balboa decide reconquistar o t\u00edtulo de campe\u00e3o de pesos pesados e se prepara para uma revanche. Para treinar, o lutador pede a ajuda de seu antigo advers\u00e1rio, Apollo Creed.",
+        "imdb": "tt0084602",
+        "imagem": "https://image.tmdb.org/t/p/w300//yBNk3DDAEqPXEdDl6XlLEE3U4RR.jpg"
+    }
+    ,
+    {
+        "titulo": "Rocky II: A Revanche",
+        "descricao": "Ap\u00f3s a luta contra Apollo Creed, Rocky promete \u00e0 sua esposa largar os ringues. Mas os f\u00e3s de boxe insistem em uma revanche entre os dois pugilistas. Sem dinheiro, Rocky se v\u00ea obrigado a aceitar o desafio e recebe a ben\u00e7\u00e3o da esposa para lutar. Agora o lutador deve se preparar para o combate do s\u00e9culo e decide treinar intensamente, sonhando apenas em terminar a luta sem ser nocauteado pelo campe\u00e3o.",
+        "imdb": "tt0079817",
+        "imagem": "https://image.tmdb.org/t/p/w300//pkZ7uAeA37bLS5cos8w8uEF8K5b.jpg"
+    }
+    ,
+    {
+        "titulo": "Rocky: Um Lutador",
+        "descricao": "Rocky Balboa, um pequeno boxeador da classe trabalhadora da Filad\u00e9lfia, \u00e9 arbitrariamente escolhido para lutar contra o campe\u00e3o dos pesos pesados, Apollo Creed, quando o advers\u00e1rio do invicto lutador agendado para a luta \u00e9 ferido. Durante o treinamento com o mal-humorado Mickey Goldmill, Rocky timidamente come\u00e7a um relacionamento com Adrian, a invis\u00edvel irm\u00e3 de Paulie, seu amigo empacotador de carne.",
+        "imdb": "tt0075148",
+        "imagem": "https://image.tmdb.org/t/p/w300//b9B1DXcPNsJfTtc4x2LKA3bykoJ.jpg"
+    }
+    ,
+    {
+        "titulo": "Coringa",
+        "descricao": "Isolado, intimidado e desconsiderado pela sociedade, o fracassado comediante Arthur Fleck inicia seu caminho como uma mente criminosa ap\u00f3s assassinar tr\u00eas homens em pleno metr\u00f4. Sua a\u00e7\u00e3o inicia um movimento popular contra a elite de Gotham City, da qual Thomas Wayne \u00e9 seu maior representante.",
+        "imdb": "tt7286456",
+        "imagem": "https://image.tmdb.org/t/p/w300//xLxgVxFWvb9hhUyCDDXxRPPnFck.jpg"
+    }
+    ,
+    {
+        "titulo": "Projeto Gemini",
+        "descricao": "Henry Brogan \u00e9 um assassino de elite que se torna o alvo de um agente misterioso que aparentemente pode prever todos os seus movimentos. Ele logo descobre que o homem que est\u00e1 tentando mat\u00e1-lo \u00e9 uma vers\u00e3o mais jovem, r\u00e1pida e clonada de si mesmo.",
+        "imdb": "tt1025100",
+        "imagem": "https://image.tmdb.org/t/p/w300//oGYKbHCTOHNfjxXaiq0qPMQlrwc.jpg"
+    }
+    ,
+    {
+        "titulo": "Dezessete",
+        "descricao": "Hector, de 17 anos, est\u00e1 em um centro de deten\u00e7\u00e3o juvenil. Como parte da terapia de reintegra\u00e7\u00e3o, ele \u00e9 enviado para um centro de resgate de animais, onde encontra um c\u00e3o t\u00edmido e esquivo como ele. Quando o cachorro desaparece, Hector decide fugir para encontr\u00e1-lo, acompanhado por seu irm\u00e3o mais velho.",
+        "imdb": "tt8988748",
+        "imagem": "https://image.tmdb.org/t/p/w300//lxtK0OemfcOH6DfusR5ZT4C7Afd.jpg"
+    }
+    ,
+    {
+        "titulo": "A Culpa \u00e9 das Estrelas",
+        "descricao": "Hazel e Gus dividem um senso de humor sarc\u00e1stico, um desgosto por conven\u00e7\u00f5es sociais e, por fim uma amor que vai lev\u00e1-lo para uma jornada transformadora e inesquec\u00edvel. Embora os dois adolescentes enfrentem desafios extraordin\u00e1rios, sua coragem e dedica\u00e7\u00e3o ao outro provam que a vida pode n\u00e3o ser perfeita, mas o amor \u00e9.",
+        "imdb": "tt2582846",
+        "imagem": "https://image.tmdb.org/t/p/w300//lW1HA1JqXxKp1x5eSzEqTNxfIgA.jpg"
+    }
+    ,
+    {
+        "titulo": "Eli",
+        "descricao": "Eli (Charlie Shotwell) est\u00e1 sendo submetido a um tratamento para sua doen\u00e7a que \u00e9 rara e auto-imune e acaba descobrindo que a cl\u00ednica em que est\u00e1 internado n\u00e3o \u00e9 t\u00e3o segura como pensava.",
+        "imdb": "tt5294518",
+        "imagem": "https://image.tmdb.org/t/p/w300//1XDj2O9En5BlOlOiLn7LfSjWNYh.jpg"
+    }
+    ,
+    {
+        "titulo": "Nocaute",
+        "descricao": "Billy \"The Great\" Hope (Jake Gyllenhaal), um lutador, trilha seu caminho rumo ao t\u00edtulo de campe\u00e3o enquanto enfrenta diversas trag\u00e9dias em sua vida pessoal. Al\u00e9m das batalhas nos ringues, ele \u00e9 for\u00e7ado a lutar para conquistar o amor e o respeito de sua filha, em uma busca por reden\u00e7\u00e3o.",
+        "imdb": "tt1798684",
+        "imagem": "https://image.tmdb.org/t/p/w300//ukZDWdH61QfkjIkroONXFUPm005.jpg"
+    }
+    ,
+    {
+        "titulo": "O Zelador Animal",
+        "descricao": "Griffin, o zelador de um zool\u00f3gico, \u00e9 dispensado pela namorada que o subestima por sua profiss\u00e3o. Tempos depois, a bela reaparece desejando uma nova chance com o amado. No zool\u00f3gico, cansados de ouvir as lamenta\u00e7\u00f5es amorosas de Griffin, os animais decidem come\u00e7ar a conversar com ele.",
+        "imdb": "tt1222817",
+        "imagem": "https://image.tmdb.org/t/p/w300//k8XEkCbaBwjdHMhBgG3PLEmY0sv.jpg"
+    }
+    ,
+    {
+        "titulo": "O Senhor dos An\u00e9is: O Retorno do Rei",
+        "descricao": "O confronto final entre as for\u00e7as do bem e do mal que lutam pelo controle do futuro da Terra M\u00e9dia se aproxima. Sauron planeja um grande ataque a Minas Tirith, capital de Gondor, o que faz com que Gandalf e Pippin partam para o local na inten\u00e7\u00e3o de ajudar a resist\u00eancia. Um ex\u00e9rcito \u00e9 reunido por Theoden em Rohan, em mais uma tentativa de deter as for\u00e7as de Sauron. Enquanto isso, Frodo, Sam e Gollum seguem sua viagem rumo \u00e0 Montanha da Perdi\u00e7\u00e3o para destruir o anel.",
+        "imdb": "tt0167260",
+        "imagem": "https://image.tmdb.org/t/p/w300//aXS3D94iIO9dheHrG0BhgUR4Wuy.jpg"
+    }
+    ,
+    {
+        "titulo": "Um Milh\u00e3o de Maneiras de Pegar na Pistola",
+        "descricao": "Um criador de ovelhas, Albert, se apaixona por Anna, uma forasteira que o ajuda a descobrir a coragem que havia em si. Por\u00e9m, ele \u00e9 desafiado quando o marido fora da lei dela, Clinch, volta para se vingar.",
+        "imdb": "tt2557490",
+        "imagem": "https://image.tmdb.org/t/p/w300//h6TkeOXTOPecHk7E59Lk3SqENp0.jpg"
+    }
+    ,
+    {
+        "titulo": "Bater ou Correr",
+        "descricao": "Em 1800, uma princesa sequestrada na Cidade Proibida, na China, e levada at\u00e9 o Velho Oeste americano. Na tentativa de salv\u00e1-la parte Chon Wang, que se depara com uma cultura completamente diferente da sua. Ao ser atacado por cowboys armados, Wang responde com acrob\u00e1ticos golpes de kung fu que deixam os americanos de cabelo em p\u00e9.",
+        "imdb": "tt0184894",
+        "imagem": "https://image.tmdb.org/t/p/w300//5xMRR8aFKFEMKkBafplRcQXbG6I.jpg"
+    }
+    ,
+    {
+        "titulo": "Harry Potter e a Pedra Filosofal",
+        "descricao": "Harry Potter \u00e9 um garoto \u00f3rf\u00e3o que vive infeliz com seus tios, os Dursley. Em seu anivers\u00e1rio de 11 anos ele recebe uma carta que mudar\u00e1 sua vida: um convite para ingressar em Hogwarts.",
+        "imdb": "tt0241527",
+        "imagem": "https://image.tmdb.org/t/p/w300//l1FfRmKRNXRSqXT5GlMo16MX2LX.jpg"
+    }
+    ,
+    {
+        "titulo": "Harry Potter e a Ordem da F\u00eanix",
+        "descricao": "A rebeli\u00e3o come\u00e7a! Lord Voldemort est\u00e1 de volta, mas o Minist\u00e9rio da Magia est\u00e1 fazendo tudo a seu alcance para impedir que a comunidade mundial de bruxos descubra isso \u2013 incluindo indicar a oficial do Minist\u00e9rio, Dolores Umbridge, como a nova professora de Defesa Contra as Artes das Trevas de Hogwarts. Quando Umbridge se recusa a ensinar a pr\u00e1tica de m\u00e1gica defensiva, Rony e Hermione convencem Harry a secretamente treinar um grupo de estudantes para a guerra de magia que est\u00e1 prestes a estourar. Um terr\u00edvel combate entre o bem e o mal ser\u00e1 o incr\u00edvel \u00e1pice desta vers\u00e3o para o quinto filme da s\u00e9rie Harry Potter, mais uma vez baseado na obra de J.K. Rowling. Se prepare para a batalha!",
+        "imdb": "tt0373889",
+        "imagem": "https://image.tmdb.org/t/p/w300//tIf9aUyNljda9MG1pjlOLHCZ3b0.jpg"
+    }
+    ,
+    {
+        "titulo": "O Assalto Perfeito",
+        "descricao": "Charles deseja vingar a morte de seu tio e mentor, a pessoa em que ele mais confiava no mundo. Para isso precisar\u00e1 da ajuda de um vigarista, um especialista em explosivos e um especialista em abrir caixas fortes. Mas antes ter\u00e1 que convenc\u00ea-los de que seu plano \u00e9 do assalto perfeito.",
+        "imdb": "tt3220192",
+        "imagem": "https://image.tmdb.org/t/p/w300//u8xNGlOQTTFw6PI6sIMsEkieyOQ.jpg"
+    }
+    ,
+    {
+        "titulo": "RedBad: A Invas\u00e3o dos Francos",
+        "descricao": "Redbad, filho do rei Aldigsl, est\u00e1 duvidando dos rituais ultrapassados de seu povo, os fr\u00edsios. Ele entra em conflito com o pai quando sua namorada, Fenne, \u00e9 indicada para ser sacrificada aos deuses. Durante o ritual de sacrif\u00edcio, os francos entram na cidade. Na batalha, a cidade de Dorestad \u00e9 capturada e o ambicioso Eibert, tio de Redbad, toma o poder e culpa o sobrinho pela derrota. Amarrado a uma jangada, Redbad \u00e9 lan\u00e7ado ao mar, mas sobrevive e chega \u00e0 costa, sendo resgatado pelos vikings. Para libertar seu povo, Redbad conta com a ajuda dos vikings. Mas seriam eles fortes o bastante?",
+        "imdb": "tt6155374",
+        "imagem": "https://image.tmdb.org/t/p/w300//qEtW1ldSynOwgPXesghxS7ntSXA.jpg"
+    }
+    ,
+    {
+        "titulo": "O Escorpi\u00e3o Rei",
+        "descricao": "Em uma \u00e9poca bem remota, na cidade de Gomorra, Memnon \u00e9 um governante maligno que est\u00e1 determinado a massacrar todos que forem contr\u00e1rios a ele. As poucas tribos sobreviventes, que nunca foram aliadas, se veem obrigadas a se unir para n\u00e3o desaparecer. Sabendo que seus inimigos acreditam e dependem das vis\u00f5es de um feiticeiro, eles contratam Mathayus, um eficaz mercen\u00e1rio, para elimin\u00e1-lo. Ap\u00f3s se infiltrar no campo inimigo, Mathayus descobre que o feiticeiro \u00e9 na verdade uma linda mulher.",
+        "imdb": "tt0277296",
+        "imagem": "https://image.tmdb.org/t/p/w300//5E3tchAzZx8Kc5k1xmKDUalUPLa.jpg"
+    }
+    ,
+    {
+        "titulo": "O Escorpi\u00e3o Rei 2: A Saga de um Guerreiro",
+        "descricao": "Depois de um monte de escorpi\u00f5es encantados matarem seu pai, Mathayus foge e promete acertar as contas com o cruel feiticeiro Sargon. Ao voltar para casa depois de anos de treinamento de combate, Mathayus descobre que Sargon se tornou rei e est\u00e1 protegido por um feiti\u00e7o poderoso. Agora, para recuperar uma espada m\u00edstica, que \u00e9 a \u00fanica arma capaz de atravessar o feiti\u00e7o e destruir o tirano, Mathayus e a guerreira Layla precisam enfrentar um labirinto perigoso guardado por um Minotauro mortal.",
+        "imdb": "tt1104123",
+        "imagem": "https://image.tmdb.org/t/p/w300//cFN11ixhnyFp3QZF01ZaCUaNdFW.jpg"
+    }
+    ,
+    {
+        "titulo": "Totalmente Sem Rumo",
+        "descricao": "Tr\u00eas jovens rapazes partem numa viagem para a selva do Oregon em busca de um tesouro. Para chegar l\u00e1, eles embarcam numa canoa, mas tudo d\u00e1 errado. Ca\u00e7ados por fazendeiros, eles encontram animais amea\u00e7adores, hippies e um homem maluco que vive nas montanhas.",
+        "imdb": "tt0364751",
+        "imagem": "https://image.tmdb.org/t/p/w300//45dq0FbrWlHmxlonCQNigoSmvf2.jpg"
+    }
+    ,
+    {
+        "titulo": "Tr\u00eas Reis",
+        "descricao": "Em mar\u00e7o de 1991, foi assinado o cessar-fogo na Guerra do Golfo. Em meio \u00e0s comemora\u00e7\u00f5es no acampamento norte-americano, um mapa \u00e9 descoberto junto a um dos prisioneitos iraquianos. Mostrando a rota de um tesouro enterrado no deserto do Iraque, quatro soldados americanos resolvem partir em sua busca.",
+        "imdb": "tt0120188",
+        "imagem": "https://image.tmdb.org/t/p/w300//3tteAin7WS4kpx250joRsu7kEU0.jpg"
+    }
+    ,
+    {
+        "titulo": "As Cr\u00f4nicas de N\u00e1rnia: Pr\u00edncipe Caspian",
+        "descricao": "Um ano ap\u00f3s a sua \u00faltima aventura, os irm\u00e3os Pevensie regressam \u00e0 terra m\u00e1gica de N\u00e1rnia e descobrem que 1300 anos se passaram. N\u00e1rnia est\u00e1 em guerra novamente e os irm\u00e3os unem for\u00e7as com o Pr\u00edncipe Caspian para derrotar o maldoso Rei Miraz e restaurar a paz.",
+        "imdb": "tt0499448",
+        "imagem": "https://image.tmdb.org/t/p/w300//wg0k1v6BwgqYzKhLmT3JMMPNaQo.jpg"
+    }
+    ,
+    {
+        "titulo": "As Cr\u00f4nicas de N\u00e1rnia: O Le\u00e3o, a Feiticeira e o Guarda-Roupa",
+        "descricao": "Durante os bombardeios da Segunda Guerra Mundial de Londres, quatro irm\u00e3os ingleses s\u00e3o enviados para uma casa de campo onde eles estar\u00e3o seguros. Um dia, Lucy encontra um guarda-roupa que a transporta para um mundo m\u00e1gico chamado N\u00e1rnia. Depois de voltar, ela logo volta a N\u00e1rnia com seus irm\u00e3os, Peter e Edmund, e sua irm\u00e3, Susan. L\u00e1 eles se juntam ao le\u00e3o m\u00e1gico, Aslan, na luta contra a Feiticeira Branca.",
+        "imdb": "tt0363771",
+        "imagem": "https://image.tmdb.org/t/p/w300//sLw1gxPAvkqhp5XrdO2A50Q5lTW.jpg"
+    }
+    ,
+    {
+        "titulo": "Pequenos Guerreiros",
+        "descricao": "Globotech \u00e9 um grande conglomerado que, entre outras atividades, faz armas para o Departamento de Defesa dos Estados Unidos. Decidida a investir em outros ramos, ela compra a Heartland, uma f\u00e1brica de brinquedos. Gil Mars, o presidente geral, quer que os designers fa\u00e7am brinquedos mais realistas, que tenham praticamente vida pr\u00f3pria e usem bateria de l\u00edtio, para nunca precisarem de pilhas. Depois de tr\u00eas meses os brinquedos est\u00e3o prontos e o resultado s\u00e3o figuras de ferozes soldados - o Comando Elite - que foi programado para destruir os Gorgon\u00f3ides, alien\u00edgenas que n\u00e3o oferecem nenhum perigo. Joe, um entregador da Heartland, deixa alguns destes brinquedos na pequena loja de Stuart Abernathy, que est\u00e1 indo \u00e0 fal\u00eancia. \u00c0 noite o Comando Elite sai de suas caixas e recebe ordem do seu l\u00edder, Chip Hazard, para atacar os Gorgon\u00f3ides e os humanos.",
+        "imdb": "tt0122718",
+        "imagem": "https://image.tmdb.org/t/p/w300//gj8CC9rtLYtFWplt66x7A14bRsP.jpg"
+    }
+    ,
+    {
+        "titulo": "Maze Runner: Correr ou Morrer",
+        "descricao": "Num cen\u00e1rio p\u00f3s-apocal\u00edptico, uma comunidade de rapazes descobre que est\u00e3o presos num labirinto misterioso. Juntos, ter\u00e3o de descobrir como escapar, resolver o enigma e revelar o arrepiante segredo acerca de quem os colocou ali e por que raz\u00e3o.",
+        "imdb": "tt1790864",
+        "imagem": "https://image.tmdb.org/t/p/w300//uHnRw9Kccevck2KdmzJ8Xf7zczM.jpg"
+    }
+    ,
+    {
+        "titulo": "Robin Hood",
+        "descricao": "Robin Longstride (Russell Crowe) integra o ex\u00e9rcito do rei Ricardo Cora\u00e7\u00e3o de Le\u00e3o (Danny Huston), que est\u00e1 em plenas cruzadas. Ap\u00f3s a morte do rei, ele consegue escapar juntamente com alguns companheiros. Em sua tentativa de fuga eles encontram Sir Robert Loxley (Douglas Hodge), que tinha por miss\u00e3o levar a coroa do rei a Londres. Loxley foi atacado por Godfrey (Mark Strong), um ingl\u00eas que serve secretamente aos interesses do rei Filipe, da Fran\u00e7a. \u00c0 beira da morte, Loxley pede a Robin que entregue a seu pai uma espada tradicional da fam\u00edlia. Ele aceita a miss\u00e3o e, vestido como se fosse um cavaleiro real, parte para Londres. Ap\u00f3s entregar a coroa ao pr\u00edncipe Jo\u00e3o (Oscar Isaac), que \u00e9 nomeado rei, Robin parte para Nottingham. L\u00e1 conhece Sir Walter (Max von Sydow) e Marion (Cate Blanchett), respectivamente pai e esposa de Loxley.",
+        "imdb": "tt0955308",
+        "imagem": "https://image.tmdb.org/t/p/w300//cCzqyuZxvJ38E8DXMbW9q4qgUVa.jpg"
+    }
+    ,
+    {
+        "titulo": "Esp\u00edrito de Lobo",
+        "descricao": "No ano de 1967 na China, o jovem estudante Chen Zhen (Shaofeng Feng) \u00e9 enviado para viver entre os n\u00f4mades do interior da Mong\u00f3lia. Entre o avan\u00e7o da civiliza\u00e7\u00e3o e os tradicionais inimigos dos n\u00f4mades, os lobos, Chen se questiona sobre a similaridade entre humanos e animais, comcluindo que todos s\u00e3o residentes e invasores lutando para encontrar seu lugar no mundo.",
+        "imdb": "tt2909116",
+        "imagem": "https://image.tmdb.org/t/p/w300//9vwTzYe1BkSy9FiKpW8DnJYDFwC.jpg"
+    }
+    ,
+    {
+        "titulo": "Sobrenatural: A Origem",
+        "descricao": "V\u00edtima de uma entidade sobrenatural perigosa, a adolescente Quinn Brenner busca a ajuda da m\u00e9dium Elise Rainier, que por meio de suas habilidades paranormais descobre a exist\u00eancia de um dem\u00f4nio com sede de almas humanas.",
+        "imdb": "tt3195644",
+        "imagem": "https://image.tmdb.org/t/p/w300//9yZXbaDPmc8qT4vLQSnf4LAPv1J.jpg"
+    }
+    ,
+    {
+        "titulo": "Horror em Amityville",
+        "descricao": "A fam\u00edlia Lutz muda-se para a casa de seus sonhos \u2013 um ano ap\u00f3s ela ter sido cen\u00e1rio de uma terr\u00edvel chacina. Mas eles n\u00e3o est\u00e3o sozinhos. Logo descobrem que dividem a casa com um misterioso e perigoso ser, decidido a colecionar mais vidas.",
+        "imdb": "tt0384806",
+        "imagem": "https://image.tmdb.org/t/p/w300//nLjpuiEFUUVPGHRg5OPsfNDcHOK.jpg"
+    }
+    ,
+    {
+        "titulo": "\u00c0 Espera de um Milagre",
+        "descricao": "Milagres acontecem em lugares inesperados, mesmo no bloco de celas para o corredor da morte na Penitenci\u00e1ria Cold Mountain. L\u00e1, John Coffey, um gentil e gigante prisioneiro com poderes sobrenaturais, traz um senso de esp\u00edrito e humanidade aos seus guardas e colegas de cela.",
+        "imdb": "tt0120689",
+        "imagem": "https://image.tmdb.org/t/p/w300//14hEqW67IiHlKpzKMLUXyktzZIV.jpg"
+    }
+    ,
+    {
+        "titulo": "Marley & Eu 2 - Filhote Encrenqueiro",
+        "descricao": "Marley est\u00e1 de volta em uma nova aventura que far\u00e1 todos os rabos abanarem! E desta vez, ele fala! \u00c9 isso mesmo, \"o pior c\u00e3o do mundo\" tem uma voz brincalhona e um comportamento igual. Junte-se a Marley no tempo em que era um filhote bagunceiro, \u00e9poca em que ele e seu amigo das f\u00e9rias de ver\u00e3o, Bodi Grogan, detonam numa competi\u00e7\u00e3o canina. Marley supera dobermanns, pastores e collies, sempre conquistando todos os cora\u00e7\u00f5es com seu jeito ador\u00e1vel.",
+        "imdb": "tt1704614",
+        "imagem": "https://image.tmdb.org/t/p/w300//x10cgSz3ePjbls4Eyufu9ySopvQ.jpg"
+    }
+    ,
+    {
+        "titulo": "Hitman: Assassino 47",
+        "descricao": "O Agente 47 foi criado para ser um ex\u00edmio matador de aluguel. Suas armas mais poderosas s\u00e3o a ousadia e o orgulho que tem ao executar cada trabalho. O n\u00famero 47 \u00e9 uma refer\u00eancia aos dois \u00faltimos d\u00edgitos do c\u00f3digo de barras que tem tatuado em sua nuca. Um dia, ele \u00e9 envolvido em um golpe pol\u00edtico, o que faz com que seja perseguido pela Interpol e por militares russos. Enquanto foge pela Europa Oriental, ele tenta descobrir quem organizou este plano contra ele, ao mesmo tempo em que precisa lidar com as lembran\u00e7as que uma bela garota lhe desperta.",
+        "imdb": "tt0465494",
+        "imagem": "https://image.tmdb.org/t/p/w300//3LsQzd1CAHuZIYbePt1k84w2mE7.jpg"
+    }
+    ,
+    {
+        "titulo": "Os Infiltrados",
+        "descricao": "Billy Costigan, um jovem policial, recebe a miss\u00e3o de se infiltrar na m\u00e1fia, mais especificamente no grupo comandado por Frank Costello. Billy conquista sua confian\u00e7a ao mesmo tempo em que Colin Sullivan, um criminoso que atuou na pol\u00edcia como informante de Costello, tamb\u00e9m ascende dentro da corpora\u00e7\u00e3o. Tanto Billy quanto Colin se sentem aflitos devido \u00e0 vida dupla que levam. Mas quando a m\u00e1fia e a pol\u00edcia descobrem que h\u00e1 um espi\u00e3o entre eles, a vida de ambos passa a correr perigo.",
+        "imdb": "tt0407887",
+        "imagem": "https://image.tmdb.org/t/p/w300//qtnAwzDapzOML4Q9p7lv2bk5gvz.jpg"
+    }
+    ,
+    {
+        "titulo": "Velozes & Furiosos 5: Opera\u00e7\u00e3o Rio",
+        "descricao": "Desde que o ex-policial Brian O'Conner e Mia Torretto libertaram Dom da pris\u00e3o, eles viajam pelas fronteiras para fugir das autoridades. No Rio de Janeiro, eles fazem um \u00faltimo trabalho antes que possam ganhar sua liberdade definitiva. Montando sua equipe de elite de pilotos de carro, Brian e Dom sabem que t\u00eam de enfrentar o empres\u00e1rio corrupto que quer v\u00ea-los mortos, antes que o agente federal em sua trilha os encontre.",
+        "imdb": "tt1596343",
+        "imagem": "https://image.tmdb.org/t/p/w300//3u5RexOOAJuwm5JtNmxT9P0CdLG.jpg"
+    }
+    ,
+    {
+        "titulo": "A Hora do Rush",
+        "descricao": "Quando a filha de um diplomata chin\u00eas \u00e9 sequestrada em Los Angeles, o c\u00f4nsul chama o inspector Lee em Hong Kong para ajudar o FBI com o caso. O FBI n\u00e3o se importa com Lee e o deixa de lado no Departamento de Pol\u00edcia de Los Angeles, pedindo ao detetive James Carter que o vigie. Apesar de Lee e Carter n\u00e3o se suportarem, eles resolvem trabalhar juntos para resolver o caso por conta pr\u00f3pria ao descobrirem que foram abandonados tanto pelo FBI quanto pela pol\u00edcia.",
+        "imdb": "tt0120812",
+        "imagem": "https://image.tmdb.org/t/p/w300//wVWrIJ18BnBuwd9cVjxju5a2Wtl.jpg"
+    }
+    ,
+    {
+        "titulo": "Ca\u00e7ada Mortal",
+        "descricao": "Nova York. Matt Scudder \u00e9 um ex-policial que agora trabalha como investigador privado, muitas vezes agindo fora da lei. Com uma certa relut\u00e2ncia, ele aceita ajudar um traficante de drogas que est\u00e1 atr\u00e1s do homem que sequestrou e matou sua esposa. N\u00e3o demora muito para que Matt descubra que o procurado j\u00e1 havia cometido este tipo de crime.",
+        "imdb": "tt0365907",
+        "imagem": "https://image.tmdb.org/t/p/w300//AoJzXdsFhJMqX0avKctdQNHGmem.jpg"
+    }
+    ,
+    {
+        "titulo": "Tropa de Elite 2: O Inimigo Agora \u00e9 Outro",
+        "descricao": "O destino da cidade do Rio de Janeiro e de Nascimento se cruzam em \"Tropa de Elite 2\", quando suas obriga\u00e7\u00f5es de pai se chocam com as de policial. Mais maduro, estrat\u00e9gico e solit\u00e1rio, o agora Coronel Nascimento faz o bope crescer e coloca o tr\u00e1fico de drogas de joelho. Isto apenas para descobrir que na seguran\u00e7a p\u00fablica do Rio de Janeiro nada \u00e9 o que parece. O sistema se reinventa e descobre como lucrar sem o interm\u00e9dio do tr\u00e1fico. Em persegui\u00e7\u00e3o ao caminho trilhado pelo sistema, Nascimento vai al\u00e9m dos limites do quartel, revelando as liga\u00e7\u00f5es das mil\u00edcias com o Estado. E o pre\u00e7o por essa descoberta \u00e9 alto: o inimigo agora \u00e9 outro.",
+        "imdb": "tt1555149",
+        "imagem": "https://image.tmdb.org/t/p/w300//8G7F938AHqBBLc5yJXPUJhSJzN5.jpg"
+    }
+    ,
+    {
+        "titulo": "Faroeste Caboclo",
+        "descricao": "Jo\u00e3o deixa Santo Cristo em busca de uma vida melhor em Bras\u00edlia. Ele quer deixar o passado repleto de trag\u00e9dias para tr\u00e1s. L\u00e1, conta com o apoio do primo e traficante Pablo. J\u00e1 conhecido como Jo\u00e3o de Santo Cristo, o jovem se envolve com o tr\u00e1fico de drogas. Em meio a tudo isso, conhece a bela e inquieta Maria L\u00facia, filha de um senador, por quem se apaixona loucamente.",
+        "imdb": "tt1869416",
+        "imagem": "https://image.tmdb.org/t/p/w300//kqphM2bAYbuwnwbJz3KebgMhxOU.jpg"
+    }
+    ,
+    {
+        "titulo": "Finis Hominis - O Fim do Homem",
+        "descricao": "Um homem completamente nu emerge do mar e caminha tranquilamente pelas ruas da cidade, causando espanto geral e interferindo de v\u00e1rias maneiras em epis\u00f3dios cotidianos, sempre em busca da justi\u00e7a. Por acaso, evita o rapto de uma crian\u00e7a e a m\u00e3e da menina, em reconhecimento, leva-o para casa e lhe d\u00e1 uma roupa, que ele mesmo escolhe dentre muitas - uma fantasia. Fantasiado, continua sua caminhada pelas ruas, chamando novamente sobre si a aten\u00e7\u00e3o de todos que o tomam como um novo Cristo. Assumindo o nome Finis Hominis (\"O Fim do Homem\" em latim), ele \u00e9 tido pela popula\u00e7\u00e3o como um messias moderno, capaz de operar milagres.",
+        "imdb": "tt0067099",
+        "imagem": "https://image.tmdb.org/t/p/w300//aEnHSpPQl8mMjNlNrZtZ5NDYvkb.jpg"
+    }
+    ,
+    {
+        "titulo": "Batman: O Cavaleiro das Trevas, Parte 1",
+        "descricao": "Dez anos se passaram desde que Batman abandonou sua capa, abatido pela morte de Robin. Agora, Gotham City est\u00e1 nas m\u00e3os de uma quadrilha de mutantes. Com o apoio de uma jovem que tenta ser como Robin, o her\u00f3i retorna para combater o mal.",
+        "imdb": "tt2313197",
+        "imagem": "https://image.tmdb.org/t/p/w300//sVj31D8aAkF5bZ860Bx9aybYJJh.jpg"
+    }
+    ,
+    {
+        "titulo": "Batman: O Cavaleiro das Trevas, Parte 2",
+        "descricao": "Bruce Wayne leva uma vida comum, ap\u00f3s ter optado pela aposentadoria, como Batman. A onda de crimes em Gotham City, por\u00e9m, faz com que ele decida vestir novamente o manto do homem-morcego e perseguir os criminosos pelas ruas.",
+        "imdb": "tt2166834",
+        "imagem": "https://image.tmdb.org/t/p/w300//1cTl0osriQcj6sHgoCwl3K6UBAs.jpg"
+    }
+    ,
+    {
+        "titulo": "Clube dos Cinco",
+        "descricao": "Em virtude de terem cometido pequenos delitos, cinco adolescentes s\u00e3o confinados no col\u00e9gio em um s\u00e1bado com a tarefa de escrever uma reda\u00e7\u00e3o de mil palavras sobre o que pensam de si mesmos. Apesar de serem pessoas completamente diferentes, enquanto o dia transcorre, eles passam a aceitar uns aos outros, fazem v\u00e1rias confiss\u00f5es e se tornam amigos.",
+        "imdb": "tt0088847",
+        "imagem": "https://image.tmdb.org/t/p/w300//zw0mZVGem821we1Is7ObEmL23pN.jpg"
+    }
+    ,
+    {
         "titulo": "Amigos Alien\u00edgenas",
         "descricao": "A vida de Louis, um menino de doze anos, muda completamente quando a nave espacial de tr\u00eas alien\u00edgenas cai nos fundos do quintal de sua casa. Seu pai, um ufologista famoso, congelaria os novos amigos na primeira oportunidade, por isso ele precisa proteg\u00ea-los e ajud\u00e1-los a descobrir o paradeiro da nave m\u00e3e, para que s\u00f3 assim eles consigam voltar para casa.",
         "imdb": "tt4410000",
