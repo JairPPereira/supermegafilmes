@@ -18,7 +18,7 @@ def get_movie_info(tmdb_id):
     else:
         return None
 
-tmdb_ids = [15080, 1237835, 1216268, 354857, 993784, 843617, 943397, 1232943, 1107136, 14817, 1082063, 598387, 1101582, 13051, 1231953,]
+tmdb_ids = [1033052, 853387, 655977, 634492,]
 
 # Imprime os itens no formato desejado
 for tmdb_id in tmdb_ids:
